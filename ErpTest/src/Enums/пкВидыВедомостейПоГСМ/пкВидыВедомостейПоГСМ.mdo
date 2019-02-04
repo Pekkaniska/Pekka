@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da78a37d-e3fc-4262-9dbc-6f20660ac1fa">
+  <producedTypes>
+    <refType typeId="31531719-7ca6-4add-808d-cd5c8762b655" valueTypeId="4f73fbf3-d1f6-4cc3-9d94-b67907a49c30"/>
+    <listType typeId="d02d4bbb-c268-4465-a7f7-519d3035beab" valueTypeId="cab298c9-6ada-48a0-97a4-1aa52279c5f2"/>
+    <managerType typeId="0c226407-98b2-4bef-8f32-a7fc5311bbbb" valueTypeId="21f13019-d1e4-477c-bafe-22e14b480120"/>
+  </producedTypes>
+  <name>пкВидыВедомостейПоГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ведомостей по ГСМ</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2f1b56d-7115-40fd-b991-e76a29f10278">
+    <name>Автомобили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобили</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a46b260-1923-4a5e-b017-a2894b94700e">
+    <name>Краны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краны</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e767218-dda5-4fc9-8da4-24b869feab38">
+  <name>уатИспользоватьТерминалПриемаВыдачиПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать терминал приема выдачи путевых листов</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.уатИспользоватьТерминалПриемаВыдачиПутевыхЛистов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.уатПараметрыАвторизацииТерминала</content>
+  <content>DataProcessor.уатТерминалПриемаИВыдачиПутевыхЛистов</content>
+  <content>Catalog.уатКартыДоступа</content>
+  <content>Subsystem.Администрирование.Subsystem.уатУправлениеАвтотранспортом.Subsystem.уатТерминалПутевыхЛистов</content>
+</mdclass:FunctionalOption>

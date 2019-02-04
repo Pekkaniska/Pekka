@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed6b968-ecd5-4bed-9900-64b65ac4db9d">
+  <producedTypes>
+    <managerType typeId="12516915-3762-4461-8422-f86474a64351" valueTypeId="6670dbc3-a4eb-4756-9cc0-423227f962f0"/>
+    <valueManagerType typeId="d7491698-ce97-4b12-940d-1f9e2c70de7e" valueTypeId="efe6899e-15a4-477b-a10e-53e5042e7f38"/>
+  </producedTypes>
+  <name>ВариантОбособленияМатериаловВПереработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант обособления материалов в переработке</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ВариантыОбособленияМатериаловВПереработке</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

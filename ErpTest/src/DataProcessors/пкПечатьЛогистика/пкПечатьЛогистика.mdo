@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a76f82d-38fe-4a62-9d90-9dc11dcfc987">
+  <producedTypes>
+    <objectType typeId="18e5e3cd-eaea-4eda-b783-c5e8048eba91" valueTypeId="a9537c99-7b11-4734-ac22-149bc8309942"/>
+    <managerType typeId="d3f6016b-b9c4-40dd-a46a-ada569d2fbee" valueTypeId="14dc59b8-f079-4aa5-9df1-850256f15f77"/>
+  </producedTypes>
+  <name>пкПечатьЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные формы подсистемы Логистика</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <templates uuid="a4bc22ef-3a3f-401e-8171-bfeed732799e">
+    <name>МаршрутныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрутный лист</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6d67aacf-9f27-4143-b8ce-77ebb500534c">
+    <name>АктПриемкиА4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f5baa191-f0f3-4833-86e3-4dbfc134419c">
+    <name>АктВозвратаА4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="bbc1dedc-ea67-4f92-b859-d550cf502975">
+    <name>АктПриемкиА4Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а4 москва</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="08938a6e-beb5-4964-bb25-b994bb2129e2">
+    <name>АктВозвратаА4Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а4 москва</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="037fd82f-af0b-4a64-9eb1-d21b546c4dab">
+    <name>АктПриемкиА52017</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а52017</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a1ffcfed-d100-4d63-b730-d40f3c9ac04d">
+    <name>АктВозвратаА52017</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а52017</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c4b08cc9-e8c9-4064-926c-aeef9d71747e">
+    <name>АктПриемкиА5Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а5 москва</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6c38c375-ec18-4527-a92b-0a35da759b15">
+    <name>АктВозвратаА5Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а5 москва</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5042d561-f9bc-4efa-aa96-fa5a984622f6">
+    <name>Доверенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f497b4c7-e64b-41b6-a5eb-c739f3efa7b8">
+    <name>ТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="624fe319-dacf-4756-9525-4ea32fe76f4c">
+    <name>ТТНПриложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТНПриложение4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="ea8b874f-bb72-4e41-9933-9623fcb11980">
+    <name>АктПриемкиА5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а5</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c8c96969-198b-4422-b34f-48b87c5fd567">
+    <name>АктВозвратаА5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а5</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="53fefb81-eed7-4a61-8d45-3424003173c2">
+    <name>АктПриемкиА42017</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приемки а42017</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="9e617af6-d167-4b02-a50c-38519fb737db">
+    <name>АктВозвратаА42017</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт возврата а42017</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="e1e30896-44f2-4c86-8b7f-109ec5dab96a">
+    <name>ДоверенностьСПодписями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность с подписями</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

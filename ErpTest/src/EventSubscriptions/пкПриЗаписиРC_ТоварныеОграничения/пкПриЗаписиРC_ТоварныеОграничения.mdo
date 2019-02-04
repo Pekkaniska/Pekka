@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3557bc7-02e0-4de4-8311-19cf41cea6f1">
+  <name>пкПриЗаписиРC_ТоварныеОграничения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк при записи р c товарные ограничения</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>InformationRegisterRecordSet.ТоварныеОграничения</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкПриЗаписиРC_ТоварныеОграниченияПриЗаписи</handler>
+</mdclass:EventSubscription>

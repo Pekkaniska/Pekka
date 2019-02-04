@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64243e0f-de22-4823-91a2-029057666c34">
+  <producedTypes>
+    <objectType typeId="a3255d1c-a5aa-40cb-bff0-b07b7b53d059" valueTypeId="a644c671-57e8-4fd2-96a5-e68c56d0472e"/>
+    <managerType typeId="d81fb73d-c595-46bb-9624-a6b4cbcf0eef" valueTypeId="62044a8a-9eb0-42a2-a0ad-139a6ddf798b"/>
+  </producedTypes>
+  <name>пкОстаткиИДоступностьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки и доступность товаров (пк)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкОстаткиИДоступностьТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f0786953-1fa5-4559-b3ea-9240b27966ab">
+    <name>ФормаОтчетаСамообслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета самообслуживание</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4623a55-c42e-4ea5-9a0b-3feb888127bb">
+    <name>ФормаНастроекДляСправочникаНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек для справочника номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="934b50a2-88fd-47bd-ac2f-6d0c66303098">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

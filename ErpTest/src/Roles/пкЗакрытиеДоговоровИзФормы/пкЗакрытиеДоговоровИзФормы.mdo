@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67aed5a7-4e95-429f-929b-c7a455783322">
+  <name>пкЗакрытиеДоговоровИзФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рарус Закрытие договоров из формы</value>
+  </synonym>
+  <comment>Рарус</comment>
+</mdclass:Role>

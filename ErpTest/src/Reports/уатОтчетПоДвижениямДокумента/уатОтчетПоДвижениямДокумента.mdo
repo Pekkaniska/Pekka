@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="330f82cb-0816-4ee1-881f-235a38de6f98">
+  <producedTypes>
+    <objectType typeId="6fc7367b-84c5-4707-85d8-90d5a03d0156" valueTypeId="712fd461-a208-4dbc-b690-be1eea25115a"/>
+    <managerType typeId="24923011-7e8a-4e29-be2d-5433112e2ff9" valueTypeId="e1036c37-3e9e-4607-9231-70e99120b258"/>
+  </producedTypes>
+  <name>уатОтчетПоДвижениямДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по движениям документа</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.уатОтчетПоДвижениямДокумента.Form.ФормаОтчетПоДвижениямДокумента</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fe3d75bc-36b0-4ac4-a93f-6bb7e1f0648f">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="342805db-3579-4f44-ae84-171b62928d83">
+    <name>СпособВыводаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить детализацию</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыВыводаОтчета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b7f45818-8c8c-44bc-9e24-e09bc2103dbc">
+    <name>ФормаОтчетПоДвижениямДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчет по движениям документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="738652da-3b78-478b-901c-e64aa53c0c46">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <commands uuid="4599f15a-7a52-4fb8-bc12-d836024496b1">
+    <name>ОтчетПоДвижениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения документа</value>
+    </synonym>
+    <comment>Отчет по движениям документа</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.уатОтклонениеГруза</types>
+      <types>DocumentRef.уатВводОстатковГСМ</types>
+      <types>DocumentRef.уатДиспозицияТС</types>
+      <types>DocumentRef.уатМаршрутныйЛист</types>
+      <types>DocumentRef.уатПланированиеРаботыТС</types>
+      <types>DocumentRef.уатУстановкаТарифовЗП</types>
+      <types>DocumentRef.уатБилетныйЛист</types>
+      <types>DocumentRef.уатВыручкаВодителей</types>
+      <types>DocumentRef.уатЗаказГрузоотправителя</types>
+      <types>DocumentRef.уатУстановкаПрейскурантовТС</types>
+      <types>DocumentRef.уатПосадочнаяВедомость</types>
+      <types>DocumentRef.уатРазнарядка</types>
+      <types>DocumentRef.уатПоступлениеБилетов</types>
+      <types>DocumentRef.уатПутевойЛист</types>
+      <types>DocumentRef.уатОперацииСТехническимиЖидкостями</types>
+      <types>DocumentRef.уатВводНачальныхПоказаний</types>
+      <types>DocumentRef.уатТТД</types>
+      <types>DocumentRef.уатПеремещениеТСиОборудования</types>
+      <types>DocumentRef.уатИзменениеСчетчиковТС</types>
+      <types>DocumentRef.уатЗаправкаГСМ</types>
+      <types>DocumentRef.уатОтчетПоставщикаПЦ</types>
+      <types>DocumentRef.уатВводВЭксплуатациюТСиОборудования</types>
+      <types>DocumentRef.уатВыбытиеТСиОборудования</types>
+      <types>DocumentRef.уатСливГСМ</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отчет по движениям документа</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DebitCredit</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

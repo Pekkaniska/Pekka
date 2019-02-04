@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9305a60-dd7e-43a8-a045-a3b7e8d4d6c5">
+  <producedTypes>
+    <managerType typeId="32ec466a-e0a3-49dd-b4c6-48539cebe2bc" valueTypeId="9ce6729e-8a22-46c8-a1f4-6eda7692d1df"/>
+    <valueManagerType typeId="c167d5f7-b1c1-434a-b270-f9f6ba86c336" valueTypeId="1a0326c8-5c29-4c97-bf86-8199a431eb5b"/>
+  </producedTypes>
+  <name>пкДатаНачалаТиповогоРасчетаРСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала типового расчета РСД</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

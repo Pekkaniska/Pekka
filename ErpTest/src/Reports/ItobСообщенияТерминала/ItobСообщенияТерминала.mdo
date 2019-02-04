@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9de096b-c069-4b78-92a1-be98b85d28c0">
+  <producedTypes>
+    <objectType typeId="9f85a665-5f99-469b-94d6-d934228e8059" valueTypeId="db5fc241-7370-4527-8488-e19e6775e59e"/>
+    <managerType typeId="7a41c705-a0c3-48ae-9417-7c2b6fa483cd" valueTypeId="b88b6b0d-1068-4385-a288-4217b913ec65"/>
+  </producedTypes>
+  <name>ItobСообщенияТерминала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения терминала</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ItobСообщенияТерминала.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8b4b4130-10cb-4a6b-ae88-23c456f0dedf">
+    <name>НачПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач периода</value>
+    </synonym>
+    <comment>Начало периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4af3ce42-6fc5-4f95-85f6-76c4269a8f3d">
+    <name>КонПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон периода</value>
+    </synonym>
+    <comment>Конец периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата конца периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="03a34d8e-db05-4ea4-9f20-441169da751f">
+    <name>Терминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Терминал</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ItobТерминалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Терминал по которому формируются данные</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="901fd035-84ae-4cfc-9191-660dbb306467">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="829d00a6-3835-485f-8db0-868a7403ecb4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35071f40-d36e-4ad8-8c52-10131586160e">
+  <name>пкКомандыСтатусИСостояниеТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды статус и состояние техники (пк)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

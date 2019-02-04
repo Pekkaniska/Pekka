@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24728d25-d63a-4be9-adba-df8159567845">
+  <name>пкОповещениеОПриближенииТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение о приближении ТО</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

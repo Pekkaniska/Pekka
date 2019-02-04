@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21c5f9ed-708c-467f-8774-57a91d0ca5d9">
+  <name>пкПередЗаписьюСправочникаДляМУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк перед записью справочника для МУ</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.пкПользователиМП</types>
+    <types>CatalogObject.Партнеры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкМобильныеУстройства.пкПередЗаписьюСправочникаДляМУПередЗаписью</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c57e8df3-ffa3-40f8-9dc4-d6dab1bd8a23">
+  <producedTypes>
+    <objectType typeId="5164f5d6-81f9-47d1-9437-ef4b24f5f1af" valueTypeId="801dbebc-502f-4345-976f-abe93baf1b19"/>
+    <managerType typeId="e60a074a-bba3-4e18-8591-d7b6cecb3575" valueTypeId="4e2db97f-591a-48ad-8949-200f297cfa98"/>
+  </producedTypes>
+  <name>пкИзменениеНормРасходаГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение норм расхода ГСМ</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкИзменениеНормРасходаГСМ.Form.Форма</defaultForm>
+  <attributes uuid="593b640c-0475-4c70-a6b5-17d2381ad7a3">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="837769f6-f848-440f-a852-be7fbe291a82">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a041610d-8335-4b5e-a6b5-3170d97747f8">
+    <name>СезонныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезонная надбавка, %</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f4c6bb75-a8e9-45cc-b0c8-e701829f8a63">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

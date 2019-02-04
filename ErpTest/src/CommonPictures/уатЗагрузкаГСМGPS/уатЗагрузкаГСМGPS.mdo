@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72b9e562-91db-4900-b9be-ebe50dee76d4">
+  <name>уатЗагрузкаГСМGPS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка ГСМ GPS (уат)</value>
+  </synonym>
+  <comment>Загрузка ГСМ по данным GPS omnicom (уат)</comment>
+  <transparentPixel>
+    <x>25</x>
+    <y>14</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

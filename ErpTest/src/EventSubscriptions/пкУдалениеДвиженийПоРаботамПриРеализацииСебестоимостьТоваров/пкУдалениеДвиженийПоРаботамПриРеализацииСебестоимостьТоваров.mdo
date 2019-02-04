@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da93367d-d721-42fa-bac8-ddf97226359e">
+  <name>пкУдалениеДвиженийПоРаботамПриРеализацииСебестоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк удаление движений по работам при реализации себестоимость товаров</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>AccumulationRegisterRecordSet.СебестоимостьТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкУдалениеДвиженийПоРаботамПриРеализацииСебестоимостьТоваровПередЗаписью</handler>
+</mdclass:EventSubscription>

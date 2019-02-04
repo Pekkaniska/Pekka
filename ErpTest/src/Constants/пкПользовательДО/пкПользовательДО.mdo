@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08b52228-03c5-4027-9bbd-98485c42569d">
+  <producedTypes>
+    <managerType typeId="80769eff-c064-4e74-8bd8-49dc16020278" valueTypeId="2c631ba8-bac8-44f1-960d-f5797dade97c"/>
+    <valueManagerType typeId="4d1b28da-58c5-4da0-b8fb-145522a80d33" valueTypeId="35a5e31c-a249-4542-8a82-e0ca56190d9b"/>
+  </producedTypes>
+  <name>пкПользовательДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь ДО</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <defaultForm>CommonForm.пкНастройкиПрограммы</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

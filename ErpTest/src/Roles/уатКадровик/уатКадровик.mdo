@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb18e3d9-bc8e-497e-a7ba-4814def81680">
+  <name>уатКадровик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровик</value>
+  </synonym>
+  <comment>Зарплата и кадры управления автотранспортом</comment>
+</mdclass:Role>

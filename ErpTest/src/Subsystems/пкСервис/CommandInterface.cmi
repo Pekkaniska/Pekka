@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.пкПодборТехники.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.пкАРМСклад.StandardCommand.Open</commands>
+      <commands>DataProcessor.пкПланДоставки.StandardCommand.Open</commands>
+      <commands>DataProcessor.пкПланыПроведенияТО.StandardCommand.Open</commands>
+      <commands>DataProcessor.пкПодборТехники.StandardCommand.Open</commands>
+      <commands>Constant.пкРаботаПТО.StandardCommand.Open</commands>
+      <commands>Constant.пкРаботаЧТО.StandardCommand.Open</commands>
+      <commands>Constant.пкРемонтАрендованногоОборудования.StandardCommand.Open</commands>
+      <commands>CommonCommand.пкГрупповоеСозданиеСчетаПоЗаказНарядам</commands>
+      <commands>DataProcessor.пкУправлениеРемонтами.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

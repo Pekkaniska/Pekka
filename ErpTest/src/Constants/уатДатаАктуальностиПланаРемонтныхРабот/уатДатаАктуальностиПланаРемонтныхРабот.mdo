@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a022a2d-5680-4076-82bf-110f6d0e6501">
+  <producedTypes>
+    <managerType typeId="9776b6ae-02b0-4361-8cb8-259543948456" valueTypeId="ed3711f1-a984-4593-b424-de088af38cc6"/>
+    <valueManagerType typeId="c65de420-78e7-4f6a-87b9-966c2133176c" valueTypeId="88b0b1aa-e4f1-4ce5-8260-967160c6b83c"/>
+  </producedTypes>
+  <name>уатДатаАктуальностиПланаРемонтныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата актуальности плана ремонтных работ</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

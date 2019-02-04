@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="706b4d8c-4b8c-4b5e-afd4-8094794a643d">
+  <producedTypes>
+    <selectionType typeId="8301c8b6-7b02-4146-ac29-c5c86b134a8c" valueTypeId="1787ed09-f016-48d6-b6bb-61a9aed38846"/>
+    <listType typeId="4353c9f3-da23-458a-a5f1-140c7c00ebea" valueTypeId="dc88d35e-e1b2-45a9-bb60-9935b1571fd4"/>
+    <managerType typeId="121881dc-d1eb-4c3b-a7a7-77d229b0f24e" valueTypeId="c7f09775-f2df-4222-a509-301b316342d8"/>
+    <recordSetType typeId="a7017973-da45-4b6e-b29d-6652de0f31c1" valueTypeId="49a38026-f29f-491b-bd8c-35dba391b498"/>
+    <recordKeyType typeId="aed19b71-df9c-40a8-8f06-1918438cc322" valueTypeId="82c1e1ca-648a-4922-ac7c-c53d49997319"/>
+    <recordType typeId="6c55be48-4226-48f5-9b70-68a0735609e2" valueTypeId="85e5550d-4798-4668-b607-adf7958d4a35"/>
+    <recordManagerType typeId="91a460d7-1a81-4a27-b42b-f3a54ac6c053" valueTypeId="bb82c6df-0909-4997-8518-520ec1dbf4b1"/>
+  </producedTypes>
+  <name>пкРезервТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резерв техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2de57bcd-4035-49f0-8072-131a1fe4f5b5">
+    <name>ДатаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8b4c5107-dfbd-4eda-a49c-9751176b49b5">
+    <name>Резерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff02b8eb-afef-4d1c-a384-34f6495b9377">
+    <name>ЗаявкаНаАрендуТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на аренду техники</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.пкЗаявкаНаАрендуТехники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ca5a258f-b1f9-41d0-8bb9-e82fb837ddb0">
+    <name>Техника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

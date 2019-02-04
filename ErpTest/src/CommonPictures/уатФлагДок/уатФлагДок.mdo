@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca36da23-d3d5-48e1-965d-7bb0e90ff6ba">
+  <name>уатФлагДок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Флаг документы ТС</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>12</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

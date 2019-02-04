@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a440be8-fbcc-40fa-8f66-cb33ad6dc683">
+  <producedTypes>
+    <managerType typeId="b9064402-1353-4b77-a824-8094620ed285" valueTypeId="654a56b9-0659-49e2-9cc2-6db8ea091a90"/>
+    <valueManagerType typeId="24fe5e2e-8fe6-4c9b-9b45-b8bf9f295a1c" valueTypeId="d28ac9ca-ede4-48ae-88b9-be6280940a46"/>
+  </producedTypes>
+  <name>уатИспользоватьТерминалПриемаВыдачиПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать терминал приема выдачи путевых листов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

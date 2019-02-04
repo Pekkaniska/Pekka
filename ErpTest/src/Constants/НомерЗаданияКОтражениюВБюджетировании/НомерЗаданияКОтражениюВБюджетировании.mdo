@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66444daf-9002-4d96-b643-c32a32a243df">
+  <producedTypes>
+    <managerType typeId="d1231482-4683-4400-ad50-a01265057c19" valueTypeId="b987e60d-9513-422c-9df7-c072f559b4f6"/>
+    <valueManagerType typeId="4f4299c2-4512-49ff-b304-c8e4391d667d" valueTypeId="c5140222-053d-4363-8ed7-c31b0fc22671"/>
+  </producedTypes>
+  <name>НомерЗаданияКОтражениюВБюджетировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер задания к отражению в бюджетировании</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

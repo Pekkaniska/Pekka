@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f61e6f16-ab56-459b-8061-c011eb19ff41">
+  <producedTypes>
+    <selectionType typeId="d39a27be-1e0b-4468-a509-4696615c7794" valueTypeId="7dc4dcc2-b52c-4a5d-8f40-084cc5071b43"/>
+    <listType typeId="a93f293d-0971-4954-af47-77f6956ea1e6" valueTypeId="7c21d78f-004e-4fae-b97e-7a327f4e65a7"/>
+    <managerType typeId="79e3a648-4807-4ea2-98aa-d930aa7aac88" valueTypeId="7150418b-402c-468b-bbb0-6bb615468238"/>
+    <recordSetType typeId="467d873a-e579-42fd-9329-9952110437c8" valueTypeId="9dfd028f-2605-4bb0-981a-f9264423e3b9"/>
+    <recordKeyType typeId="944e5f4b-1443-4b51-aa5c-a7703e2daf1d" valueTypeId="d625beff-1d60-483c-a094-405db6cabba9"/>
+    <recordType typeId="b9545b09-6177-430e-9246-2b997d84e20c" valueTypeId="ffb139ab-758d-4f8a-92ae-b32b0b9e0b14"/>
+    <recordManagerType typeId="c650838d-b10c-4052-a775-fc22c68c4328" valueTypeId="d5a15a11-bd43-412f-8cb1-39d6dd7e8793"/>
+  </producedTypes>
+  <name>пкДефектыТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дефекты техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.пкДефектыТехники.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2e7b77f6-7756-49b5-b4a3-a07d631e0400">
+    <name>Дефект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дефект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d71e89b6-ec05-4e64-a9cb-b53baf49319b">
+    <name>Техника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7cbbd287-5b17-4efb-a4b5-9cb18cc674d3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

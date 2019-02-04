@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88685d5a-65c8-40a1-bbbb-88072ca99c0b">
+  <producedTypes>
+    <objectType typeId="2f7946ad-7847-4bc8-85c9-a5d6b68b27b8" valueTypeId="69ab3a83-0e9f-421e-a7be-0cf8963ebc9d"/>
+    <managerType typeId="e93f3959-46d7-4557-bfd5-e1ae7f22f21e" valueTypeId="50be67a9-b25c-4a32-95a9-7648ff18d264"/>
+  </producedTypes>
+  <name>ItobОтчетПоИмпульснымДатчикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по импульсным датчикам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ItobОтчетПоИмпульснымДатчикам.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2a43cf26-36ce-4d23-bb26-854ce18a626c">
+    <name>НачПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач периода</value>
+    </synonym>
+    <comment>Начало периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d1774758-0436-4f30-aa54-550010608f04">
+    <name>КонПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон периода</value>
+    </synonym>
+    <comment>Конец периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата конца периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="07f2140c-6180-4621-9573-bdd0876a3046">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект для формирования отчета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="10982ff1-39bb-4369-81ee-6e3859f977f3">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ItobНазначенияДатчиков</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначение датчика</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3cdf660b-4120-4844-8b60-9a44db20d1bf">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0c635b80-6c36-448a-b914-b00bd5935756">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

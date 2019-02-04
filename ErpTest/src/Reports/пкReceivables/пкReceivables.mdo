@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f251277-dc2e-4c4b-abea-2450fd1b4ea1">
+  <producedTypes>
+    <objectType typeId="47e1a8e2-3ef8-4b53-a9eb-e7558a2d419c" valueTypeId="772a24ad-a1b5-4093-a73d-59c22ecf5fa4"/>
+    <managerType typeId="cf2a9a5f-85f0-46b1-9ce0-db66b5e8e82b" valueTypeId="78a7e139-8515-41f0-a2d6-0cf72d9d2801"/>
+  </producedTypes>
+  <name>пкReceivables</name>
+  <synonym>
+    <key>ru</key>
+    <value>Receivables</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкReceivables.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="0b7a603e-f329-4b4d-b87d-b07195926596">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

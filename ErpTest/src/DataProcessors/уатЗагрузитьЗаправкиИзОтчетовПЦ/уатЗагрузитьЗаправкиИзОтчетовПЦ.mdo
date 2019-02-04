@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="820486d5-6de4-468b-b20e-f063747634a6">
+  <producedTypes>
+    <objectType typeId="d6a5096d-706e-4121-b798-1a0d7eef3960" valueTypeId="be3382db-5c28-4e3d-8c99-1c9ef4c2ca52"/>
+    <managerType typeId="9d963553-76ce-4051-982f-8a2b3db1b693" valueTypeId="515e3ab0-e15b-4ccc-8f30-7ff6f4e2285c"/>
+  </producedTypes>
+  <name>уатЗагрузитьЗаправкиИзОтчетовПЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить заправки ГСМ из отчетов ПЦ</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <defaultForm>DataProcessor.уатЗагрузитьЗаправкиИзОтчетовПЦ.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5749aaa1-0d29-4dfd-98f9-102000fbaf10">
+    <name>АЗС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АЗС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатАЗС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фильтр по АЗС</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d72d0233-8966-47ca-b050-60dd745f44d8">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания загрузки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a06a3e6f-53c2-4461-a378-527971f3ee45">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата нач</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58425f90-262e-48f2-bca7-fec7ea4de7f3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фильтр по организации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c78bec7e-f876-445f-9742-36a18892e14e">
+    <name>ТолькоПроверенные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только проверенные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать только проверенные заправки (отмеченные флагом &quot;Проверено&quot;) из отчетов ПЦ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63ec766e-d61d-4723-a5b6-de5f68d4af64">
+    <name>ГлубинаПоискаПЛДоВыезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина поиска путевых листов до выезда</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Глубина поиска путевых листов до выезда, часов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffdf2c01-617e-498d-8d2e-4315172d8e9a">
+    <name>ГлубинаПоискаПЛПослеВозвращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина поиска путевых листов возвращения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=0</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Глубина поиска путевых листов после возвращения, часов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1b3a73f4-a34c-45a7-bb11-91f5dd15638e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

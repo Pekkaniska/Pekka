@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af801c9-0e49-4f8e-becb-3a41f6f93a9e">
+  <producedTypes>
+    <managerType typeId="455a2165-e1f0-44d5-ad4d-20e73af0c55d" valueTypeId="486d716f-7ca4-46d5-b098-871774e2d37c"/>
+    <valueManagerType typeId="21ea34ba-05e2-41d7-9efd-6625b491d18c" valueTypeId="b140ddf4-46f7-4005-b583-231f31809343"/>
+  </producedTypes>
+  <name>уатДрайверВСистемеOmnicomm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Название драйвера ODBC для системы omnicomm</value>
+  </synonym>
+  <comment>Название драйвера ODBC для системы omnicomm (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Название драйвера ODBC для системы omnicomm</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Название драйвера ODBC для системы omnicomm</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Название драйвера ODBC для системы omnicomm</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

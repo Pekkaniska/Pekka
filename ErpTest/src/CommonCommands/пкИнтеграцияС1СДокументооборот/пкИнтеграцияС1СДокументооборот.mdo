@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e2498e-e7db-484b-aa7e-e75dfeb1441f">
+  <name>пкИнтеграцияС1СДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот</value>
+  </synonym>
+  <comment></comment>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>DocumentRef.пкОперацииСТехникой</types>
+    <types>DocumentRef.пкАктПриемкиВозврата</types>
+    <types>DocumentRef.пкЗаправочнаяВедомость</types>
+    <types>CatalogRef.ТранспортныеСредства</types>
+    <types>DocumentRef.пкДоставка</types>
+    <types>DocumentRef.уатДТП</types>
+    <types>CatalogRef.пкДополнительныеСоглашенияКДоговорам</types>
+    <types>DocumentRef.пкЗаявкаНаРемонтУДилера</types>
+    <types>DocumentRef.пкЗаданиеНаРемонт</types>
+    <types>DocumentRef.пкЗаказНаряд</types>
+    <types>DocumentRef.пкЗаданиеНаПеревозку</types>
+    <types>DocumentRef.пкЗаявкаНаАрендуТехники</types>
+    <types>DocumentRef.пкСудебныйИск</types>
+    <types>DocumentRef.уатЗаправкаГСМ</types>
+    <types>DocumentRef.пкПретензия</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

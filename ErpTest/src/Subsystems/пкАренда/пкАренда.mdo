@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebab71c7-4347-4572-b3cf-9ddd6d417554">
+  <name>пкАренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.пкРазделАренда</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Catalog.СМ_ОбъектыСтроительства</content>
+  <content>Catalog.Партнеры</content>
+  <content>Document.пкОперацииСТехникой</content>
+  <content>Document.пкЗаявкаНаАрендуТехники</content>
+  <content>DataProcessor.пкУправлениеПродажами</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>DataProcessor.пкУправлениеСчетамиИРеализациямиУслуг</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.пкКоммерческоеПредложениеНаАрендуТехники</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Report.пкАрендаТехники</content>
+  <content>DataProcessor.пкПодборТехники</content>
+  <content>Catalog.пкДополнительныеСоглашенияКДоговорам</content>
+  <content>Report.пкОтклонениеЦенВКоммерческихПредложениях</content>
+  <content>Report.пкReceivables</content>
+  <content>Report.пкОтчетПоСобытиям</content>
+  <content>Report.пкSalesmanReport</content>
+  <content>DataProcessor.пкПакетноеФормированиеПисемПретензий</content>
+  <content>DocumentJournal.РеестрТорговыхДокументов</content>
+  <content>DataProcessor.пкУстановкаРабочихДатПользователей</content>
+  <content>Report.пкОплатаЗаявокНаРасходованиеДенежныхСредств</content>
+  <content>Report.РасчетыСКлиентами</content>
+  <content>Document.пкСудебныйИск</content>
+  <content>Document.пкПретензия</content>
+  <content>Report.пкВаловаяПрибыльПредприятияEUR</content>
+  <content>DataProcessor.пкПланДоставки</content>
+  <content>DataProcessor.пкПроверкаЗаданийНаПеревозку</content>
+  <content>Role.пкПросмотрОтчетаSalesmanReportПоМенеджеру</content>
+  <content>InformationRegister.пкОформлениеАрендыТехники</content>
+</mdclass:Subsystem>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ec7ac88-adc5-42ba-92dd-3af7918de850">
+  <name>пкСкладИЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад и закупки</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>DataProcessor.пкАРМСклад</content>
+  <content>Catalog.пкТипыПультов</content>
+  <content>Catalog.пкПультыДляПодъемников</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ОбластиХранения</content>
+  <content>Catalog.СкладскиеЯчейки</content>
+  <content>Catalog.ТипоразмерыЯчеек</content>
+  <content>Document.пкОперацииСПультами</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ПриобретениеТоваровУслуг</content>
+  <content>Document.РегистрацияЦенНоменклатурыПоставщика</content>
+  <content>Document.ЗаявкаНаРасходованиеДенежныхСредств</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
+  <content>Document.ВнутреннееПотреблениеТоваров</content>
+  <content>Document.ЗаказНаПеремещение</content>
+  <content>Document.ЗаказНаВнутреннееПотребление</content>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.ПрочееОприходованиеТоваров</content>
+  <content>Document.РасходныйОрдерНаТовары</content>
+  <content>Document.ПриходныйОрдерНаТовары</content>
+  <content>Document.ПересчетТоваров</content>
+  <content>Report.пкМестонахожденияПультов</content>
+  <content>DataProcessor.НастройкаПоддержанияЗапасов</content>
+  <content>DataProcessor.УправлениеОтгрузкой</content>
+  <content>DataProcessor.УправлениеПоступлением</content>
+  <content>DataProcessor.ГенерацияТопологииСклада</content>
+  <content>Report.пкРеестрДоставокСкладЗакупки</content>
+  <content>Role.пкПросмотрОтчетаРеестрДоставок</content>
+  <content>InformationRegister.пкМестонахожденияПультовДляПодъемников</content>
+  <content>Document.пкЗаявкаНаРемонтУДилера</content>
+  <content>Document.пкЗаявкаНаРемонтЗапчасти</content>
+  <content>Report.пкВедомостьПоТоварамНаСкладах</content>
+  <content>Report.пкОстаткиИДоступностьТоваров</content>
+  <content>DataProcessor.пкПечатьСтикеровТехники</content>
+  <content>Report.пкСводныйОтчетПоИнвентаризации</content>
+</mdclass:Subsystem>

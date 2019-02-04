@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных5</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Техника</dataPath>
+			<field>Техника</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНарядОткрыт</dataPath>
+			<field>ЗаказНарядОткрыт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ наряд открыт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНарядОтложен</dataPath>
+			<field>ЗаказНарядОтложен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ наряд отложен</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНарядВыполнен</dataPath>
+			<field>ЗаказНарядВыполнен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ наряд выполнен</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВложенныйЗапрос.Техника,
+	ВложенныйЗапрос.Подразделение,
+	ВложенныйЗапрос1.ЗаказНарядОткрыт,
+	ВложенныйЗапрос1.ЗаказНарядОтложен,
+	ВложенныйЗапрос1.ЗаказНарядВыполнен
+ИЗ
+	(ВЫБРАТЬ
+		ВложенныйЗапрос.Техника КАК Техника,
+		пкСостояниеТехникиСрезПоследних.Значение КАК Подразделение
+	{ВЫБРАТЬ
+		Техника.*,
+		Подразделение.*}
+	ИЗ
+		(ВЫБРАТЬ
+			пкСтатусыРемонтаТехникиСрезПоследних.Техника КАК Техника
+		ИЗ
+			РегистрСведений.пкСтатусыРемонтаТехники.СрезПоследних({(&amp;НачалоПериода)}, Статус = ЗНАЧЕНИЕ(Перечисление.пкСтатусыРемонтаТехники.КРемонту)) КАК пкСтатусыРемонтаТехникиСрезПоследних
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			пкСтатусыРемонтаТехники.Техника
+		ИЗ
+			РегистрСведений.пкСтатусыРемонтаТехники КАК пкСтатусыРемонтаТехники
+		ГДЕ
+			пкСтатусыРемонтаТехники.Период &gt;= &amp;НачалоПериода
+			И пкСтатусыРемонтаТехники.Период &lt;= &amp;КонецПериода) КАК ВложенныйЗапрос
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.пкСостояниеТехники.СрезПоследних({(&amp;НачалоПериода)}, Показатель = ЗНАЧЕНИЕ(ПланВидовХарактеристик.пкПоказателиСостоянияТехники.Подразделение)) КАК пкСостояниеТехникиСрезПоследних
+			ПО ВложенныйЗапрос.Техника = пкСостояниеТехникиСрезПоследних.Техника
+	{ГДЕ
+		пкСостояниеТехникиСрезПоследних.Значение.* КАК Подразделение}) КАК ВложенныйЗапрос
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			пкСтатусыЗаказНарядовОткрыт.ЗаказНаряд.Техника КАК Техника,
+			пкСтатусыЗаказНарядовОткрыт.ЗаказНаряд.Подразделение КАК Подразделение,
+			пкСтатусыЗаказНарядовОткрыт.ЗаказНаряд КАК ЗаказНарядОткрыт,
+			NULL КАК ЗаказНарядОтложен,
+			NULL КАК ЗаказНарядВыполнен
+		ИЗ
+			РегистрСведений.пкСтатусыЗаказНарядов КАК пкСтатусыЗаказНарядовОткрыт
+		ГДЕ
+			пкСтатусыЗаказНарядовОткрыт.Статус = ЗНАЧЕНИЕ(Перечисление.пкСтатусыЗаказНарядов.Открыт)
+			И пкСтатусыЗаказНарядовОткрыт.Период &gt;= &amp;НачалоПериода
+			И пкСтатусыЗаказНарядовОткрыт.Период &lt;= &amp;КонецПериода
+			И НЕ пкСтатусыЗаказНарядовОткрыт.ЗаказНаряд.ТехникаКлиента
+		{ГДЕ
+			пкСтатусыЗаказНарядовОткрыт.ЗаказНаряд.Подразделение.* КАК Подразделение}
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			пкСтатусыЗаказНарядовОтложен.ЗаказНаряд.Техника,
+			пкСтатусыЗаказНарядовОтложен.ЗаказНаряд.Подразделение,
+			NULL,
+			пкСтатусыЗаказНарядовОтложен.ЗаказНаряд,
+			NULL
+		ИЗ
+			РегистрСведений.пкСтатусыЗаказНарядов КАК пкСтатусыЗаказНарядовОтложен
+		ГДЕ
+			пкСтатусыЗаказНарядовОтложен.Статус = ЗНАЧЕНИЕ(Перечисление.пкСтатусыЗаказНарядов.Отложен)
+			И пкСтатусыЗаказНарядовОтложен.Период &gt;= &amp;НачалоПериода
+			И пкСтатусыЗаказНарядовОтложен.Период &lt;= &amp;КонецПериода
+			И НЕ пкСтатусыЗаказНарядовОтложен.ЗаказНаряд.ТехникаКлиента
+		{ГДЕ
+			пкСтатусыЗаказНарядовОтложен.ЗаказНаряд.Подразделение.* КАК Подразделение}
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			пкСтатусыЗаказНарядовВыполнен.ЗаказНаряд.Техника,
+			пкСтатусыЗаказНарядовВыполнен.ЗаказНаряд.Подразделение,
+			NULL,
+			NULL,
+			пкСтатусыЗаказНарядовВыполнен.ЗаказНаряд
+		ИЗ
+			РегистрСведений.пкСтатусыЗаказНарядов КАК пкСтатусыЗаказНарядовВыполнен
+		ГДЕ
+			пкСтатусыЗаказНарядовВыполнен.Статус = ЗНАЧЕНИЕ(Перечисление.пкСтатусыЗаказНарядов.Выполнен)
+			И пкСтатусыЗаказНарядовВыполнен.Период &gt;= &amp;НачалоПериода
+			И пкСтатусыЗаказНарядовВыполнен.Период &lt;= &amp;КонецПериода
+			И НЕ пкСтатусыЗаказНарядовВыполнен.ЗаказНаряд.ТехникаКлиента
+		{ГДЕ
+			пкСтатусыЗаказНарядовВыполнен.ЗаказНаряд.Подразделение.* КАК Подразделение}) КАК ВложенныйЗапрос1
+		ПО ВложенныйЗапрос.Техника = ВложенныйЗапрос1.Техника
+			И ВложенныйЗапрос.Подразделение = ВложенныйЗапрос1.Подразделение</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ПериодФормированияОтчета</dataPath>
+		<expression>Выбор
+	Когда НачалоПериода(&amp;Период.ДатаНачала, "МЕСЯЦ") = НачалоПериода(&amp;Период.ДатаОкончания, "МЕСЯЦ")
+		Тогда Формат(&amp;Период.ДатаНачала, "ДФ='ММММ гггг'")
+	Иначе Формат(&amp;Период.ДатаНачала, "ДФ='ММММ гггг'") + " - " + Формат(&amp;Период.ДатаОкончания, "ДФ='ММММ гггг'")
+Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период формирования отчета</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ЗаказНаряд</dataPath>
+		<expression>ЕстьNull(ЕстьNull(ЗаказНарядВыполнен,ЗаказНарядОтложен),ЗаказНарядОткрыт)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Заказ-наряд</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>СтатусыЗаказНарядов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статусы заказ-нарядов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:userFields>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% открытых</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression/>
+					<dcsset:detailExpressionPresentation/>
+					<dcsset:totalExpression>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные ЗаказНарядОткрыт) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные [Заказ наряд открыт]) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле2</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% отложенных</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression/>
+					<dcsset:detailExpressionPresentation/>
+					<dcsset:totalExpression>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные ЗаказНарядОтложен) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные [Заказ наряд отложен]) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле3</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% выполненных</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression/>
+					<dcsset:detailExpressionPresentation/>
+					<dcsset:totalExpression>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные ЗаказНарядВыполнен) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Выбор
+	Когда Количество(Различные Техника) = 0
+		Тогда 0
+	Иначе Количество(Различные [Заказ наряд выполнен]) / Количество(Различные Техника) * 100
+Конец</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле7</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Техника в ремонте</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>Техника</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>Техника</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression>Количество(Различные Техника)</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Количество(Различные Техника)</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле4</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открыто</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>ЗаказНарядОткрыт</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>[Заказ наряд открыт]</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression>Количество(Различные ЗаказНарядОткрыт)</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Количество(Различные [Заказ наряд открыт])</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле5</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отложено</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>ЗаказНарядОтложен</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>[Заказ наряд отложен]</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression>Количество(Различные ЗаказНарядОтложен)</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Количество(Различные [Заказ наряд отложен])</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле6</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнено</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>ЗаказНарядВыполнен</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>[Заказ наряд выполнен]</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression>Количество(Различные ЗаказНарядВыполнен)</dcsset:totalExpression>
+					<dcsset:totalExpressionPresentation>Количество(Различные [Заказ наряд выполнен])</dcsset:totalExpressionPresentation>
+				</dcsset:item>
+			</dcsset:userFields>
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле7</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Техника</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле4</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открыто</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% открытых</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле5</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отложено</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле2</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% отложенных</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле6</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнено</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле3</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% выполненных</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаряд</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>d049ee54-05ae-4514-885d-4cac97b17f20</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>9b227725-5f2d-4d52-b010-5a8c248bcffb</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПользовательскиеПоля.Поле2</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПользовательскиеПоля.Поле3</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ПериодФормированияОтчета</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Техника</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:outputParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+								<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+							</dcscor:item>
+						</dcsset:outputParameters>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

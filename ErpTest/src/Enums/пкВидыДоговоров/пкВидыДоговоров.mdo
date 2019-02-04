@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ef81ef3-3a88-4854-9e3c-95162ac43d56">
+  <producedTypes>
+    <refType typeId="1be1867b-4dfa-4b4e-968b-bf0391cbc29b" valueTypeId="924c4b4e-937e-4186-a45f-bcc0274a146f"/>
+    <listType typeId="040b838e-29ee-4b2e-8cda-a301ab1859b5" valueTypeId="fc2d4fd4-9653-4baa-ab7e-d21ad291647a"/>
+    <managerType typeId="83d52616-ca0a-4d46-8c9c-b341c6b7cb90" valueTypeId="6678f203-8a60-4132-b4ff-25d7a4e585a2"/>
+  </producedTypes>
+  <name>пкВидыДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a9e9840f-76a4-43ea-bfa7-7fb66f486fe6">
+    <name>АрендаТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда техники</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="87be5966-3274-4183-89c0-5e565f44f6b1">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2cb22c93-9916-4ce2-8529-0ddb9781bfd8">
+    <name>ПоставкаЗапчастей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка запчастей</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="93d1c9b2-aa80-40fb-a4df-78525e8d47c8">
+    <name>ПоставкаТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка техники</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5ad52569-12ce-4a4f-b312-8df144ff30bc">
+    <name>ТранспортноеОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное обслуживание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d5409c41-e74c-4e66-a18f-c7de5e8e58e1">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="176605b2-c8ae-4482-929d-5a4c48bdddc0">
+  <producedTypes>
+    <selectionType typeId="6b94f5c5-3a34-4bf8-96a1-158f7a5ff3bf" valueTypeId="5f642215-9abe-4cc9-aa85-9f4c623289bd"/>
+    <listType typeId="d79c098b-a6f9-4590-be91-807d2963426b" valueTypeId="82ea8cb4-f718-423d-b403-078c86af1593"/>
+    <managerType typeId="579624e6-c023-4dc8-881b-aee159ec405c" valueTypeId="02c15b39-578c-498a-bdee-be4d86a2b282"/>
+    <recordSetType typeId="0cbf4e7b-bd57-4671-ac51-f19b7fafe4ed" valueTypeId="53333524-f0a4-4c3d-9e25-4cda69c26bbf"/>
+    <recordKeyType typeId="4900c093-19cf-4d27-b08f-71ee21d7b95e" valueTypeId="0bebefc0-0df2-4a62-89f4-eae9cc9167fe"/>
+    <recordType typeId="ed2750d2-09ed-449c-b726-84aed559bfc6" valueTypeId="7d8de083-1d39-49cc-b079-9aff66d72439"/>
+    <recordManagerType typeId="9f3f1e0a-dd08-4e4a-8b53-22ea634e65c3" valueTypeId="7c7c598b-6ee7-4866-aa52-e5347e030196"/>
+  </producedTypes>
+  <name>пкДоступностьСпособовПогрузкиИРазгрузкиТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность способов погрузки и разгрузки техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.пкДоступностьСпособовПогрузкиИРазгрузкиТехники.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="22a3faf7-5713-4c2a-ba2b-2f53c4af2a94">
+    <name>Доступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6e60e1da-9067-4af7-97fe-e1bfd8b4e16a">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ТранспортныеСредства</types>
+      <types>CatalogRef.СМ_ОбъектыСтроительства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d241eac2-6ed5-4ba1-b4cf-10a2a10c931f">
+    <name>СпособПогрузкиРазгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ погрузки и разгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.пкСпособыПогрузкиРазгрузкиТехники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="acc3ea57-7bbd-4388-aab9-87eece4d50bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

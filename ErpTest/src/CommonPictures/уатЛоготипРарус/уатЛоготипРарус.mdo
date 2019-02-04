@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed6e4d2d-a783-4164-a53b-6b64fb9fc101">
+  <name>уатЛоготипРарус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип &quot;1С-Рарус&quot;</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>86</x>
+    <y>26</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

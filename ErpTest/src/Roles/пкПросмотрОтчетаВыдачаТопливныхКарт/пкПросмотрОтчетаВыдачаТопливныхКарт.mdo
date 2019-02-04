@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="154723fe-4d61-41b3-ac0c-ad625865a18f">
+  <name>пкПросмотрОтчетаВыдачаТопливныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета &quot;Выдача топливных карт&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

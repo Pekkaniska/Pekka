@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b3c05ee-d08c-4a3b-bd48-b34c7078036e">
+  <name>уатТерминалПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминал путевых листов</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.уатКартыДоступа</content>
+  <content>DataProcessor.уатТерминалПриемаИВыдачиПутевыхЛистов</content>
+  <content>InformationRegister.уатПараметрыАвторизацииТерминала</content>
+  <content>Enum.уатСтатусыКарт</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f215084-e871-48c9-9b75-caab746270a1">
+  <producedTypes>
+    <selectionType typeId="e3f1f17e-53c7-4e29-8d49-4605b3526a43" valueTypeId="609c60a1-1bb7-4313-9674-4f735b275d69"/>
+    <listType typeId="c33cc469-5012-41a5-b25c-a4a3d96c8681" valueTypeId="69290bb0-a3c5-42b3-a575-70686775075c"/>
+    <managerType typeId="94e2d24e-925b-4faf-9258-72587f14cc4f" valueTypeId="837cc66c-f643-4c76-a8c0-9b9387252f53"/>
+    <recordSetType typeId="ee7793d2-a51e-40d7-92f9-83f2a651b4ac" valueTypeId="e7885236-4afc-4d26-adb1-a02f64708404"/>
+    <recordKeyType typeId="cbe5cdc6-58c4-424a-b4bf-d2a93932cfed" valueTypeId="9a6af14e-95b3-4384-a943-2ddeb7d8d3d0"/>
+    <recordType typeId="b09cd4fa-6796-4a57-b2d8-64c929910ac4" valueTypeId="b9e3c6bc-d21c-458b-8bf4-ef08e8aba819"/>
+    <recordManagerType typeId="66ac993f-40e6-401a-a3d9-32d0ab7ef150" valueTypeId="4393f887-c2e3-4d90-971d-8cb3b92760d8"/>
+  </producedTypes>
+  <name>УдалитьСтатусОбменовСЯндексКассой</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Статус обменов с сервисом Яндекс.Касса</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="568cceab-cb38-4565-be7e-3636d756e1ec">
+    <name>ДатаПоследнегоУспешногоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего успешного обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последней успешной загрузки операций по Яндекс.Кассе. При загрузке операций эта дата выступает как дата начала выборки операций. После каждой успешной загрузки она обновляется датой ответа полученной с сервера Яндекса.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="5b37be5d-80cb-4d3f-9377-08dddd6a8d1f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>Реквизит необходим для обеспечения ограничения доступа</comment>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a63e6444-8bcf-4a7a-bd22-8882ed9c9f4d">
+    <name>НастройкаЯндексКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка Яндекс.Кассы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УдалитьНастройкиЯндексКассы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

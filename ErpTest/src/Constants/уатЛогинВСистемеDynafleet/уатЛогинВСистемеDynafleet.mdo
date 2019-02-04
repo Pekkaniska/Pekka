@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8ea1282-69e3-432f-84ee-6c85f016a5d1">
+  <producedTypes>
+    <managerType typeId="0e05bd21-33df-4347-8bb9-d92919f519d7" valueTypeId="63025d8d-5176-40fe-9617-8b16326fdd8b"/>
+    <valueManagerType typeId="6442954d-681f-424d-a408-ff249676f3ad" valueTypeId="950e7115-ff50-40b5-af14-ee829561a442"/>
+  </producedTypes>
+  <name>уатЛогинВСистемеDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин в системе dynafleet</value>
+  </synonym>
+  <comment>Логин в системе dynafleet (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Логин в системе dynafleet</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Логин в системе dynafleet</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Логин в системе dynafleet</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

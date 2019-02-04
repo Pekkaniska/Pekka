@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2b16f30-23d3-4bbe-8599-2cd34de04d91">
+  <producedTypes>
+    <objectType typeId="f876abcb-0d4d-4bbe-8613-8f326ae4a294" valueTypeId="8993220e-9099-4a72-9053-293579c9cea9"/>
+    <managerType typeId="9f6210e7-c25d-44f6-8a8c-a662437566ef" valueTypeId="c246f61c-f8a1-49d6-a478-4ff3cf9ef5b1"/>
+  </producedTypes>
+  <name>уатДокументыПоПЛИРазнарядкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по путевым листам и разнарядкам</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.уатДокументыПоПЛИРазнарядкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="3e30d598-aef2-4359-ab9c-57c5cb204860">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

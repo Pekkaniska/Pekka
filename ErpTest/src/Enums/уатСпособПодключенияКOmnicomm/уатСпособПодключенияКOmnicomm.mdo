@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15fa9979-10db-43c6-a623-c095d17bd93f">
+  <producedTypes>
+    <refType typeId="086d4d27-e191-459d-8403-231531fd26a5" valueTypeId="45c87211-6c17-42dc-a13f-7ebf00ef82ab"/>
+    <listType typeId="f5cdbd30-fbbe-4023-8b61-3b5cca1e8173" valueTypeId="24589d58-1e4e-4829-9e37-2a5c4922a3e4"/>
+    <managerType typeId="2839302e-be27-497f-9e42-1b8c0e26216f" valueTypeId="de103aa7-bb4d-4583-add8-932255a8dfeb"/>
+  </producedTypes>
+  <name>уатСпособПодключенияКOmnicomm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ подключения к omnicomm</value>
+  </synonym>
+  <comment>Способ подключения к omnicomm (уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способ подключения к omnicomm</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Способ подключения к omnicomm</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Способ подключения к omnicomm</value>
+  </explanation>
+  <enumValues uuid="e5311e21-c26e-4c45-8716-90be0c3ec318">
+    <name>СтандартноеПодключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартное подключение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="88a311e2-6e96-4583-9bee-14eb68fbe551">
+    <name>PIPEПодключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>PIPE-подключение</value>
+    </synonym>
+    <comment>Подключение через PIPE</comment>
+  </enumValues>
+  <enumValues uuid="5d05c7a6-13f6-4e7c-ad3a-6c0c0073516d">
+    <name>DSNПодключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>DSN-подключение</value>
+    </synonym>
+    <comment>Подключение через DSN</comment>
+  </enumValues>
+</mdclass:Enum>

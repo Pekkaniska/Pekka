@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="463155a7-665b-4f02-8d8f-5f783e3cd60e">
+  <producedTypes>
+    <objectType typeId="4262e965-b473-480f-973e-1a9b0466ed49" valueTypeId="ca2eb514-f235-48a6-88a5-9f05b97ef149"/>
+    <managerType typeId="e2704b69-7e93-45aa-8598-f63e7899bf3b" valueTypeId="e357a36f-4661-469e-a787-0567ce6bbf77"/>
+  </producedTypes>
+  <name>уатДиаграммаСостояниеТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма состояния ТС</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <defaultForm>Report.уатДиаграммаСостояниеТС.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="f7ab02c7-147d-4ee6-b4d8-bac1dfdeb077">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохраненные настройки, используются для сохранения между сеансами запуска программы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aea3d09d-d444-4a40-8ea6-540e5d55ed20">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фильтр по организации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="44b244df-91c2-4fc9-b940-902e52998460">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63f8d13e-0f51-4662-b3cb-07b362b1fad5">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="18dd1507-7e01-4906-aa26-9295b45e0030">
+    <name>ДляОтборы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для отборы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для отборы.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="adb010ef-1b76-4d40-9dfa-7cbaf229f32f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="44a93c70-8d83-406b-8509-5bec8948644f">
+    <name>ДиаграммаГанта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма Ганта</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="bde718b6-e095-42fe-af46-da5324ee3914">
+    <name>ИсточникНастроекОтбораКомпоновщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник настроек отбора компоновщика</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

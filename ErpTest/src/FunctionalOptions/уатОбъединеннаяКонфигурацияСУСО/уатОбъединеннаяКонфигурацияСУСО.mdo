@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a6de15-0176-4da0-b62a-dae46918f244">
+  <name>уатОбъединеннаяКонфигурацияСУСО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединенная конфигурация с УСО</value>
+  </synonym>
+  <comment>Предназначена для скрытия некоторых объектов в чистом УАТ (но они видны в УАТ+УСО)</comment>
+  <location>Constant.уатОбъединеннаяКонфигурацияСУСО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.рар_СтроительныеРаботы</content>
+  <content>Document.уатПутевойЛист.TabularSection.Задание.Attribute.СтроительнаяРабота</content>
+  <content>Catalog.рар_СценарииПланированияПроектовСтроительства</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.РаботаТехникиНаОбъектеСтроительства</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.ОбъектСтроительства</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.СтроительнаяРабота</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.СценарийПланированияСтроительства</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.ОбъемСтроительнойРаботы</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.ЕдиницаИзмеренияСтроительнойРаботы</content>
+  <content>Document.уатПутевойЛист.TabularSection.ВыработкаСотрудников.Attribute.СтроительнаяРабота</content>
+  <content>Document.уатПутевойЛист.TabularSection.ВыработкаСотрудников.Attribute.СценарийПланирования</content>
+  <content>Document.уатПутевойЛист.TabularSection.Задание.Attribute.СценарийПланирования</content>
+  <content>Document.уатПутевойЛист.TabularSection.ВыработкаТС.Attribute.СтроительнаяРабота</content>
+  <content>Document.уатПутевойЛист.TabularSection.ВыработкаТС.Attribute.СценарийПланирования</content>
+  <content>AccumulationRegister.уатВыработкаТС.Dimension.СтроительнаяРабота</content>
+  <content>AccumulationRegister.уатВыработкаТС.Dimension.СценарийПланирования</content>
+  <content>AccumulationRegister.уатВыработкаСотрудников.Dimension.СтроительнаяРабота</content>
+  <content>AccumulationRegister.уатВыработкаСотрудников.Dimension.СценарийПланирования</content>
+  <content>Catalog.СМ_ОбъектыСтроительства.Attribute.НоменклатураРаботЗаказчика</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.ГрафикСтроительнойРаботы</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.НачалоСтроительнойРаботы</content>
+  <content>Document.уатЗаказГрузоотправителя.Attribute.ОкончаниеСтроительнойРаботы</content>
+</mdclass:FunctionalOption>

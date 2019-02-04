@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7890bc58-feb9-45fe-bc60-449e5b546f61">
+  <producedTypes>
+    <objectType typeId="e79a337c-93a5-4aa8-8c6c-1440298f7529" valueTypeId="8c742294-312d-48a7-ba93-66b67de5dab0"/>
+    <refType typeId="ce166cd7-3d58-4bac-933c-0975577c1967" valueTypeId="e7a68ff5-eadc-4b1f-b28c-0527a86e874f"/>
+    <selectionType typeId="ffbc8ec0-3911-43f6-812b-250dab0dbe04" valueTypeId="397b7579-2892-4ee2-aaf5-eb20e595120a"/>
+    <listType typeId="47df30c8-5737-4dd6-9443-467440496c31" valueTypeId="6db9d203-e5fd-4592-a90e-e8894673a1ad"/>
+    <managerType typeId="b38d4783-50ec-498d-8987-b9edd5c74a69" valueTypeId="693a942e-1cc1-482f-9076-c013f9455d7b"/>
+    <containerType typeId="4b06d8ef-3477-481c-aad4-83844436283f" valueTypeId="881da3ac-6be8-402d-9014-ac0802702635"/>
+  </producedTypes>
+  <name>пкДополнительныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные настройки pekkaniska</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.пкДополнительныеНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.пкДополнительныеНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="687dda71-81b2-4f86-bdf1-d1e004aaed8a">
+      <name>НастройкиПечатиДоговоры</name>
+      <description>Настройки печати договоры</description>
+      <isFolder>true</isFolder>
+      <code>000000001</code>
+      <type/>
+      <content id="6f6049aa-1d96-4aa6-a8c7-d31bb10d7a14">
+        <name>ВыездНаРемонт</name>
+        <description>Выезд на ремонт</description>
+        <code>000000005</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="0cd79260-7576-46b8-a1a1-00e69c5a9631">
+        <name>ОжиданиеСпециалиста</name>
+        <description>Ожидание специалиста</description>
+        <code>000000007</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="7c3bf261-5a6e-4d7a-86f9-51ec0abba122">
+        <name>ОчисткаОборудования</name>
+        <description>Очистка оборудования</description>
+        <code>000000006</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="96e3e4bc-4295-4e5b-a5a8-9daea262fac9">
+        <name>РаботаСпециалистаВыходныеПразники</name>
+        <description>Работа спец в выходные</description>
+        <code>000000004</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="10be46d6-7015-47b0-8b00-bfe6ca3cc1ab">
+        <name>РаботаСпециалистаВПериодС17До8</name>
+        <description>Работа специалиста 17-8</description>
+        <code>000000003</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="0eba1ebf-5361-4de6-aa1a-cfa19d508292">
+        <name>РаботаСпециалистаВПериодС8До17</name>
+        <description>Работа специалиста 8-17</description>
+        <code>000000002</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

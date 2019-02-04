@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18c4befa-834c-48db-a21d-02a5aa9f9563">
+  <producedTypes>
+    <managerType typeId="04ce5de3-cee0-4dcd-81d8-41a213670787" valueTypeId="bd75d968-7deb-47c1-8d07-6eef8e7afcf0"/>
+    <valueManagerType typeId="ca5cb1d2-4953-4f7f-ba78-f2601231c0be" valueTypeId="40c1baf3-1257-4c4a-8cec-2ba6ae72ab04"/>
+  </producedTypes>
+  <name>пкГлубинаКонтроляДанныхИзДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глубина контроля данных из ДО (в днях)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

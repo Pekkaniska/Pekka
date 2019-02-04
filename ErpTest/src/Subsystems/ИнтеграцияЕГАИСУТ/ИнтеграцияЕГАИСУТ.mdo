@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae467b85-19b9-43fd-835e-1252da2334c7">
+  <name>ИнтеграцияЕГАИСУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГАИСУТ</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ИнтеграцияЕГАИСУТ</content>
+  <content>DataProcessor.СопоставлениеКлассификаторовЕГАИС</content>
+  <content>CommonModule.ИнтеграцияЕГАИСВызовСервераУТ</content>
+  <content>Report.АнализРасхожденийПриПоступленииАлкогольнойПродукции</content>
+  <content>Constant.ДатаНачалаРегистрацииЗакупокПоЕГАИС</content>
+  <content>Constant.РазрешатьПродажуАлкогольнойПродукцииБезСопоставленияЕГАИС</content>
+  <content>CommonModule.ИнтеграцияИСВызовСервераУТ</content>
+  <content>CommonModule.ИнтеграцияИСКлиентСерверУТ</content>
+  <content>CommonModule.ИнтеграцияИСКлиентУТ</content>
+  <content>CommonModule.ИнтеграцияИСУТ</content>
+  <content>20c33576-1199-40bd-aca1-3c2e84b9275c</content>
+</mdclass:Subsystem>

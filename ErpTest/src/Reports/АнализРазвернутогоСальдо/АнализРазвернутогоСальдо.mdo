@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fde9f0e7-879e-4a0c-9373-ea20cb76cd19">
+  <producedTypes>
+    <objectType typeId="c737a082-f6dd-467c-b31c-b298f74c7237" valueTypeId="618a5c17-f6b4-4790-a2dc-ad445a6e889d"/>
+    <managerType typeId="37ce1ae9-ba7d-4b8a-a340-a0a1656f760a" valueTypeId="485be8de-9d37-4bcb-931b-3d5955fc95a1"/>
+  </producedTypes>
+  <name>АнализРазвернутогоСальдо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ развернутого сальдо</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализРазвернутогоСальдо.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="767d8c77-e89d-415c-9e22-8723f8273afd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

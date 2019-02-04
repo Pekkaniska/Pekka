@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84ffb7ef-8216-45a1-b6ca-a66339e56005">
+  <name>ItobCsmSvcSetup</name>
+  <synonym>
+    <key>ru</key>
+    <value>CsmSvc Setup</value>
+  </synonym>
+  <comment>Инсталлятор службы CsmSvc</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

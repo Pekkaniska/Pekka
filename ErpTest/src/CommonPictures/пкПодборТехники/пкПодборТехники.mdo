@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bacb52a8-382e-4d84-a12b-3176df0de305">
+  <name>пкПодборТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор техники</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

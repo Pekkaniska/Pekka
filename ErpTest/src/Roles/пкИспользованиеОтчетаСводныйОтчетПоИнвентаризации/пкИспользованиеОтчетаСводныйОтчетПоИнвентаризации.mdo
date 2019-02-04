@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a5f809a-6bcb-4dd8-8d99-6413fa1207c0">
+  <name>пкИспользованиеОтчетаСводныйОтчетПоИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета &quot;Сводный отчет по инвентаризации&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

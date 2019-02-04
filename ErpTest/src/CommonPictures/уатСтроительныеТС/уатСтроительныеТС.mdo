@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c2634a2-302a-4274-bcdd-832cb5687513">
+  <name>уатСтроительныеТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строительные ТС (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>3</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

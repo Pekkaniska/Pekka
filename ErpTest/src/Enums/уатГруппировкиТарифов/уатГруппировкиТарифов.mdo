@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="749e5c0f-7791-4bb0-a35f-571f81b91465">
+  <producedTypes>
+    <refType typeId="2c358cf4-7247-4ad3-a517-f768c7dd2612" valueTypeId="8b3e036c-3c19-4596-b9db-38c2dd96f8bd"/>
+    <listType typeId="fd820318-aa6d-4554-9496-6a484d43fbcd" valueTypeId="e844c6e0-e6c2-4b2e-8c87-1f6e5d7c081b"/>
+    <managerType typeId="7532cc86-0a76-4ac4-bb82-1f3fc204d0ee" valueTypeId="8bce28c9-74ef-4e40-b3db-14d086078432"/>
+  </producedTypes>
+  <name>уатГруппировкиТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группировки тарифов</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b649a0d8-ea8a-4073-8e1f-ce178741a276">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пробег с грузом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cac1fe8d-15d0-47af-8063-a5690a75df89">
+    <name>ВремяРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы работы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9a4065a-9528-43ac-b843-e8c442755674">
+    <name>Грузоподъемность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузоподъемность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8f8599a9-506d-4bec-a737-aaf05c9cdd34">
+    <name>КлассГруза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс груза</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

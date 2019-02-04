@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97ebe736-6e8a-41cf-9933-70c90a382036">
+  <name>пкОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк обработка проверки заполнения</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

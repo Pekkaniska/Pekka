@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="138e10cb-e7f7-4720-9dee-897a1faf21d3">
+  <name>уатСостояниеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние документа (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>40</x>
+    <y>6</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

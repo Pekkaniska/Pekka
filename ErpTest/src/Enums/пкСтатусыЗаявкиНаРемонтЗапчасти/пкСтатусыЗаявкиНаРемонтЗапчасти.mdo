@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1275fbee-9573-44e8-80ec-44db72ca4bfc">
+  <producedTypes>
+    <refType typeId="1b8fb6df-5a6a-4224-b610-41c22a5efaa3" valueTypeId="e679eb36-04c8-4d9c-b401-1ba006b1e7fd"/>
+    <listType typeId="e85c050c-07cc-4a8e-b745-5dce245c1cbb" valueTypeId="b9c77e41-5b12-45a4-a48a-ba5b0feec847"/>
+    <managerType typeId="1e54068f-f01a-4da0-96be-0701b5f4f34d" valueTypeId="68917e68-6f88-4987-b412-1203e41eb507"/>
+  </producedTypes>
+  <name>пкСтатусыЗаявкиНаРемонтЗапчасти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявки на ремонт запчасти (пк)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f331229b-c797-4677-bd58-1e548cc85b58">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="20e9388c-ee8d-4d33-89ac-865ccfa8bc73">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c8b92d41-12a3-4549-ba3f-31575cd684dc">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="33d6fc49-9013-4aa8-8933-3cdd17596693">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

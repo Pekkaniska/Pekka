@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d403566-26a2-4214-8bd2-eebf7a0d66bf">
+  <producedTypes>
+    <objectType typeId="39d96706-b7b0-45e1-b7b9-f6dce6692264" valueTypeId="41a59b55-d219-48e8-bcd3-2794acf1ae9a"/>
+    <managerType typeId="b23dcd8c-c79f-42f9-8e2b-4832f25c0914" valueTypeId="8ddc14e6-7287-4ee8-98d8-9361be420532"/>
+  </producedTypes>
+  <name>пкПечатьЗаказНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные формы документа Заказ-Наряд</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <templates uuid="8e25dbb3-329b-4d6e-a522-48e807b37598">
+    <name>пкАктРемонтаИТехобслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт ремонта и техобслуживания</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="8436f7a5-8b2b-4e23-a226-d06add7e4f80">
+    <name>пкАктТехническогоОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт технического обслуживания</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="531d157e-c5e7-470d-997f-edc8ea440610">
+    <name>пкБланкПроведенияТехОсвидетельствования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бланк проведения полного/частичного технического освидетельствования</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f957eaff-8af0-4283-8cef-dd84c13c1b18">
+    <name>пкПредварительнаяКалькуляция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительная калькуляция</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d7adaf0f-ef12-4d75-b0b0-5c7dcc8055ea">
+    <name>пкКалькуляция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькуляция</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="20bcdba3-3387-4837-a7ba-f279b5e36ad5">
+    <name>пкКалькуляцияПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькуляция</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

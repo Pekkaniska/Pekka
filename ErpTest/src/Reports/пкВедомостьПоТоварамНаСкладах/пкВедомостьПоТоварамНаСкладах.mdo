@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bf89941-645f-4880-a3d3-82d5e62a8d0f">
+  <producedTypes>
+    <objectType typeId="4d4a321c-e021-4b77-8ec4-0b63a257400e" valueTypeId="f5302111-5f9f-4333-9889-e21aaedcf7af"/>
+    <managerType typeId="ba222d00-118e-49d2-b8a9-8973115a2c65" valueTypeId="564f6faa-2d09-4dd6-863d-d80c894fb9e6"/>
+  </producedTypes>
+  <name>пкВедомостьПоТоварамНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по товарам на складах (пк)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкВедомостьПоТоварамНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7f4cd6c6-4a20-478d-b1af-42d8abd983cb">
+    <name>ФормаНастроекДляСправочникаНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек для справочника номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="185647be-2c36-45ba-8979-174a13c037a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

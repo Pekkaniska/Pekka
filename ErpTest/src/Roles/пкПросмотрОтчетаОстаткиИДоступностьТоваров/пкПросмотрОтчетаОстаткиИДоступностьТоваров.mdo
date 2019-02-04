@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08bfeffa-adef-4b09-ad00-c7b3e982d858">
+  <name>пкПросмотрОтчетаОстаткиИДоступностьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета &quot;Остатки и доступность товаров&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

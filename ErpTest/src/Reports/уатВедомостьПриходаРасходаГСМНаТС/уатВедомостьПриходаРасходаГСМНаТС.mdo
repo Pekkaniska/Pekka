@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c4847f3-29fc-4994-8c72-dd412e6c2473">
+  <producedTypes>
+    <objectType typeId="503ae3d7-41fc-4899-9da5-df90406846b7" valueTypeId="493154a7-1122-4f10-9969-fcf446488e30"/>
+    <managerType typeId="22528910-6c88-4e78-a222-7f9abaab62ad" valueTypeId="c7a7c366-c6fd-438f-b1bc-f9144f586386"/>
+  </producedTypes>
+  <name>уатВедомостьПриходаРасходаГСМНаТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость прихода-расхода ГСМ и ТЖ на ТС</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.уатВедомостьПриходаРасходаГСМНаТС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="98c54b22-d110-4edb-b9d2-ed00650b34e1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

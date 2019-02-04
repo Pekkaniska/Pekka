@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a89c27f9-533f-42fb-970b-625843d24afa">
+  <name>пкУстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы и организации номеру документа</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.пкНачисленияПоВекселям</types>
+    <types>DocumentObject.пкЗаданиеНаРемонт</types>
+    <types>DocumentObject.пкКоммерческоеПредложениеНаАрендуТехники</types>
+    <types>DocumentObject.пкДоставка</types>
+    <types>DocumentObject.пкЗаявкаНаАрендуТехники</types>
+    <types>DocumentObject.пкЗаказНаряд</types>
+    <types>DocumentObject.пкВнутренняяПередачаДенежныхДокументов</types>
+    <types>DocumentObject.пкПретензия</types>
+    <types>DocumentObject.пкВыдачаТопливныхКарт</types>
+    <types>DocumentObject.пкЗаявкаНаВыездМеханика</types>
+    <types>DocumentObject.пкЗаявкаНаРемонтУДилера</types>
+    <types>DocumentObject.пкИнвентаризацияРасчетовСКонтрагентами</types>
+    <types>DocumentObject.пкПризнаниеВНУЛизинговыхПлатежей</types>
+    <types>DocumentObject.пкСудебныйИск</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазыИОрганизации</handler>
+</mdclass:EventSubscription>

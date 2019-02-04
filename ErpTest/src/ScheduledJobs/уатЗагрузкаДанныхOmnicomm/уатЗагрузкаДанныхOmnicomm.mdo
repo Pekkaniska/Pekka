@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="245775f9-afe2-4c7d-af8b-855411206652">
+  <name>уатЗагрузкаДанныхOmnicomm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных omnicomm</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <methodName>CommonModule.уатОбщегоНазначения_проф.ЗагрузкаДанныхOmnicomm</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

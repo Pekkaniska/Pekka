@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d40b198-79f4-4243-bb28-f1a70d57c852">
+  <producedTypes>
+    <selectionType typeId="2a181798-1372-4947-90d4-da15cb163e31" valueTypeId="3c0efe02-0033-4598-8a19-8f48f4c8fdee"/>
+    <listType typeId="6d0c89e9-f971-427a-bd7b-551da5cb2ca7" valueTypeId="8076d1a3-f0c9-4154-9d76-dcb63d4606c6"/>
+    <managerType typeId="f1eec7b6-0f6f-46d4-91e9-de57405aa319" valueTypeId="3dd8b0f7-2584-4392-a7e5-ddb894a3f259"/>
+    <recordSetType typeId="67fa5b3c-a14f-4277-acbe-d298a22cbb54" valueTypeId="71571e3a-8b13-485e-b3f3-d375f645b886"/>
+    <recordKeyType typeId="233e7f0a-4dbd-4528-92e2-bec51fb01442" valueTypeId="b233213e-30c9-42af-993f-38f153d12433"/>
+    <recordType typeId="8e8d0114-c342-4471-a6ce-b6dea431c713" valueTypeId="f270c153-2d36-425c-b764-7284d14b225e"/>
+    <recordManagerType typeId="24fbefb9-d2d5-4a03-a6c0-3a591d979d88" valueTypeId="53bd2d68-d01a-4856-8a6e-176d4dff3eeb"/>
+  </producedTypes>
+  <name>пкАналогиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги номенклатуры (пк)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c7511a1d-57fb-4df7-8bdf-d6528aaf0a19">
+    <name>ГруппаАналогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа аналогов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="9832c7a6-9dfe-4ee6-83f1-dbd672b804e8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64c290db-30b5-4068-874a-9613ef634e27">
+    <name>УдалитьАналог</name>
+    <synonym>
+      <key>ru</key>
+      <value>УдалитьАналог</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

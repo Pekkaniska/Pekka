@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3e71014-cdef-4e53-ac0c-35c9e7f42613">
+  <name>пкУстановкаНовогоНомераАвнсовогоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк установка нового номера авнсового отчета</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.АвансовыйОтчет</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкУстановкаНовогоНомераАвнсовогоОтчетаПередЗаписью</handler>
+</mdclass:EventSubscription>

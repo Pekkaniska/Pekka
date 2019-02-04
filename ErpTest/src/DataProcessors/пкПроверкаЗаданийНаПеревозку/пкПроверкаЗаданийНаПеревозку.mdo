@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fd327ed-1279-4fe0-a518-7a47fa0a394c">
+  <producedTypes>
+    <objectType typeId="e4ab56b1-2bfe-4b1a-a992-38762ba743e5" valueTypeId="f4f2da19-e46a-4196-98fe-7dc47a234e21"/>
+    <managerType typeId="593c61a5-57ac-40f7-806b-78e495147cd1" valueTypeId="b10d6be5-90da-4a6f-8eb8-0d110f44a4b3"/>
+  </producedTypes>
+  <name>пкПроверкаЗаданийНаПеревозку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка заданий на перевозку</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкПроверкаЗаданийНаПеревозку.Form.Форма</defaultForm>
+  <forms uuid="f22c95dc-70b6-44df-99c1-147bb1ac4ec7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

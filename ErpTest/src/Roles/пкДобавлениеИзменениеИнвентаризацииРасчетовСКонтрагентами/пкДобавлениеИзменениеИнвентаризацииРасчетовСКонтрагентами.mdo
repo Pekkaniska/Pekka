@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d37cf1e1-e326-44ce-8224-96d2d5038779">
+  <name>пкДобавлениеИзменениеИнвентаризацииРасчетовСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Инвентаризации расчетов с контрагентами</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

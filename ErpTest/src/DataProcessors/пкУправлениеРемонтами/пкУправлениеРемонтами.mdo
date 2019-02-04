@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="410e7176-52ee-4ec5-8853-248b7075e03e">
+  <producedTypes>
+    <objectType typeId="106984ed-bd93-4ce2-8d8b-01922526aaff" valueTypeId="c7535e46-1b5f-4df6-94ec-31696a022911"/>
+    <managerType typeId="b57d3b1f-54d7-48ea-b800-9d9b95389ead" valueTypeId="fd8ceca7-02ed-4ee0-abb1-f695206abfba"/>
+  </producedTypes>
+  <name>пкУправлениеРемонтами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ремонтами</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкУправлениеРемонтами.Form.Форма</defaultForm>
+  <forms uuid="7884197a-b310-44fa-923e-8ebd1447c593">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

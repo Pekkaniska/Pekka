@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="413c49a4-623e-4ec6-ba3f-d6b8a9faac85">
+  <name>уатICOИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>ICO Информация (уат)</value>
+  </synonym>
+  <comment>ICO Информация (уат)</comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,2382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>Объединение</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кондуктор</dataPath>
+			<field>Кондуктор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопроводительное лицо 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Груз1</dataPath>
+			<field>Груз1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Груз 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяПрибытия</dataPath>
+			<field>ВремяПрибытия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время прибытия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение2</dataPath>
+			<field>Подразделение2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Прицеп1</dataPath>
+			<field>Прицеп1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прицеп 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяПрибытия2</dataPath>
+			<field>ВремяПрибытия2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время прибытия 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяУбытия2</dataPath>
+			<field>ВремяУбытия2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время убытия 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РежимРаботыТС</dataPath>
+			<field>РежимРаботыТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим работы ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель2</dataPath>
+			<field>Водитель2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Водитель 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кондуктор2</dataPath>
+			<field>Кондуктор2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопроводительное лицо 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТС</dataPath>
+			<field>ТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГарНомер</dataPath>
+			<field>ГарНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гаражный номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресПрибытия2</dataPath>
+			<field>АдресПрибытия2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес прибытия 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент2</dataPath>
+			<field>Контрагент2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПЛЗакрыт</dataPath>
+			<field>ПЛЗакрыт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ПЛ закрыт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяУбытия</dataPath>
+			<field>ВремяУбытия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время убытия 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресПрибытия</dataPath>
+			<field>АдресПрибытия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес прибытия 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресУбытия2</dataPath>
+			<field>АдресУбытия2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес убытия 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Груз2</dataPath>
+			<field>Груз2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Груз2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Прицеп2</dataPath>
+			<field>Прицеп2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прицеп 2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВозвращения</dataPath>
+			<field>ДатаВозвращения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата возвращения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель</dataPath>
+			<field>Водитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Водитель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыезда</dataPath>
+			<field>ДатаВыезда</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата выезда</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресУбытия1</dataPath>
+			<field>АдресУбытия1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес убытия 1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГосНомер</dataPath>
+			<field>ГосНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гос. номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаршрутныйЛист</dataPath>
+			<field>МаршрутныйЛист</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрутный лист</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказГрузоотправителя</dataPath>
+			<field>ЗаказГрузоотправителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорКонтрагента</dataPath>
+			<field>ДоговорКонтрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПЛ</dataPath>
+			<field>ПЛ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путевой лист</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаТС</dataPath>
+			<field>ЗаказНаТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресУбытия</dataPath>
+			<field>АдресУбытия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТранспортноеСредство</dataPath>
+			<field>ТранспортноеСредство</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОснованиеПЛ</dataPath>
+			<field>ОснованиеПЛ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основание ПЛ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПутевойЛист</dataPath>
+			<field>ПутевойЛист</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путевой лист</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут1</dataPath>
+			<field>Маршрут1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут2</dataPath>
+			<field>Маршрут2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут</dataPath>
+			<field>Маршрут</field>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанныхРазнарядки</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор</dataPath>
+				<field>Кондуктор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз1</dataPath>
+				<field>Груз1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия</dataPath>
+				<field>ВремяПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение2</dataPath>
+				<field>Подразделение2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп1</dataPath>
+				<field>Прицеп1</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия2</dataPath>
+				<field>ВремяПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия2</dataPath>
+				<field>ВремяУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РежимРаботыТС</dataPath>
+				<field>РежимРаботыТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Режим работы ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель2</dataPath>
+				<field>Водитель2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор2</dataPath>
+				<field>Кондуктор2</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГарНомер</dataPath>
+				<field>ГарНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гар номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия2</dataPath>
+				<field>АдресПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент2</dataPath>
+				<field>Контрагент2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛЗакрыт</dataPath>
+				<field>ПЛЗакрыт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛЗакрыт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия</dataPath>
+				<field>ВремяУбытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия</dataPath>
+				<field>АдресПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия2</dataPath>
+				<field>АдресУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз2</dataPath>
+				<field>Груз2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп2</dataPath>
+				<field>Прицеп2</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВозвращения</dataPath>
+				<field>ДатаВозвращения</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дата возвращения</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель</dataPath>
+				<field>Водитель</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыезда</dataPath>
+				<field>ДатаВыезда</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дата выезда</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия1</dataPath>
+				<field>АдресУбытия1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГосНомер</dataPath>
+				<field>ГосНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гос номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаршрутныйЛист</dataPath>
+				<field>МаршрутныйЛист</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрутный лист</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛ</dataPath>
+				<field>ПЛ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛ</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказНаТС</dataPath>
+				<field>ЗаказНаТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заказ на ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия</dataPath>
+				<field>АдресУбытия</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут1</dataPath>
+				<field>Маршрут1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут2</dataPath>
+				<field>Маршрут2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут</dataPath>
+				<field>Маршрут</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	уатТС.Ссылка КАК ТС,
+	уатТС.уатГаражныйНомер КАК ГарНомер,
+	уатТС.Код КАК ГосНомер,
+	NULL КАК ЗаказНаТС,
+	NULL КАК МаршрутныйЛист,
+	ВЫБОР
+		КОГДА НЕ ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА ПутевойЛист.ПЛ
+	КОНЕЦ КАК ПЛ,
+	ВЫБОР
+		КОГДА НЕ ПутевойЛист.ПЛ ЕСТЬ NULL 
+				И ПутевойЛист.ПЛ.Рассчитан
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПЛЗакрыт,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Водитель
+		ИНАЧЕ ПутевойЛист.Водитель
+	КОНЕЦ КАК Водитель,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Водитель2
+		ИНАЧЕ ПутевойЛист.Водитель2
+	КОНЕЦ КАК Водитель2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ДатаВыезда
+		ИНАЧЕ ПутевойЛист.ДатаВыезда
+	КОНЕЦ КАК ДатаВыезда,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ДатаВозвращения
+		ИНАЧЕ ПутевойЛист.ДатаВозвращения
+	КОНЕЦ КАК ДатаВозвращения,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.РежимРаботыТС
+		ИНАЧЕ ПутевойЛист.РежимРаботыТС
+	КОНЕЦ КАК РежимРаботыТС,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Контрагент
+		ИНАЧЕ ПутевойЛист.Контрагент
+	КОНЕЦ КАК Контрагент,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Подразделение
+		ИНАЧЕ ПутевойЛист.Подразделение
+	КОНЕЦ КАК Подразделение,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Маршрут1
+		ИНАЧЕ ПутевойЛист.Маршрут1
+	КОНЕЦ КАК Маршрут1,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.АдресПрибытия
+		ИНАЧЕ ПутевойЛист.АдресПрибытия
+	КОНЕЦ КАК АдресПрибытия,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ВремяПрибытия
+		ИНАЧЕ ПутевойЛист.ВремяПрибытия
+	КОНЕЦ КАК ВремяПрибытия,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ВремяУбытия
+		ИНАЧЕ ПутевойЛист.ВремяУбытия
+	КОНЕЦ КАК ВремяУбытия,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Контрагент2
+		ИНАЧЕ ПутевойЛист.Контрагент2
+	КОНЕЦ КАК Контрагент2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Подразделение2
+		ИНАЧЕ ПутевойЛист.Подразделение2
+	КОНЕЦ КАК Подразделение2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Маршрут2
+		ИНАЧЕ ПутевойЛист.Маршрут2
+	КОНЕЦ КАК Маршрут2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.АдресПрибытия2
+		ИНАЧЕ ПутевойЛист.АдресПрибытия2
+	КОНЕЦ КАК АдресПрибытия2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ВремяПрибытия2
+		ИНАЧЕ ПутевойЛист.ВремяПрибытия2
+	КОНЕЦ КАК ВремяПрибытия2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.ВремяУбытия2
+		ИНАЧЕ ПутевойЛист.ВремяУбытия2
+	КОНЕЦ КАК ВремяУбытия2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Груз1
+		ИНАЧЕ ПутевойЛист.Груз1
+	КОНЕЦ КАК Груз1,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.Груз2
+		ИНАЧЕ ПутевойЛист.Груз2
+	КОНЕЦ КАК Груз2,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.АдресУбытия1
+		ИНАЧЕ ПутевойЛист.АдресУбытия1
+	КОНЕЦ КАК АдресУбытия1,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатРазнарядкаРазнарядка.АдресУбытия2
+		ИНАЧЕ ПутевойЛист.АдресУбытия2
+	КОНЕЦ КАК АдресУбытия2,
+	уатРазнарядкаРазнарядка.Прицеп1,
+	уатРазнарядкаРазнарядка.Прицеп2,
+	уатРазнарядкаРазнарядка.Кондуктор,
+	уатРазнарядкаРазнарядка.Кондуктор2
+ИЗ
+	Справочник.ТранспортныеСредства КАК уатТС
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.уатРазнарядка.Разнарядка КАК уатРазнарядкаРазнарядка
+		ПО (уатРазнарядкаРазнарядка.ТС = уатТС.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			уатПутевойЛист.Ссылка КАК ПЛ,
+			уатПутевойЛист.Водитель1 КАК Водитель,
+			уатПутевойЛист.Водитель2 КАК Водитель2,
+			уатПутевойЛист.ДатаВыезда КАК ДатаВыезда,
+			уатПутевойЛист.ДатаВозвращения КАК ДатаВозвращения,
+			уатПутевойЛист.ТранспортноеСредство КАК ТС,
+			уатПутевойЛист.РежимРаботыТС КАК РежимРаботыТС,
+			ПерваяСтрока.Контрагент КАК Контрагент,
+			ПерваяСтрока.Подразделение КАК Подразделение,
+			ПерваяСтрока.Маршрут КАК Маршрут1,
+			ПерваяСтрока.АдресПрибытия КАК АдресПрибытия,
+			ПерваяСтрока.ВремяПрибытия КАК ВремяПрибытия,
+			ПерваяСтрока.ВремяУбытия КАК ВремяУбытия,
+			ПерваяСтрока.Номенклатура КАК Груз1,
+			ПерваяСтрока.АдресУбытия КАК АдресУбытия1,
+			ВтораяСтрока.Контрагент КАК Контрагент2,
+			ВтораяСтрока.Подразделение КАК Подразделение2,
+			ВтораяСтрока.Маршрут КАК Маршрут2,
+			ВтораяСтрока.АдресПрибытия КАК АдресПрибытия2,
+			ВтораяСтрока.ВремяПрибытия КАК ВремяПрибытия2,
+			ВтораяСтрока.ВремяУбытия КАК ВремяУбытия2,
+			ВтораяСтрока.Номенклатура КАК Груз2,
+			ВтораяСтрока.АдресУбытия КАК АдресУбытия2
+		ИЗ
+			Документ.уатПутевойЛист КАК уатПутевойЛист
+				ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					уатПутевойЛистЗадание.Контрагент КАК Контрагент,
+					уатПутевойЛистЗадание.Подразделение КАК Подразделение,
+					уатПутевойЛистЗадание.Маршрут КАК Маршрут,
+					уатПутевойЛистЗадание.АдресПрибытия КАК АдресПрибытия,
+					уатПутевойЛистЗадание.АдресУбытия КАК АдресУбытия,
+					уатПутевойЛистЗадание.ВремяПрибытия КАК ВремяПрибытия,
+					уатПутевойЛистЗадание.ВремяУбытия КАК ВремяУбытия,
+					уатПутевойЛистЗадание.Номенклатура КАК Номенклатура,
+					уатПутевойЛистЗадание.Ссылка КАК Ссылка
+				ИЗ
+					Документ.уатПутевойЛист.Задание КАК уатПутевойЛистЗадание
+				ГДЕ
+					уатПутевойЛистЗадание.Ссылка.ПометкаУдаления = ЛОЖЬ
+					И уатПутевойЛистЗадание.Ссылка.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+					И уатПутевойЛистЗадание.Ссылка.Организация = &amp;Организация
+					И уатПутевойЛистЗадание.НомерСтроки = 1) КАК ПерваяСтрока
+				ПО уатПутевойЛист.Ссылка = ПерваяСтрока.Ссылка
+				ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					уатПутевойЛистЗадание.Контрагент КАК Контрагент,
+					уатПутевойЛистЗадание.Подразделение КАК Подразделение,
+					уатПутевойЛистЗадание.Маршрут КАК Маршрут,
+					уатПутевойЛистЗадание.АдресПрибытия КАК АдресПрибытия,
+					уатПутевойЛистЗадание.АдресУбытия КАК АдресУбытия,
+					уатПутевойЛистЗадание.ВремяПрибытия КАК ВремяПрибытия,
+					уатПутевойЛистЗадание.ВремяУбытия КАК ВремяУбытия,
+					уатПутевойЛистЗадание.Номенклатура КАК Номенклатура,
+					уатПутевойЛистЗадание.Ссылка КАК Ссылка
+				ИЗ
+					Документ.уатПутевойЛист.Задание КАК уатПутевойЛистЗадание
+				ГДЕ
+					уатПутевойЛистЗадание.Ссылка.ПометкаУдаления = ЛОЖЬ
+					И уатПутевойЛистЗадание.Ссылка.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+					И уатПутевойЛистЗадание.Ссылка.Организация = &amp;Организация
+					И уатПутевойЛистЗадание.НомерСтроки = 2) КАК ВтораяСтрока
+				ПО уатПутевойЛист.Ссылка = ВтораяСтрока.Ссылка
+		ГДЕ
+			уатПутевойЛист.ПометкаУдаления = ЛОЖЬ
+			И уатПутевойЛист.Организация = &amp;Организация
+			И уатПутевойЛист.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон) КАК ПутевойЛист
+		ПО уатТС.Ссылка = ПутевойЛист.ТС
+ГДЕ
+	&amp;ТипЗаполнения = 1
+	И уатРазнарядкаРазнарядка.Ссылка.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+	И уатРазнарядкаРазнарядка.Ссылка.Организация = &amp;Организация
+	И уатРазнарядкаРазнарядка.Ссылка.Проведен
+	И (уатТС.уатДатаВыбытия = ДАТАВРЕМЯ(1,1,1) ИЛИ уатТС.уатДатаВыбытия &gt; &amp;ДатаКон)
+	И (НЕ уатТС.ПометкаУдаления)
+	И (&amp;Колонна = НЕОПРЕДЕЛЕНО ИЛИ уатРазнарядкаРазнарядка.Ссылка.Колонна В Иерархии (&amp;Колонна))
+	И (&amp;Подразделение = НЕОПРЕДЕЛЕНО ИЛИ уатРазнарядкаРазнарядка.Ссылка.Подразделение В Иерархии (&amp;Подразделение))</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанныхМаршрутныеЛисты</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель</dataPath>
+				<field>Водитель</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель2</dataPath>
+				<field>Водитель2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВозвращения</dataPath>
+				<field>ДатаВозвращения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛЗакрыт</dataPath>
+				<field>ПЛЗакрыт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛЗакрыт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РежимРаботыТС</dataPath>
+				<field>РежимРаботыТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Режим работы ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаршрутныйЛист</dataPath>
+				<field>МаршрутныйЛист</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрутный лист</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГосНомер</dataPath>
+				<field>ГосНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гос номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГарНомер</dataPath>
+				<field>ГарНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гар номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыезда</dataPath>
+				<field>ДатаВыезда</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор</dataPath>
+				<field>Кондуктор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз1</dataPath>
+				<field>Груз1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия</dataPath>
+				<field>ВремяПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение2</dataPath>
+				<field>Подразделение2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп1</dataPath>
+				<field>Прицеп1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия2</dataPath>
+				<field>ВремяПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия2</dataPath>
+				<field>ВремяУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор2</dataPath>
+				<field>Кондуктор2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия2</dataPath>
+				<field>АдресПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент2</dataPath>
+				<field>Контрагент2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия</dataPath>
+				<field>ВремяУбытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия</dataPath>
+				<field>АдресПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия2</dataPath>
+				<field>АдресУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз2</dataPath>
+				<field>Груз2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп2</dataPath>
+				<field>Прицеп2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия1</dataPath>
+				<field>АдресУбытия1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛ</dataPath>
+				<field>ПЛ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛ</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказНаТС</dataPath>
+				<field>ЗаказНаТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заказ на ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТранспортноеСредство</dataPath>
+				<field>ТранспортноеСредство</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут1</dataPath>
+				<field>Маршрут1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут2</dataPath>
+				<field>Маршрут2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	уатТС.Ссылка КАК ТС,
+	уатТС.уатГаражныйНомер КАК ГарНомер,
+	уатТС.Код КАК ГосНомер,
+	NULL КАК ЗаказНаТС,
+	МЛ.МаршрутныйЛист КАК МаршрутныйЛист,
+	ПутевойЛист.ПЛ КАК ПЛ,
+	ВЫБОР
+		КОГДА НЕ ПутевойЛист.ПЛ ЕСТЬ NULL 
+				И ПутевойЛист.ПЛ.Рассчитан
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПЛЗакрыт,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА МЛ.Водитель
+		ИНАЧЕ ПутевойЛист.Водитель
+	КОНЕЦ КАК Водитель,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА МЛ.Водитель2
+		ИНАЧЕ ПутевойЛист.Водитель2
+	КОНЕЦ КАК Водитель2,
+	ПутевойЛист.ДатаВыезда,
+	ПутевойЛист.ДатаВозвращения,
+	ВЫБОР
+		КОГДА ПутевойЛист.ПЛ ЕСТЬ NULL 
+			ТОГДА уатТС.уатОсновнойРежимРаботы
+		ИНАЧЕ ПутевойЛист.РежимРаботыТС
+	КОНЕЦ КАК РежимРаботыТС,
+	NULL КАК Контрагент,
+	NULL КАК Подразделение,
+	NULL КАК Маршрут1,
+	NULL КАК АдресПрибытия,
+	NULL КАК ВремяПрибытия,
+	NULL КАК ВремяУбытия,
+	NULL КАК Контрагент2,
+	NULL КАК Подразделение2,
+	NULL КАК Маршрут2,
+	NULL КАК АдресПрибытия2,
+	NULL КАК ВремяПрибытия2,
+	NULL КАК ВремяУбытия2,
+	NULL КАК Груз1,
+	NULL КАК Груз2,
+	NULL КАК АдресУбытия1,
+	NULL КАК АдресУбытия2,
+	NULL КАК Прицеп1,
+	NULL КАК Прицеп2,
+	NULL КАК Кондуктор,
+	NULL КАК Кондуктор2
+ИЗ
+	(ВЫБРАТЬ
+		уатМаршрутныйЛист.Ссылка КАК МаршрутныйЛист,
+		уатМаршрутныйЛист.ТС КАК ТС,
+		уатМаршрутныйЛист.Водитель1 КАК Водитель,
+		уатМаршрутныйЛист.Водитель2 КАК Водитель2
+	ИЗ
+		Документ.уатМаршрутныйЛист КАК уатМаршрутныйЛист
+	ГДЕ
+		НЕ уатМаршрутныйЛист.ПометкаУдаления
+		И уатМаршрутныйЛист.Организация = &amp;Организация) КАК МЛ
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ТранспортныеСредства КАК уатТС
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.уатМестонахождениеТС.СрезПоследних(&amp;ДатаНач, ) КАК уатМестонахождениеТССрезПоследних
+			ПО уатТС.Ссылка = уатМестонахождениеТССрезПоследних.ТС
+			ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				уатПутевойЛист.Ссылка КАК ПЛ,
+				уатПутевойЛист.Водитель1 КАК Водитель,
+				уатПутевойЛист.Водитель2 КАК Водитель2,
+				уатПутевойЛист.ДатаВыезда КАК ДатаВыезда,
+				уатПутевойЛист.ДатаВозвращения КАК ДатаВозвращения,
+				уатПутевойЛист.РежимРаботыТС КАК РежимРаботыТС,
+				уатПутевойЛист.ТранспортноеСредство КАК ТранспортноеСредство
+			ИЗ
+				Документ.уатПутевойЛист КАК уатПутевойЛист
+			ГДЕ
+				НЕ уатПутевойЛист.ПометкаУдаления
+				И НАЧАЛОПЕРИОДА(уатПутевойЛист.ДатаВыезда, ДЕНЬ) = &amp;ДатаНач
+				И уатПутевойЛист.Организация = &amp;Организация) КАК ПутевойЛист
+			ПО уатТС.Ссылка = ПутевойЛист.ТранспортноеСредство
+		ПО (уатТС.Ссылка = МЛ.ТС)
+ГДЕ
+	&amp;ТипЗаполнения = 2
+	И уатМестонахождениеТССрезПоследних.Организация = &amp;Организация
+	И (уатТС.уатДатаВыбытия = ДАТАВРЕМЯ(1,1,1)
+			ИЛИ уатТС.уатДатаВыбытия &gt; &amp;ДатаКон)
+	И НЕ уатТС.ПометкаУдаления
+	И (&amp;Колонна = НЕОПРЕДЕЛЕНО ИЛИ уатМестонахождениеТССрезПоследних.Колонна В Иерархии (&amp;Колонна))
+	И (&amp;Подразделение = НЕОПРЕДЕЛЕНО ИЛИ уатМестонахождениеТССрезПоследних.Подразделение В Иерархии (&amp;Подразделение))</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанныхЗаказыТС</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РежимРаботыТС</dataPath>
+				<field>РежимРаботыТС</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель2</dataPath>
+				<field>Водитель2</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказГрузоотправителя</dataPath>
+				<field>ЗаказГрузоотправителя</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГарНомер</dataPath>
+				<field>ГарНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гар номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛЗакрыт</dataPath>
+				<field>ПЛЗакрыт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛЗакрыт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЕдиницаИзмерения</dataPath>
+				<field>ЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВозвращения</dataPath>
+				<field>ДатаВозвращения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель</dataPath>
+				<field>Водитель</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыезда</dataPath>
+				<field>ДатаВыезда</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоговорКонтрагента</dataPath>
+				<field>ДоговорКонтрагента</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГосНомер</dataPath>
+				<field>ГосНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гос номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаршрутныйЛист</dataPath>
+				<field>МаршрутныйЛист</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрутный лист</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия</dataPath>
+				<field>АдресПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор</dataPath>
+				<field>Кондуктор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз1</dataPath>
+				<field>Груз1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия</dataPath>
+				<field>ВремяПрибытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение2</dataPath>
+				<field>Подразделение2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп1</dataPath>
+				<field>Прицеп1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия2</dataPath>
+				<field>ВремяПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия2</dataPath>
+				<field>ВремяУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор2</dataPath>
+				<field>Кондуктор2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия2</dataPath>
+				<field>АдресПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент2</dataPath>
+				<field>Контрагент2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия</dataPath>
+				<field>ВремяУбытия</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия2</dataPath>
+				<field>АдресУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз2</dataPath>
+				<field>Груз2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп2</dataPath>
+				<field>Прицеп2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия1</dataPath>
+				<field>АдресУбытия1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛ</dataPath>
+				<field>ПЛ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛ</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказНаТС</dataPath>
+				<field>ЗаказНаТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заказ на ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТранспортноеСредство</dataPath>
+				<field>ТранспортноеСредство</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОснованиеПЛ</dataPath>
+				<field>ОснованиеПЛ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основание ПЛ</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПутевойЛист</dataPath>
+				<field>ПутевойЛист</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Путевой лист</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут1</dataPath>
+				<field>Маршрут1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут2</dataPath>
+				<field>Маршрут2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ПутЛ.ТранспортноеСредство КАК ТС,
+	ПутЛ.ТранспортноеСредство.уатГаражныйНомер КАК ГарНомер,
+	ПутЛ.ТранспортноеСредство.Код КАК ГосНомер,
+	уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.Ссылка КАК ЗаказНаТС,
+	NULL КАК МаршрутныйЛист,
+	ПутЛ.ПутевойЛист КАК ПЛ,
+	ВЫБОР
+		КОГДА НЕ ПутЛ.ПутевойЛист ЕСТЬ NULL 
+				И ПутЛ.ПутевойЛист.Рассчитан
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПЛЗакрыт,
+	ПутЛ.Водитель КАК Водитель,
+	ПутЛ.Водитель2 КАК Водитель2,
+	ПутЛ.ДатаВыезда КАК ДатаВыезда,
+	ПутЛ.ДатаВозвращения КАК ДатаВозвращения,
+	ПутЛ.РежимРаботыТС КАК РежимРаботыТС,
+	уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.Контрагент КАК Контрагент,
+	NULL КАК Подразделение,
+	NULL КАК Маршрут1,
+	уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.АдресОтправления КАК АдресПрибытия,
+	NULL КАК ВремяПрибытия,
+	NULL КАК ВремяУбытия,
+	NULL КАК Контрагент2,
+	NULL КАК Подразделение2,
+	NULL КАК Маршрут2,
+	NULL КАК АдресПрибытия2,
+	NULL КАК ВремяПрибытия2,
+	NULL КАК ВремяУбытия2,
+	NULL КАК Груз1,
+	NULL КАК Груз2,
+	уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.АдресНазначения КАК АдресУбытия1,
+	NULL КАК АдресУбытия2,
+	NULL КАК Прицеп1,
+	NULL КАК Прицеп2,
+	NULL КАК Кондуктор,
+	NULL КАК Кондуктор2
+ИЗ
+	(ВЫБРАТЬ РАЗЛИЧНЫЕ
+		уатЗаказыГрузоотправителя_Остатки.ЗаказГрузоотправителя КАК ЗаказГрузоотправителя
+	ИЗ
+		РегистрНакопления.уатЗаказыГрузоотправителей.Остатки(&amp;ДатаКон, ) КАК уатЗаказыГрузоотправителя_Остатки) КАК уатЗаказыГрузоотправителя
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			уатПутевойЛист.Ссылка КАК ПутевойЛист,
+			уатПутевойЛист.ДокументОснование КАК ОснованиеПЛ,
+			уатПутевойЛист.Водитель1 КАК Водитель,
+			уатПутевойЛист.Водитель2 КАК Водитель2,
+			уатПутевойЛист.ДатаВыезда КАК ДатаВыезда,
+			уатПутевойЛист.ДатаВозвращения КАК ДатаВозвращения,
+			уатПутевойЛист.РежимРаботыТС КАК РежимРаботыТС,
+			уатПутевойЛист.ТранспортноеСредство КАК ТранспортноеСредство
+		ИЗ
+			Документ.уатПутевойЛист КАК уатПутевойЛист
+		ГДЕ
+			НЕ уатПутевойЛист.ПометкаУдаления
+			И уатПутевойЛист.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+			И уатПутевойЛист.Организация = &amp;Организация) КАК ПутЛ
+		ПО уатЗаказыГрузоотправителя.ЗаказГрузоотправителя = ПутЛ.ОснованиеПЛ
+ГДЕ
+	&amp;ТипЗаполнения = 3
+	И НЕ уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.ПометкаУдаления
+	И уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.Организация = &amp;Организация
+	И (уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.ОтправлениеС &lt;= &amp;ДатаКон
+		И уатЗаказыГрузоотправителя.ЗаказГрузоотправителя.ОтправлениеПо &gt;= &amp;ДатаНач)</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанныхВсеТС</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия2</dataPath>
+				<field>АдресПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия</dataPath>
+				<field>ВремяУбытия</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент2</dataPath>
+				<field>Контрагент2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия2</dataPath>
+				<field>ВремяПрибытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время прибытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение2</dataPath>
+				<field>Подразделение2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подразделение2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель</dataPath>
+				<field>Водитель</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Водитель</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Водитель2</dataPath>
+				<field>Водитель2</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВозвращения</dataPath>
+				<field>ДатаВозвращения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяПрибытия</dataPath>
+				<field>ВремяПрибытия</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛЗакрыт</dataPath>
+				<field>ПЛЗакрыт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛЗакрыт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РежимРаботыТС</dataPath>
+				<field>РежимРаботыТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Режим работы ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВремяУбытия2</dataPath>
+				<field>ВремяУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Время убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПрибытия</dataPath>
+				<field>АдресПрибытия</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГосНомер</dataPath>
+				<field>ГосНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гос номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГарНомер</dataPath>
+				<field>ГарНомер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Гар номер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаВыезда</dataPath>
+				<field>ДатаВыезда</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МаршрутныйЛист</dataPath>
+				<field>МаршрутныйЛист</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрутный лист</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор</dataPath>
+				<field>Кондуктор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз1</dataPath>
+				<field>Груз1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп1</dataPath>
+				<field>Прицеп1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Кондуктор2</dataPath>
+				<field>Кондуктор2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кондуктор2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия2</dataPath>
+				<field>АдресУбытия2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Груз2</dataPath>
+				<field>Груз2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Груз2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Прицеп2</dataPath>
+				<field>Прицеп2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прицеп2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресУбытия1</dataPath>
+				<field>АдресУбытия1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адрес убытия1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПЛ</dataPath>
+				<field>ПЛ</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ПЛ</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказНаТС</dataPath>
+				<field>ЗаказНаТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заказ на ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут1</dataPath>
+				<field>Маршрут1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут2</dataPath>
+				<field>Маршрут2</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Маршрут2</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут</dataPath>
+				<field>Маршрут</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	уатТС.Ссылка КАК ТС,
+	уатТС.уатГаражныйНомер КАК ГарНомер,
+	уатТС.Код КАК ГосНомер,
+	NULL КАК ЗаказНаТС,
+	NULL КАК МаршрутныйЛист,
+	ПутевыеЛисты.ПЛ КАК ПЛ,
+	ВЫБОР
+		КОГДА НЕ ПутевыеЛисты.ПЛ ЕСТЬ NULL 
+				И ПутевыеЛисты.ПЛ.Рассчитан
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПЛЗакрыт,
+	ПутевыеЛисты.Водитель,
+	ПутевыеЛисты.Водитель2,
+	ПутевыеЛисты.ДатаВыезда,
+	ПутевыеЛисты.ДатаВозвращения,
+	ВЫБОР
+		КОГДА ПутевыеЛисты.ПЛ ЕСТЬ NULL 
+			ТОГДА уатТС.уатОсновнойРежимРаботы
+		ИНАЧЕ ПутевыеЛисты.РежимРаботыТС
+	КОНЕЦ КАК РежимРаботыТС,
+	ПутевыеЛисты.Контрагент,
+	ПутевыеЛисты.Подразделение,
+	ПутевыеЛисты.Маршрут1,
+	ПутевыеЛисты.АдресПрибытия,
+	ПутевыеЛисты.ВремяПрибытия,
+	ПутевыеЛисты.ВремяУбытия,
+	ПутевыеЛисты.Контрагент2,
+	ПутевыеЛисты.Подразделение2,
+	ПутевыеЛисты.Маршрут2,
+	ПутевыеЛисты.АдресПрибытия2,
+	ПутевыеЛисты.ВремяПрибытия2,
+	ПутевыеЛисты.ВремяУбытия2,
+	NULL КАК Груз1,
+	NULL КАК Груз2,
+	NULL КАК АдресУбытия1,
+	NULL КАК АдресУбытия2,
+	NULL КАК Прицеп1,
+	NULL КАК Прицеп2,
+	NULL КАК Кондуктор,
+	NULL КАК Кондуктор2
+ИЗ
+	Справочник.ТранспортныеСредства КАК уатТС
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.уатМестонахождениеТС.СрезПоследних(&amp;ДатаНач, ) КАК уатМестонахождениеТССрезПоследних
+		ПО уатТС.Ссылка = уатМестонахождениеТССрезПоследних.ТС
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			уатПутевойЛист.Ссылка КАК ПЛ,
+			уатПутевойЛист.Водитель1 КАК Водитель,
+			уатПутевойЛист.Водитель2 КАК Водитель2,
+			уатПутевойЛист.ДатаВыезда КАК ДатаВыезда,
+			уатПутевойЛист.ДатаВозвращения КАК ДатаВозвращения,
+			уатПутевойЛист.ТранспортноеСредство КАК ТС,
+			уатПутевойЛист.РежимРаботыТС КАК РежимРаботыТС,
+			ПерваяСтрока.Контрагент КАК Контрагент,
+			ПерваяСтрока.Подразделение КАК Подразделение,
+			ПерваяСтрока.Маршрут КАК Маршрут1,
+			ПерваяСтрока.АдресПрибытия КАК АдресПрибытия,
+			ПерваяСтрока.ВремяПрибытия КАК ВремяПрибытия,
+			ПерваяСтрока.ВремяУбытия КАК ВремяУбытия,
+			ВтораяСтрока.Контрагент КАК Контрагент2,
+			ВтораяСтрока.Подразделение КАК Подразделение2,
+			ВтораяСтрока.Маршрут КАК Маршрут2,
+			ВтораяСтрока.АдресПрибытия КАК АдресПрибытия2,
+			ВтораяСтрока.ВремяПрибытия КАК ВремяПрибытия2,
+			ВтораяСтрока.ВремяУбытия КАК ВремяУбытия2
+		ИЗ
+			Документ.уатПутевойЛист КАК уатПутевойЛист
+				ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					уатПутевойЛистЗадание.Контрагент КАК Контрагент,
+					уатПутевойЛистЗадание.Подразделение КАК Подразделение,
+					уатПутевойЛистЗадание.Маршрут КАК Маршрут,
+					уатПутевойЛистЗадание.АдресПрибытия КАК АдресПрибытия,
+					уатПутевойЛистЗадание.ВремяПрибытия КАК ВремяПрибытия,
+					уатПутевойЛистЗадание.ВремяУбытия КАК ВремяУбытия,
+					уатПутевойЛистЗадание.Ссылка КАК Ссылка
+				ИЗ
+					Документ.уатПутевойЛист.Задание КАК уатПутевойЛистЗадание
+				ГДЕ
+					уатПутевойЛистЗадание.Ссылка.ПометкаУдаления = ЛОЖЬ
+					И уатПутевойЛистЗадание.Ссылка.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+					И уатПутевойЛистЗадание.Ссылка.Организация = &amp;Организация
+					И уатПутевойЛистЗадание.НомерСтроки = 1) КАК ПерваяСтрока
+				ПО уатПутевойЛист.Ссылка = ПерваяСтрока.Ссылка
+				ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					уатПутевойЛистЗадание.Контрагент КАК Контрагент,
+					уатПутевойЛистЗадание.Подразделение КАК Подразделение,
+					уатПутевойЛистЗадание.Маршрут КАК Маршрут,
+					уатПутевойЛистЗадание.АдресПрибытия КАК АдресПрибытия,
+					уатПутевойЛистЗадание.ВремяПрибытия КАК ВремяПрибытия,
+					уатПутевойЛистЗадание.ВремяУбытия КАК ВремяУбытия,
+					уатПутевойЛистЗадание.Ссылка КАК Ссылка
+				ИЗ
+					Документ.уатПутевойЛист.Задание КАК уатПутевойЛистЗадание
+				ГДЕ
+					уатПутевойЛистЗадание.Ссылка.ПометкаУдаления = ЛОЖЬ
+					И уатПутевойЛистЗадание.Ссылка.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+					И уатПутевойЛистЗадание.Ссылка.Организация = &amp;Организация
+					И уатПутевойЛистЗадание.НомерСтроки = 2) КАК ВтораяСтрока
+				ПО уатПутевойЛист.Ссылка = ВтораяСтрока.Ссылка
+		ГДЕ
+			уатПутевойЛист.ПометкаУдаления = ЛОЖЬ
+			И уатПутевойЛист.Организация = &amp;Организация
+			И уатПутевойЛист.ДатаВыезда МЕЖДУ &amp;ДатаНач И &amp;ДатаКон) КАК ПутевыеЛисты
+		ПО уатТС.Ссылка = ПутевыеЛисты.ТС
+ГДЕ
+	&amp;ТипЗаполнения = 0
+	И уатМестонахождениеТССрезПоследних.Организация = &amp;Организация
+	И уатТС.уатМодель.ВидМоделиТС = ЗНАЧЕНИЕ(Перечисление.уатВидыМоделейТС.Автотранспорт)
+	И (уатТС.Тип = ЗНАЧЕНИЕ(Справочник.ТипыТранспортныхСредств.ПустаяСсылка)
+			ИЛИ НЕ уатТС.уатВидМоделиТС В (&amp;СписокПрицепов))
+	И (уатТС.уатДатаВыбытия = ДАТАВРЕМЯ(1,1,1)
+			ИЛИ уатТС.уатДатаВыбытия &gt; &amp;ДатаКон)
+	И НЕ уатТС.ПометкаУдаления
+	И (&amp;Колонна = НЕОПРЕДЕЛЕНО ИЛИ уатМестонахождениеТССрезПоследних.Колонна В Иерархии (&amp;Колонна))
+	И (&amp;Подразделение = НЕОПРЕДЕЛЕНО ИЛИ уатМестонахождениеТССрезПоследних.Подразделение В Иерархии (&amp;Подразделение))
+	И (&amp;Гараж = НЕОПРЕДЕЛЕНО ИЛИ уатТС.уатГараж В Иерархии (&amp;Гараж))
+	И (&amp;Модель = НЕОПРЕДЕЛЕНО ИЛИ уатТС.уатМодель В Иерархии (&amp;Модель))</query>
+		</item>
+	</dataSet>
+	<parameter>
+		<name>ДатаКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Колонна</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Колонна</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтруктураПредприятия</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.уатКолонны</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Подразделение</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подразделение</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СписокПрицепов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Список прицепов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.уатВидыТС</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Гараж</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Гараж</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.уатПунктыНазначения</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Модель</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Модель</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.уатМоделиТС</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТипЗаполнения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тип заполнения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресПрибытия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресПрибытия2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресУбытия1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресУбытия2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяПрибытия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяПрибытия2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяУбытия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяУбытия2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГарНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГосНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Груз1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Груз2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВозвращения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВыезда</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаТС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кондуктор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Кондуктор2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаршрутныйЛист</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПЛЗакрыт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Прицеп1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Прицеп2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПЛ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РежимРаботыТС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Маршрут1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Маршрут2</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Модель</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

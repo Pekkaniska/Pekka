@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8adec759-787d-4e27-a363-c412f97ce68d">
+  <name>уатУчетГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ГСМ</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Учет ГСМ</value>
+  </explanation>
+  <content>CommonModule.уатГСМ</content>
+  <content>FilterCriterion.уатТСВЗаправкеГСМ</content>
+  <content>CommonForm.уатСписокГСМ</content>
+  <content>AccumulationRegister.уатОборотыПоЗаправкамГСМ</content>
+  <content>AccumulationRegister.уатОстаткиГСМнаТС</content>
+  <content>AccumulationRegister.уатОстаткиТЖнаТС</content>
+  <content>DataProcessor.уатЗагрузитьЗаправкиИзОтчетовПЦ</content>
+  <content>DataProcessor.уатИзменениеНормРасходаТоплива</content>
+  <content>DataProcessor.уатУстановитьЦенуЗаправкиГСМ</content>
+  <content>DocumentJournal.уатДокументыГСМ</content>
+  <content>Document.уатВводОстатковГСМ</content>
+  <content>Document.уатЗаправкаГСМ</content>
+  <content>Document.уатИнвентаризацияГСМвТС</content>
+  <content>Document.уатОперацииСТехническимиЖидкостями</content>
+  <content>Document.уатОтчетПоставщикаПЦ</content>
+  <content>Document.уатСливГСМ</content>
+  <parentSubsystem>Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

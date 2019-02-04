@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1297707-0b32-4ab1-b325-8e0e08205edd">
+  <name>ЗаполнениеПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение путевых листов</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ItobЗаполнениеПутевыхЛистовВызовСервера</content>
+  <content>InformationRegister.ItobПараметрыЗаполненияПЛ_ПоДаннымGPS</content>
+  <content>ExchangePlan.ItobОбменЦентрСпутниковогоМониторинга</content>
+  <content>CommonModule.ItobКалькуляцияПараметровВыработки</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

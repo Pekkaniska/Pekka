@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0819d8f6-acd6-4e30-8a39-235f7ba5b898">
+  <name>уатЗаписатьВерсиюОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать версию объекта</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <source>
+    <types>CatalogObject.уатПрейскурантыТС</types>
+    <types>CatalogObject.уатКолонны</types>
+    <types>CatalogObject.уатАЗС</types>
+    <types>CatalogObject.уатМаршруты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатЗаписатьВерсиюОбъектаПередЗаписью</handler>
+</mdclass:EventSubscription>

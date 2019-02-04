@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61a9d101-d995-4b8c-a17a-8a16a860aec2">
+  <producedTypes>
+    <objectType typeId="58bf9bc7-1b85-4324-bb99-7bca25aacdbe" valueTypeId="0995f70c-d5ba-46be-97b8-c7871c5c610b"/>
+    <managerType typeId="deb07266-c88e-41e8-a927-1e2bd19356cc" valueTypeId="105a4b66-d09b-4a1f-abe7-09e955aae709"/>
+  </producedTypes>
+  <name>пкСудебныеИски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Судебные иски (пк)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкСудебныеИски.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="3d68ee25-4220-4983-ba01-3408c4f84b34">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

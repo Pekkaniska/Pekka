@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="070f1396-cf02-42aa-8dce-9017374177f0">
+  <name>пкДобавлениеИзменениеИсточниковПитанияТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение источников питания техники</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

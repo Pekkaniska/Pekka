@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ad9d733-258a-41da-b05b-e8ecf20c7051">
+  <producedTypes>
+    <refType typeId="54052a56-7658-40ad-99da-bdc0011a08b7" valueTypeId="5e3c6215-3e4e-4ddf-bcf3-aaac63c33102"/>
+    <listType typeId="7750ebc2-afaa-4004-abc3-bdf47e68c7e7" valueTypeId="e24d0940-5873-45db-a730-bba3cc04f1db"/>
+    <managerType typeId="a817b616-6eac-4b79-aacf-6b7e6a5d329a" valueTypeId="84f595bd-104b-404e-8d8b-608d05ef3c0d"/>
+  </producedTypes>
+  <name>уатТипыКонструкцииШин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы конструкции шин</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e06a81b2-8e77-4b4f-8914-916921feda48">
+    <name>R</name>
+    <synonym>
+      <key>ru</key>
+      <value>R</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ae16edd5-f7ee-4c72-9cc4-69d80a09cb90">
+    <name>D</name>
+    <synonym>
+      <key>ru</key>
+      <value>D</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

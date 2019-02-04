@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4608986c-8c03-4f26-8ab0-42869b34ea07">
+  <producedTypes>
+    <managerType typeId="bc905421-ba09-4a5a-8a2f-bc4b8ac925f9" valueTypeId="31e2b531-2b91-4a97-a766-edf91268b15b"/>
+    <valueManagerType typeId="1488c288-308f-42eb-80cd-35be6918f7a7" valueTypeId="bc620f73-dc1f-493e-a143-4c15bafd9ff3"/>
+  </producedTypes>
+  <name>пкМаксимальныйНомерУзлаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный номер узла обмена</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>9</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

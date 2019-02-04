@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecd26bb8-1702-4f4a-9f4e-f7189eec695a">
+  <producedTypes>
+    <managerType typeId="53ebb6fd-9e4d-4578-91a2-7e95ea799f63" valueTypeId="8b67c505-ad70-47f4-84cb-bd0f6205373a"/>
+    <valueManagerType typeId="250c63b7-a2e3-480e-8e85-bdfaabf64920" valueTypeId="6d9189f8-1548-4930-8a2f-765bc11a17e3"/>
+  </producedTypes>
+  <name>уатАдресСервисаDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервиса Dynafleet</value>
+  </synonym>
+  <comment>Адрес сервиса Dynafleet (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Адрес сервиса Dynafleet</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Адрес сервиса Dynafleet</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес сервиса Dynafleet</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

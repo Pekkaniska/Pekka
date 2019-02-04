@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c17ce630-d443-4053-a649-ce34a7950a03">
+  <name>уатЖурналРегистрацииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации конфигурации (уат)</value>
+  </synonym>
+  <comment>Журнал регистрации (уат)</comment>
+  <transparentPixel>
+    <x>8</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

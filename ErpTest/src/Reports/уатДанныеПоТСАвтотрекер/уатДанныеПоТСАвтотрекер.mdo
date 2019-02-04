@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d936b98-b8f8-4ef6-b314-0ec296496714">
+  <producedTypes>
+    <objectType typeId="c82286f2-b391-465e-89ef-344479c9686f" valueTypeId="3f0dc517-62b1-4076-8708-6ff4dbea05c2"/>
+    <managerType typeId="c99da008-f6e7-4dfc-be64-c85c7922e884" valueTypeId="f3b64e06-f2b3-4b49-9e77-9e38bbf8142d"/>
+  </producedTypes>
+  <name>уатДанныеПоТСАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по ТС (Автотрекер)</value>
+  </synonym>
+  <comment>Данные по ТС (GPS &quot;Автотрекер&quot;)</comment>
+  <mainDataCompositionSchema>Report.уатДанныеПоТСАвтотрекер.Template.ДанныеПоТС</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fd048d63-0f75-43e5-ac1b-6344da075dab">
+    <name>ДанныеПоТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные по ТС</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

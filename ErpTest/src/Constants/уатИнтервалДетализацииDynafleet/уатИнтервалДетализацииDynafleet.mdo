@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbcf1634-acf0-41af-8a93-c0fb05b9e4ee">
+  <producedTypes>
+    <managerType typeId="f2ca387d-baeb-4fc2-82a3-9b6979a0dad3" valueTypeId="662cfcb2-f02a-404b-b59d-c18e803e3a0a"/>
+    <valueManagerType typeId="975afc32-1baa-4da0-ac05-4a072c97a3b5" valueTypeId="f63fc7ba-5145-440a-9b98-701f20eb5598"/>
+  </producedTypes>
+  <name>уатИнтервалДетализацииDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал детализации загрузки данных dynafleet</value>
+  </synonym>
+  <comment>Интервал детализации загрузки данных dynafleet (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Интервал детализации загрузки данных dynafleet</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Интервал детализации загрузки данных dynafleet</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Интервал детализации загрузки данных dynafleet</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

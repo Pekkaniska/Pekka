@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff13b28f-9178-4c9b-a68c-5b88de0a2f62">
+  <producedTypes>
+    <objectType typeId="bb133a04-c56f-47b2-aad0-7b5dd1158851" valueTypeId="7a85866b-a228-4b95-b9f4-1a13d2415ce5"/>
+    <managerType typeId="a6321223-eeb0-44ac-96e9-3f953625e8b4" valueTypeId="cd2b413e-2b2f-4397-b5b0-c565fb55339d"/>
+  </producedTypes>
+  <name>пкПечатьСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать счетов-фактур</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="dc5ad477-4a9e-4e41-a672-d20952db5491">
+    <name>ПФ_MXL_СчетФактура1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (постановление №1137)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №1137 от 26.12.2011 г.</comment>
+  </templates>
+  <templates uuid="0cf1103f-2985-4566-9a9f-745d940f7d6d">
+    <name>ПФ_MXL_СчетФактура451</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (постановление №451)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №451 от 26.05.2009 г.</comment>
+  </templates>
+  <templates uuid="5c5d3c6b-1171-4307-851e-1bcfba1f7546">
+    <name>ПФ_MXL_СчетФактураКорректировочный1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5523c8b7-27aa-42b3-9b73-fd5655eba735">
+    <name>ПФ_MXL_СчетФактура1137_625</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (постановление №1137 в редакции №625)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №1137 от 26.12.2011 г. (в редакции постановления Правительства Российской Федерации от 25 мая 2017 г. № 625)</comment>
+  </templates>
+  <templates uuid="9f1419bc-1d88-45d8-9cb5-0c2a97526228">
+    <name>ПФ_MXL_СчетФактураКорректировочный1137_625</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура (постановление №1137 в редакции №625)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="548a084f-050a-4541-afc1-6a570a6dc1e5">
+    <name>ПФ_MXL_СчетФактура981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (в редакции Постановления № 981)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №1137 от 26.12.2011 г. (в редакции Постановления № 981)</comment>
+  </templates>
+  <templates uuid="7b737611-3ee3-4686-8eb0-2a28a3556bc2">
+    <name>ПФ_MXL_СчетФактураКорректировочный981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции Постановления № 981)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

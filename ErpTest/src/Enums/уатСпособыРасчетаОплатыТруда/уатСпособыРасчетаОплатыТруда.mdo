@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="450ee10b-d87b-4e10-a97e-b015e7a709f8">
+  <producedTypes>
+    <refType typeId="b3058717-de5c-4c85-b153-21eb45c282c4" valueTypeId="49255702-ee63-4002-a4bb-f7343ca6816b"/>
+    <listType typeId="b463da8e-5f57-4dae-b967-82cd5b5051b9" valueTypeId="0ff92d70-ec71-4d71-a4ed-1f7c7269470e"/>
+    <managerType typeId="b6b2a01c-11d0-41fa-a2b2-a3d3d15ec206" valueTypeId="16c3f048-5f82-4893-a53c-7ede9319fd52"/>
+  </producedTypes>
+  <name>уатСпособыРасчетаОплатыТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета оплаты труда</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7a365693-a4b6-4f95-87be-d69d815a5af2">
+    <name>СдельныйЗаработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдельный заработок</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="20759020-2808-4452-be92-01f357c9f1b9">
+    <name>ПроцентомОтВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом от выручки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d8952864-312b-4676-b1f8-532a7f0d40ae">
+    <name>ПроцентомОтВидовНачислений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом от видов начислений</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="59eae185-2274-49ae-8c69-fad8c8221421">
+    <name>ФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированной суммой</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="7c1f5c68-3a56-4877-a658-cb5936135692">
+    <name>ДоплатаЗаНочныеЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата за ночные часы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

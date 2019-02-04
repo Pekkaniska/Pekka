@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa58ed8f-2564-43ff-8ff0-adfa226dbfa0">
+  <producedTypes>
+    <managerType typeId="713dd986-657b-440e-b959-bb1ff9efe4c6" valueTypeId="0b287b0d-6870-46c9-b6a1-4079754581b0"/>
+    <valueManagerType typeId="1d0c227c-ee1e-48dd-86da-8e23bed3921c" valueTypeId="f6da4d64-575b-4eb5-9840-95e54f264581"/>
+  </producedTypes>
+  <name>пкРемонтАрендованногоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт арендованного оборудования</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

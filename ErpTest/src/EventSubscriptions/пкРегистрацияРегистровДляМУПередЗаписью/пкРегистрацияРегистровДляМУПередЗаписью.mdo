@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2c1e5b5-1843-441c-a21c-4a432944ffa9">
+  <name>пкРегистрацияРегистровДляМУПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация регистров для МУ</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>InformationRegisterRecordSet.пкДатыАренды</types>
+    <types>InformationRegisterRecordSet.пкСостояниеТехники</types>
+    <types>InformationRegisterRecordSet.пкРезервТехники</types>
+    <types>InformationRegisterRecordSet.пкСтатусыРемонтаТехники</types>
+    <types>InformationRegisterRecordSet.пкСтатусыТехники</types>
+    <types>InformationRegisterRecordSet.пкПользователиДО</types>
+    <types>InformationRegisterRecordSet.пкСтатусыЗаявокНаАрендуТехникиДляМП</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкМобильныеУстройства.пкРегистрацияРегистровДляМУПередЗаписью</handler>
+</mdclass:EventSubscription>

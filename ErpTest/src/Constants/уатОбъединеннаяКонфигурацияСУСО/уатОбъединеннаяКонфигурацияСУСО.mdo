@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="621b7469-5196-48f5-8844-cc6f106cebc7">
+  <producedTypes>
+    <managerType typeId="f9278c23-97df-4794-a544-5667a77031cd" valueTypeId="7d63fe94-77aa-4547-8cdd-1433345be235"/>
+    <valueManagerType typeId="8890064f-bb47-489f-8a50-ac06aef7076f" valueTypeId="3e0fe7e6-9d90-4739-a389-6c9849ad0ffd"/>
+  </producedTypes>
+  <name>уатОбъединеннаяКонфигурацияСУСО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединенная конфигурация с УСО</value>
+  </synonym>
+  <comment>Признак того, что конфигурация объединена с Управлением строительной организацией</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Константа хранит признак того, что данная конфигурация объединена с решением Управление строительной организацией</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

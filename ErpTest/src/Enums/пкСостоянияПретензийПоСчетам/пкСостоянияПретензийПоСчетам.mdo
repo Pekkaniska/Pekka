@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecfad830-90ba-479f-bee8-1233c1844e1c">
+  <producedTypes>
+    <refType typeId="c41ee185-4e6d-4c0a-9bbf-075b52ead8a8" valueTypeId="1db8818c-8164-4425-b077-b6d3f5f81adf"/>
+    <listType typeId="83f825f0-e2ef-4d0f-a309-7d266c90e761" valueTypeId="f8f69c94-9e14-46b1-8b48-41b2ceed676f"/>
+    <managerType typeId="2c746b05-93dc-4d33-b276-d1135dd33ace" valueTypeId="fed7e638-6fe2-41a2-911f-ef3a6dcaa56c"/>
+  </producedTypes>
+  <name>пкСостоянияПретензийПоСчетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния претензий по счетам (пк)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56732e8f-ed58-48c6-b78b-ad6ab5267ad6">
+    <name>Претензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Претензия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d8710a1e-6c5c-49f4-a214-95bde5e3c452">
+    <name>СудебныйИск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Судебный иск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

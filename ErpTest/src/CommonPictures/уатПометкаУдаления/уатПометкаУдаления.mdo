@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07a60bc4-9fd7-40f6-9873-58f71265e64b">
+  <name>уатПометкаУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пометка удаления (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>10</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f6976f6-92f2-446b-ab31-c3740ee87a95">
+  <producedTypes>
+    <objectType typeId="48c3c7b8-4066-4207-ba25-7b50acab952f" valueTypeId="46d335b8-7428-4db6-8533-7f29f34cd389"/>
+    <managerType typeId="b0b2fe45-cc5d-4756-88ae-5275f1cf1a9f" valueTypeId="c1effcb2-88c3-46cb-b538-8c9879266e87"/>
+  </producedTypes>
+  <name>уатДанныеПоТСDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по ТС (Dynafleet)</value>
+  </synonym>
+  <comment></comment>
+  <mainDataCompositionSchema>Report.уатДанныеПоТСDynafleet.Template.ДанныеПоТСDynafleet</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d6b91ed0-7802-431d-ba73-541c03f21fe9">
+    <name>ВариантОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант отчета.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="eaf63e18-f301-44aa-a83a-c53bbe86b36e">
+    <name>ДанныеПоТСDynafleet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные по ТС Dynafleet</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

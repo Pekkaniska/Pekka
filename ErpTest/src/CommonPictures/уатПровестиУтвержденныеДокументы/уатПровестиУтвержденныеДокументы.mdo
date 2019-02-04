@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0fd6d78-2094-4b7a-8ed9-f994e12b34c4">
+  <name>уатПровестиУтвержденныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провести утвержденные документы (уат)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

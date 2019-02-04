@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75358b96-b598-40d1-8a3c-53558151f1a9">
+  <name>уатСправочникМаршруты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник Маршруты (уат)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

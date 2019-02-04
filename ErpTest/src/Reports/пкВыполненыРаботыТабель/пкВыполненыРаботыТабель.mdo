@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11f830e0-df20-42c8-9ccf-9d88c9f0e901">
+  <producedTypes>
+    <objectType typeId="55693250-bc57-46d7-b051-d01cec748b42" valueTypeId="db4819e1-7f61-4b8d-88f2-8f83be788d67"/>
+    <managerType typeId="0befccf5-6c61-4c9d-9f55-65b8cc876064" valueTypeId="99ed195c-aba6-4200-97a2-3c9e520083b7"/>
+  </producedTypes>
+  <name>пкВыполненыРаботыТабель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнены работы (табель учет времени)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкВыполненыРаботыТабель.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="546af54c-63f3-4ddc-a6eb-2201eee1b737">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

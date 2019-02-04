@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9e39acb-4a32-4fa5-b831-c0ba6561ca8e">
+  <producedTypes>
+    <objectType typeId="316e448a-7fd6-4d68-ab43-3e55f3a223bd" valueTypeId="2ca33664-07c4-4b23-894b-9d8c4571289c"/>
+    <managerType typeId="cc4f769c-9b8c-4ed5-a30e-130bacd11876" valueTypeId="99a1b30d-af28-4dab-8acd-f73e88d1af8a"/>
+  </producedTypes>
+  <name>пкОткрытыеЗаказНарядыПоТехнике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открытые Заказ-наряды по технике</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкОткрытыеЗаказНарядыПоТехнике.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fba9cedd-d775-4e88-bf1e-04efcb93477d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

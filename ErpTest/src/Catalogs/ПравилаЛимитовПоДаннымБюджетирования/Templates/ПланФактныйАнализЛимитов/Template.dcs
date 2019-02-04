@@ -1,0 +1,2267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetObject">
+		<name>ПравилаЛимитовСДопДанными</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Правило</dataPath>
+			<field>Правило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Правило</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПравилаЛимитовПоДаннымБюджетирования</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЛимита</dataPath>
+			<field>ТипЛимита</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип лимита</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.ТипыЛимитовРасходованияДС</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяБюджетовДопДанные</dataPath>
+			<field>СтатьяБюджетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья бюджетов доп данные</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтатьиБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоОрганизациям</dataPath>
+			<field>ПоОрганизациям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По организациям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоПодразделениям</dataPath>
+			<field>ПоПодразделениям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По подразделениям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоСценариям</dataPath>
+			<field>ПоСценариям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По сценариям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики1</dataPath>
+			<field>ВидАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики2</dataPath>
+			<field>ВидАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики3</dataPath>
+			<field>ВидАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики4</dataPath>
+			<field>ВидАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики5</dataPath>
+			<field>ВидАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики6</dataPath>
+			<field>ВидАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийДопДанные</dataPath>
+			<field>Сценарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий доп данные</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<objectName>ПравилаЛимитовСДопДанными</objectName>
+	</dataSet>
+	<dataSet xsi:type="DataSetObject">
+		<name>Факт</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияФакт</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация факт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеФакт</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение факт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтруктураПредприятия</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийФакт</dataPath>
+			<field>Сценарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий факт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика1Факт</dataPath>
+			<field>Аналитика1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика1 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика2Факт</dataPath>
+			<field>Аналитика2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика2 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика3Факт</dataPath>
+			<field>Аналитика3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика3 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика4Факт</dataPath>
+			<field>Аналитика4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика4 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика5Факт</dataPath>
+			<field>Аналитика5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика5 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика6Факт</dataPath>
+			<field>Аналитика6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика6 факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаФакт</dataPath>
+			<field>Валюта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта факт</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Валюты</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяБюджетовФакт</dataPath>
+			<field>СтатьяБюджетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья бюджетов факт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтатьиБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаФакт</dataPath>
+			<field>СуммаФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт (сумма)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачалоПериода</dataPath>
+			<field>НачалоПериода</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало периода</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонецПериода</dataPath>
+			<field>КонецПериода</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конец периода</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополняющиеДанные</dataPath>
+			<field>ДополняющиеДанные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополняющие данные</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<objectName>ФактическиеДанные</objectName>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>План</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияПлан</dataPath>
+			<field>ОрганизацияПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеПлан</dataPath>
+			<field>ПодразделениеПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтруктураПредприятия</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийПлан</dataPath>
+			<field>СценарийПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика1План</dataPath>
+			<field>Аналитика1План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика1 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика2План</dataPath>
+			<field>Аналитика2План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика2 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика3План</dataPath>
+			<field>Аналитика3План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика3 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика4План</dataPath>
+			<field>Аналитика4План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика4 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика5План</dataPath>
+			<field>Аналитика5План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика5 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика6План</dataPath>
+			<field>Аналитика6План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика6 план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаПлан</dataPath>
+			<field>ВалютаПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Валюты</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяБюджетовПлан</dataPath>
+			<field>СтатьяБюджетовПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья бюджетов план</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтатьиБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПлан</dataPath>
+			<field>СуммаПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План (сумма)</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПланПоПрочейАналитике</dataPath>
+			<field>СуммаПланПоПрочейАналитике</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма план по прочей аналитике</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПланПоКонтрольнойАналитике</dataPath>
+			<field>СуммаПланПоКонтрольнойАналитике</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма план по контрольной аналитике</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачалоПериода</dataPath>
+			<field>НачалоПериода</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало периода</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонецПериода</dataPath>
+			<field>КонецПериода</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конец периода</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоОрганизациям</dataPath>
+			<field>ПоОрганизациям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По организациям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоПодразделениям</dataPath>
+			<field>ПоПодразделениям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По подразделениям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоСценариям</dataPath>
+			<field>ПоСценариям</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По сценариям</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики1</dataPath>
+			<field>ВидАналитики1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики1</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики2</dataPath>
+			<field>ВидАналитики2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики2</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики3</dataPath>
+			<field>ВидАналитики3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики3</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики4</dataPath>
+			<field>ВидАналитики4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики4</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики5</dataPath>
+			<field>ВидАналитики5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики5</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАналитики6</dataPath>
+			<field>ВидАналитики6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид аналитики6</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияСоединение</dataPath>
+			<field>ОрганизацияСоединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация соединение</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеСоединение</dataPath>
+			<field>ПодразделениеСоединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение соединение</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтруктураПредприятия</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийСоединение</dataPath>
+			<field>СценарийСоединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий соединение</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика1Соединение</dataPath>
+			<field>Аналитика1Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика1 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика2Соединение</dataPath>
+			<field>Аналитика2Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика2 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика3Соединение</dataPath>
+			<field>Аналитика3Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика3 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика4Соединение</dataPath>
+			<field>Аналитика4Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика4 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика5Соединение</dataPath>
+			<field>Аналитика5Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика5 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика6Соединение</dataPath>
+			<field>Аналитика6Соединение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика6 соединение</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияПустаяСсылка</dataPath>
+			<field>ОрганизацияПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Организации</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийПустаяСсылка</dataPath>
+			<field>СценарийПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Сценарии</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеПустаяСсылка</dataPath>
+			<field>ПодразделениеПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.СтруктураПредприятия</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика2ПустаяСсылка</dataPath>
+			<field>Аналитика2ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика2 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика6ПустаяСсылка</dataPath>
+			<field>Аналитика6ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика6 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика1ПустаяСсылка</dataPath>
+			<field>Аналитика1ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика1 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика3ПустаяСсылка</dataPath>
+			<field>Аналитика3ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика3 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика4ПустаяСсылка</dataPath>
+			<field>Аналитика4ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика4 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналитика5ПустаяСсылка</dataPath>
+			<field>Аналитика5ПустаяСсылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика5 пустая ссылка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополняющиеДанные</dataPath>
+			<field>ДополняющиеДанные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополняющие данные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>// ВНИМАНИЕ! ИМЕЮТСЯ КОММЕНТАРИИ
+
+ВЫБРАТЬ
+    &amp;НачалоПериода КАК НачалоПериода,
+    &amp;КонецПериода КАК КонецПериода,
+    &amp;ДополняющиеДанные КАК ДополняющиеДанные,
+    
+    &amp;ПоСценариям КАК ПоСценариям,
+    &amp;ПоОрганизациям КАК ПоОрганизациям,
+    &amp;ПоПодразделениям КАК ПоПодразделениям,
+    
+    ЗНАЧЕНИЕ(Справочник.Сценарии.ПустаяСсылка) КАК СценарийПустаяСсылка,
+    ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ОрганизацияПустаяСсылка,
+    ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка) КАК ПодразделениеПустаяСсылка,
+    
+    &amp;ВидАналитики1 КАК ВидАналитики1,
+    &amp;ВидАналитики2 КАК ВидАналитики2,
+    &amp;ВидАналитики3 КАК ВидАналитики3,
+    &amp;ВидАналитики4 КАК ВидАналитики4,
+    &amp;ВидАналитики5 КАК ВидАналитики5,
+    &amp;ВидАналитики6 КАК ВидАналитики6,
+    
+    НЕОПРЕДЕЛЕНО КАК Аналитика1ПустаяСсылка,
+    НЕОПРЕДЕЛЕНО КАК Аналитика2ПустаяСсылка,
+    НЕОПРЕДЕЛЕНО КАК Аналитика3ПустаяСсылка,
+    НЕОПРЕДЕЛЕНО КАК Аналитика4ПустаяСсылка,
+    НЕОПРЕДЕЛЕНО КАК Аналитика5ПустаяСсылка,
+    НЕОПРЕДЕЛЕНО КАК Аналитика6ПустаяСсылка,
+    
+    ТаблицаПлана.Сценарий КАК СценарийПлан,
+    ТаблицаПлана.Организация КАК ОрганизацияПлан,
+    ТаблицаПлана.Подразделение КАК ПодразделениеПлан,
+
+    ТаблицаПлана.СтатьяБюджетов КАК СтатьяБюджетовПлан,
+    ТаблицаПлана.Аналитика1 КАК Аналитика1План,
+    ТаблицаПлана.Аналитика2 КАК Аналитика2План,
+    ТаблицаПлана.Аналитика3 КАК Аналитика3План,
+    ТаблицаПлана.Аналитика4 КАК Аналитика4План,
+    ТаблицаПлана.Аналитика5 КАК Аналитика5План,
+    ТаблицаПлана.Аналитика6 КАК Аналитика6План,
+    
+    // Каждое условие читать так: "Для мэппинга заполненных и пустых аналитик бюджета на всегда "заполненную" аналитику факта использовать следующее условие"
+    Выбор 
+        // Если аналитика факта пустая (не учитывается при контроле), тогда получаем ВСЕ бюджетные данные по этой аналитике
+        Когда &amp;Сценарий = ЗНАЧЕНИЕ(Справочник.Сценарии.ПустаяСсылка) Тогда ЗНАЧЕНИЕ(Справочник.Сценарии.ПустаяСсылка)
+        
+        // Если аналитики бюджета пустая (прочие) и контроль по прочим включен, тогда данные потенциально нужны при контроле лимита (сначала точном, потом по прочим)
+        Когда ТаблицаПлана.Сценарий = ЗНАЧЕНИЕ(Справочник.Сценарии.ПустаяСсылка) 
+        	Или НЕ &amp;ПоСценариям Тогда &amp;Сценарий
+        
+        // В противном случае, получаем данные по точному совпадению аналитики факта и плана
+        Иначе ТаблицаПлана.Сценарий
+    Конец КАК СценарийСоединение,
+    Выбор 
+        // Если аналитика факта пустая (не учитывается при контроле), тогда получаем ВСЕ бюджетные данные по этой аналитике
+        Когда &amp;Организация = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) Тогда ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка)
+        
+        // Если аналитики бюджета пустая (прочие) и контроль по прочим включен, тогда данные потенциально нужны при контроле лимита (сначала точном, потом по прочим)
+        Когда ТаблицаПлана.Организация = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) 
+        	Или НЕ &amp;ПоОрганизациям Тогда &amp;Организация
+        
+        // В противном случае, получаем данные по точному совпадению аналитики факта и плана
+        Иначе ТаблицаПлана.Организация
+        
+    Конец КАК ОрганизацияСоединение,
+    Выбор 
+        Когда &amp;Подразделение = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка) Тогда ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка)
+        Когда ТаблицаПлана.Подразделение = ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка) 
+        	Или Не &amp;ПоПодразделениям Тогда &amp;Подразделение
+        Иначе ТаблицаПлана.Подразделение
+    Конец КАК ПодразделениеСоединение,
+    
+    Выбор 
+        Когда &amp;Аналитика1 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика1 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики1 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика1
+        Иначе ТаблицаПлана.Аналитика1
+    Конец КАК Аналитика1Соединение,
+    Выбор 
+        Когда &amp;Аналитика2 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика2 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики2 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика2
+        Иначе ТаблицаПлана.Аналитика2
+    Конец КАК Аналитика2Соединение,
+    Выбор 
+        Когда &amp;Аналитика3 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика3 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики3 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика3
+        Иначе ТаблицаПлана.Аналитика3
+    Конец КАК Аналитика3Соединение,
+    Выбор 
+        Когда &amp;Аналитика4 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика4 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики4 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика4
+        Иначе ТаблицаПлана.Аналитика4
+    Конец КАК Аналитика4Соединение,
+    Выбор 
+        Когда &amp;Аналитика5 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика5 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики5 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика5
+        Иначе ТаблицаПлана.Аналитика5
+    Конец КАК Аналитика5Соединение,
+    Выбор 
+        Когда &amp;Аналитика6 = НЕОПРЕДЕЛЕНО Тогда НЕОПРЕДЕЛЕНО
+        Когда ТаблицаПлана.Аналитика6 = НЕОПРЕДЕЛЕНО 
+        	Или &amp;ВидАналитики6 = НЕОПРЕДЕЛЕНО Тогда &amp;Аналитика6
+        Иначе ТаблицаПлана.Аналитика6
+    Конец КАК Аналитика6Соединение,
+
+    ТаблицаПлана.Валюта КАК ВалютаПлан,
+    ТаблицаПлана.СуммаВВалютеОборот КАК СуммаПлан,
+    // Каждое условие читать как: "Если контроль включен, тогда по точному совпадению. Иначе - неважно, любое значение."
+    Выбор 
+        Когда (&amp;ПоСценариям И ТаблицаПлана.Сценарий = &amp;Сценарий Или НЕ &amp;ПоСценариям)
+            И (&amp;ПоОрганизациям И ТаблицаПлана.Организация = &amp;Организация Или НЕ &amp;ПоОрганизациям)
+            И (&amp;ПоПодразделениям И ТаблицаПлана.Подразделение = &amp;Подразделение Или НЕ &amp;ПоПодразделениям)
+            И (НЕ &amp;ВидАналитики1 = Неопределено И ТаблицаПлана.Аналитика1 = &amp;Аналитика1 Или &amp;ВидАналитики1 = Неопределено)
+            И (НЕ &amp;ВидАналитики2 = Неопределено И ТаблицаПлана.Аналитика2 = &amp;Аналитика2 Или &amp;ВидАналитики2 = Неопределено)
+            И (НЕ &amp;ВидАналитики3 = Неопределено И ТаблицаПлана.Аналитика3 = &amp;Аналитика3 Или &amp;ВидАналитики3 = Неопределено)
+            И (НЕ &amp;ВидАналитики4 = Неопределено И ТаблицаПлана.Аналитика4 = &amp;Аналитика4 Или &amp;ВидАналитики4 = Неопределено)
+            И (НЕ &amp;ВидАналитики5 = Неопределено И ТаблицаПлана.Аналитика5 = &amp;Аналитика5 Или &amp;ВидАналитики5 = Неопределено)
+            И (НЕ &amp;ВидАналитики6 = Неопределено И ТаблицаПлана.Аналитика6 = &amp;Аналитика6 Или &amp;ВидАналитики6 = Неопределено)
+        Тогда ТаблицаПлана.СуммаВВалютеОборот
+        Иначе 0
+    Конец КАК СуммаПланПоКонтрольнойАналитике,
+    // Каждое условие читать как: "Если контроль включен, тогда по точному совпадению. Иначе - неважно, любое значение."
+    Выбор 
+        Когда (&amp;ПоСценариям И ТаблицаПлана.Сценарий = &amp;Сценарий Или НЕ &amp;ПоСценариям)
+            И (&amp;ПоОрганизациям И ТаблицаПлана.Организация = &amp;Организация Или НЕ &amp;ПоОрганизациям)
+            И (&amp;ПоПодразделениям И ТаблицаПлана.Подразделение = &amp;Подразделение Или НЕ &amp;ПоПодразделениям)
+            И (НЕ &amp;ВидАналитики1 = Неопределено И ТаблицаПлана.Аналитика1 = &amp;Аналитика1 Или &amp;ВидАналитики1 = Неопределено)
+            И (НЕ &amp;ВидАналитики2 = Неопределено И ТаблицаПлана.Аналитика2 = &amp;Аналитика2 Или &amp;ВидАналитики2 = Неопределено)
+            И (НЕ &amp;ВидАналитики3 = Неопределено И ТаблицаПлана.Аналитика3 = &amp;Аналитика3 Или &amp;ВидАналитики3 = Неопределено)
+            И (НЕ &amp;ВидАналитики4 = Неопределено И ТаблицаПлана.Аналитика4 = &amp;Аналитика4 Или &amp;ВидАналитики4 = Неопределено)
+            И (НЕ &amp;ВидАналитики5 = Неопределено И ТаблицаПлана.Аналитика5 = &amp;Аналитика5 Или &amp;ВидАналитики5 = Неопределено)
+            И (НЕ &amp;ВидАналитики6 = Неопределено И ТаблицаПлана.Аналитика6 = &amp;Аналитика6 Или &amp;ВидАналитики6 = Неопределено)
+        Тогда 0
+        Иначе ТаблицаПлана.СуммаВВалютеОборот
+    Конец КАК СуммаПланПоПрочейАналитике
+{ВЫБРАТЬ
+    НачалоПериода,
+    КонецПериода,
+    ДополняющиеДанные,
+
+    ПоСценариям,
+    ПоОрганизациям,
+    ПоПодразделениям,
+    
+    СценарийПустаяСсылка.*,
+    ОрганизацияПустаяСсылка.*,
+    ПодразделениеПустаяСсылка.*,
+
+    ВидАналитики1,
+    ВидАналитики2,
+    ВидАналитики3,
+    ВидАналитики4,
+    ВидАналитики5,
+    ВидАналитики6,
+
+    Аналитика1ПустаяСсылка.*,
+    Аналитика2ПустаяСсылка.*,
+    Аналитика3ПустаяСсылка.*,
+    Аналитика4ПустаяСсылка.*,
+    Аналитика5ПустаяСсылка.*,
+    Аналитика6ПустаяСсылка.*,
+    
+    СценарийПлан.*,
+    ОрганизацияПлан.*,
+    ПодразделениеПлан.*,
+    
+    СтатьяБюджетовПлан.*,
+    Аналитика1План.*,
+    Аналитика2План.*,
+    Аналитика3План.*,
+    Аналитика4План.*,
+    Аналитика5План.*,
+    Аналитика6План.*,
+
+    СценарийСоединение.*,
+    ОрганизацияСоединение.*,
+    ПодразделениеСоединение.*,
+    
+    Аналитика1Соединение.*,
+    Аналитика2Соединение.*,
+    Аналитика3Соединение.*,
+    Аналитика4Соединение.*,
+    Аналитика5Соединение.*,
+    Аналитика6Соединение.*,
+    
+    ВалютаПлан.*,
+    СуммаПлан,
+    СуммаПланПоКонтрольнойАналитике,
+    СуммаПланПоПрочейАналитике}
+ИЗ
+    РегистрНакопления.ОборотыБюджетов.Обороты(
+            {(&amp;ПустаяДата)},
+            {(&amp;ПустаяДата)},
+            ,
+            ПериодПланирования МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+                И Статус = &amp;Статус
+                И СтатьяБюджетов = &amp;СтатьяБюджетов) КАК ТаблицаПлана</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ПоОрганизациям</sourceExpression>
+		<destinationExpression>ПоОрганизациям</destinationExpression>
+		<parameter>ПоОрганизациям</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ПоПодразделениям</sourceExpression>
+		<destinationExpression>ПоПодразделениям</destinationExpression>
+		<parameter>ПоПодразделениям</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ПоСценариям</sourceExpression>
+		<destinationExpression>ПоСценариям</destinationExpression>
+		<parameter>ПоСценариям</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики1</sourceExpression>
+		<destinationExpression>ВидАналитики1</destinationExpression>
+		<parameter>ВидАналитики1</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики2</sourceExpression>
+		<destinationExpression>ВидАналитики2</destinationExpression>
+		<parameter>ВидАналитики2</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики3</sourceExpression>
+		<destinationExpression>ВидАналитики3</destinationExpression>
+		<parameter>ВидАналитики3</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики4</sourceExpression>
+		<destinationExpression>ВидАналитики4</destinationExpression>
+		<parameter>ВидАналитики4</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики5</sourceExpression>
+		<destinationExpression>ВидАналитики5</destinationExpression>
+		<parameter>ВидАналитики5</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ВидАналитики6</sourceExpression>
+		<destinationExpression>ВидАналитики6</destinationExpression>
+		<parameter>ВидАналитики6</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>СтатьяБюджетовДопДанные</sourceExpression>
+		<destinationExpression>СтатьяБюджетовПлан</destinationExpression>
+		<parameter>СтатьяБюджетов</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>Факт</destinationDataSet>
+		<sourceExpression>СтатьяБюджетовДопДанные</sourceExpression>
+		<destinationExpression>СтатьяБюджетовФакт</destinationExpression>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>НачалоПериода</sourceExpression>
+		<destinationExpression>НачалоПериода</destinationExpression>
+		<parameter>НачалоПериода</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>КонецПериода</sourceExpression>
+		<destinationExpression>КонецПериода</destinationExpression>
+		<parameter>КонецПериода</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ОрганизацияФакт</sourceExpression>
+		<destinationExpression>ОрганизацияСоединение</destinationExpression>
+		<parameter>Организация</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ПодразделениеФакт</sourceExpression>
+		<destinationExpression>ПодразделениеСоединение</destinationExpression>
+		<parameter>Подразделение</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика1Факт</sourceExpression>
+		<destinationExpression>Аналитика1Соединение</destinationExpression>
+		<parameter>Аналитика1</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика2Факт</sourceExpression>
+		<destinationExpression>Аналитика2Соединение</destinationExpression>
+		<parameter>Аналитика2</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика3Факт</sourceExpression>
+		<destinationExpression>Аналитика3Соединение</destinationExpression>
+		<parameter>Аналитика3</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика4Факт</sourceExpression>
+		<destinationExpression>Аналитика4Соединение</destinationExpression>
+		<parameter>Аналитика4</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика5Факт</sourceExpression>
+		<destinationExpression>Аналитика5Соединение</destinationExpression>
+		<parameter>Аналитика5</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>Аналитика6Факт</sourceExpression>
+		<destinationExpression>Аналитика6Соединение</destinationExpression>
+		<parameter>Аналитика6</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>ПравилаЛимитовСДопДанными</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>СценарийДопДанные</sourceExpression>
+		<destinationExpression>СценарийСоединение</destinationExpression>
+		<parameter>Сценарий</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Факт</sourceDataSet>
+		<destinationDataSet>План</destinationDataSet>
+		<sourceExpression>ДополняющиеДанные</sourceExpression>
+		<destinationExpression>ДополняющиеДанные</destinationExpression>
+		<parameter>ДополняющиеДанные</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<calculatedField>
+		<dataPath>Организация</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА ОрганизацияПлан
+    КОГДА Не ПоОрганизациям ТОГДА ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка)
+    ИНАЧЕ ОрганизацияФакт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Подразделение</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА ПодразделениеПлан
+    КОГДА Не ПоПодразделениям ТОГДА ЗНАЧЕНИЕ(Справочник.СтруктураПредприятия.ПустаяСсылка)
+    ИНАЧЕ ПодразделениеФакт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подразделение</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтруктураПредприятия</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика1</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА Аналитика1План
+    КОГДА ВидАналитики1 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+    ИНАЧЕ Аналитика1Факт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика2</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА Аналитика2План
+    КОГДА ВидАналитики2 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+    ИНАЧЕ Аналитика2Факт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика3</dataPath>
+		<expression>ВЫБОР
+	КОГДА ДополняющиеДанные ТОГДА Аналитика3План
+    КОГДА ВидАналитики3 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+	ИНАЧЕ Аналитика3Факт
+КОНЕЦ
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика3</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика4</dataPath>
+		<expression>ВЫБОР
+	КОГДА ДополняющиеДанные ТОГДА Аналитика4План
+    КОГДА ВидАналитики4 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+	ИНАЧЕ Аналитика4Факт
+КОНЕЦ
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика4</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика5</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА Аналитика5План
+    КОГДА ВидАналитики5 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+    ИНАЧЕ Аналитика5Факт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика5</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Аналитика6</dataPath>
+		<expression>ВЫБОР
+    КОГДА ДополняющиеДанные ТОГДА Аналитика6План
+    КОГДА ВидАналитики6 = НЕОПРЕДЕЛЕНО ТОГДА НЕОПРЕДЕЛЕНО
+    ИНАЧЕ Аналитика6Факт
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика6</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СтатьяБюджетов</dataPath>
+		<expression>СтатьяБюджетовДопДанные
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статья бюджетов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтатьиБюджетов</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Валюта</dataPath>
+		<expression>ВЫБОР
+	КОГДА ДополняющиеДанные ТОГДА ВалютаПлан
+	ИНАЧЕ ВалютаФакт
+КОНЕЦ
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Валюта</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Валюты</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПревышения</dataPath>
+		<expression>0</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма превышения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПревышенияПоКонтрольнойАналитике</dataPath>
+		<expression>0</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма превышения по контрольной аналитике</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПревышенияПоПрочейАналитике</dataPath>
+		<expression>0</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма превышения по прочей аналитике</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаПланПоУсловиямКонтроля</dataPath>
+		<expression>0</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма план по условиям контроля</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeId>48fa9d68-ae46-4d76-988a-88927f7a0ca6</v8:TypeId>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>СуммаФакт</dataPath>
+		<expression>ЕстьNull(Сумма(СуммаФакт), 0)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПлан</dataPath>
+		<expression>ЕстьNull(Среднее(СуммаПлан), 0)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПланПоКонтрольнойАналитике</dataPath>
+		<expression>ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПланПоПрочейАналитике</dataPath>
+		<expression>ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПревышения</dataPath>
+		<expression>ВЫБОР
+	КОГДА 
+		ВЫБОР 
+			КОГДА ЕстьNull(Среднее(СуммаПлан), 0) = 0
+				ТОГДА 0
+			КОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt;&gt; 0
+				ТОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)
+			КОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt;&gt; 0
+				ТОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)
+		КОНЕЦ = 0
+		ТОГДА ЕстьNull(Сумма(СуммаФакт), 0)
+	КОГДА 
+		ВЫБОР 
+			КОГДА ЕстьNull(Среднее(СуммаПлан), 0) = 0
+				ТОГДА 0
+			КОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt;&gt; 0
+				ТОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)
+			КОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt;&gt; 0
+				ТОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)
+		КОНЕЦ &lt; ЕстьNull(Сумма(СуммаФакт), 0)
+		ТОГДА ЕстьNull(Сумма(СуммаФакт), 0) - 
+			ВЫБОР 
+				КОГДА ЕстьNull(Среднее(СуммаПлан), 0) = 0
+					ТОГДА 0
+				КОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt;&gt; 0
+					ТОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)
+				КОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt;&gt; 0
+					ТОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)
+			КОНЕЦ
+	ИНАЧЕ 0
+КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПревышенияПоКонтрольнойАналитике</dataPath>
+		<expression>ВЫБОР
+    КОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt;&gt; 0 И ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt; ЕстьNull(Сумма(СуммаФакт), 0)
+        ТОГДА ЕстьNull(Сумма(СуммаФакт), 0) - ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)
+    ИНАЧЕ 0
+КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПревышенияПоПрочейАналитике</dataPath>
+		<expression>ВЫБОР
+    КОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt;&gt; 0 И ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt; ЕстьNull(Сумма(СуммаФакт), 0)
+        ТОГДА ЕстьNull(Сумма(СуммаФакт), 0) - ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)
+    ИНАЧЕ 0
+КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПланПоУсловиямКонтроля</dataPath>
+		<expression>ВЫБОР
+    КОГДА ЕстьNull(Среднее(СуммаПлан), 0) = 0
+        ТОГДА 0
+    КОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0) &lt;&gt; 0
+        ТОГДА ЕстьNull(Среднее(СуммаПланПоКонтрольнойАналитике), 0)
+    КОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0) &lt;&gt; 0
+        ТОГДА ЕстьNull(Среднее(СуммаПланПоПрочейАналитике), 0)
+КОНЕЦ</expression>
+	</totalField>
+	<parameter>
+		<name>ЗаявкаНаРасходДС</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Заявка на расход ДС</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПустаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Статус</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статус</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СтатусыПланов</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыПланов.Утвержден</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СтатьяБюджетов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статья бюджетов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтатьиБюджетов</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ПоказателиБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика3</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика3</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика4</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика4</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика5</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика5</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Аналитика6</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Аналитика6</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:Characteristic.АналитикиСтатейБюджетов</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Подразделение</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подразделение</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтруктураПредприятия</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЗначениеНеопределено</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Значение неопределено</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>Неопределено</expression>
+	</parameter>
+	<parameter>
+		<name>ПоОрганизациям</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По организациям</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики3</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики3</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики4</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики4</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики5</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики5</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидАналитики6</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид аналитики6</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.АналитикиСтатейБюджетов</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПоПодразделениям</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По подразделениям</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПоСценариям</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По сценариям</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Сценарий</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сценарий</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Сценарии</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДополняющиеДанные</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дополняющие данные</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПланПоКонтрольнойАналитике</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПланПоПрочейАналитике</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПланПоУсловиямКонтроля</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПревышения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПревышенияПоКонтрольнойАналитике</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПревышенияПоПрочейАналитике</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ЗаявкаНаРасходДС</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>7622c994-342a-4004-8cc5-4178e50ac23e</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Статус</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПоОрганизациям</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПоПодразделениям</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Правило</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипЛимита</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СтатьяБюджетов</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>НачалоПериода</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КонецПериода</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Подразделение</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика1</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика2</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика3</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика4</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика5</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Аналитика6</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Валюта</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

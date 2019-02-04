@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee3a742c-cfc8-4b14-9b76-346f4e899abe">
+  <name>уатПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить дату запрета изменения перед записью набора записей</value>
+  </synonym>
+  <comment>Проверка дат запрета для регистров сведения и накопления УАТ</comment>
+  <source>
+    <types>InformationRegisterRecordSet.уатСостояниеТС</types>
+    <types>AccumulationRegisterRecordSet.уатВыработкаПоСтоимости</types>
+    <types>InformationRegisterRecordSet.уатРегистрацияОснованийДляЗаказовНаТС</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоОтчетамПоставщиковПЦ</types>
+    <types>InformationRegisterRecordSet.уатТарифыСотрудников</types>
+    <types>AccumulationRegisterRecordSet.уатВыработкаСотрудников</types>
+    <types>InformationRegisterRecordSet.уатНормыРасходаГСМ</types>
+    <types>InformationRegisterRecordSet.уатНормыРасходаТехническихЖидкостей</types>
+    <types>AccumulationRegisterRecordSet.уатПланРаботыТС</types>
+    <types>AccumulationRegisterRecordSet.уатПростои</types>
+    <types>AccumulationRegisterRecordSet.уатЗатратыТС</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоМаршрутномуЛисту</types>
+    <types>AccumulationRegisterRecordSet.уатИзносПробегШин</types>
+    <types>InformationRegisterRecordSet.уатСчетчикиТС</types>
+    <types>AccumulationRegisterRecordSet.уатЗаказыГрузоотправителей</types>
+    <types>AccumulationRegisterRecordSet.уатРабочееВремяСотрудников</types>
+    <types>AccumulationRegisterRecordSet.уатВыручка</types>
+    <types>AccumulationRegisterRecordSet.уатВыработкаТС</types>
+    <types>AccumulationRegisterRecordSet.уатБилетыНаСкладах</types>
+    <types>AccumulationRegisterRecordSet.уатРасходГСМнаТС</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоЗаправкамГСМ</types>
+    <types>AccumulationRegisterRecordSet.уатРасходТехническихЖидкостей</types>
+    <types>InformationRegisterRecordSet.уатМестонахождениеТС</types>
+    <types>AccumulationRegisterRecordSet.уатОстаткиГСМнаТС</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

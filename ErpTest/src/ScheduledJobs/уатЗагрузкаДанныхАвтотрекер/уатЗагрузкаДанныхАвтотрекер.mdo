@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa3ea3e6-8446-4c8b-bb5b-2c3e5bca1763">
+  <name>уатЗагрузкаДанныхАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных Автотрекер</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <methodName>CommonModule.уатОбщегоНазначения_проф.ЗагрузкаДанныхАвтотрекер</methodName>
+  <description></description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

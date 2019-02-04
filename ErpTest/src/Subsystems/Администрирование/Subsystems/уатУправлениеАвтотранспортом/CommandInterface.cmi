@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.уатФормаКонстант</commands>
+      <commands>CommonCommand.уатПерсональныеНастройки</commands>
+      <commands>DataProcessor.уатУстановкаПравИНастроек.Command.УстановкаПравИНастроек</commands>
+      <commands>CommonCommand.уатМенеджерЛицензийСЛК</commands>
+      <commands>InformationRegister.уатПараметрыАвторизацииТерминала.Command.ПараметрыАвторизацииТерминала</commands>
+      <commands>DataProcessor.уатФормированиеТиповыхДокументов.Command.ФормированиеТиповыхДокументов</commands>
+      <commands>DataProcessor.уатПомощникОбновленияИБ.Command.ПомощникОбновленияИБ</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

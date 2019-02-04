@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19a23473-e158-4dfa-aa5d-9ae1f1287921">
+  <producedTypes>
+    <objectType typeId="61a6d244-8c47-4945-84dd-188cf6e78edd" valueTypeId="0cddbaee-b0c8-4a37-b992-65f10bbd6d71"/>
+    <refType typeId="a315c328-6a4f-427a-abfd-ebf94b80e4ba" valueTypeId="fd66ad75-5633-45ac-b261-15d294122d93"/>
+    <selectionType typeId="47c5c4bf-f1b0-4639-a40f-f61abd3d8e13" valueTypeId="1498d0be-f2a5-47a5-8c50-16258d24fee3"/>
+    <listType typeId="be034bca-64a7-4b89-b0b2-85e525ceffa7" valueTypeId="29f4d5d5-e284-47d0-bc57-f22f80b4a6c7"/>
+    <managerType typeId="d97550b0-402e-48dd-bb61-710ee4f8a99d" valueTypeId="2ab16fd0-c54c-4a77-9ba6-a768a2a52264"/>
+    <containerType typeId="77e9014b-a76b-439a-abe5-736b6a0da39d" valueTypeId="d320c81f-d6ff-4b15-a69e-f89fda01ead7"/>
+  </producedTypes>
+  <name>пкПоказателиСостоянияТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели состояния техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.пкПоказателиСостоянияТехники.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.пкПоказателиСостоянияТехники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>String</types>
+    <types>Number</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.СМ_ОбъектыСтроительства</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f23a2d5b-8607-464e-a882-41b93791272b">
+      <name>Местонахождения</name>
+      <description>Местонахождения</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+        <types>CatalogRef.СМ_ОбъектыСтроительства</types>
+      </type>
+    </items>
+    <items id="590776d2-7bfe-4a33-b4ee-8a75c6cae915">
+      <name>Моточасы</name>
+      <description>Моточасы</description>
+      <code>000000003</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="435e04f4-8814-49c7-9e2f-d480b45e76de">
+      <name>Подразделение</name>
+      <description>Подразделение</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+    </items>
+    <items id="c0775db6-dc34-4485-9c1a-b6c0e95c39d1">
+      <name>ТемператураЗамерзанияОхлаждающейЖидкости</name>
+      <description>Температура замерзания ох</description>
+      <code>000000004</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

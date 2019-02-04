@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8c418d1-6b69-4eb9-ad19-4ba0687f0813">
+  <name>уатЧасовыеПоясаСКАУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовые пояса СКАУТ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

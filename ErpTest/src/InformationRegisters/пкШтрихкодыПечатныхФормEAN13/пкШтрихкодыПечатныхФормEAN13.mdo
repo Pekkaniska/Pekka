@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6464d33-83e6-4b76-9b79-f1934d6d2a3d">
+  <producedTypes>
+    <selectionType typeId="e295a396-0bca-4731-989f-bfcc1fabfb1f" valueTypeId="d442e2a2-5693-4d7e-886a-9297c8b6468b"/>
+    <listType typeId="7c2eb935-318a-400d-ac7d-dc5a2a9fc808" valueTypeId="207f125c-a3fd-401d-9440-e528743bda9c"/>
+    <managerType typeId="6ab42bb8-e605-4533-adeb-2d65358a4ace" valueTypeId="4d4cdd3f-e54e-49d2-a036-27eb4684b8ea"/>
+    <recordSetType typeId="a7a6118f-6509-42f7-8082-55d18f093678" valueTypeId="6361d157-1826-4e1e-9041-54b599a97c9e"/>
+    <recordKeyType typeId="a256206b-9ced-4b26-a658-853891465d62" valueTypeId="82e79c38-a5cb-4e4c-9e93-f4d8622a8b94"/>
+    <recordType typeId="093495d9-c5d8-4cf6-8e61-4ba1928e9ef1" valueTypeId="cd9ecb86-1fa7-41f5-994e-12da3e924526"/>
+    <recordManagerType typeId="de7b79c5-8412-4b88-8a74-9efa348d6996" valueTypeId="c477c2ea-6462-47f1-aaaa-3f1dc027eeb9"/>
+  </producedTypes>
+  <name>пкШтрихкодыПечатныхФормEAN13</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды печатных форм EAN13</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9cd4b89c-b2ca-4f17-bd84-6adfad13a930">
+    <name>ШтрихкодEAN13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод EAN13</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="cedcbaaa-9255-4a5b-a4a3-559bb81db96b">
+    <name>ДокументВладелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DefinedType.пкТипыДокументовПФEAN13</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6bd66ff-1015-4bf5-a762-403fc0cb4fb1">
+    <name>НаименованиеПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование ПФ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39e9ec5b-1f0b-4fc0-93de-7e6249309d3a">
+  <producedTypes>
+    <objectType typeId="34aebbcf-8093-45d4-b88f-06596ab6e800" valueTypeId="a5337107-82fc-40e7-8530-16a2b7c4b126"/>
+    <refType typeId="e9e52f6e-2822-41f4-99d8-8923cef00877" valueTypeId="ef96bcda-010a-4696-9083-110062aed2a9"/>
+    <selectionType typeId="13656b6d-8496-4480-b9cd-ee510b57375a" valueTypeId="9bb98aca-05e3-406d-b8f8-26f0774cd3a3"/>
+    <listType typeId="9100e60a-1165-4801-9b46-8f73dbf67e3b" valueTypeId="29243418-5ba8-485f-ae6a-7565977f9267"/>
+    <managerType typeId="a70a31a0-352a-4b42-a389-ecdbb6f335a9" valueTypeId="8030113d-e7b5-4737-bbcb-b206e38027ef"/>
+    <containerType typeId="6e37cb49-fa60-4a65-a196-a5cffdec75a7" valueTypeId="a12afe21-d5d4-45e5-8642-65008134c543"/>
+  </producedTypes>
+  <name>уатПраваИНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права и настройки</value>
+  </synonym>
+  <comment>Классификатор прав и настроек конфигурации</comment>
+  <inputByString>ChartOfCharacteristicTypes.уатПраваИНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.уатПраваИНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование элемента</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер элемента</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>     </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>В группе</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа элемента</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.уатПраваИНастройки.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>EnumRef.уатВидыПравДляДокументов</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>EnumRef.уатРежимФильтрации</types>
+    <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    <types>CatalogRef.СтатьиКалькуляции</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.ВидыРаботСотрудников</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.РолиИсполнителей</types>
+    <types>EnumRef.уатВидыРасчетаРасходаГСМ</types>
+    <types>CatalogRef.Организации</types>
+    <types>EnumRef.уатВидыПравДляСправочников</types>
+    <types>Boolean</types>
+    <types>EnumRef.уатРежимПрефиксации</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>EnumRef.уатВидыОперацийЗаказГрузоотправителя</types>
+    <types>EnumRef.СпособыОценки</types>
+    <types>EnumRef.уатВидыПЛ</types>
+    <types>EnumRef.уатВидыПроверкиПопаданияЗаправкиВПериодПЛ</types>
+    <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+    <types>ChartOfCalculationTypesRef.Начисления</types>
+    <types>String</types>
+    <types>EnumRef.уатРегистрироватьЗаявкиНаЗаказыГрузоотправителей</types>
+    <types>EnumRef.уатВидыДвиженияГСМ</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.уатРежимыРасчетаВыработкиПЛ</types>
+    <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
+    <types>CatalogRef.уатАЗС</types>
+    <types>CatalogRef.уатВидыПеревозок</types>
+    <types>CatalogRef.Склады</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="51458c34-37de-4f9d-b346-f4e70cee4f9b">
+      <name>Документы</name>
+      <description>ДОКУМЕНТЫ</description>
+      <isFolder>true</isFolder>
+      <code>40000</code>
+      <type/>
+      <content id="2fbd8abf-687d-4535-a89b-bebed8dfd446">
+        <name>ОбщиеПараметрыДокументов</name>
+        <description>ОБЩИЕ ПАРАМЕТРЫ ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>41000</code>
+        <type/>
+        <content id="1d44f1cd-584e-49b5-baf5-caef341d7e61">
+          <name>ВводДокументов</name>
+          <description>ВВОД НОВЫХ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41100</code>
+          <type/>
+          <content id="d77762a3-1cdb-4625-bde4-653648af365d">
+            <name>СуммаВключаетНДС</name>
+            <description>Сумма включает НДС</description>
+            <code>41103</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="66045f27-64e3-4e71-89c3-cefdfea394d5">
+            <name>УчитыватьНДС</name>
+            <description>Учитывать НДС</description>
+            <code>41102</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="d5667c3f-43dc-408f-a311-798ddca2cf53">
+          <name>ЗаписьИПроведениеДокументов</name>
+          <description>ЗАПИСЬ И ПРОВЕДЕНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41300</code>
+          <type/>
+          <content id="887617c6-3c23-4c5c-b344-9bfa76ef5d03">
+            <name>ПутевойЛистПерерасчетИтоговПриПроведении</name>
+            <description>Путевой лист - перерасчет итогов при проведении</description>
+            <code>41305</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="441eaba2-4f55-4018-b640-15ecc92017e1">
+          <name>ПечатьИОформлениеДокументов</name>
+          <description>ПЕЧАТЬ И ОФОРМЛЕНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41400</code>
+          <type/>
+          <content id="2c07addd-f854-4e26-9887-718c8c201462">
+            <name>ПечатьНепроведенных</name>
+            <description>Печать непроведенных документов</description>
+            <code>41405</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+        <content id="f88addc1-9920-41bd-9ec6-2d735c10d920">
+          <name>РедактированиеДокументов</name>
+          <description>РЕДАКТИРОВАНИЕ ДОКУМЕНТОВ</description>
+          <isFolder>true</isFolder>
+          <code>41200</code>
+          <type/>
+          <content id="f77d3817-d087-4e3e-b690-a3aa23b5ac3e">
+            <name>РедактированиеНормативногоРасходаГСМ</name>
+            <description>Редактирование нормативного расхода ГСМ в путевых листах</description>
+            <code>41206</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+          <content id="e1d50b69-8f4c-40b3-b5c3-ddc5f757ae7f">
+            <name>РедактированиеПроведенныхДокументов</name>
+            <description>Редактирование проведенных документов</description>
+            <code>41211</code>
+            <type>
+              <types>Boolean</types>
+            </type>
+          </content>
+        </content>
+      </content>
+      <content id="a6a71b78-931f-48b5-aa8c-0d8af4fe9ebd">
+        <name>ПраваДоступаДокументов</name>
+        <description>ПРАВА ДОСТУПА ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>49000</code>
+        <type/>
+      </content>
+      <content id="68701c28-55a6-43b1-9f0c-f237a0f56e26">
+        <name>ПрефиксацияДокументов</name>
+        <description>ПРЕФИКСАЦИЯ ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>45000</code>
+        <type/>
+      </content>
+      <content id="4a44aeb0-3f7d-44e9-a931-6ebc12553066">
+        <name>ПутевыеЛисты</name>
+        <description>ПУТЕВЫЕ ЛИСТЫ</description>
+        <isFolder>true</isFolder>
+        <code>42000</code>
+        <type/>
+        <content id="709edd0f-8200-43ed-80ec-b6efe1f4e13b">
+          <name>ВыводитьПунктОтправленияВПечатнойФорме6</name>
+          <description>Выводить пункт отправления в печатной форме 6 (автобуса)</description>
+          <code>42012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="66780c68-6e89-4df7-a5ff-3f7f2b7f7c1f">
+          <name>ЗапретПроведенияПЛприНаличииИстекшихДокументов</name>
+          <description>Запрет проведения путевого листа при наличии документов с истекшим сроком действия</description>
+          <code>42013</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="250f0a53-d93a-4012-9bea-a3aff2321828">
+          <name>ЗапретитьРучноеИзменениеОстатковТоплива</name>
+          <description>Запретить ручное изменение остатков топлива</description>
+          <code>42008</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="94b24124-7f97-43a0-b1d6-1a939fb24c94">
+          <name>ЗапретитьРучноеИзменениеПоказанийОдометра</name>
+          <description>Запретить ручное изменение показаний одометра</description>
+          <code>42009</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b6d8086d-41bb-4255-bc72-1e141ff93e2a">
+          <name>ИспользоватьУчетПутЛистовПоПачкам</name>
+          <description>Использовать учет путевых листов по пачкам</description>
+          <code>42006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ab867089-d555-4ce5-b8a9-1cf488ebf5c2">
+          <name>ПодставлятьВторогоВодителя</name>
+          <description>Подставлять второго водителя</description>
+          <code>42003</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="24307000-e2ec-4eb4-985a-a1de308d95a8">
+          <name>ПодставлятьВторогоСотрудника</name>
+          <description>Подставлять второго сотрудника</description>
+          <code>42005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="3b6f13b2-97c0-4c91-b8cf-f006582a81df">
+          <name>ПодставлятьОсновногоВодителя</name>
+          <description>Подставлять основного водителя</description>
+          <code>42002</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9ea6b8b4-b37a-43dd-a1e0-7a57ff26f243">
+          <name>ПодставлятьОсновногоСотрудника</name>
+          <description>Подставлять основного сотрудника</description>
+          <code>42004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ad5e1d74-b97d-453f-a34d-7e07a5563c17">
+          <name>ПоказыватьЗаданиеПЛ</name>
+          <description>Показывать закладку &quot;Задание&quot; в форме путевого листа</description>
+          <code>42001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0c907d5e-4023-4f88-8583-6884c6e3c26f">
+          <name>СрокДействияПутевогоЛиста</name>
+          <description>Срок действия путевого листа</description>
+          <code>42007</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="fe5b6cd6-9be3-43b9-9b67-a3e59f1acdaa">
+        <name>СогласованиеДокументов</name>
+        <description>СОГЛАСОВАНИЕ ДОКУМЕНТОВ</description>
+        <isFolder>true</isFolder>
+        <code>43000</code>
+        <type/>
+        <content id="70f466c5-7f44-4ef1-a9d2-358a20ae4c75">
+          <name>ВводВЭксплуатациюГруппаИсполнителейСогласованияПоУмолчанию</name>
+          <description>&quot;Ввод в эксплуатацию&quot; группа исполнителей согласования</description>
+          <code>43003</code>
+          <type>
+            <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+          </type>
+        </content>
+        <content id="c0c0cdf3-3285-4ebe-9b08-1fce03ea0379">
+          <name>ВводВЭксплуатациюСогласованиеПоУмолчанию</name>
+          <description>&quot;Ввод в эксплуатацию&quot; требует согласования</description>
+          <code>43002</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d10a6a66-c864-4eeb-8a2c-ebe4db8ce600">
+          <name>ВыбытиеИзЭксплуатацииГруппаИсполнителейСогласованияПоУмолчанию</name>
+          <description>&quot;Выбытие ТС и оборудования&quot; группа исполнителей согласования</description>
+          <code>43005</code>
+          <type>
+            <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+          </type>
+        </content>
+        <content id="6c49f240-7e75-4441-bdbb-3a6ae078f523">
+          <name>ВыбытиеИзЭксплуатацииСогласованиеПоУмолчанию</name>
+          <description>&quot;Выбытие ТС и оборудования&quot; требует согласования </description>
+          <code>43004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="6da7ec2f-e698-4304-8af9-b37b5a1f4ddb">
+          <name>ПеремещениеТСИОборудованияГруппаИсполнителейСогласованияПоУмолчанию</name>
+          <description>&quot;Перемещение ТС и оборудования&quot; группа исполнителей согласования</description>
+          <code>43007</code>
+          <type>
+            <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+          </type>
+        </content>
+        <content id="b6f99632-695f-41c4-a150-f068869cfcb9">
+          <name>ПеремещенияТСИОборудованияСогласованиеПоУмолчанию</name>
+          <description>&quot;Перемещение ТС и оборудования&quot; требует согласования</description>
+          <code>43006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="3a9c9be4-1825-4aee-85eb-ea8c2cc09d1b">
+          <name>УстановкаПрейскурантовТСГруппаИсполнителейСогласованияПоУмолчанию</name>
+          <description>&quot;Установка прейскурантов ТС&quot; группа исполнителей согласования</description>
+          <code>43011</code>
+          <type>
+            <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+          </type>
+        </content>
+        <content id="5efd316b-8502-4b47-a856-a86699f56a0e">
+          <name>УстановкаПрейскурантовТССогласованиеПоУмолчанию</name>
+          <description>&quot;Установка прейскурантов ТС&quot; требует согласования</description>
+          <code>43010</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="987eb2a9-bdff-4975-af56-537e75b68025">
+          <name>УстановкаТарифовЗПГруппаИсполнителейСогласованияПоУмолчанию</name>
+          <description>&quot;Установка тарифов ЗП&quot; группа исполнителей согласования</description>
+          <code>43013</code>
+          <type>
+            <types>CatalogRef.уатГруппыПользователейДляСогласования</types>
+          </type>
+        </content>
+        <content id="63695af8-0c7c-42ef-b7c9-1083730b00bf">
+          <name>УстановкаТарифовЗПСогласованиеПоУмолчанию</name>
+          <description>&quot;Установка тарифов ЗП&quot; требует согласования</description>
+          <code>43012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="09b23d34-43a9-444b-b232-e1a0a79038bf">
+          <name>РазрешитьИзменятьПараметрыСогласования</name>
+          <description>Разрешить изменять параметры согласования</description>
+          <code>43001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="4af448b4-e261-4903-ba1f-e4945456bea2">
+        <name>УчетВремениПланФактМаршрутныйЛист</name>
+        <description>Учет планового и фактического времени в маршрутных листах</description>
+        <code>44001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="91e6dfba-b77d-4d87-948e-0a8060d76d68">
+      <name>ОбщиеПраваДоступа</name>
+      <description>ОБЩИЕ ПРАВА ДОСТУПА</description>
+      <isFolder>true</isFolder>
+      <code>10000</code>
+      <type/>
+      <content id="5dbd0071-1a64-4c77-a599-7cb9748f98aa">
+        <name>ПроверкаДоступаКСправочникамИДокументам</name>
+        <description>Проверка прав доступа к справочникам и документам</description>
+        <code>10002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7d0bacf4-9a6b-4332-ae58-2007a1f42fb1">
+        <name>РазрешитьИзменениеЛичныхНастроек</name>
+        <description>Разрешить изменение личных настроек</description>
+        <code>10005</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="6afa7e72-94eb-453f-9cfa-10a50610c7a0">
+        <name>РазрешитьИзменениеПравДоступа</name>
+        <description>Разрешить изменение прав доступа и настроек</description>
+        <code>10004</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="d4f6e8ab-f8fa-47fe-bdb7-9fa0cacf7869">
+        <name>РазрешитьРаботуСУАТ</name>
+        <description>Разрешить работу с подсистемой &quot;Управление автотранспортом&quot;</description>
+        <code>10015</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3f5020d7-ddcb-450d-808b-56b6175220d1">
+        <name>РазрешитьРаботуСПрограммой</name>
+        <description>Разрешить работу с программой</description>
+        <code>10001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4c1395e3-5a41-44a8-aadd-aec15c859340">
+        <name>УдалениеЧерезПометку</name>
+        <description>Удаление через пометку</description>
+        <code>10006</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="b785c5bb-bdf2-47db-83f8-08f9506b93e5">
+      <name>Отчеты</name>
+      <description>ОТЧЕТЫ</description>
+      <isFolder>true</isFolder>
+      <code>50000</code>
+      <type/>
+      <content id="a68a0066-6650-404c-9ccc-556f474d0f8e">
+        <name>ФорматироватьВремяВОтчетах</name>
+        <description>Форматировать время в отчетах</description>
+        <code>50001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="4939daba-b226-414b-9372-9af7279848ed">
+      <name>ПараметрыСистемы</name>
+      <description>ПАРАМЕТРЫ СИСТЕМЫ</description>
+      <isFolder>true</isFolder>
+      <code>70000</code>
+      <type/>
+      <content id="04472912-fdb9-4a78-9a4c-b4945f19242d">
+        <name>АналитикаУчетаВыработки</name>
+        <description>АНАЛИТИКА УЧЕТА ВЫРАБОТКИ</description>
+        <isFolder>true</isFolder>
+        <code>72000</code>
+        <type/>
+        <content id="8488806b-f1d9-438e-866b-adb2f1f1a693">
+          <name>НачислятьИзносНаЗапаску</name>
+          <description>Начислять пробег и износ на запаску</description>
+          <code>72004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="cb60523e-9b95-43ce-9026-00127cbb1843">
+          <name>УчетВыработкиПоВидамПеревозок</name>
+          <description>Учет выработки по видам перевозок</description>
+          <code>72008</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="e8faedb2-2330-4d5e-b6f7-8d725f9758a0">
+          <name>УчетВыработкиПоКонтрагентам</name>
+          <description>Учет выработки по контрагентам</description>
+          <code>72002</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="cd0e4940-bfb6-4bff-a3c4-929c60aec206">
+          <name>УчетВыработкиПоМаршрутам</name>
+          <description>Учет выработки по маршрутам</description>
+          <code>72006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="aa0978a0-e33e-42f2-87ad-d83993ed18ca">
+          <name>УчетВыработкиПоОбъектамСтроительства</name>
+          <description>Учет выработки по объектам строительства</description>
+          <code>72005</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="86719743-ad11-46c1-b718-0d148601bdf5">
+          <name>УчетВыработкиПоПодразделениям</name>
+          <description>Учет выработки по подразделениям</description>
+          <code>72003</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="760f6b9c-81f2-4ee4-8567-655496259eeb">
+        <name>ГСМ</name>
+        <description>ГСМ</description>
+        <isFolder>true</isFolder>
+        <code>78000</code>
+        <type/>
+        <content id="1667e5d9-d467-4fea-9654-48e4ff447eee">
+          <name>ИспользоватьУчетНормативногоРасходаТехЖидкостей</name>
+          <description>Использовать учет нормативного расхода технических жидкостей</description>
+          <code>78010</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="35130568-8ba0-47b1-aae8-9610f0df1320">
+          <name>ОсновнаяАЗС</name>
+          <description>Основная АЗС</description>
+          <code>78002</code>
+          <type>
+            <types>CatalogRef.уатАЗС</types>
+          </type>
+        </content>
+        <content id="4b0c0e2f-4cca-4ebd-a0bf-a67740b50085">
+          <name>ОсновнойВидЗаправки</name>
+          <description>Основной вид заправки</description>
+          <code>78001</code>
+          <type>
+            <types>EnumRef.уатВидыДвиженияГСМ</types>
+          </type>
+        </content>
+        <content id="87526e7c-bcf2-4674-9532-f3035ba4a28e">
+          <name>ПредупреждатьПриПревышенииУровняТопливаВБаке</name>
+          <description>Предупреждать при превышении уровня топлива в баке</description>
+          <code>78007</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="3b941558-f3b9-4425-9eca-e031ed3b9a92">
+          <name>ПроверятьПопаданиеЗаправкиСливаВПериодПутевогоЛиста</name>
+          <description>Проверять попадание заправок и сливов ГСМ в период путевого листа</description>
+          <code>78012</code>
+          <type>
+            <types>EnumRef.уатВидыПроверкиПопаданияЗаправкиВПериодПЛ</types>
+          </type>
+        </content>
+        <content id="4be4eaf5-8847-443b-9c4d-359f59418881">
+          <name>РасчетФактРасходаГСМ</name>
+          <description>Расчет фактического расхода ГСМ</description>
+          <code>78005</code>
+          <type>
+            <types>EnumRef.уатВидыРасчетаРасходаГСМ</types>
+          </type>
+        </content>
+        <content id="af7033a6-0e61-4cbd-afaa-23056f1caf90">
+          <name>СпособОценкиМПЗ</name>
+          <description>Способ оценки МПЗ</description>
+          <code>78014</code>
+          <type>
+            <types>EnumRef.СпособыОценки</types>
+          </type>
+        </content>
+        <content id="40ab6a8f-a4ba-4f53-922d-ac8a3cffe443">
+          <name>ТочностьОстатковТоплива</name>
+          <description>Точность остатков топлива</description>
+          <code>78004</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>1</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="0d7147a0-5679-4dfa-9706-890e16134fa0">
+        <name>ДокументыТК</name>
+        <description>ДОКУМЕНТЫ ТИПОВОЙ КОНФИГУРАЦИИ</description>
+        <isFolder>true</isFolder>
+        <code>72100</code>
+        <type/>
+        <content id="3e9780d2-b172-4c64-a83d-2a05d8b6cb2a">
+          <name>ВидРаботПЛВыработкаСотрудников</name>
+          <description>Вид работ при формировании выработки сотрудников на основании ПЛ</description>
+          <code>72109</code>
+          <type>
+            <types>CatalogRef.ВидыРаботСотрудников</types>
+          </type>
+        </content>
+        <content id="9b103434-cdb7-4f75-af91-55fea85897ea">
+          <name>РегистрироватьЗаявкиНаЗаказыНаТС</name>
+          <description>Регистрировать заявки на заказы на ТС</description>
+          <code>72101</code>
+          <type>
+            <types>EnumRef.уатРегистрироватьЗаявкиНаЗаказыГрузоотправителей</types>
+          </type>
+        </content>
+        <content id="9e1d8911-0a59-4cd8-91db-ad0fdc77b08f">
+          <name>СкладДляПеремещенияАгрегатов</name>
+          <description>Склад для перемещения агрегатов</description>
+          <code>72111</code>
+          <type>
+            <types>CatalogRef.Склады</types>
+          </type>
+        </content>
+        <content id="88b8b0e4-d079-4271-a433-51cbf103bfd8">
+          <name>СкладДляПеремещенияГСМ</name>
+          <description>Склад для перемещения ГСМ</description>
+          <code>72110</code>
+          <type>
+            <types>CatalogRef.Склады</types>
+          </type>
+        </content>
+        <content id="7a85b678-54d9-4c30-8437-bb60786ef67f">
+          <name>СтатьяДоходовСливТЖОприходТоваров</name>
+          <description>Статья доходов при формировании оприходования товаров на основании слива ТЖ</description>
+          <code>72106</code>
+          <type>
+            <types>ChartOfCharacteristicTypesRef.СтатьиДоходов</types>
+          </type>
+        </content>
+        <content id="5c0ff947-0d60-4251-8db0-aa873b5089fc">
+          <name>СтатьяКалькуляцииПЛВыработкаСотрудников</name>
+          <description>Статья калькуляции при формировании выработки сотрудников на основании ПЛ</description>
+          <code>72108</code>
+          <type>
+            <types>CatalogRef.СтатьиКалькуляции</types>
+          </type>
+        </content>
+        <content id="27f09a82-d60d-4fa5-bf15-2b0ffe9621b0">
+          <name>СтатьяРасходовДоливТЖВнутрПотребление</name>
+          <description>Статья расходов при формировании внутреннего потребления на основании долива ТЖ</description>
+          <code>72105</code>
+          <type>
+            <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+          </type>
+        </content>
+        <content id="21702f9d-79c6-4308-8614-bf1ed826b3b8">
+          <name>СтатьяРасходовПЛВнутрПотребление</name>
+          <description>Статья расходов при формировании внутреннего потребления на основании ПЛ</description>
+          <code>72103</code>
+          <type>
+            <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+          </type>
+        </content>
+        <content id="20f0bafa-f978-43ed-9fb4-32181ca8237f">
+          <name>СтатьяРасходовПЛСписаниеНедостачТоваров</name>
+          <description>Статья расходов при формировании недостач товаров на основании ПЛ</description>
+          <code>72104</code>
+          <type>
+            <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+          </type>
+        </content>
+      </content>
+      <content id="dd98f4fd-5263-4a25-a371-ce9f64ce2164">
+        <name>ЗагрузкаGPS</name>
+        <description>ЗАГРУЗКА GPS</description>
+        <isFolder>true</isFolder>
+        <code>76100</code>
+        <type/>
+        <content id="1a45278a-d3f8-4cce-b567-cd34c7ebb2e1">
+          <name>КорректировкаВремениДляЗагрузкиOmnicomm</name>
+          <description>Корректировка времени для загрузки данных Omnicomm</description>
+          <code>76101</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>2</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="a0708fb9-7f52-4250-98b4-3dbf8f7d3e72">
+          <name>КорректировкаВремениДляЗагрузкиWialon</name>
+          <description>Корректировка времени для загрузки данных Wialon</description>
+          <code>76104</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>2</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="75562edb-89c3-44f8-b876-e8368a88db06">
+          <name>КорректировкаВремениДляЗагрузкиАвтотрекер</name>
+          <description>Корректировка времени для загрузки данных Автотрекер</description>
+          <code>76102</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>2</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="644ee851-a617-47a3-a081-0acd7279cc71">
+          <name>ПодставлятьВремяВРаботеВПЛпоGPS</name>
+          <description>Обновлять &quot;Время в работе&quot; по данным GPS при расчете итогов</description>
+          <code>76106</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="05884822-c8aa-4ac9-bc8c-84abf7bc09b8">
+          <name>ПодставлятьОбщийПробегВПЛпоGPS</name>
+          <description>Обновлять &quot;Пробег общий&quot; по данным GPS при расчете итогов</description>
+          <code>76107</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1ce35fb2-18c6-429e-9cb9-f44d70aff1d0">
+          <name>АвтообновлениеПЛпоGPS</name>
+          <description>Обновлять данные по GPS при расчете итогов</description>
+          <code>76105</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="6304f503-37d7-4262-93f6-4f6b03b49ed6">
+          <name>ЧасовойПоясДляВзаимодействияСКАУТ</name>
+          <description>Часовой пояс для взаимодействия с системой GPS СКАУТ</description>
+          <code>76103</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>100</length>
+            </stringQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="8e962ade-8ce9-4163-b7c1-efa236f387ea">
+        <name>Затраты</name>
+        <description>ЗАТРАТЫ</description>
+        <isFolder>true</isFolder>
+        <code>75000</code>
+        <type/>
+        <content id="a2e801aa-e551-43cd-9764-37c909962251">
+          <name>ВестиУчетЗатрат</name>
+          <description>Вести учет затрат</description>
+          <code>75001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="521e0a01-5bbb-45d7-9816-db302d30eca6">
+        <name>Контроль</name>
+        <description>КОНТРОЛЬ</description>
+        <isFolder>true</isFolder>
+        <code>73000</code>
+        <type/>
+        <content id="e6ecf26b-4bbe-442c-9b98-ac6ed0b2fdc3">
+          <name>ДниДоОкончанияДействияДокументовВодителей</name>
+          <description>Дни до окончания действия документов водителей</description>
+          <code>73004</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="ed5d8da5-12e5-4483-b084-7388022f9ea6">
+          <name>ДниДоОкончанияДействияДокументовТС</name>
+          <description>Дни до окончания действия документов ТС</description>
+          <code>73005</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="baccfbaf-f330-4341-a360-f850d18088d4">
+          <name>ДниДоОкончанияДействияТопливныхКарт</name>
+          <description>Дни до окончания действия топливных карт</description>
+          <code>73007</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="c276b508-c4b4-475c-a481-40db401517fc">
+          <name>КонтрольКорректностиЗаданияПЛ</name>
+          <description>Контроль корректности задания путевого листа</description>
+          <code>73006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="c4a52139-356d-47f8-9cdd-9911bb3a9b0c">
+          <name>МаксимальнаяПродолжительностьПутЛиста</name>
+          <description>Максимальная продолжительность путевого листа</description>
+          <code>73003</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>3</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="3fc44741-c226-4b19-88c9-e104f4e74b92">
+          <name>МаксимальнаяСуточнаяНаработкаМоточасов</name>
+          <description>Максимальная суточная наработка моточасов</description>
+          <code>73002</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="5244424f-1eda-4f86-98bf-3151226b2ade">
+          <name>МаксимальныйСуточныйПробег</name>
+          <description>Максимальный суточный пробег</description>
+          <code>73001</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="160689c4-6a6f-4119-9c26-cc3739571788">
+        <name>Основные</name>
+        <description>ОСНОВНЫЕ</description>
+        <isFolder>true</isFolder>
+        <code>71000</code>
+        <type/>
+        <content id="985602d6-fe21-42cf-ae6a-0fa47caf76b6">
+          <name>ОсновнойВидПеревозок</name>
+          <description>Основной вид перевозок</description>
+          <code>71004</code>
+          <type>
+            <types>CatalogRef.уатВидыПеревозок</types>
+          </type>
+        </content>
+        <content id="9d1cfde4-9aab-4317-9c59-72fc3a039c93">
+          <name>ОсновнойВидПЛ</name>
+          <description>Основной вид путевых листов</description>
+          <code>71003</code>
+          <type>
+            <types>EnumRef.уатВидыПЛ</types>
+          </type>
+        </content>
+        <content id="3592a0d6-93dc-449e-bc45-1978b4cfb258">
+          <name>ОсновнойРежимРасчетаВыработкиПЛ</name>
+          <description>Основной режим расчета выработки путевых листов</description>
+          <code>71002</code>
+          <type>
+            <types>EnumRef.уатРежимыРасчетаВыработкиПЛ</types>
+          </type>
+        </content>
+        <content id="a4814d3b-7071-4cd0-b06d-04585fa7ee46">
+          <name>ПредставлениеТСКакГосНомер</name>
+          <description>Представление ТС по государственному номеру</description>
+          <code>71001</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="30ce2f1d-3d73-4975-9290-46b24c5ac48a">
+        <name>Персонал</name>
+        <description>ПЕРСОНАЛ</description>
+        <isFolder>true</isFolder>
+        <code>77000</code>
+        <type/>
+        <content id="974de4cc-f6a3-46d6-b4af-48a9a9d3f6dd">
+          <name>ОсновнойВрач</name>
+          <description>Основной врач</description>
+          <code>77003</code>
+          <type>
+            <types>CatalogRef.Сотрудники</types>
+          </type>
+        </content>
+        <content id="d31f792a-aec1-4559-8836-206518b34e32">
+          <name>ОсновнойДиспетчер</name>
+          <description>Основной диспетчер</description>
+          <code>77001</code>
+          <type>
+            <types>CatalogRef.Сотрудники</types>
+          </type>
+        </content>
+        <content id="83c1f97a-002b-4806-98b0-e91b7370c4a6">
+          <name>ОсновнойМеханик</name>
+          <description>Основной механик</description>
+          <code>77002</code>
+          <type>
+            <types>CatalogRef.Сотрудники</types>
+          </type>
+        </content>
+      </content>
+      <content id="49ec798d-d6c1-4db8-9439-69bbdb37d021">
+        <name>УчетВремени</name>
+        <description>УЧЕТ ВРЕМЕНИ</description>
+        <isFolder>true</isFolder>
+        <code>76000</code>
+        <type/>
+        <content id="c0e93472-2bf2-4559-af86-745382de485b">
+          <name>ВремяВозращенияПЛ</name>
+          <description>Время возращения по путевому листу</description>
+          <code>76002</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Time</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="46c5dcaf-a174-4820-b4aa-4bff5401df96">
+          <name>ВремяВыездаПЛ</name>
+          <description>Время выезда по путевому листу</description>
+          <code>76001</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Time</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="545b621e-2bff-4e3b-99e3-1945d312ab73">
+          <name>ВремяДоОбеда</name>
+          <description>Время до обеда</description>
+          <code>76004</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Time</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="9344a449-77fb-4203-8880-c9e4233e055e">
+          <name>ПродолжительностьОбеда</name>
+          <description>Продолжительность обеда</description>
+          <code>76005</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Time</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="f7b7ff89-44c5-4a1c-a9f3-3080393129e5">
+          <name>ПродолжительностьРабочегоДня</name>
+          <description>Продолжительность рабочего дня</description>
+          <code>76003</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Time</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
+        <content id="bbf7327f-ca22-4bd4-b31b-3e1027fbb4f8">
+          <name>УчетРабочегоВремени</name>
+          <description>Учет рабочего времени</description>
+          <code>76006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="5556aece-815c-4269-a191-2db1d7ad3973">
+      <name>Справочники</name>
+      <description>СПРАВОЧНИКИ</description>
+      <isFolder>true</isFolder>
+      <code>30000</code>
+      <type/>
+      <content id="6cdb2c1a-7ada-4a0e-b5a2-ba39160b4b15">
+        <name>ПраваДоступаСправочников</name>
+        <description>ПРАВА ДОСТУПА СПРАВОЧНИКОВ</description>
+        <isFolder>true</isFolder>
+        <code>39000</code>
+        <type/>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultFolderForm>ChartOfCharacteristicTypes.уатПраваИНастройки.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.уатПраваИНастройки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.уатПраваИНастройки.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>ChartOfCharacteristicTypes.уатПраваИНастройки.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="4b74244b-eb73-4e6f-8227-834e19ad749e">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <comment>Значение права / настройки по умолчанию</comment>
+    <type>
+      <types>Characteristic.уатПраваИНастройки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение права / настройки по умолчанию</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7a8d033-3817-43b0-9ffa-3f8be653bdee">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <comment>Признак доступности права / настройки для компании / организации / подразделения / пользователя</comment>
+    <type>
+      <types>EnumRef.уатНазначениеПравИНастроек</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак доступности права / настройки для компании / организации / подразделения / пользователя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09a1e6a2-c4a6-412e-8d07-a34a2c5ed7a4">
+    <name>НастройкаКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка компании</value>
+    </synonym>
+    <comment>Настройка компании</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка по компании</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bcc0bcd3-56a8-4efc-a8b1-d28fe3a74518">
+    <name>НастройкаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка организации</value>
+    </synonym>
+    <comment>Настройка организации</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка по организации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d6dc17b-dea8-43d4-ae43-6b6980de9945">
+    <name>НастройкаПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подразделения</value>
+    </synonym>
+    <comment>Настройка подразделения</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка по подразделению</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36b0e6b8-a0da-45bb-b0b7-6ffe5e63afdf">
+    <name>НастройкаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка пользователя</value>
+    </synonym>
+    <comment>Настройка пользователя</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка по пользователю</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fd55d67-7513-4991-86cf-bf9734b2f243">
+    <name>ЭтоНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это настройка</value>
+    </synonym>
+    <comment>Настройки могут изменяться пользователем, Права изменяются только администратором</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки могут изменяться пользователем, Права изменяются только администратором</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d36de78d-8007-4188-abcc-1d5aed01e206">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fab7dd15-cd5f-4a95-8d08-b65a6032f034">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67c7c9b7-5465-4308-ab9a-218e25efeae7">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2a8fc20-c4ca-4f61-945c-d26ee05cb099">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e66884be-2bb0-44bc-898d-1a32e01b77f1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="39136693-c35f-492a-84e9-5db4bdee406a">
+    <name>НастройкиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию</value>
+    </synonym>
+    <comment>Макет в котором задаются права и настройки по умолчанию</comment>
+  </templates>
+</mdclass:ChartOfCharacteristicTypes>

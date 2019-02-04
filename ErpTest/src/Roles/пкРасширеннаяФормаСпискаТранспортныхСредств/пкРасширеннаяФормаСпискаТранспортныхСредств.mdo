@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b63212-f930-4c5e-9e67-6632579835e9">
+  <name>пкРасширеннаяФормаСпискаТранспортныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенная форма списка транспортных средств (пк)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d7f5048-663b-4f9d-afd4-b2a405e70512">
+  <producedTypes>
+    <refType typeId="44f6543c-01dd-46b7-8d33-2af18499e027" valueTypeId="603b2aa3-e93e-4c55-8dd4-1619a029d74b"/>
+    <listType typeId="e3355e17-c39e-420e-b1ab-aad8e709d4bd" valueTypeId="05425179-005c-429a-8278-37c99ee5abb1"/>
+    <managerType typeId="47f473dd-6d0c-4d63-9d6c-e692de2f73d3" valueTypeId="16ed9b45-3022-469e-897f-9ac00b1910db"/>
+  </producedTypes>
+  <name>пкДоходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доход/Расход</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34b1102c-ad9f-4810-b704-2781bcfc1abf">
+    <name>Доход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0cae3405-ac7e-463d-9b87-bf672f647bdc">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

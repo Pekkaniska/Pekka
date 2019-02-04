@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27e2c13-902f-433e-8780-929dc011f48e">
+  <name>пкРедтированиеСтавкиРефинансированияЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редтирование ставки рефинансирования ЦБ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

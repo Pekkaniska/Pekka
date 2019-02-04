@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe889361-2dcf-4311-8566-92cdb62ec934">
+  <producedTypes>
+    <refType typeId="d67e27fa-72f6-4964-bec7-82ec96e295ff" valueTypeId="324ae670-117c-44ac-bb52-3138c6ed0659"/>
+    <listType typeId="56975dbb-97a1-4aea-9676-63c1355dcd9d" valueTypeId="1e09f75e-49de-4ed9-bb1e-674f5911c107"/>
+    <managerType typeId="7e0b861a-22c7-4fc2-8d5e-adbbb046cc75" valueTypeId="4912ee0d-d7f2-4e30-8d68-4e80c7e83da1"/>
+  </producedTypes>
+  <name>пкСтатусыСудебныхИсков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы судебных исков (пк)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b0337964-55f9-4f9c-89f3-900b8b23acab">
+    <name>Подан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подан</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="180d9832-4d62-4164-9dd8-bc09fd154972">
+    <name>ВРассмотрении</name>
+    <synonym>
+      <key>ru</key>
+      <value>В рассмотрении</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4f03abd3-e600-4f69-bfa5-45e3713de73e">
+    <name>Решение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="198a2786-ae65-4010-b23f-fab12f2f7a88">
+    <name>Обжалование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обжалование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2a932b67-f779-485f-a383-29d6329cb68f">
+    <name>ОтказОтИска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ от иска</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2e0d0c03-ca7f-405b-9ec3-1d3887d25f29">
+    <name>МировоеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мировое соглашение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6c75ce39-6171-41bf-96b8-a594beaa4278">
+    <name>ДобровольноеИсполнениеПоИЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добровольное исполнение по ИЛ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="19fbb087-b203-478f-a83b-5388708a2cb9">
+    <name>ИЛВБанке</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИЛ в банке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7951ebb5-20f9-42f5-9893-114ca9edf7dc">
+    <name>ИсполнительноеПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнительное производство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e79e7c6b-20e1-4b76-b08f-7e27567b40ea">
+    <name>Банкротство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банкротство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7cc6856b-3fa2-4558-9cfd-797b7e5d437f">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

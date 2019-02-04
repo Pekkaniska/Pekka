@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50bd27ea-f438-4753-9595-e6377724f859">
+  <producedTypes>
+    <managerType typeId="7cf2313f-3d47-4b76-bc57-f71045482efe" valueTypeId="417455e5-2bd3-4453-9407-ad172741ec46"/>
+    <valueManagerType typeId="7e9bb659-3c1c-4fdd-8415-9037cc49f650" valueTypeId="d4bad35a-bc68-436f-a132-db086ffbc63d"/>
+  </producedTypes>
+  <name>уатАдресСервисаPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервиса Position Report</value>
+  </synonym>
+  <comment>Адрес сервиса Position Report (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Адрес сервиса Position Report</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Адрес сервиса Position Report, например http://х.х.х.х/toRarusService/</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес сервиса Position Report</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

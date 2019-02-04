@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5cbefb2-0dae-4dab-9d4b-c98e0f0ae9cc">
+  <producedTypes>
+    <objectType typeId="7e4d67ec-5a6b-4b55-85c8-161a6ae16bfa" valueTypeId="2d564b60-5f08-4f7c-81c8-8966961a55cd"/>
+    <managerType typeId="d8ec72bf-3f3d-4614-aacb-5dfd37b77c52" valueTypeId="3f7a9674-7914-45d1-8b52-70ba56956d6d"/>
+  </producedTypes>
+  <name>пкАРМСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ &quot;Склад&quot;</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкАРМСклад.Form.ФормаСписка</defaultForm>
+  <attributes uuid="9fd076bf-9d7d-4f9d-b2e6-143454095bf9">
+    <name>НоменклатураРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура расшифровки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc1c5a54-7010-4d61-823a-7dc0307f9136">
+    <name>СкладРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад расшифровки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a297bca6-3f97-4292-ac2a-90812d14dffc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88cd8d43-52dc-4a3c-b8d8-2c071806a8cf">
+    <name>ФормаРасшифровкиКОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки к отгрузке</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

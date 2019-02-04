@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e2316e-eba7-4e62-93b1-27213e729548">
+  <producedTypes>
+    <managerType typeId="3ac68a7b-fa2c-407f-9721-bd42de463af8" valueTypeId="eae2d5d8-ebad-4ca0-bafc-9b885b334395"/>
+    <valueManagerType typeId="e4703fe2-f25a-4dc4-9087-c3661db3366c" valueTypeId="88acd2c5-4513-433f-bba5-799856a17159"/>
+  </producedTypes>
+  <name>уатЛогинВСистемеАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин БД в системе Автотрекер</value>
+  </synonym>
+  <comment>Логин базы данных в системе Автотрекер (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Логин БД в системе Автотрекер</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Логин базы данных в системе Автотрекер</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Логин БД в системе Автотрекер</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

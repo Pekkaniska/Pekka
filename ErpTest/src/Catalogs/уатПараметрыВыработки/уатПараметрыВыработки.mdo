@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3489a01d-054d-41f0-8f9c-e1d581b95ff7">
+  <producedTypes>
+    <objectType typeId="4afa0dbd-737e-402f-87dc-bc27d3998758" valueTypeId="f6fb5c44-41d4-4705-a3be-785252a87f4c"/>
+    <refType typeId="96c2b021-7a99-4b67-851f-457b3573a5b2" valueTypeId="a90fa3d1-aee5-4fe7-abc8-d36953172b9e"/>
+    <selectionType typeId="ea5d3870-1c84-4842-8e38-f57e3a5c14ed" valueTypeId="b2916123-7d1f-460b-adf4-ff5b0f01d36d"/>
+    <listType typeId="d2c144ff-7efa-4d82-ac3c-552df4ff93cd" valueTypeId="699875ab-24a5-43cc-948b-07653ce34308"/>
+    <managerType typeId="a4a11a77-c144-44c9-9b4f-2ddb9e04667b" valueTypeId="e896c57c-dda5-4a01-b875-b6d0954208ea"/>
+  </producedTypes>
+  <name>уатПараметрыВыработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры выработки ТС и водителей</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <inputByString>Catalog.уатПараметрыВыработки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.уатПараметрыВыработки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование.</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_уатПараметрыВыработки</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="659dd0db-d4be-4977-b7f7-cf5984d8c8c8">
+      <name>ВесГруза</name>
+      <description>Вес груза</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="c9fe2f51-2176-4d92-bc4b-0b1f838dd72a">
+      <name>ВремяВНаряде</name>
+      <description>Время в наряде</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="779a6cbe-bc38-4a4b-9fdf-e310e8d82b6c">
+      <name>ВремяВПростое</name>
+      <description>Время в простое</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="0428a293-e502-4788-b3f9-688f33ea11a1">
+      <name>ВремяВПростоеСВклДвигателем</name>
+      <description>Время в простое с вкл двигателем</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="2cb31e86-9ae3-4758-b981-f2e73750b078">
+      <name>ВремяВРаботе</name>
+      <description>Время в работе</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="0db14a70-fa11-48a2-8a05-db4e89694582">
+      <name>ВремяВРаботеПоДаннымGPS</name>
+      <description>Время в работе по данным GPS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="ab616a5a-a4cb-413c-a86c-9b47f79dd884">
+      <name>ВремяВРемонте</name>
+      <description>Время в ремонте</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="9d0be41a-ae40-4db8-807d-97ae9ea59209">
+      <name>ВремяДневное</name>
+      <description>Время дневное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000107</value>
+      </code>
+    </items>
+    <items id="169cc93c-6476-40ca-b414-0d608120aff0">
+      <name>ВремяНочное</name>
+      <description>Время ночное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="7d985557-ab78-49ec-9d12-9a5229dc7e66">
+      <name>ВремяПраздничное</name>
+      <description>Время праздничное</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="0a140f3a-9e04-4153-a11f-ab8d0e2e23b8">
+      <name>ВремяСпециальнойРаботы</name>
+      <description>Время специальной работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="d4dd83ec-a2b8-4b65-801b-8872f216344d">
+      <name>КоличествоДней</name>
+      <description>Количество дней</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="e2e3be6e-5ce2-4a2c-bb42-94452330f1bf">
+      <name>КоличествоЕздок</name>
+      <description>Количество ездок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="7446cb44-8a9f-4d02-a3a5-3d0e6c35970f">
+      <name>КоличествоОпераций</name>
+      <description>Количество операций</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="ff3625bf-1d9e-4329-90b6-e22d3ed6e078">
+      <name>КоличествоПассажиров</name>
+      <description>Количество пассажиров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="01ec38d8-d047-4971-8dc0-d0f472035140">
+      <name>КоличествоРейсов</name>
+      <description>Количество рейсов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="4f6c66b1-833c-4611-b567-99b768e349c1">
+      <name>КоличествоТС</name>
+      <description>Количество ТС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="29ad37e1-faea-480d-a88a-3f79f3be417c">
+      <name>ОбъемКм</name>
+      <description>м3 км</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="08d072bd-a8e4-4eea-9dd0-e60abca0f7aa">
+      <name>Объем</name>
+      <description>Объем груза</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="1b4d3b3d-71e0-4f6a-8448-f5fe67966446">
+      <name>ПогрузочноРазгрузочныеРаботы</name>
+      <description>Погрузочно разгрузочные работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="5cdac850-956c-4a0d-9667-40526ed775c2">
+      <name>Подача</name>
+      <description>Подача</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="30c9eea9-dd88-4d8f-9c10-4747339e80f7">
+      <name>ПробегНаБуксире</name>
+      <description>Пробег на буксире</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="2433af65-8655-464b-b619-24e7e4a31dfb">
+      <name>ПробегОбщий</name>
+      <description>Пробег общий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="2af6c67e-a59a-4cee-b7fa-299295b414cc">
+      <name>ПробегОбщийПоДаннымGPS</name>
+      <description>Пробег общий по данным GPS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="681a8b04-13c1-405e-92c7-417e335a6e71">
+      <name>ПробегПорожний</name>
+      <description>Пробег порожний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="6a8f575d-2f56-4974-8f2e-9a1d4bd60c9e">
+      <name>ПробегСГрузом</name>
+      <description>Пробег с грузом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="2101d57b-edac-4983-bf70-a0bd971aee30">
+      <name>ПробегСПассажирами</name>
+      <description>Пробег с пассажирами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="65d1610c-475c-4ef9-a782-a230a8733f69">
+      <name>ПробегСпециальнойРаботы</name>
+      <description>Пробег специальной работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="1eec3209-f3bb-433e-9888-f0be86569661">
+      <name>ПробегСпециальнойРаботы2</name>
+      <description>Пробег специальной работы 2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="24729c0a-82a6-437b-ad70-e28157f4e821">
+      <name>ПробегСпециальнойРаботы3</name>
+      <description>Пробег специальной работы 3</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="540f5887-6aba-43bb-b768-f2b82c058806">
+      <name>ПробегСпециальнойРаботы4</name>
+      <description>Пробег специальной работы 4</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="ecf2235a-82ea-49f3-9f27-e76a0076b99e">
+      <name>ПробегСпециальнойРаботы5</name>
+      <description>Пробег специальной работы 5</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="60dc41c8-36c6-47f4-9a2a-07a6334a1b11">
+      <name>ПростойПодПогрузкой</name>
+      <description>Простой под погрузкой</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="ccfbf327-7c9e-48a5-bfc9-bca552511169">
+      <name>ПростойПодРазгрузкой</name>
+      <description>Простой под разгрузкой</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="e54cb8e1-37df-4956-b177-6fa29c706a4a">
+      <name>ТнКм</name>
+      <description>Тн км</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.уатПараметрыВыработки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.уатПараметрыВыработки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.уатПараметрыВыработки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ee7b8989-8f77-4197-83d4-64051c0a9e9e">
+    <name>АлгоритмРасчетаПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм расчета параметра</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Алгоритм расчета параметра выработки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b17f5a9-aead-49bb-b851-c9cda27a7804">
+    <name>ДействуетНаТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует на ТС</value>
+    </synonym>
+    <comment>Действует на ТС</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что параметр будет использоваться при расчетах выработки ТС</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91536ff5-948c-44c1-ad27-219c6d004e8f">
+    <name>ДействуетНаСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует на сотрудников</value>
+    </synonym>
+    <comment>Действует на сотрудников</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что параметр будет использоваться при расчетах выработки сотрудников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b674b937-8535-46ee-8e7e-f2d36b08259e">
+    <name>ИспользоватьВТарифахНаУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать в тарифах на услуги</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что параметр будет использоваться в тарифах на услуги при расчете стоимости услуг</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab2dc341-17b5-49f3-8325-ae16e337dbfd">
+    <name>ИспользоватьПриПланировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать при планировании</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что параметр будет использоваться в сценарном планировании</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51f5c48f-ed0b-44a4-9fce-75202e606746">
+    <name>НаименованиеДляДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование для документов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите наименование для документов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="002d12c0-b4f4-415b-bfa3-d1609a6b3d2a">
+    <name>Временный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временной</value>
+    </synonym>
+    <comment>Признак того, что параметр временной</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатели временных параметров хранятся в базе в секундах, а отображаются как время в часах и минутах</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c73122f9-0c56-4e23-b167-1509182a6d43">
+    <name>СпособРасчетаПараметровВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета параметров выработки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.уатСпособРасчетаПараметровВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ расчета параметров выработки.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="26bd00e3-2ab1-4e2d-ac3f-239a65cec2e9">
+    <name>ПоказательНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель наработки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПоказателиНаработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для взаимосвязи с объектами типовой конфигурации и формирования ТД.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b918b3c3-75e3-46db-b7f7-4058fe2312d7">
+    <name>СпособРасчетаПоНомеруЭтапа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета по номеру этапа</value>
+    </synonym>
+    <comment>0 - суммировать значения, 1 - выбирать максимальное значение</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет расчет выработки в рамках одного этапа, если в путевом листе используется нумерация этапов в табличной части &quot;Задание&quot;.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d7975575-ccd2-4eda-aa8c-35661798e3e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55aaf19c-9370-4782-ae08-da543969c4f1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a237772f-eafc-4c87-9f26-f7a0230200a1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

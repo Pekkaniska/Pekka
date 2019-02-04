@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4192b29a-1b43-4673-bb52-9a0c7e264930">
+  <producedTypes>
+    <selectionType typeId="e70229b1-a498-4999-a5f2-4f0c8f451301" valueTypeId="cf6e4198-8ec1-4dc0-8e65-c3766bcbfbcb"/>
+    <listType typeId="7587a814-e0a7-4a9c-862b-5bc1a5789c04" valueTypeId="3ad12a70-dea5-4b7c-a26e-e72faeb18c99"/>
+    <managerType typeId="eadc9e7c-0ef4-4b91-a83c-198d8a9becce" valueTypeId="a8452d6a-6488-436f-9460-02066cbb1801"/>
+    <recordSetType typeId="a0874982-d2b2-44fa-a018-687f1e1c4a1a" valueTypeId="8aeed1e1-f2b2-420d-9ec0-bed0e4cb72e6"/>
+    <recordKeyType typeId="cf7cae69-67cb-4420-8999-d4ee08a42936" valueTypeId="9747e633-9b25-49bf-b695-abcb5a0fb05d"/>
+    <recordType typeId="8483b995-cbbf-45f1-8c63-3cd561412c4d" valueTypeId="9c683ee2-d274-468a-8935-14894f24f81d"/>
+    <recordManagerType typeId="de083fb9-fda8-4112-85cc-6db08acbb6a8" valueTypeId="b833c37c-c69f-415a-8a8d-865255079eff"/>
+  </producedTypes>
+  <name>пкМестонахожденияПультовДляПодъемников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождения пультов для подъемников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e1c6c05-e8f9-4168-9d01-28028e2a7509">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пкСтатусСостоянияПульта</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="513e4419-e41b-41f0-a0f6-1704ef2eab08">
+    <name>Местонахождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местонахождение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8700876e-3713-4f8a-a1cc-085d3702f995">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СкладскиеЯчейки</types>
+      <types>CatalogRef.СМ_ОбъектыСтроительства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b9cca78d-3e17-4077-9b05-6853ef43cc50">
+    <name>Пульт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пульт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.пкПультыДляПодъемников</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

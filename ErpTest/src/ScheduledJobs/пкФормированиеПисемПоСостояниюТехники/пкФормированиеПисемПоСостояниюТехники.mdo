@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c7c555f-62ca-45d6-9f1f-e6b8963b12e0">
+  <name>пкФормированиеПисемПоСостояниюТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование писем по состоянию техники (пк)</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкРегламентныеЗаданияСервер.пкФормированиеПисемПоСостояниюТехники</methodName>
+  <description></description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da57d74a-ca52-43e1-85b4-fe12a8c8e42f">
+  <producedTypes>
+    <objectType typeId="8369c9a9-dc0f-43c9-bb57-2b31bde47725" valueTypeId="5dff9439-4b65-43e6-9004-6d28e66c07b0"/>
+    <managerType typeId="f1e0c3e0-ad2d-42eb-828e-7aec04a00bba" valueTypeId="180fdde2-ae41-4d54-acc0-bc256ed98ae4"/>
+  </producedTypes>
+  <name>пкРасходыПоМашинам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы по машинам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.пкРасходыПоМашинам.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкРасходыПоМашинам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="13ccbcb0-bc9d-4204-9f2b-a18781bf1c50">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1aad0519-c344-4e25-99f8-9a5ce349a22b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

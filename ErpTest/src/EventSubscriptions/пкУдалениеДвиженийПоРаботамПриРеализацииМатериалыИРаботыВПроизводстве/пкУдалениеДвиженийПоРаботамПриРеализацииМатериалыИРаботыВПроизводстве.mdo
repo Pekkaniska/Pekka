@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea721736-96ed-4dde-8d53-80dd2e59a60e">
+  <name>пкУдалениеДвиженийПоРаботамПриРеализацииМатериалыИРаботыВПроизводстве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк удаление движений по работам при реализации материалы и работы в производстве</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>AccumulationRegisterRecordSet.МатериалыИРаботыВПроизводстве</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкУдалениеДвиженийПоРаботамПриРеализацииМатериалыИРаботыВПроизводствеПередЗаписью</handler>
+</mdclass:EventSubscription>

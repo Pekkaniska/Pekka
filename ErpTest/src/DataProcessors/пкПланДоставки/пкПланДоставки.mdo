@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d6bbb00-0599-4bad-a0a2-71389b6ca9c7">
+  <producedTypes>
+    <objectType typeId="912614c5-0840-41b2-ac02-d9e5eed0f988" valueTypeId="31225349-6327-4759-b7c7-ff9a465a7c47"/>
+    <managerType typeId="c7a90804-0c3f-43c0-86ad-3f9136bba3f8" valueTypeId="9fd6e25c-7428-4097-b784-aff9c561ba6d"/>
+  </producedTypes>
+  <name>пкПланДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>План доставки</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкПланДоставки.Form.Форма</defaultForm>
+  <attributes uuid="c60c5c1d-f3e8-46af-b292-e5887b8a72a6">
+    <name>РежимОтображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отображения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e087d32d-5c3a-4d1d-8db1-59764ca7aea5">
+    <name>ВидПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид перевозки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eeecf9a9-a9c4-4517-a8d7-da3c6868eb3e">
+    <name>СтатусЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ab01eab6-37e8-4f49-aba2-50eb0a5a965e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edab6eff-ca0b-4b7e-9b73-4ee8e4f241e2">
+    <name>ПодтверждениеОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение отгрузки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

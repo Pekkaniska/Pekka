@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d96ec6eb-1c92-415b-b14f-45e83fb620f1">
+  <producedTypes>
+    <refType typeId="ededb9dc-2ced-47fa-8e22-7d9af5bfc9e2" valueTypeId="7424b499-f790-4ae2-a5c3-77f1bd7d57cc"/>
+    <listType typeId="36f6c1fd-3e86-4636-a7f3-2d00923974de" valueTypeId="27e048f9-8192-48c3-95d6-c1158f570edb"/>
+    <managerType typeId="599c27f9-3200-432e-a085-67b7f0db04aa" valueTypeId="d877babc-61c0-4f87-a746-69fbeb47afc3"/>
+  </producedTypes>
+  <name>пкВидВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид времени</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c94ccd75-de71-4a53-8bc4-b659794e2293">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="501fde36-e6f7-4399-9f3e-88f80ecf0fb1">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

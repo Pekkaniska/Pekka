@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77198384-e3b3-49f8-b826-450805e05eae">
+  <producedTypes>
+    <selectionType typeId="b4d0ad9f-586d-4ec6-9391-9898a9e404e9" valueTypeId="3b33259b-3fc8-4b9c-96ec-bac07d1a6a6e"/>
+    <listType typeId="dc1bfe9a-0ec2-4d4c-824c-2eb0bbb88685" valueTypeId="7bd9ead5-1130-4b45-9c6f-c9883c441f19"/>
+    <managerType typeId="c12ece6f-7b68-4c03-b507-6f37eef2198e" valueTypeId="d77bfdc2-171a-4cb2-b0fa-1dc01ac59d37"/>
+    <recordSetType typeId="ffbd5f67-ea37-4bf0-9bb2-eb455834dee1" valueTypeId="a9315fb2-c842-43e7-88dc-e9953dc6c248"/>
+    <recordKeyType typeId="e124381f-8078-443d-b406-e9c6c431f428" valueTypeId="06491ef5-d686-45af-a188-db6dca24c738"/>
+    <recordType typeId="f1dd43df-7f46-48b9-979d-e48609e096b9" valueTypeId="1a31edbf-5a0b-49ca-b3cf-0aac849c6758"/>
+    <recordManagerType typeId="2419674a-9470-49e6-828e-1bbe0a12937f" valueTypeId="75fc9408-fcf9-4094-bd56-e6be9a5308ef"/>
+  </producedTypes>
+  <name>пкДатыЭксплуатацииТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты эксплуатации техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2b4282ee-ac5a-4317-88d3-55aaab425371">
+    <name>date_added</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date added</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c6010bc7-5053-4260-812c-2d475723bdb2">
+    <name>date_removed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date removed</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0cc86734-9213-40a5-8288-e8b271a8f463">
+    <name>ДокументНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9066ed6a-8d94-4029-99c6-e9967f6b3c1a">
+    <name>ДокументЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ завершения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c1aa0210-4429-4117-aced-d061a6367b4b">
+    <name>reg_number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Reg number</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

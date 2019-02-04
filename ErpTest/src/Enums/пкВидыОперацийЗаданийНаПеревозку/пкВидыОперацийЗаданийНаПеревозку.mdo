@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f75b0f7-96c7-4989-9d45-049ce089d268">
+  <producedTypes>
+    <refType typeId="0439576f-27fc-4c5b-9d69-0496e348751c" valueTypeId="351bf9e8-4683-45a1-a4d5-3278e52383c8"/>
+    <listType typeId="10f6e906-0388-450f-bb44-6a4d4babe1cb" valueTypeId="e13720e3-d5ae-4d14-847e-be4b277fe1fd"/>
+    <managerType typeId="9ff6de3b-d692-40bd-9ff6-afa8af316d2a" valueTypeId="0c77a624-1609-4b91-a66e-7553ccbe5e58"/>
+  </producedTypes>
+  <name>пкВидыОперацийЗаданийНаПеревозку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций заданий на перевозку</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="563857c9-fa13-4ab3-8ec8-1017e231a1f7">
+    <name>ДоставкаКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка клиенту</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="430b4815-d65a-4bbc-80a4-7cd66986dbd1">
+    <name>ВозвратОтКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от клиента</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="eccdfb7e-dd73-4ae7-8502-8e7de35fe60d">
+    <name>Перекат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перекат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c2747f67-2e4c-45a8-8a5f-53fddafc1aab">
+    <name>ПеремещениеМеждуРегионами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение между регионами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

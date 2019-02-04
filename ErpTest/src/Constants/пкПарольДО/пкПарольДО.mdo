@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e66e79-9d06-4038-a9c6-9458fa5af7b3">
+  <producedTypes>
+    <managerType typeId="e7b948a1-929c-475b-86fa-2c08b16e9610" valueTypeId="eb888cce-a3c8-4687-b442-aab84beab1fa"/>
+    <valueManagerType typeId="1d2e1143-64b3-44c0-8bd5-18b45dab663c" valueTypeId="6382104b-4bdc-4669-8339-c5bbabfc6b9f"/>
+  </producedTypes>
+  <name>пкПарольДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль ДО</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <defaultForm>CommonForm.пкНастройкиПрограммы</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

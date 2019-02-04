@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f7b752e-25f3-44ca-8d69-c6cb1d4f8a10">
+  <name>уатГрузовыеТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Грузовые (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>24</x>
+    <y>5</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

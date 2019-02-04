@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7048e4e-20d6-4086-b74f-54589c713501">
+  <name>уатАдминистрированиеУАТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование УАТ</value>
+  </synonym>
+  <comment>Администрирование управления автотранспортом</comment>
+</mdclass:Role>

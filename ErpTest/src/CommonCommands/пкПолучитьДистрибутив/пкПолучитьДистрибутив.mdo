@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b594f6e5-703d-48fd-b958-990eac610a94">
+  <name>пкПолучитьДистрибутив</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить дистрибутив</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

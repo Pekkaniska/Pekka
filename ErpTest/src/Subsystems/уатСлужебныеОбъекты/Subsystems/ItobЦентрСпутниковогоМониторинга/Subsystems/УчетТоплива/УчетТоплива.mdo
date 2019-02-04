@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="969594b6-a443-4e93-b06c-91bc2c30c4d3">
+  <name>УчетТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет топлива</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ItobОбработкаДанныхТопливоВызовСервера</content>
+  <content>Report.ItobОтчетПоТопливу</content>
+  <content>InformationRegister.ItobКоэффициентыРасходаТоплива</content>
+  <content>03efacb4-9433-4ea1-94ac-11ae3ea6f11f</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

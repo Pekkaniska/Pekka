@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="391a524c-e51f-44d1-8376-49005c1f8758">
+  <name>пкДобавлениеИзменениеСудебныхИсков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Судебных исков</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

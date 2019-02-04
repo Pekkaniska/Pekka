@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b902bdc3-b71a-4b77-9e73-8348be2aef53">
+  <producedTypes>
+    <objectType typeId="f04d48ec-19fe-4d76-afd5-567bb2002825" valueTypeId="f15de014-7b17-4e60-8717-0c6a021e93b6"/>
+    <managerType typeId="96d5397d-23b7-4acf-ad3a-2b325c40bbb1" valueTypeId="4bf0ed41-3a9b-4399-b09c-2b3797560e5e"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетАкцизыАлкоголь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декларация по акцизам на этиловый спирт, алкогольную и (или) подакцизную спиртосодержащую продукцию</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.РегламентированныйОтчетАкцизыАлкоголь.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c92eb8b5-2bf5-4ea2-922e-2dc976a72c6a">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцизы на алкогольную продукцию</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ab702ef-51b3-4aab-8032-7ff193019c87">
+    <name>ФормаОтчета2016Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцизы на алкогольную продукцию</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0d44cc5f-6931-4a0b-9b78-4c937a2ad213">
+    <name>МБ_1151090_5_01000_01_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151090_5.01000_01.tif</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="be4e2d57-0c61-41b0-a542-1bdfa8414d56">
+    <name>ПечатныйБланк2016Кв2_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение1</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="0daaf6e3-988b-46bc-a540-7e6b50874370">
+    <name>ПечатныйБланк2016Кв2_Приложение21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение21</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="0ae4506c-6cb3-4038-97f0-c98cff758c9d">
+    <name>ПечатныйБланк2016Кв2_Приложение22</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение22</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="7e5e7ea3-4ee6-4dc9-84ec-b94c85950c32">
+    <name>ПечатныйБланк2016Кв2_Приложение31</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение31</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c756203a-1910-4226-9e53-224533d22e7b">
+    <name>ПечатныйБланк2016Кв2_Приложение32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение32</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="9e2ab041-0690-4281-b248-6ab4999fafef">
+    <name>ПечатныйБланк2016Кв2_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="17ca4b29-79d9-45c9-a11b-305b7b662c15">
+    <name>ПечатныйБланк2016Кв2_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение5</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="41503cfb-c575-4d33-9111-7c14283e86bd">
+    <name>ПечатныйБланк2016Кв2_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение6</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="7a57cba2-2620-4c4d-9a83-10164b0354ef">
+    <name>ПечатныйБланк2016Кв2_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение7</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="803ec9cc-16a2-4250-8189-51ce10168b8b">
+    <name>ПечатныйБланк2016Кв2_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 приложение8</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="9fa51010-a747-4054-a9c4-4fae43306374">
+    <name>ПечатныйБланк2016Кв2_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 раздел1</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="69cdbeca-277e-4e1e-90ac-e6502f16b8a6">
+    <name>ПечатныйБланк2016Кв2_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 раздел2</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d024bec2-eece-47cd-9ff3-737901edfa37">
+    <name>ПечатныйБланк2016Кв2_Раздел31</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 раздел31</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="96d8a5a3-28f0-4b22-aecb-689d822a4d3f">
+    <name>ПечатныйБланк2016Кв2_Раздел32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 раздел32</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="96ec0096-f426-4b7b-a217-ebbad6d68d62">
+    <name>ПечатныйБланк2016Кв2_Раздел33</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 раздел33</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="98eb7ad7-5fd7-4b33-a7be-b2da6c1c3bb9">
+    <name>ПечатныйБланк2016Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2016 кв2 титульный</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="1d531d37-d7f8-48a0-85aa-03902248e1e3">
+    <name>СоставПоказателей2016Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателей</comment>
+  </templates>
+  <templates uuid="be141402-a3fd-4d68-839d-aaa981269d3f">
+    <name>СпискиВыбора2016Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="b1fdceaa-21b8-4b34-abd4-ec58200804ea">
+    <name>СхемаВыгрузки501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки501</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="df4a364e-0338-4505-9993-7ea2743efc44">
+    <name>ФормаОтчета2016Кв2_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение1</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="9d16ca64-0960-47d0-a516-a5177fbdab5d">
+    <name>ФормаОтчета2016Кв2_Приложение21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение21</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="ff4cc921-af4c-4e1a-9a0a-8a6cb14e919a">
+    <name>ФормаОтчета2016Кв2_Приложение22</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение22</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d4d98053-e57a-41d8-bad2-1bb101c41474">
+    <name>ФормаОтчета2016Кв2_Приложение31</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение31</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c4846ec0-afae-42c8-ab45-fce279d10000">
+    <name>ФормаОтчета2016Кв2_Приложение32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение32</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f8d6fbae-e7f9-4bdf-9651-97ea9908d003">
+    <name>ФормаОтчета2016Кв2_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6518e792-6ad4-4827-8430-5fbd117231d4">
+    <name>ФормаОтчета2016Кв2_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение5</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="902bf393-d48a-4af6-b229-0e2a5627cb99">
+    <name>ФормаОтчета2016Кв2_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение6</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="fd66e1f1-d39b-4230-9408-8c34fc350ff0">
+    <name>ФормаОтчета2016Кв2_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение7</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f1c17449-2864-4150-8da8-4eace8386f8f">
+    <name>ФормаОтчета2016Кв2_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 приложение8</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="b8ab0623-0982-4dd2-9a04-e46b79382148">
+    <name>ФормаОтчета2016Кв2_Раздел11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел11</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5815a2bd-621e-43e6-a0ae-0257e8183be9">
+    <name>ФормаОтчета2016Кв2_Раздел12</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел12</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5e56ec70-c897-4768-bcaf-9e0689970076">
+    <name>ФормаОтчета2016Кв2_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел2</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c5b819ff-0462-4091-b3b0-7b27164f6183">
+    <name>ФормаОтчета2016Кв2_Раздел31</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел31</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5e67f362-59a9-4433-a7f3-0d2f401034ea">
+    <name>ФормаОтчета2016Кв2_Раздел32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел32</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c3fa7147-f077-4cec-a8cc-f99ad90cae86">
+    <name>ФормаОтчета2016Кв2_Раздел33</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 раздел33</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="def25b6f-f9dc-4825-8f0f-f50429c0c0d4">
+    <name>ФормаОтчета2016Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2016 кв2 титульный</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5ca846e3-e444-4ecc-bf00-d5b2aa9a3514">
+    <name>НастройкиЗагрузкиXML2016Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2016 (кв.2)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Report>

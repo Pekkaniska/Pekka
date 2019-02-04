@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90488c99-67a4-402b-a5f7-498110360aae">
+  <producedTypes>
+    <managerType typeId="98473ea1-7a3a-476f-99cf-0734ade5b286" valueTypeId="c4eb92a0-9a40-4b9c-9a49-a7e1feaed587"/>
+    <valueManagerType typeId="107b13a8-30ec-4963-8734-dba278535e5e" valueTypeId="2cb67947-51df-4b2f-a3e0-12a4ce2928db"/>
+  </producedTypes>
+  <name>пкКоличествоОбъектовВПакете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество объектов в пакете</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

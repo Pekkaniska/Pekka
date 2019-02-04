@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9e4b883-3af8-402c-ac12-61d5e5964808">
+  <name>уатДополнительныеРеквизитыНеУстановлены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты не установлены (уат)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

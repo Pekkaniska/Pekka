@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1ec4912-c024-433f-95a9-2592c043baae">
+  <producedTypes>
+    <managerType typeId="9ad2b1ca-37e0-4c8f-b47f-74bcf9cc1ac1" valueTypeId="6bdd7f90-a848-4e99-9873-6c77c04e7378"/>
+    <valueManagerType typeId="4efb4216-d286-4fbe-8758-07e8c26e90b0" valueTypeId="64b59ddd-2a27-453c-8858-b5e796bd9ce1"/>
+  </producedTypes>
+  <name>пкДополнительноеСвойствоЗаявкиНаРасходованиеДСПроект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительное свойство заявки на расходование ДС Проект</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

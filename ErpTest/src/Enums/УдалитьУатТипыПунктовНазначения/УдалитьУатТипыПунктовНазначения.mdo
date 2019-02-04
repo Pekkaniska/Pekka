@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13f49c10-a350-45a4-85b1-9bd159e598ba">
+  <producedTypes>
+    <refType typeId="6a51ce77-24a6-4eb1-a980-ffda0e9b8936" valueTypeId="a8b71307-3a6d-428f-98cd-4d6878b5ba99"/>
+    <listType typeId="9134fc69-cc48-499d-ba12-db4d6cb681dd" valueTypeId="61f86c31-886b-4302-af12-58f03e819d3b"/>
+    <managerType typeId="8c509f02-1bdd-4cb3-8f59-dea0692ce220" valueTypeId="d6993de7-460c-4eb9-b0d9-ec3a1da46134"/>
+  </producedTypes>
+  <name>УдалитьУатТипыПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Типы пунктов назначения</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5e4a191-8fbf-4839-b6f8-ff047f4959fb">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3397812a-35e1-47d5-817b-171e7014692a">
+    <name>Деревня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деревня</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="824e36f6-207c-4428-b3fa-76702f4d9aec">
+    <name>ПГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПГТ</value>
+    </synonym>
+    <comment>Поселок городского типа</comment>
+  </enumValues>
+  <enumValues uuid="ec962652-d48e-42b0-b6fe-80f53d2689e1">
+    <name>Поселок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поселок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="082d2e0d-e3ec-4bf3-af98-4b073922dcbe">
+    <name>Станица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Станица</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b9ea04cb-a956-407b-bdf1-5374bd28adaa">
+    <name>Село</name>
+    <synonym>
+      <key>ru</key>
+      <value>Село</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="81854713-41ad-421f-ac0d-912e53801a93">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="caed527d-dac1-4650-8b7f-e3242c858780">
+    <name>Станция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Станция</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="925212e4-beae-4941-a497-334bf061e478">
+    <name>ЖДСтанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ж/д станция</value>
+    </synonym>
+    <comment>Железнодорожная станция</comment>
+  </enumValues>
+  <enumValues uuid="35509190-0235-4d31-85f1-69a50654d417">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <comment>Порт</comment>
+  </enumValues>
+  <enumValues uuid="0a79f215-a42e-4b4b-af90-ac778d553528">
+    <name>СтоянкаТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоянка такси</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="22de73ce-6111-489e-b3e7-35ec3808512b">
+    <name>АвтобуснаяСтанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автобусная станция</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="570e0a27-dae3-40d4-92d9-cb11d21c4ba8">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="27431793-be16-4f05-b9e5-9143787a710a">
+    <name>Гараж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гараж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

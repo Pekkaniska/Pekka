@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcceb82c-4112-47b7-8639-549fc097c7c8">
+  <producedTypes>
+    <objectType typeId="df8c9fac-b7ec-40d4-a921-ce67f45b849c" valueTypeId="ff93f8bd-f135-4c22-9105-70d5029fc46b"/>
+    <refType typeId="70891898-05a5-4844-9586-3d03f7b7a590" valueTypeId="d84f9430-a69e-466d-b31e-3efef792ffa6"/>
+    <selectionType typeId="e7948290-a8bf-40ac-aae0-975e3b0d19e4" valueTypeId="50dab30b-2889-48c8-8b34-f1c446e184e5"/>
+    <listType typeId="3ee55db2-f2e5-44e6-a6b8-178cc8ed5f39" valueTypeId="63ffb55d-748d-4eb6-bb56-ccc1fc5f5273"/>
+    <managerType typeId="f1216028-b93e-4829-952b-e539ab68df9c" valueTypeId="dc177b17-cb39-45af-bd49-041d00196682"/>
+  </producedTypes>
+  <name>пкКорректировкаНетиповыхРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка нетиповых регистров</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Document.пкКорректировкаНетиповыхРегистров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.пкКорректировкаНетиповыхРегистров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.пкКорректировкаНетиповыхРегистров.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>AccumulationRegister.пкРемонтТСУДилера</registerRecords>
+  <registerRecords>InformationRegister.пкПостановкаНаУчетВРостехнадзоре</registerRecords>
+  <registerRecords>InformationRegister.пкСтатусыТехники</registerRecords>
+  <registerRecords>InformationRegister.пкСрокиАренды</registerRecords>
+  <registerRecords>InformationRegister.пкСостояниеТехники</registerRecords>
+  <registerRecords>InformationRegister.пкСтатусыРемонтаТехники</registerRecords>
+  <registerRecords>InformationRegister.пкМестонахожденияПультовДляПодъемников</registerRecords>
+  <registerRecords>InformationRegister.пкВыданныеТопливныеКарты</registerRecords>
+  <registerRecords>AccumulationRegister.пкЗаданияНаРемонт</registerRecords>
+  <registerRecords>AccumulationRegister.пкВыполненныеРаботы</registerRecords>
+  <registerRecords>InformationRegister.пкРезервТехники</registerRecords>
+  <registerRecords>AccumulationRegister.пкМатериалыИРаботыПоЗаказНарядам</registerRecords>
+  <registerRecords>InformationRegister.пкПретензииПоСчетам</registerRecords>
+  <registerRecords>AccumulationRegister.пкМоделиКДоставкеПоЗаявкамНаАрендуТехники</registerRecords>
+  <registerRecords>AccumulationRegister.пкТехникаКПеремещениюМеждуРегионами</registerRecords>
+  <registerRecords>InformationRegister.пкПробегТСпоТО</registerRecords>
+  <registerRecords>InformationRegister.пкДатыАренды</registerRecords>
+  <registerRecords>InformationRegister.пкПроведениеРемонтов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="a949978d-f10a-4e0d-b7ad-3777182d8d90">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за  документ.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb4b7051-023e-4201-9418-2d7a995a9d1b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий. </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f6f3087d-c147-4f0f-9b4d-f5c90a3ab106">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a30af9ac-c90f-43bc-ae48-c4fffa8ecfee">
+    <name>ФормаВыбораРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора регистра</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14a15268-f098-4248-9c39-18a46dbbbf25">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b9d0c57c-9b6a-4f0c-be10-a556826bc615">
+    <producedTypes>
+      <objectType typeId="a7dd5098-9e61-4137-994e-b56b423da2c8" valueTypeId="cc0569a5-c37b-4fd1-90f6-4802b1e2f249"/>
+      <rowType typeId="6c9e53a1-2c40-45aa-85d6-99afef555205" valueTypeId="a43b3b10-30ef-46c7-af66-449bc51e6ba0"/>
+    </producedTypes>
+    <name>ТаблицаРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7371a6e0-57d4-48d7-9ccf-c2cf55b3f063">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя регистра, которому скорректированы записи.</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="c58e6352-a398-4bc4-999d-f51f088df0de">
+    <name>КорректировкаНетиповыхРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка нетиповых регистров</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

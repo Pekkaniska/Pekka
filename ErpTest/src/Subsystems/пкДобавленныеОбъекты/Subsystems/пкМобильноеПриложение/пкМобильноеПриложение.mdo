@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cde6b445-d422-46b7-899f-9c71598d98e0">
+  <name>пкМобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.пкЛоги</content>
+  <content>InformationRegister.пкМобильныеКонфигурации</content>
+  <content>Catalog.пкСтруктураДанных</content>
+  <content>Catalog.пкМобильныеУстройства</content>
+  <content>ExchangePlan.пкОбменСМобильнымиУстройствами</content>
+  <content>Enum.пкНаправлениеОбмена</content>
+  <content>CommonModule.пкМобильныеУстройства</content>
+  <content>CommonModule.пкОбщийМодульСервер</content>
+  <content>CommonModule.пкСинхронизацияСерверПереопределяемый</content>
+  <content>Role.пкДоступКМобильнойПодсистеме</content>
+  <content>EventSubscription.пкРегистрацияРегистровДляМУПриЗаписи</content>
+  <content>EventSubscription.пкРегистрацияСправочниковДокументовДляМУ</content>
+  <content>DefinedType.пкТипыОбъектовДляОбменаСМобильнойБазой</content>
+  <content>WebService.пкDataTransfer</content>
+  <content>Constant.пкНедоступенДоступенОбмен</content>
+  <content>Constant.пкМинимальнаяВерсияМП</content>
+  <content>Constant.пкАктуальнаяВерсияМП</content>
+  <content>Constant.пкКаталогВременныхФайлов</content>
+  <content>Constant.пкАдресРабочегоСервиса</content>
+  <content>EventSubscription.пкПриУдаленииОбъекта</content>
+  <content>EventSubscription.пкПередЗаписьюДокументаДляМУ</content>
+  <content>EventSubscription.пкПередЗаписьюСправочникаДляМУ</content>
+  <content>CommonModule.пкГлобальный</content>
+  <content>CommonForm.пкНастройкиПрограммы</content>
+  <content>Catalog.пкПользователиМП</content>
+  <content>CommonCommand.пкПолучитьДистрибутив</content>
+  <content>CommonCommand.пкНастройкиСистемы</content>
+  <content>Constant.пкКоличествоОбъектовВПакете</content>
+  <content>EventSubscription.пкРегистрацияРегистровДляМУПередЗаписью</content>
+  <content>Document.УдалитьпкСобытие</content>
+  <content>Enum.пкВидыСобытий</content>
+  <content>Constant.пкВнешнийАдресСервисаДокументооборот</content>
+  <content>Constant.пкПарольДО</content>
+  <content>Constant.пкПользовательДО</content>
+  <content>Constant.пкИдентификаторБДERPДляДО</content>
+  <content>Catalog.пкФильтрыОтбора</content>
+  <content>InformationRegister.пкСтатусыЗаявокНаАрендуТехникиДляМП</content>
+  <content>InformationRegister.пкСтатусыЗаявокНаАрендуТехникиПоМоделямДляМП</content>
+  <content>ScheduledJob.пкРасчетСтатусовЗаявокНаАрендуТехники</content>
+  <content>Constant.пкМаксимальныйНомерУзлаОбмена</content>
+  <parentSubsystem>Subsystem.пкДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

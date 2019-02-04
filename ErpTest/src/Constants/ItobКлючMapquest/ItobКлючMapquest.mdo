@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fb4fda-27ee-4f81-ae82-a3e7eb74aef7">
+  <producedTypes>
+    <managerType typeId="01e5d929-5375-450e-b8cb-4b030fe6e03a" valueTypeId="403cff09-6011-4215-819a-3871deff66fb"/>
+    <valueManagerType typeId="ac438c9f-c0b5-4f23-b25b-63bb27e295b0" valueTypeId="c542226a-9b47-44fe-88d4-7dab50c34ef0"/>
+  </producedTypes>
+  <name>ItobКлючMapquest</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ карт Mapquest</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

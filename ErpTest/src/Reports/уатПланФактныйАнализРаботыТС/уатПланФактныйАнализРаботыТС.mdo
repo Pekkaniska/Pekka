@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bae81ae5-1efa-4c30-9921-de11082f1c5b">
+  <producedTypes>
+    <objectType typeId="f5b04a2d-5a9b-4ac9-b135-bc17625608f3" valueTypeId="69a1c852-9f66-4c64-a5ce-ea5696b53477"/>
+    <managerType typeId="11c53f43-ef39-4e6a-a30c-50e542f39042" valueTypeId="20d97fc7-1b81-4b8a-abcf-bab2b132975e"/>
+  </producedTypes>
+  <name>уатПланФактныйАнализРаботыТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>План - фактный анализ работы ТС</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.уатПланФактныйАнализРаботыТС.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.уатПланФактныйАнализРаботыТС.Template.ПланФактныйАнализРаботыТС</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9f8b4f60-50a3-40da-ad94-ceb388924a9f">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период анализа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="2755bc43-c07d-4c0a-8eb2-85ac7e106e3f">
+    <producedTypes>
+      <objectType typeId="0ffb2c0f-4b4f-4095-8f37-d28e0e4c9b3f" valueTypeId="1a4d0698-cdad-424c-97e0-5f62b55b452d"/>
+      <rowType typeId="6e686a1e-5229-4cd0-a5cd-23d3223354de" valueTypeId="dee0e68f-e65e-48a4-bb33-e1bea9acb78d"/>
+    </producedTypes>
+    <name>ДанныеОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные отчета</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d36780a0-d591-4561-b39e-da73692e4faf">
+      <name>ДатаКон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата окончаниям анализа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2143550b-42eb-46f2-997e-368494acc684">
+      <name>ДатаНач</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата начала анализа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ae3a7c2d-c41d-42b5-b04a-6eb46790338e">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.уатСценарииПланирования</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сценарий анализа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6056e367-3fbd-4ab7-9f53-2f7b02e4390d">
+      <name>ТипДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип данных</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип данных анализа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a65bac41-f88c-4d45-8629-3884edc79554">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b21121fc-d40d-4153-aeaf-e19539faa1f7">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="085ba02b-16a7-417f-805e-c0d2caab97c8">
+    <name>ПланФактныйАнализРаботыТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>План фактный анализ работы ТС</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd596ac2-a1c0-4eab-bb5a-9eb5cb7dfebf">
+  <name>ЖурналДокументовПоОС22</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по ОС</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

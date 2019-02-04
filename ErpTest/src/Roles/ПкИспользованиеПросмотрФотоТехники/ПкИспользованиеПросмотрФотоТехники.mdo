@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ae2062f-a8f3-4dfc-8dc1-fb06407e0954">
+  <name>ПкИспользованиеПросмотрФотоТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование просмотр фото техники</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

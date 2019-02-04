@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db67a0e2-d357-4792-bfe9-1c1db53eb306">
+  <producedTypes>
+    <refType typeId="5db1b40f-db63-4143-ba5e-2b52d280826d" valueTypeId="e67b5881-3d91-4189-ad6e-6bb19e8748f6"/>
+    <listType typeId="6b6ab045-f93a-409b-824a-a6a0178acce0" valueTypeId="cdf41026-70e9-4702-a785-6b67d6077ef9"/>
+    <managerType typeId="1d95f8bf-06ff-4d07-bc49-876c8d4c9b97" valueTypeId="8bf4db6d-73dd-4ad2-a6fc-bb3e397a9069"/>
+  </producedTypes>
+  <name>пкВидыТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f3e1bfb-b778-4a04-9143-e165de1377e7">
+    <name>Краткосрочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткосрочный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2262d391-dd8e-4716-82f2-f327402f5957">
+    <name>Долгосрочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгосрочный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

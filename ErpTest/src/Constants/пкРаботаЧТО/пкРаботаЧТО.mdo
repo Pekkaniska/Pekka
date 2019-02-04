@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="373cfed6-e289-411e-83ee-4a990de2c045">
+  <producedTypes>
+    <managerType typeId="86031558-a10e-4f5a-b394-929d75fcc307" valueTypeId="a76c63b5-49dd-4862-933e-25bde2c0ca06"/>
+    <valueManagerType typeId="6fca0225-ee19-47b5-b67b-5b15d080f322" valueTypeId="e4c8858e-e881-4fda-b7ff-845d66475ead"/>
+  </producedTypes>
+  <name>пкРаботаЧТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа ЧТО</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

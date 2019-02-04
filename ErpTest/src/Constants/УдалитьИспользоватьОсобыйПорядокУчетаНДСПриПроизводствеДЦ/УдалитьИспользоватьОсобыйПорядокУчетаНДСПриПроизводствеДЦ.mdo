@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb621cef-de5b-4e5d-968d-092db498ec9a">
+  <producedTypes>
+    <managerType typeId="453e5b2c-0cb3-466a-8acb-334ebd218266" valueTypeId="95505fbe-2fc1-4a87-b8aa-07116c7b17e6"/>
+    <valueManagerType typeId="2561a0eb-dedb-4709-875b-2241a1c1d35c" valueTypeId="0d5adca4-b1c7-421b-b8df-218afc68107a"/>
+  </producedTypes>
+  <name>УдалитьИспользоватьОсобыйПорядокУчетаНДСПриПроизводствеДЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Использовать особый порядок учета НДС при производстве длит. цикла</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>При производстве продукции с длительным циклом производства определять налоговую базу по НДС в соответствии с п.13 ст. 167 НК</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

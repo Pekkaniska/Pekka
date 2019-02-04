@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf925d7a-7f9f-4673-8ba0-f5d13654d26f">
+  <name>уатДанныеСЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>7662.datafile</value>
+  </synonym>
+  <comment>7662.datafile</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

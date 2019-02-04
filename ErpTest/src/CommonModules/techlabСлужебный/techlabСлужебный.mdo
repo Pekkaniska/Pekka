@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd05ea0c-9533-4d75-b8f5-5f1db7e27517">
+  <name>techlabСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Techlab служебный</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1059581-11b3-4a05-af61-e43e2296e7c1">
+  <producedTypes>
+    <refType typeId="9c0b449d-0935-4f6e-b4da-e4ddcd6eede2" valueTypeId="0812ac7d-677e-4006-b44f-99bb3d3014d0"/>
+    <listType typeId="5553a778-d811-43f1-96ab-95a36100adb3" valueTypeId="6d99e830-786f-4ad5-898b-91e5e3651bd8"/>
+    <managerType typeId="274ec216-bbe5-4515-bfd9-c3f6e83b62eb" valueTypeId="50926120-cbb3-4f0d-b6fa-a5054a535eb5"/>
+  </producedTypes>
+  <name>пкПриемкаВозврат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приемка/Возврат</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="af85dd89-88f2-4277-a69c-d159555058c5">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="74734015-2cb7-4182-9d75-16349d310738">
+    <name>Приемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdbbcb52-cc17-4f7d-a7fa-11b4d41801d3">
+  <name>пкЧтениеКоммерческихПредложенийНаАрендуТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение коммерческих предложений на аренду техники</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

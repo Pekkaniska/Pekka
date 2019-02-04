@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae270d05-2e22-4b86-af4e-a3556cfc538c">
+  <name>пкОтветственныйЗаТабель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный за табель РВ службы сервиса</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

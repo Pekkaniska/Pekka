@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="392cfca7-fddf-495d-89bd-2c2d45301237">
+  <producedTypes>
+    <selectionType typeId="79aac453-b584-42de-9147-ac14d419b4d9" valueTypeId="f1a00b08-04d4-441e-824a-ff125488b1d3"/>
+    <listType typeId="7161ad8f-0afb-4c93-8df6-ba85fcf5ea3d" valueTypeId="e95cc51a-1388-4690-b5da-e784c62eecb1"/>
+    <managerType typeId="55f2f33a-3455-4cf2-a060-8302be6041d3" valueTypeId="71b1645b-66de-40e9-aec2-1ea3bf9b81be"/>
+    <recordSetType typeId="10b8600e-a6b5-44dd-b79a-746bacea7cc0" valueTypeId="8b110c37-f22f-454d-9f32-dd5075db80de"/>
+    <recordKeyType typeId="e5b90ce9-f2e4-4b30-9bc6-879a281a852f" valueTypeId="67f68741-9a22-4fd3-80d1-bf7cba0e7699"/>
+    <recordType typeId="71df4a65-8103-41d2-afa5-79f7bc9c7aab" valueTypeId="2ef28f35-a64a-410d-80df-3f007bcf24b8"/>
+    <recordManagerType typeId="97ba220b-c212-4d4d-9bb5-05e482a83881" valueTypeId="cef53e19-a346-4fdf-a1fe-cf341de1b881"/>
+  </producedTypes>
+  <name>пкАвтосозданиеВДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автосоздание в ДО</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="dd2b55c4-e1a2-43cb-8bfd-e850d129a38f">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.пкОперацииСТехникой</types>
+      <types>DocumentRef.пкПостановкаСнятиеНаУчетВРостехнадзоре</types>
+      <types>DocumentRef.пкАктПриемкиВозврата</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>DocumentRef.пкЗаправочнаяВедомость</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>DocumentRef.пкЗаявкаНаВыездМеханика</types>
+      <types>DocumentRef.пкИнвентаризацияРасчетовСКонтрагентами</types>
+      <types>DocumentRef.пкКоммерческоеПредложениеНаАрендуТехники</types>
+      <types>DocumentRef.пкДоставка</types>
+      <types>DocumentRef.уатДТП</types>
+      <types>DocumentRef.ПодготовкаКПередачеОС</types>
+      <types>DocumentRef.пкВыдачаТопливныхКарт</types>
+      <types>DocumentRef.ЗаказНаПеремещение</types>
+      <types>DocumentRef.пкЗаявкаНаРемонтУДилера</types>
+      <types>DocumentRef.пкЗаданиеНаРемонт</types>
+      <types>DocumentRef.пкЗаказНаряд</types>
+      <types>DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</types>
+      <types>DocumentRef.пкЗаданиеНаПеревозку</types>
+      <types>DocumentRef.ЗаказНаВнутреннееПотребление</types>
+      <types>DocumentRef.пкЗаявкаНаАрендуТехники</types>
+      <types>DocumentRef.пкЗаявкаНаРемонтЗапчасти</types>
+      <types>DocumentRef.пкСудебныйИск</types>
+      <types>DocumentRef.уатЗаправкаГСМ</types>
+      <types>DocumentRef.пкОперацииСПультами</types>
+      <types>DocumentRef.пкПретензия</types>
+      <types>DocumentRef.пкПогрузкаВыгрузкаПоДоставке</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

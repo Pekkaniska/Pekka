@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a0c4229-6940-4bff-887f-2245bfaead31">
+  <producedTypes>
+    <selectionType typeId="da536aae-5fe4-425d-af2a-baf58bf1bde7" valueTypeId="a98ff394-813c-49ac-af82-05a67d0a2fd1"/>
+    <listType typeId="7a543761-240f-4ffa-8bdf-dc3162c2fb70" valueTypeId="3a4366a9-a07d-4d2d-96fc-9f77a6913785"/>
+    <managerType typeId="8646f445-b36c-45c0-8280-234249672882" valueTypeId="c81b13e5-327d-4643-8a07-3d7cc9da75c6"/>
+    <recordSetType typeId="b7b47e27-9be9-413d-8e47-d585cde9e337" valueTypeId="d8e97c6b-7b99-4c0d-aabc-c57af54647e4"/>
+    <recordKeyType typeId="d441fb2c-d6fc-42c2-a18b-cc4f72a05d37" valueTypeId="a5a4cfb3-e312-4779-bd59-55eca0e0c0d8"/>
+    <recordType typeId="53cb064b-6dc3-4d26-a964-478fc1e5f895" valueTypeId="8f82612f-f3c6-4b38-bbaf-06668568aeea"/>
+    <recordManagerType typeId="0e12bdcf-7460-4873-aeb7-206eb302fc40" valueTypeId="cd5ff179-cacb-4a9e-b483-50df4ccb553b"/>
+  </producedTypes>
+  <name>пкПользователиДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи ДО</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.пкПользователиДО.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.пкПользователиДО.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="32354de2-25d1-46c9-a47f-8309934ba80a">
+    <name>ПользовательДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ДО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="589fea09-cbb6-477b-bc38-55b93889788b">
+    <name>ПарольДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль ДО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="5e6bada3-b718-4772-aaa7-0ccf756585f0">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7a68a822-deeb-455d-bf7c-6755731149f6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="130967e9-e1ca-4eda-acea-93fcf25fe377">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

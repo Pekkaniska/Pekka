@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="319bbd30-1660-4ac0-b175-0f21619974ea">
+  <producedTypes>
+    <selectionType typeId="4bf4b5a6-605d-4cb7-948c-1fb91d3ab0f4" valueTypeId="1e792272-75ce-44b9-981a-9f8ebd624952"/>
+    <listType typeId="71f6fe26-aa01-4d17-bf15-b12180533cb1" valueTypeId="7cddda86-d26a-4453-8555-bde05d2a567b"/>
+    <managerType typeId="87aee37d-b36c-490d-9475-5d98691a2bff" valueTypeId="281c8455-1734-492c-92d6-58810724262f"/>
+    <recordSetType typeId="aaee1ab3-493e-45c9-b69b-8347a78487ba" valueTypeId="8cd7c2b1-d9cf-4f88-8c7f-4c247b34bcd1"/>
+    <recordKeyType typeId="81d8195b-28c8-48da-b7c4-29b7a2f2e192" valueTypeId="c78210bb-5c17-4277-8409-6980dd77127b"/>
+    <recordType typeId="02ebfc6b-ac51-461f-a087-142e799dc87f" valueTypeId="2502b259-1912-406a-af5d-93c6874c900c"/>
+    <recordManagerType typeId="c35c9218-4614-4359-a4d2-877ce8749b77" valueTypeId="44752e93-03dc-4153-8cc0-a7d6120dc7f5"/>
+  </producedTypes>
+  <name>пкЗаявкиКПерепроведениюПоСрокамАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки к перепроведению по срокам аренды</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bd210e70-2a4a-4e2c-bf14-19fb5b1530ee">
+    <name>ЗаявкаНаАрендуТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на аренду техники</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.пкЗаявкаНаАрендуТехники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c131e8ff-cfb1-4189-9383-9c0012d9e1ba">
+  <producedTypes>
+    <managerType typeId="7e550f81-aab9-4cb2-99e5-44ec47801f01" valueTypeId="1c994736-8b49-44ad-98ec-b09d1ddd62b7"/>
+    <valueManagerType typeId="e4c3f461-808c-4ef0-b24c-48ab090b4732" valueTypeId="009540b5-e195-4f2e-b13c-b14c258e6da6"/>
+  </producedTypes>
+  <name>пкИдентификаторБДERPДляДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор БД ERP для ДО (наим. узла обмена с ДО)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <defaultForm>CommonForm.пкНастройкиПрограммы</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

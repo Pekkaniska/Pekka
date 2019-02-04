@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c41c7ea-db49-46fe-9db5-d1b8fecf1430">
+  <producedTypes>
+    <refType typeId="3d4186ec-5923-40fb-bc3a-d3bf6107064d" valueTypeId="c925db9b-57b7-4989-a86b-59d3e347b4a4"/>
+    <listType typeId="9633cd48-c6a4-4d1e-932d-3ad489c742e0" valueTypeId="50c4bd56-07a6-4014-b5b1-7c5456e3195f"/>
+    <managerType typeId="bd54f381-443f-4f05-a995-692540d589b9" valueTypeId="37c87a60-8743-44a5-b9b4-7755f6192ba0"/>
+  </producedTypes>
+  <name>пкСтатусыЗаявокНаВыездМеханика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок на выезд механика</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab09ab57-7107-47de-abfc-8a4e080df457">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7957ae04-bcd8-417b-a105-91933158ac02">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="24102c36-384f-4d96-b6e4-27acaaf84fdb">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

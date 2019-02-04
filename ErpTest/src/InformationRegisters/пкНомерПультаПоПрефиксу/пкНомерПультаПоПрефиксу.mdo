@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="453ab4a4-4b60-43dc-8fd1-04ea466d4c7b">
+  <producedTypes>
+    <selectionType typeId="0eff5c1b-e608-44d1-b125-082164a317cb" valueTypeId="3be76c5e-6f15-4bdc-8850-823d002922ba"/>
+    <listType typeId="61d133d6-dd02-41bd-80bb-59346512fb7f" valueTypeId="f965c193-7fe8-477a-bfbd-caf4a7c702de"/>
+    <managerType typeId="a12e01d1-6cf8-4bc0-a1d8-69d7b1b9d788" valueTypeId="794715b8-35a6-45fb-a8e7-3feb9f8cf703"/>
+    <recordSetType typeId="96146fa7-4099-4f2c-ba8b-cdcea714e738" valueTypeId="2f9a9044-f823-4415-8027-5ed652a330f2"/>
+    <recordKeyType typeId="67b5e70b-f8a9-49ca-ba2a-e3660e44d024" valueTypeId="1fd55a4c-32aa-4a0c-b836-cb3c7dba4301"/>
+    <recordType typeId="5a0f408c-9ff5-42a2-aba5-7b779836e48b" valueTypeId="057cee47-5df5-4ff9-9c56-8f1246411e06"/>
+    <recordManagerType typeId="b4b9bfd8-5158-45a4-9691-84487976c071" valueTypeId="9d8b55a1-345f-44b0-88cd-35e0953b17d7"/>
+  </producedTypes>
+  <name>пкНомерПультаПоПрефиксу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер пульта по префиксу</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a331e114-8af8-434f-8a24-d4800ac6ebea">
+    <name>ТекущийНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="311667ed-ab15-450b-aa46-34a73579e686">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пкПрефиксыПультовДляПодъемников</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

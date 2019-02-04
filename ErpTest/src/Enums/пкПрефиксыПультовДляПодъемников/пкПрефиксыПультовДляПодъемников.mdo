@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffc7ff68-4b44-4672-9609-0eee6b873297">
+  <producedTypes>
+    <refType typeId="f12e6cc7-b647-406d-9cad-6f6e6d1296a7" valueTypeId="051541ea-30e9-4283-a6b9-a5e040b3d113"/>
+    <listType typeId="5c5452f9-32d8-47f1-8eda-a33141b4ba68" valueTypeId="3eccaa90-5c78-4c9d-a846-2838cb4406b4"/>
+    <managerType typeId="70b46a3f-3cd3-4752-ab3a-b459a1494679" valueTypeId="ab6af74b-4dfb-4d82-bc1b-ed537a2a59f2"/>
+  </producedTypes>
+  <name>пкПрефиксыПультовДляПодъемников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксы пультов для подъемников</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2064453-45e2-477e-b927-d89f6ba36db0">
+    <name>PMD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PMD</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="01494122-5ca7-407e-8cce-0e463856107d">
+    <name>PNND</name>
+    <synonym>
+      <key>ru</key>
+      <value>PNND</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7d4dd119-2a2d-45f8-97f0-7dd4867658ee">
+    <name>PEKBD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PEKBD</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="235be9f0-1531-4f4b-bc40-b08f072b5c79">
+    <name>PEKBE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PEKBE</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b3b04bc6-3eec-4aaf-8170-e43867207ff3">
+    <name>PNNE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PNNE</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c53b0cb5-e83c-4d4d-9ebe-2e2d8f52b568">
+    <name>PRDD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PRDD</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8b31e870-2992-46d5-99a7-27c81cf493f8">
+    <name>PRDE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PRDE</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d4f689cb-449b-4507-9b13-2e1e0115f990">
+    <name>PSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PSD</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="50fdc76e-6fa8-474b-ab33-a82891059898">
+    <name>PSE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PSE</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d2b25910-610b-4a96-aa10-39363a79873c">
+    <name>PSJ</name>
+    <synonym>
+      <key>ru</key>
+      <value>PSJ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="33504721-6f78-415b-b1a6-c4b6916493ed">
+    <name>PTD</name>
+    <synonym>
+      <key>ru</key>
+      <value>PTD</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="894f15b6-ae19-4695-b234-9779dec29e00">
+    <name>PTE</name>
+    <synonym>
+      <key>ru</key>
+      <value>PTE</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

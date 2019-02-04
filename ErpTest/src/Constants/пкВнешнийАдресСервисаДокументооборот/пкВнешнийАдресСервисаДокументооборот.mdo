@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="394d6810-964f-4442-8127-c4d3261d5a2c">
+  <producedTypes>
+    <managerType typeId="76835999-0796-48cc-8f2f-4d6ae7608050" valueTypeId="916bb791-2d12-4b45-bb93-55e7cb737d79"/>
+    <valueManagerType typeId="d40881db-0283-4554-932a-527ff3b6fa3a" valueTypeId="c493d8db-5a0a-499a-bf44-fcc3fdd95d08"/>
+  </producedTypes>
+  <name>пкВнешнийАдресСервисаДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний адрес сервиса документооборот</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <defaultForm>CommonForm.пкНастройкиПрограммы</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

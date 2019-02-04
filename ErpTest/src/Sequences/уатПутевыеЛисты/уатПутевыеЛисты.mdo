@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="270ac67f-85bd-4eee-9db5-126fd762685e">
+  <producedTypes>
+    <recordType typeId="7ae1a4d1-82d7-4f6b-a331-1c227c2f0757" valueTypeId="7c8489e1-deb6-4bb2-8335-b493c7c49004"/>
+    <managerType typeId="0596531a-ba93-442a-a026-80c25f3dc13a" valueTypeId="25eeb666-933d-4096-9e1b-6945ce0cbe87"/>
+    <recordSetType typeId="c3a950f7-dc0a-45ca-a491-d521d97ae7b8" valueTypeId="e04c78cd-df84-4e9d-b56c-d3a0873b140e"/>
+  </producedTypes>
+  <name>уатПутевыеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевые листы</value>
+  </synonym>
+  <comment></comment>
+  <documents>Document.уатПутевойЛист</documents>
+  <documents>Document.уатСливГСМ</documents>
+  <documents>Document.уатЗаправкаГСМ</documents>
+  <registerRecords>AccumulationRegister.уатОстаткиГСМнаТС</registerRecords>
+  <registerRecords>AccumulationRegister.уатРасходГСМнаТС</registerRecords>
+</mdclass:Sequence>

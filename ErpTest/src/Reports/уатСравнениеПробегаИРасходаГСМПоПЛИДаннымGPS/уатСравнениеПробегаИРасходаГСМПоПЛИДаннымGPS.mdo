@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="139b2041-4ff5-47b0-8835-045818dbd717">
+  <producedTypes>
+    <objectType typeId="656f2a31-d84b-41d8-810f-f65fc10e93f0" valueTypeId="d90b0b87-7201-452a-a8c3-6619ccd47721"/>
+    <managerType typeId="721c1573-b94e-439f-8187-6f0a90a2d394" valueTypeId="f57a74d6-ec78-4e11-b71f-b4a7365fc8c0"/>
+  </producedTypes>
+  <name>уатСравнениеПробегаИРасходаГСМПоПЛИДаннымGPS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение пробега и расхода ГСМ по путевым листам и данным GPS</value>
+  </synonym>
+  <comment>Сравнение пробега и расхода ГСМ по путевым листам и данным GPS (уат)</comment>
+  <mainDataCompositionSchema>Report.уатСравнениеПробегаИРасходаГСМПоПЛИДаннымGPS.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="a7488d45-71cf-4982-a40e-12194cf98260">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

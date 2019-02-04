@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ОткрытыеЗаказНарядыПоТехнике</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Техника</dataPath>
+			<field>Техника</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончанияФакт</dataPath>
+			<field>ДатаОкончанияФакт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачалаФакт</dataPath>
+			<field>ДатаНачалаФакт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаряд</dataPath>
+			<field>ЗаказНаряд</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ наряд</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеМеняетСтатусТехники</dataPath>
+			<field>НеМеняетСтатусТехники</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРемонта</dataPath>
+			<field>ВидРемонта</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗаказНаряды1.Техника КАК Техника,
+	ЗаказНаряды1.Ссылка КАК ЗаказНаряд,
+	ЗаказНаряды1.Статус КАК Статус,
+	ЗаказНаряды1.ВидРемонта КАК ВидРемонта,
+	ЗаказНаряды1.Подразделение КАК Подразделение,
+	ЗаказНаряды1.НеМеняетСтатусТехники КАК НеМеняетСтатусТехники,
+	ЗаказНаряды1.ДатаНачала КАК ДатаНачала,
+	ЗаказНаряды1.ДатаОкончания КАК ДатаОкончания,
+	ЗаказНаряды1.ДатаНачалаФакт КАК ДатаНачалаФакт,
+	ЗаказНаряды1.ДатаОкончанияФакт КАК ДатаОкончанияФакт,
+	ЗаказНаряды1.Ответственный КАК Ответственный,
+	ЗаказНаряды1.Автор КАК Автор
+ИЗ
+	(ВЫБРАТЬ
+		пкЗаказНаряд.Ссылка КАК Ссылка,
+		пкЗаказНаряд.Техника КАК Техника,
+		пкЗаказНаряд.Статус КАК Статус,
+		пкЗаказНаряд.ДатаНачала КАК ДатаНачала,
+		пкЗаказНаряд.ДатаОкончания КАК ДатаОкончания,
+		пкЗаказНаряд.ДатаНачалаФакт КАК ДатаНачалаФакт,
+		пкЗаказНаряд.ДатаОкончанияФакт КАК ДатаОкончанияФакт,
+		пкЗаказНаряд.Подразделение КАК Подразделение,
+		пкЗаказНаряд.Ответственный КАК Ответственный,
+		пкЗаказНаряд.Автор КАК Автор,
+		пкЗаказНаряд.ВидРемонта КАК ВидРемонта,
+		пкЗаказНаряд.НеМеняетСтатусТехники КАК НеМеняетСтатусТехники
+	ИЗ
+		Документ.пкЗаказНаряд КАК пкЗаказНаряд
+	ГДЕ
+		пкЗаказНаряд.Статус &lt;&gt; ЗНАЧЕНИЕ(Перечисление.пкСтатусыЗаказНарядов.Закрыт)
+		И пкЗаказНаряд.Проведен
+		И НЕ пкЗаказНаряд.ПометкаУдаления
+		И пкЗаказНаряд.Техника.пкЭтоТехника) КАК ЗаказНаряды1
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			пкЗаказНаряд.Ссылка КАК Ссылка,
+			пкЗаказНаряд.Техника КАК Техника,
+			пкЗаказНаряд.Статус КАК Статус,
+			пкЗаказНаряд.ДатаНачала КАК ДатаНачала,
+			пкЗаказНаряд.ДатаОкончания КАК ДатаОкончания,
+			пкЗаказНаряд.ДатаНачалаФакт КАК ДатаНачалаФакт,
+			пкЗаказНаряд.ДатаОкончанияФакт КАК ДатаОкончанияФакт
+		ИЗ
+			Документ.пкЗаказНаряд КАК пкЗаказНаряд
+		ГДЕ
+			пкЗаказНаряд.Статус &lt;&gt; ЗНАЧЕНИЕ(Перечисление.пкСтатусыЗаказНарядов.Закрыт)
+			И пкЗаказНаряд.Проведен
+			И НЕ пкЗаказНаряд.ПометкаУдаления
+			И пкЗаказНаряд.Техника.пкЭтоТехника) КАК ЗаказНаряды2
+		ПО ЗаказНаряды1.Техника = ЗаказНаряды2.Техника
+			И ЗаказНаряды1.Ссылка &lt;&gt; ЗаказНаряды2.Ссылка
+ГДЕ
+	НЕ ЗаказНаряды2.Ссылка ЕСТЬ NULL</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>ОткрытыеЗаказНарядыПоТехнике</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Открытые Заказ-наряды по технике</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Техника</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаряд</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеМеняетСтатусТехники</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачалаФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончанияФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+					<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+					<dcsset:userSettingID>41ed777e-8065-4f49-947e-3dc730b145f2</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0171f6b5-4641-4688-ac1d-17f18fd72f14</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Техника</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

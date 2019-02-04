@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01766cde-e602-4f1d-a3bc-340ac8d8fb42">
+  <producedTypes>
+    <refType typeId="cd91071a-97a1-42c3-8175-8dbcc5944cc9" valueTypeId="a9fbd888-b8aa-404d-b539-ac7f11e08b70"/>
+    <listType typeId="3dad0f95-560c-4636-8aa2-4dc1f54ac64a" valueTypeId="66f190ad-eb18-4d85-ac83-e13242ddd553"/>
+    <managerType typeId="eff457a9-1812-44af-98ed-cf135ec5fed4" valueTypeId="8698f40c-3e2b-4441-80b7-9fe0ce93f57c"/>
+  </producedTypes>
+  <name>пкАВСКлассификацияКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>АВС классификация контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0363c35-b71c-470b-aa67-a6b7c77fc7e4">
+    <name>АПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>А</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="640eef3b-ae2d-434e-94a9-e03e5587054e">
+    <name>АМинус</name>
+    <synonym>
+      <key>ru</key>
+      <value>А-</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="32b3c01e-d037-4b71-9247-c6ba1642cf8f">
+    <name>ВПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>В+</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b5845a82-b2ba-412a-b314-f977609d1073">
+    <name>ВМинус</name>
+    <synonym>
+      <key>ru</key>
+      <value>В-</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f6adc5d2-7683-4d22-a61e-51571c376c88">
+    <name>СПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="94fe8b92-fcbc-43dc-bab3-362dd4651b29">
+    <name>СМинус</name>
+    <synonym>
+      <key>ru</key>
+      <value>С-</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

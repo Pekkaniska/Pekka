@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91d7dc29-fd71-4d87-a72a-0b83a0585763">
+  <producedTypes>
+    <objectType typeId="54ef167e-0b2b-421b-9985-f99cdf9efdcd" valueTypeId="7a2b57ac-047b-4a8a-9783-b44b43552bf7"/>
+    <managerType typeId="2a10368b-2c3f-4585-892c-f4309176cc33" valueTypeId="d87b3b67-3b09-4cdc-b525-a882864d43e5"/>
+  </producedTypes>
+  <name>уатПомощникОбновленияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник обновления ИБ</value>
+  </synonym>
+  <comment>Обработка запуска обновления ИБ УАТ в объединенном решении</comment>
+  <defaultForm>DataProcessor.уатПомощникОбновленияИБ.Form.уатПомощникОбновленияИБ</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Помощник обновления информационной базы &quot;Управление автотранспортом&quot;</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка запуска обновления информационной базы &quot;Управление автотранспортом&quot;</value>
+  </explanation>
+  <forms uuid="d08864e8-5ffa-40bb-b2cf-ea8608d6926f">
+    <name>уатПомощникОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник обновления ИБ</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <extendedPresentation>
+      <key>ru</key>
+      <value>Помощник обновления информационной базы УАТ</value>
+    </extendedPresentation>
+  </forms>
+  <commands uuid="1588c654-d0f5-45da-b2b6-943ad18c8fcd">
+    <name>ПомощникОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник обновления ИБ</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Обработка запуска обновления информационной базы &quot;Управление автотранспортом&quot;</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

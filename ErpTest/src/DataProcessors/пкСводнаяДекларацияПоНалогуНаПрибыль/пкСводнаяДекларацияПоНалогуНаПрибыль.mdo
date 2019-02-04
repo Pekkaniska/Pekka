@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd2aa36e-0775-479c-bba9-439f27038020">
+  <producedTypes>
+    <objectType typeId="b732720c-18ff-43a2-9218-d2c56a4a7987" valueTypeId="e16ae73e-e46a-46f9-ad86-7740394eb038"/>
+    <managerType typeId="ec658f3e-06fa-48c5-83b3-612995832381" valueTypeId="213e2160-d81c-4886-b33c-b94c1f067011"/>
+  </producedTypes>
+  <name>пкСводнаяДекларацияПоНалогуНаПрибыль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная декларация по налогу на прибыль</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкСводнаяДекларацияПоНалогуНаПрибыль.Form.Форма</defaultForm>
+  <tabularSections uuid="f8b06f64-734f-4f09-8e58-06be5b861c47">
+    <producedTypes>
+      <objectType typeId="24c51c90-7684-4d47-abf5-e5c76bbe590c" valueTypeId="51804e10-3cc8-480d-bdee-18a8b71983f7"/>
+      <rowType typeId="eb787ccc-5be8-404a-892b-4d1e62e6b9fd" valueTypeId="007650ef-b12a-4aaf-acf4-ac8b6d4f8cf6"/>
+    </producedTypes>
+    <name>Декларации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларации</value>
+    </synonym>
+    <comment></comment>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c799bd2-0c0e-4596-8c96-30aa19cd52ad">
+      <name>Декларация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Декларация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.РегламентированныйОтчет</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ВидОтчетности</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыОтчетности.EnumValue.РегламентированнаяОтчетность</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ИсточникОтчета</name>
+        <value xsi:type="core:StringValue">
+          <value>РегламентированныйОтчетПрибыль</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20a8f4de-0b93-4ebd-aec7-b884eb57b713">
+      <name>ОсновнаяДекларация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основная декларация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1999850d-9882-4208-8ad3-fa605e8691fe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a69d78d-5198-416e-a6f3-00d4917ed7be">
+  <name>уатРазделУправлениеАвтотранспортом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел &quot;Управление автотранспортом&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

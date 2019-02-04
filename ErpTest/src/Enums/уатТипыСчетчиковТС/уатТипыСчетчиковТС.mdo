@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="337f1dcb-ce97-4a67-aecf-33f924f7b57f">
+  <producedTypes>
+    <refType typeId="6c6776b7-8dc3-4bb7-86ad-3e4c20e05d72" valueTypeId="a45ef754-b79c-4a3b-a0ef-5cca4f87c033"/>
+    <listType typeId="0c186fc0-114b-4b87-af94-b84045e00dea" valueTypeId="68de8e52-d179-49d3-84fd-fd6369b1afb0"/>
+    <managerType typeId="afcbdba7-c6a7-4469-b122-4a33fe380aaf" valueTypeId="d359f86d-93c0-4238-9b10-4bc667607e87"/>
+  </producedTypes>
+  <name>уатТипыСчетчиковТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип счетчика (спидометр или счетчик моточасов)</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96c83932-42fb-42a7-b7f3-e338cb24789c">
+    <name>Спидометр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спидометр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9724a545-791f-465d-80ef-373e7e940cfe">
+    <name>СчетчикМЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик моточасов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

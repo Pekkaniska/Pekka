@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaa912f9-7f9c-4854-9c9b-affbe0062026">
+  <producedTypes>
+    <refType typeId="1b1872d5-f1c6-4049-9475-6c21ddd1d0fb" valueTypeId="61f328df-b10a-43c8-b7a1-a214bd1564c4"/>
+    <listType typeId="594c880c-1271-48c7-9800-40f8a7365a52" valueTypeId="c294b33f-6dcd-451d-945a-4e4ba18c3b91"/>
+    <managerType typeId="70d8b5b0-fe1b-4e08-b932-48e321a04208" valueTypeId="8ac34726-3df8-460c-b4b7-f4a9f700da64"/>
+  </producedTypes>
+  <name>пкТипыДенежныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы денежных документов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a6fe2b63-6f5f-4831-a2c7-6ea3952467fb">
+    <name>Билеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="229c3c0c-ffc5-436f-a376-2c764ae0edc9">
+    <name>ТрудовыеКнижкиВкладыши</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовые книжки / вкладыши</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

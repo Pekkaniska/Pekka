@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7171d1c-cfcb-4fe7-b9a9-2f0f7da5edd5">
+  <producedTypes>
+    <objectType typeId="40b52b9b-18bd-4d8b-a5a8-7afdb9b491cf" valueTypeId="d02ef455-6ea7-4181-a03b-822345569afc"/>
+    <managerType typeId="9a32661f-c372-4f27-b998-be77e96337fa" valueTypeId="b65d8c8e-3926-4239-b3e5-281bea166ab4"/>
+  </producedTypes>
+  <name>пкВыдачаТопливныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача топливных карт</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкВыдачаТопливныхКарт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="48f2eaa2-4c5d-4b5b-9d83-4e85a03521e6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

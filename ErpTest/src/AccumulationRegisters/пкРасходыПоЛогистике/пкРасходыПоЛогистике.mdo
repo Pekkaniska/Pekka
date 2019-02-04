@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be5af1a4-6d98-4a53-9c41-b9282149e3aa">
+  <producedTypes>
+    <selectionType typeId="0a2c0a7b-a2e9-4d61-96d0-fb91bdd9c867" valueTypeId="00470899-66a5-45e2-84b5-bc82c029d93b"/>
+    <listType typeId="99ae362b-c534-46aa-a53d-95cfbd3d4212" valueTypeId="272ff3f9-0864-473a-ad43-8365caa8388c"/>
+    <managerType typeId="9d714228-06b2-4390-8197-078354efc68a" valueTypeId="b0b89069-edd2-4350-a902-416aa7737327"/>
+    <recordSetType typeId="070ab812-1068-4298-b3af-900866846805" valueTypeId="4c665196-8021-40b4-8c5b-0693584cd8e0"/>
+    <recordKeyType typeId="ba5177ae-266c-4786-baa0-893a52073695" valueTypeId="fac1711b-4f80-4ae9-b817-d5d52028e70a"/>
+    <recordType typeId="748eb48d-529b-4499-9789-072e6b711332" valueTypeId="18b7bae5-4d0f-46d4-84b6-edd84d96bc58"/>
+  </producedTypes>
+  <name>пкРасходыПоЛогистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы по Логистике</value>
+  </synonym>
+  <comment></comment>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="668d9484-153f-4371-85b1-0a53d123da3f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="80a27d8e-6097-4198-b607-060af9e8e332">
+    <name>СпособПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ перевозки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пкСпособыПеревозки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fc7a0b15-ac48-4361-99fc-ca47ed9e6333">
+    <name>СтатьяАктиваПассива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья актива/пассива</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.пкСтатьиДоходовРасходовЛогистика</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="578ed1ed-7681-40f7-8784-93535bdc479e">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f7cd009f-7094-425f-a0aa-5c41143caeaf">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

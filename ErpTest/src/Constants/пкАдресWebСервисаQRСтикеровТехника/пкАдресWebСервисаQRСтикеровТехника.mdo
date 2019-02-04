@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c18ef381-ba0b-4d3f-aea4-18db82583c84">
+  <producedTypes>
+    <managerType typeId="a806a850-e01e-4720-b183-88978e0e970b" valueTypeId="8811a120-342d-4f5a-8074-f51650de5460"/>
+    <valueManagerType typeId="82a50311-b37d-43ef-aaee-c902605b0a0c" valueTypeId="95f57034-6031-42e1-961b-2878ff2c56d5"/>
+  </producedTypes>
+  <name>пкАдресWebСервисаQRСтикеровТехника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес web-сервиса QR-стикеров Техника</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

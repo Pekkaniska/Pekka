@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aafcde61-1a79-41c0-9a2b-527b75d64bee">
+  <name>пкПисьмоСостояниеТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Письмо состояние техники</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

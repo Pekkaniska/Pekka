@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a4f8c3-a5a3-4a22-bde4-575e00bed629">
+  <producedTypes>
+    <selectionType typeId="2f44994b-c496-4e55-8d9f-2ed6073dd312" valueTypeId="dd53623f-4de4-4eea-922f-63643d1075ec"/>
+    <listType typeId="8342ea5a-fc3b-473b-94b3-b4b5cf3b37eb" valueTypeId="7262e86c-3113-48ea-9da0-61b86e2288f6"/>
+    <managerType typeId="fb071347-f4f6-4450-b069-1cd7098ebc43" valueTypeId="6e077878-47b4-418a-bc0c-46cfd4c54829"/>
+    <recordSetType typeId="2285279d-15a3-45cc-824a-8d2cd0857f5c" valueTypeId="9570a29b-92ec-4624-bc64-e329c2f54714"/>
+    <recordKeyType typeId="4f8cc151-1cc5-42d9-bb4a-5c24a1ec2a06" valueTypeId="171af0b9-4082-4a1a-9e51-d6ac9e4b2ef1"/>
+    <recordType typeId="569e3fe3-dd0a-473b-9da4-bd1311394a5e" valueTypeId="7d21265e-46ed-4805-b8d2-2b224c52e8fa"/>
+    <recordManagerType typeId="f4111c4d-126e-48b3-bbe1-9d5c0e3a2e02" valueTypeId="730bd57d-ca93-4d0a-bc33-ee71ce19b30d"/>
+  </producedTypes>
+  <name>пкОтветственныеЛицаПутевыхЛистовПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица путевых листов подразделений</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5c114ca6-bd1f-4702-8610-de229ec98307">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d33904f4-299c-48d5-8b31-c95ce5e60993">
+    <name>Диспетчер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диспетчер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="144ab14f-63b5-469f-8b1d-ae07a63e78b5">
+    <name>Механик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="70f17f87-5123-4d76-9c7f-dffde90bc56d">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

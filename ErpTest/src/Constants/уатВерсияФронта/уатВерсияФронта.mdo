@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="995ea975-6bea-4538-9954-b69bce904d3a">
+  <producedTypes>
+    <managerType typeId="ae7c39c7-05f2-4c14-a7e8-1cafdf5cbb9e" valueTypeId="8e11359d-5d54-4034-9c3e-56d3e3108847"/>
+    <valueManagerType typeId="a2453bf0-33fc-4ed2-bf43-8f938ab763ea" valueTypeId="1918c3dd-6af3-4da8-85f3-de72f4446223"/>
+  </producedTypes>
+  <name>уатВерсияФронта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уат версия фронта</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

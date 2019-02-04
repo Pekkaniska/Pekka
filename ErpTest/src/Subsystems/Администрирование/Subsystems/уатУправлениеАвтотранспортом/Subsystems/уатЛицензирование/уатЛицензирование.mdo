@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0861151e-46e4-4e0f-a085-4afaa1e3683b">
+  <name>уатЛицензирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление автотранспортом</value>
+  </synonym>
+  <comment>7662</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonTemplate.уатДанныеСЛК</content>
+  <content>SessionParameter.слкМенеджерЗащиты</content>
+  <content>Role.слкУправлениеМенеджеромЛицензийСЛК</content>
+  <content>Role.уатАдминистрированиеУАТ</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

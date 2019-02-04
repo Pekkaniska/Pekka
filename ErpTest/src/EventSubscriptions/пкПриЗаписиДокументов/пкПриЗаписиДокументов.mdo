@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5389d079-5a59-4df7-a3d6-635ffc81f781">
+  <name>пкПриЗаписиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи документов</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.пкЗаявкаНаАрендуТехники</types>
+    <types>DocumentObject.пкАктПриемкиВозврата</types>
+    <types>DocumentObject.пкЗаданиеНаПеревозку</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ЗаказКлиента</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.ПриЗаписиДокумента</handler>
+</mdclass:EventSubscription>

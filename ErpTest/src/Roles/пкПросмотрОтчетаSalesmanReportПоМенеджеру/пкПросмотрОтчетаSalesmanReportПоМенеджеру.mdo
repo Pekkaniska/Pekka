@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c666491d-6981-4678-b5f1-678b161dc5d2">
+  <name>пкПросмотрОтчетаSalesmanReportПоМенеджеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета &quot;Salesman report&quot; по Менеджеру</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

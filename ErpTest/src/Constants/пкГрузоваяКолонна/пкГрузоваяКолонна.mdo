@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e56671f6-6f77-447e-8959-454600dfe4dd">
+  <producedTypes>
+    <managerType typeId="4c08c1d6-3393-4747-92d3-cf4fbf2d114c" valueTypeId="b2d2f3f7-e66e-46fc-9e85-6b16509ccd7b"/>
+    <valueManagerType typeId="863ec259-59af-4d2c-9327-876445036a43" valueTypeId="59435a4e-dc1f-42c8-9975-128c1b230f22"/>
+  </producedTypes>
+  <name>пкГрузоваяКолонна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Грузовая колонна (для управления доставкой)</value>
+  </synonym>
+  <comment>Грузовая колонна (для управления доставкой)</comment>
+  <type>
+    <types>CatalogRef.уатКолонны</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Укажите колонну</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

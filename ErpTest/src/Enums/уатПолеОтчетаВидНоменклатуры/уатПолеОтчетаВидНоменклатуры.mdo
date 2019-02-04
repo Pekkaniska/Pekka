@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc2e6ab-0c60-4172-9e69-180412c72739">
+  <producedTypes>
+    <refType typeId="830aaa2e-edfe-49d9-9e05-c39a7cc1d274" valueTypeId="39ab9fae-c5c7-46a5-bdc1-bf6297a24ab6"/>
+    <listType typeId="ae9bb34b-6ecd-4509-8e3c-95bb052e6013" valueTypeId="f3e08575-3809-40fc-8072-45803db4bb88"/>
+    <managerType typeId="a0216efb-bc15-40f5-8e5f-6f26ce98677f" valueTypeId="228f3fb2-da9a-461e-bceb-c3f549ae0b8f"/>
+  </producedTypes>
+  <name>уатПолеОтчетаВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры ТС для отчета</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Вид номенклатуры ТС для отчета ВедомостьНоменклатуры ТС, используется для представления поля и отборов</value>
+  </explanation>
+  <enumValues uuid="5f307609-eade-4a62-9a05-78897603053b">
+    <name>РаботыПоРемонту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы по ремонту</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7f7aac12-6397-42d6-ac6c-1a63870680b1">
+    <name>ЗапасныеЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зап. части</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорКонтрагента</dataPath>
+			<field>ДоговорКонтрагента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор контрагента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут</dataPath>
+			<field>Маршрут</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МодельПрицепа</dataPath>
+			<field>МодельПрицепа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель прицепа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МодельТягача</dataPath>
+			<field>МодельТягача</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель тягача</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Прицеп</dataPath>
+			<field>Прицеп</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прицеп</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПрицепа</dataPath>
+			<field>ТипПрицепа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип прицепа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Тягач</dataPath>
+			<field>Тягач</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тягач</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Раздел</dataPath>
+			<field>Раздел</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Раздел</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Груз</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипТягача</dataPath>
+			<field>ТипТягача</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип тягача</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектСтроительства</dataPath>
+			<field>ОбъектСтроительства</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект строительства</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ ПЕРВЫЕ 1
+	СправочникТранспортныеСредства.Ссылка,
+	"Тягач" КАК Раздел
+ИЗ
+	Справочник.ТранспортныеСредства КАК СправочникТранспортныеСредства
+{ГДЕ
+	Ссылка.* КАК Тягач}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	СправочникТранспортныеСредства.Ссылка,
+	"Прицеп"
+ИЗ
+	Справочник.ТранспортныеСредства КАК СправочникТранспортныеСредства
+{ГДЕ
+	Ссылка.* КАК Прицеп}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	уатМодельТС.Ссылка,
+	"МодельТягача"
+ИЗ
+	Справочник.уатМоделиТС КАК уатМодельТС
+{ГДЕ
+	Ссылка.* КАК МодельТягача}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	уатМодельТС.Ссылка,
+	"МодельПрицепа"
+ИЗ
+	Справочник.уатМоделиТС КАК уатМодельТС
+{ГДЕ
+	Ссылка.* КАК МодельПрицепа}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	СправочникТипыТранспортныхСредств.Ссылка,
+	"ТипТягача"
+ИЗ
+	Справочник.ТипыТранспортныхСредств КАК СправочникТипыТранспортныхСредств
+{ГДЕ
+	Ссылка.* КАК ТипТягача}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	СправочникТипыТранспортныхСредств.Ссылка,
+	"ТипПрицепа"
+ИЗ
+	Справочник.ТипыТранспортныхСредств КАК СправочникТипыТранспортныхСредств
+{ГДЕ
+	Ссылка.* КАК ТипПрицепа}
+		
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	Контрагенты.Ссылка,
+	"Контрагент"
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+{ГДЕ
+	Ссылка.* КАК Контрагент}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	ДоговорыКонтрагентов.Ссылка,
+	"ДоговорКонтрагента"
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК ДоговорыКонтрагентов
+{ГДЕ
+	Ссылка.* КАК ДоговорКонтрагента}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	уатМаршруты.Ссылка,
+	"Маршрут"
+ИЗ
+	Справочник.уатМаршруты КАК уатМаршруты
+{ГДЕ
+	Ссылка.* КАК Маршрут}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	Номенклатура.Ссылка,
+	"Груз"
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+{ГДЕ
+	Ссылка.* КАК Номенклатура}
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ ПЕРВЫЕ 1
+	ОбъектыСтроительства.Ссылка,
+	"Объект строительства"
+ИЗ
+	Справочник.СМ_ОбъектыСтроительства КАК ОбъектыСтроительства
+{ГДЕ
+	Ссылка.* КАК ОбъектСтроительства}</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

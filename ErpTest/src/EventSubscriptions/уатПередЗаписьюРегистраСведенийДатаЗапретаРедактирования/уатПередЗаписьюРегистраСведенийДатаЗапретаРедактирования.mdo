@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13c63182-09e8-461d-83a9-1616236af764">
+  <name>уатПередЗаписьюРегистраСведенийДатаЗапретаРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью регистра сведений дата запрета редактирования</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <source>
+    <types>InformationRegisterRecordSet.уатТарифыСотрудников</types>
+    <types>InformationRegisterRecordSet.уатПрейскурантыТС</types>
+    <types>InformationRegisterRecordSet.уатМестонахождениеТС</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатПередЗаписьюРегистраСведенийПроверкаДоступностиПериода</handler>
+</mdclass:EventSubscription>

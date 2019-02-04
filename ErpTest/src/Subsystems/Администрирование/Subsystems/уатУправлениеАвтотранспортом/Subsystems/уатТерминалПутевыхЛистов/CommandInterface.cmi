@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.уатТерминалПриемаИВыдачиПутевыхЛистов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.уатТерминалПриемаИВыдачиПутевыхЛистов.Command.ТерминалПриемаИВыдачиПутевыхЛистов</commands>
+      <commands>0:848237b5-93d6-4bd9-abe7-b75ba7320c2e</commands>
+      <commands>Catalog.уатКартыДоступа.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

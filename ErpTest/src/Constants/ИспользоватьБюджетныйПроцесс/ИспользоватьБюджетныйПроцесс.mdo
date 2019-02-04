@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8bdfaa3-e26b-4911-a765-31e86f72b3e2">
+  <producedTypes>
+    <managerType typeId="7d898394-871c-428d-b24d-3f8f3c3f9a4c" valueTypeId="b38e3dcd-c0a9-42e3-a5c3-28f3bd754fbc"/>
+    <valueManagerType typeId="02d3ad36-e156-4627-8d4b-dd4a51b72e26" valueTypeId="9b500bdc-fd93-4184-bc7c-f8e793f4723c"/>
+  </producedTypes>
+  <name>ИспользоватьБюджетныйПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бюджетный процесс</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263e443c-b25d-44f1-aef8-6715c49474ed">
+  <name>уатУправлениеАвтотранспортом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление автотранспортом</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Управление автотранспортом</value>
+  </explanation>
+  <content>CommonPicture.Информация32</content>
+  <content>CommonPicture.Предупреждение32</content>
+  <content>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</content>
+  <content>InformationRegister.уатПраваИНастройки</content>
+  <content>DataProcessor.уатУстановкаПравИНастроек</content>
+  <content>CommonForm.уатВводТиповогоДокумента</content>
+  <content>CommonForm.уатПерсональныеНастройки</content>
+  <content>CommandGroup.уатНастройки</content>
+  <content>CommandGroup.уатСервис</content>
+  <content>CommonForm.уатФормаКонстант</content>
+  <content>Constant.уатИспользоватьФайлСЛКСервераЛицензий</content>
+  <content>CommonTemplate.уатДанныеСЛК</content>
+  <content>InformationRegister.уатТиповыеДокументы</content>
+  <content>DataProcessor.уатФормированиеТиповыхДокументов</content>
+  <content>CommonCommand.уатМенеджерЛицензийСЛК</content>
+  <content>CommonCommand.уатПерсональныеНастройки</content>
+  <content>CommonCommand.уатФормаКонстант</content>
+  <content>DataProcessor.уатПомощникОбновленияИБ</content>
+  <subsystems>уатСогласования</subsystems>
+  <subsystems>уатЛицензирование</subsystems>
+  <subsystems>уатТерминалПутевыхЛистов</subsystems>
+  <subsystems>слкСистемаЛицензированияОРСР</subsystems>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

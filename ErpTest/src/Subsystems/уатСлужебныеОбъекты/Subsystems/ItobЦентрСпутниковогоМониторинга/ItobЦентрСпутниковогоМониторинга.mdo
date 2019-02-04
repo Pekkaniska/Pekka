@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6decea6-6e3d-4f7e-a60d-9572688158af">
+  <name>ItobЦентрСпутниковогоМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спутниковый мониторинг</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ItobМониторинг</picture>
+  </picture>
+  <content>DataProcessor.ItobРабочееМестоДиспетчера</content>
+  <content>CommonPicture.ItobВыделитьОбластьНаКарте</content>
+  <content>CommonModule.ItobРаботаС_БСП</content>
+  <content>CommonModule.ItobРаботаС_БСП_ВызовСервера</content>
+  <content>CommonModule.ItobРаботаС_БСП_ВызовСервераПовтИсп</content>
+  <content>CommonModule.ItobРаботаС_БСП_Клиент</content>
+  <content>CommonModule.ItobРаботаС_БСП_КлиентСервер</content>
+  <content>CommonForm.ItobПерсональныеНастройки</content>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ГеографическиеКарты</subsystems>
+  <subsystems>ДанныеТрекеров</subsystems>
+  <subsystems>ЗаполнениеПутевыхЛистов</subsystems>
+  <subsystems>НормативноСправочнаяИнформация</subsystems>
+  <subsystems>ПользователиИПраваДоступа</subsystems>
+  <subsystems>Репликация</subsystems>
+  <subsystems>УчетТоплива</subsystems>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

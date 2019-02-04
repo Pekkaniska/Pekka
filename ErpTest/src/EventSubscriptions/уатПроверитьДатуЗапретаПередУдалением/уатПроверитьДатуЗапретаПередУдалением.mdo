@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eecc3db5-f299-4d5d-82f8-fc9ef058d69d">
+  <name>уатПроверитьДатуЗапретаПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить дату запрета перед удалением</value>
+  </synonym>
+  <comment>Проверка дат запрета для документов УАТ</comment>
+  <source>
+    <types>DocumentObject.уатБилетныйЛист</types>
+    <types>DocumentObject.уатОтчетПоставщикаПЦ</types>
+    <types>DocumentObject.уатМаршрутныйЛист</types>
+    <types>DocumentObject.уатВводОстатковГСМ</types>
+    <types>DocumentObject.уатДТП</types>
+    <types>DocumentObject.уатИзменениеСчетчиковТС</types>
+    <types>DocumentObject.уатВводВЭксплуатациюТСиОборудования</types>
+    <types>DocumentObject.уатЗаказГрузоотправителя</types>
+    <types>DocumentObject.уатВводНачальныхПоказаний</types>
+    <types>DocumentObject.уатПосадочнаяВедомость</types>
+    <types>DocumentObject.уатВыбытиеТСиОборудования</types>
+    <types>DocumentObject.уатИнвентаризацияГСМвТС</types>
+    <types>DocumentObject.уатЗаправкаГСМ</types>
+    <types>DocumentObject.уатОперацииСТехническимиЖидкостями</types>
+    <types>DocumentObject.уатПланированиеРаботыТС</types>
+    <types>DocumentObject.уатСливГСМ</types>
+    <types>DocumentObject.уатВыручкаВодителей</types>
+    <types>DocumentObject.уатДиспозицияТС</types>
+    <types>DocumentObject.уатТТД</types>
+    <types>DocumentObject.уатУстановкаПрейскурантовТС</types>
+    <types>DocumentObject.уатПеремещениеТСиОборудования</types>
+    <types>DocumentObject.уатОтклонениеГруза</types>
+    <types>DocumentObject.уатПутевойЛист</types>
+    <types>DocumentObject.уатПоступлениеБилетов</types>
+    <types>DocumentObject.уатРазнарядка</types>
+    <types>DocumentObject.уатУстановкаТарифовЗП</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатПроверитьДатуЗапретаПередУдалениемПередУдалением</handler>
+</mdclass:EventSubscription>

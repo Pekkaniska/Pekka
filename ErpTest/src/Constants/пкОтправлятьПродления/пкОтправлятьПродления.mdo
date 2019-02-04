@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f30d3e26-b6dc-469b-a649-3e2243c43a0a">
+  <producedTypes>
+    <managerType typeId="70c7ad3a-e924-4879-89f5-4afa484a0966" valueTypeId="3deb8f36-f69b-4413-b3c5-482a96f90b98"/>
+    <valueManagerType typeId="e8d27c92-3729-4c73-9a0f-26ae53bf2e6f" valueTypeId="e107a9aa-8e17-477a-adea-1c5fc5d04e2b"/>
+  </producedTypes>
+  <name>пкОтправлятьПродления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправлять продления техники</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

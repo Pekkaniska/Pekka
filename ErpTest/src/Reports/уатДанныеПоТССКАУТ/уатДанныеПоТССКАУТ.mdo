@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48b1eb9b-4c89-4c43-aa39-13b11afe3dd1">
+  <producedTypes>
+    <objectType typeId="210bf3bf-46a3-4852-9306-f9b8ee9b831c" valueTypeId="d4c434c0-46c1-4655-b928-050865c5e957"/>
+    <managerType typeId="f1abd2a0-b73f-4d75-a262-3bfb5c8817a7" valueTypeId="33e837d1-e9e0-4afb-a6bf-61e88937718b"/>
+  </producedTypes>
+  <name>уатДанныеПоТССКАУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по ТС (СКАУТ)</value>
+  </synonym>
+  <comment>Данные по ТС (GPS &quot;СКАУТ&quot;)</comment>
+  <mainDataCompositionSchema>Report.уатДанныеПоТССКАУТ.Template.ДанныеПоТС</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fa985cda-df1c-4f87-9ec8-e995e2065c0c">
+    <name>ДанныеПоТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные по ТС</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

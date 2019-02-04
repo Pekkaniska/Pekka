@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="674f69ee-a2b2-47b6-a60a-4efc3189c3dd">
+  <producedTypes>
+    <refType typeId="aabb5b6b-43f6-4f76-b358-d4663a9f1fa2" valueTypeId="7bf529fe-737f-4f34-a9f6-46b02cfd689e"/>
+    <listType typeId="f4efb441-0430-4c42-a0b4-15a6db3efd2b" valueTypeId="0e424a29-df45-4757-9345-1379557572a1"/>
+    <managerType typeId="eb19f81e-4ce0-4425-a520-4f064c6ca4c1" valueTypeId="d01bd7b9-de0a-4227-bca6-e64b6d95f1bf"/>
+  </producedTypes>
+  <name>пкВидыПечатныхФормДляШаблоновПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды печатных форм для шаблонов подписей</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="276ababc-8f46-410e-8ffa-7c59d7fdf0b4">
+    <name>СчетНаОплатуАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату аренды</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c39878dc-6ac4-48dd-92dd-61f10242bcd0">
+    <name>АктПоАренде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт по аренде</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="09cff23b-89d7-4628-b4f3-ba299b01cd61">
+    <name>СчетФактураПоАренде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по аренде</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8d434a00-839b-42ee-b06c-04dc918b068b">
+    <name>АктСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт сверки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4488d695-1961-4ab3-8c58-e97232943f06">
+    <name>СчетНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="461cfb54-fad4-4eea-91b5-94244d1ee7b0">
+    <name>Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f79d0241-136e-4ecb-a26d-cb61160bc7f4">
+    <name>СчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="94dafe4d-e538-488e-9e60-61020fdb1a86">
+    <name>Претензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Претензия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="65cbc445-c8f5-4e7d-9989-7d99a66c9e00">
+    <name>ДопСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. соглашение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c9a9d70d-cbe6-45d2-ba5e-6b1ae4f956ad">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

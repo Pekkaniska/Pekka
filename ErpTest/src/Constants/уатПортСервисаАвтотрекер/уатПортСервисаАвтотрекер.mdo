@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc18a01-74da-47a5-9eb9-1a2faf72c4c4">
+  <producedTypes>
+    <managerType typeId="9ccc3a08-2919-4e9c-ae89-3dde53b3ad88" valueTypeId="35208836-3d19-404b-8d00-14a5dac7379c"/>
+    <valueManagerType typeId="e50a212f-316a-463b-8540-69c46dcaaa32" valueTypeId="17580ea7-7268-466c-8520-d9029a52249c"/>
+  </producedTypes>
+  <name>уатПортСервисаАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт сервиса Автотрекер</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Порт сервиса GPS Автотрекер</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Порт сервиса системы GPS Автотрекер</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Порт сервиса системы GPS Автотрекер</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

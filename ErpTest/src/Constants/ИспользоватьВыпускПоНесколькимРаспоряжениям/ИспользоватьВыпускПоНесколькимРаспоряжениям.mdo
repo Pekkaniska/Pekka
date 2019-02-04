@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90fb70cc-5b08-40a9-b49b-0f55f06f226d">
+  <producedTypes>
+    <managerType typeId="35d24f64-a41a-47a4-a09e-aff070904830" valueTypeId="aeb16304-4868-4032-b512-ac6a706f2c9b"/>
+    <valueManagerType typeId="9d7b3912-e23c-4d28-ac2d-ad240bbca8bc" valueTypeId="79314dcd-9b05-42a3-b0bd-b392ba4c96ac"/>
+  </producedTypes>
+  <name>ИспользоватьВыпускПоНесколькимРаспоряжениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции, работ и услуг по нескольким распоряжениям</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Оформление выпуска продукции на основании нескольких заказов на производство.</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

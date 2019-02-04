@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a75d8392-4e2c-4d77-a0ad-a376029ca84c">
+  <producedTypes>
+    <objectType typeId="7898ce18-6482-4464-a374-fd1e7dc57c5b" valueTypeId="6bc13ec4-9e0e-41c9-a5eb-16280997fa85"/>
+    <managerType typeId="a3b4aedf-f7b0-4f75-bc5d-d7d961974afe" valueTypeId="5105fe46-60d3-4899-a0f2-bd62272230c1"/>
+  </producedTypes>
+  <name>пкПланыПроведенияТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы проведения ТО</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкПланыПроведенияТО.Form.Форма</defaultForm>
+  <attributes uuid="11dfbed7-2fb5-4786-84ed-6b11385a0adb">
+    <name>КоличествоДнейДоТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней до ТО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65206494-2706-4096-a791-a7723342cc55">
+    <name>НеПоказыватьТехникуСНезаполненнымиДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать технику с незаполненными данными</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="39d8fa84-b5eb-4bd6-a1bc-d6ac59735563">
+    <producedTypes>
+      <objectType typeId="0cbc63a4-3a1c-47c3-a698-319d16c25c5f" valueTypeId="25049a6c-86ac-4d9e-b186-4bc1cb58ca61"/>
+      <rowType typeId="104d236c-f60d-438b-9dbb-fbe5e5d52be3" valueTypeId="9204b0f9-d33f-44a0-b70b-0e8920fff3d4"/>
+    </producedTypes>
+    <name>СписокТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список техники</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f276b407-68d9-46ab-8ddd-a0a5496cc5f2">
+      <name>Техника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Техника</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ОбъектыЭксплуатации</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="26910622-6bc3-4d3a-a171-8db2fd2418fc">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="416814cf-594d-4eec-88b9-33020ef51fb3">
+      <name>ПромежутокТО_Моточасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Промежуток т о моточасов</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f680b1cd-c1ee-4c72-aafb-e3923bfb431d">
+      <name>ПромежутокТО_Дней</name>
+      <synonym>
+        <key>ru</key>
+        <value>Промежуток т о дней</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7289f495-f0f8-44fa-b7eb-fcaca14944cb">
+      <name>ДатаПоследнегоТО_Нач</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последнего ТО нач</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a047be5b-5951-4ff6-8e4a-0661549c8064">
+      <name>ДатаПоследнегоТО_Кон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последнего ТО кон</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dd1a0a1-495d-489a-9ba4-ba1eaf55d3f6">
+      <name>ДатаПредПоследнегоТО_Нач</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата предпоследнего ТО нач</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4ee7d143-eae7-4127-b33e-4350c64fcfe8">
+      <name>ДатаПредПоследнегоТО_Кон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата предпоследнего ТО кон</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9e886ef5-eeda-4b9b-a765-6cd43477b2da">
+      <name>МоточасыПоследнегоТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Моточасы последнего ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ae4983cd-ff7a-4d23-b367-0906dfc3f990">
+      <name>МоточасыПредпоследнегоТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Моточасы предпоследнего ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ffff2ee8-bd40-4331-bdcc-1603d7a0c558">
+      <name>ПоследнийЗаказНаряд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Последний заказ наряд</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.пкЗаказНаряд</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f3eec7a3-a76e-4061-84a3-2dd3a5f0f106">
+      <name>ПредпоследнийЗаказНаряд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предпоследний заказ наряд</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.пкЗаказНаряд</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e1bf4073-e58e-4e01-a8e8-46ec1fe6c898">
+      <name>ДнейВАрендеВПрошлыйПромежуток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней в аренде в прошлый промежуток</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="48f339aa-ff75-4c3f-8e16-e3bbbce81218">
+      <name>ДнейВАрендеВТекущийПромежуток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней в аренде в текущий промежуток</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8f7ca33f-b2a5-4c01-933f-6b86244a6ec3">
+      <name>УсловиеТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условие ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f6d9bd0d-1f81-4793-b29d-91f2c77487e1">
+      <name>ДнейДоТОПоМоточасам</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней до ТОПо моточасам</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="48f1f719-5098-44fc-ab2c-0cc3b3a96a44">
+      <name>ДнейДоТОПоДням</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней до ТОПо дням</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="518e705f-1641-48ea-ad34-6d776341283a">
+      <name>Отметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отметка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c09c83c3-a225-49e6-86d2-0d8f83df082e">
+      <name>ЗаданиеНаРемонт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задание на ремонт</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.пкЗаданиеНаРемонт</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7b8d18d0-d03f-415d-9341-b4f284c4e0d1">
+      <name>ДатаПоследнегоТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последнего ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c99b6e08-65eb-4e57-ba33-bf3245d7230d">
+      <name>ДнейВАрендеСПоследнегоТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дней в аренде с последнего ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3bdb12be-2589-46be-b816-59b98b45b94b">
+      <name>МоточасыПоследнегоТО_1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Моточасы последнего т о 1</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d553a808-8eae-43d3-b754-df51b345a655">
+      <name>СреднееКоличествоМоточасовВДень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Среднее количество моточасов в день</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6eb505bf-1fcf-436a-9e01-009ac1e99d67">
+      <name>МоточасовДоТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Моточасов до ТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7fedb78f-84fa-4d54-b2ce-3fdbc04c9bdf">
+    <producedTypes>
+      <objectType typeId="76b7ad99-0d97-4fa5-9d8c-4585b54e96c6" valueTypeId="7a6c23fa-f29c-4282-b71b-65b388eb14fd"/>
+      <rowType typeId="e045eae9-d13b-4df7-a6b4-d74e8434a9bd" valueTypeId="42a443c6-e1ec-4a98-90a2-345d9ab10d02"/>
+    </producedTypes>
+    <name>СписокТехникиПТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список техники ПТО</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="54c0b105-af62-4352-823f-e05b8a07fddd">
+      <name>Техника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Техника</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ОбъектыЭксплуатации</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="80fa0ead-80dc-48af-b5ba-e2dcf00daf51">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cea0c5c2-ac22-4a2a-a5d4-e7409b6848a7">
+      <name>Отметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отметка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="46361c15-7eb8-407f-8c52-3c6629eae797">
+      <name>ЗаданиеНаРемонт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задание на ремонт</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.пкЗаданиеНаРемонт</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f9d8ec13-41e2-4572-a219-8300fa112762">
+      <name>ДатаСледующегоПТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата следующего ПТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="90b2ac8c-a74b-4df0-9434-975e902614a2">
+      <name>ДатаСледующегоЧТО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата следующего ЧТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ce07d500-0a76-4df7-8310-e1d94eefc733">
+      <name>ДатаПоследнегоПТО_Кон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последнего ПТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8c6a5a92-ce9f-43b0-909f-9ef9cf19f088">
+      <name>ДатаПоследнегоЧТО_Кон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последнего ЧТО</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="65e0c164-91de-4859-bb4a-e30bd69fe51b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

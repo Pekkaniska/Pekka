@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36fd1f4c-72fa-43db-a8e9-ed0772f80de5">
+  <producedTypes>
+    <refType typeId="f4a3a4d9-be8f-4be6-87be-cf68ed4f8d41" valueTypeId="372f23b2-067b-4058-abc9-d12fc6524103"/>
+    <listType typeId="d4e05434-933a-4770-8ab8-c2ec49bf31a6" valueTypeId="8d9f81dd-5e7f-4c7b-9dac-7bf4b505b8a3"/>
+    <managerType typeId="9f1053ba-990e-4c40-981f-8d5aa0db2cbd" valueTypeId="82f7563d-4bef-4998-9456-d075dab972cf"/>
+  </producedTypes>
+  <name>уатТипыДвигателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы двигателей</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="583a6b56-7b8a-48ca-a385-2646cc6be632">
+    <name>Бензиновый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бензиновый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7830022c-a35c-4a63-9893-a8d7c6160ea8">
+    <name>Дизельный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дизельный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="45721e2e-9fcc-4636-956d-7746c1f27c92">
+    <name>Газовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газовый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3fc82733-dcef-4bb5-91f2-9c3ac951b136">
+    <name>Газобензиновый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газобензиновый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5d3a23d-2f14-4159-afcc-9ea1561b3c3c">
+    <name>Газодизельный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газодизельный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fba65852-cd71-4c8b-85eb-5489a5068f49">
+    <name>Электрический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрический</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

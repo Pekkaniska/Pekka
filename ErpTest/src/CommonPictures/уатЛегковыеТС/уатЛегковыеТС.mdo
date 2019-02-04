@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ae9d97-4def-4d36-9d25-8b28dfad0ef6">
+  <name>уатЛегковыеТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Легковые ТС (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>5</x>
+    <y>30</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

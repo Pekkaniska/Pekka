@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d4582c-544c-4718-b6ac-e3ab1a8d95d0">
+  <name>пкОграничитьВыборЯчеекПоПользователю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничить выбор ячеек по пользователю</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

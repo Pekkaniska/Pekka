@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="621027d3-3b43-41e2-909d-5f42e9e0a3d3">
+  <producedTypes>
+    <managerType typeId="6aa0015d-939e-4b3e-aeef-47a7719c2181" valueTypeId="b1f361fc-8edb-4840-961a-eb74c52f7a66"/>
+    <valueManagerType typeId="3ece8968-eee6-47f1-af3e-2ffadb18987b" valueTypeId="b787733d-8a38-4677-9711-1b9f4a2ed798"/>
+  </producedTypes>
+  <name>уатИмяБДВСистемеOmnicomm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя БД в системе omnicomm</value>
+  </synonym>
+  <comment>Имя базы данных в системе omnicomm (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Имя БД в системе omnicomm </value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Имя базы данных в системе omnicomm</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя БД в системе omnicomm</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="722e1419-a7dc-4410-a02b-b0012b630776">
+  <producedTypes>
+    <managerType typeId="f842cb41-304c-4c30-811e-adff80a77568" valueTypeId="a8958d42-4cd9-4074-837d-cc29141f0392"/>
+    <valueManagerType typeId="91902609-cbc2-48e4-8543-48b9a42120a5" valueTypeId="3cd46aa5-072b-4b6d-aec3-72ddb540e5bf"/>
+  </producedTypes>
+  <name>уатИспользоватьDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Dynafleet</value>
+  </synonym>
+  <comment>Использовать систему GPS Dynafleet</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать систему GPS Dynafleet</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="869c7109-2e3f-46f9-9f9d-5a5cd675e3d9">
+  <producedTypes>
+    <managerType typeId="a0cb659e-97a3-4f4f-a444-7d1a3942497e" valueTypeId="26ec2e07-4534-4e72-bb87-a90de9ab7d4a"/>
+    <valueManagerType typeId="9e11f8cf-5f68-4b3d-a6c9-b024724cb56e" valueTypeId="0602b2b8-47eb-4046-869d-6fd51e2288c3"/>
+  </producedTypes>
+  <name>пкСтатьяРасходовСервисПлатныеРемонты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья расходов сервис (платные ремонты)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

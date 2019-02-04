@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a76bd10-5368-4e94-b43c-2e5130066ce6">
+  <name>уатИспользоватьМониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать мониторинг</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <location>Constant.уатИспользоватьМониторинг</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.уатИспользуемаяСистемаGPS</content>
+  <content>Report.уатДополнительныеСведенияПоGPS</content>
+  <content>Report.уатИзменениеМестоположенияТС_GPS</content>
+  <content>Report.уатМестоположениеТС_GPS</content>
+  <content>Report.уатСравнениеЗаправокГСМиGPS</content>
+  <content>Report.уатСравнениеПробегаИРасходаГСМПоПЛИДаннымGPS</content>
+  <content>DataProcessor.уатЗагрузкаДанныхGPS</content>
+  <content>InformationRegister.уатДополнительныеСведенияПоGPS</content>
+  <content>InformationRegister.уатМестоположениеПоGPS</content>
+  <content>Constant.уатИспользоватьDynafleet</content>
+  <content>Constant.уатИспользоватьOmnicomm</content>
+  <content>Constant.уатИспользоватьPositionReport</content>
+  <content>Constant.уатИспользоватьАвтоГРАФ</content>
+  <content>Constant.уатИспользоватьАвтотрекер</content>
+  <content>Constant.уатИспользоватьСКАУТ</content>
+  <content>Constant.уатИспользоватьЦСМ</content>
+  <content>Constant.уатАдресСервисаDynafleet</content>
+  <content>Constant.уатАдресСервисаOmnicomm</content>
+  <content>Constant.уатАдресСервисаPositionReport</content>
+  <content>Constant.уатАдресСервисаАвтоГРАФ</content>
+  <content>Constant.уатАдресСервисаАвтотрекер</content>
+  <content>Constant.уатПортСервисаАвтотрекер</content>
+  <content>Constant.уатАдресСервисаСКАУТ</content>
+  <content>Constant.уатДрайверВСистемеOmnicomm</content>
+  <content>Constant.уатИмяDSNСистемеOmnicomm</content>
+  <content>Constant.уатИмяБДВСистемеOmnicomm</content>
+  <content>Constant.уатИмяPIPEСистемеOmnicomm</content>
+  <content>Constant.уатИнтервалДетализацииDynafleet</content>
+  <content>Constant.уатПарольВСистемеАвтотрекер</content>
+  <content>Constant.уатЛогинВСистемеDynafleet</content>
+  <content>Constant.уатЛогинВСистемеOmnicomm</content>
+  <content>Constant.уатЛогинВСистемеPositionReport</content>
+  <content>Constant.уатЛогинВСистемеАвтотрекер</content>
+  <content>Constant.уатЛогинВСистемеСКАУТ</content>
+  <content>Constant.уатПараметрыРеглЗаданияЗагрузкаДанныхDynafleet</content>
+  <content>Constant.уатПараметрыРеглЗаданияЗагрузкаДанныхOmnicomm</content>
+  <content>Constant.уатПараметрыРеглЗаданияЗагрузкаДанныхАвтоГРАФ</content>
+  <content>Constant.уатПараметрыРеглЗаданияЗагрузкаДанныхСКАУТ</content>
+  <content>Constant.уатПарольВСистемеСКАУТ</content>
+  <content>Constant.уатПарольВСистемеPositionReport</content>
+  <content>Constant.уатПарольВСистемеOmnicomm</content>
+  <content>Constant.уатПарольВСистемеDynafleet</content>
+  <content>Constant.уатПространствоИменСервисаPositionReport</content>
+  <content>Constant.уатСерверВСистемеOmnicomm</content>
+  <content>Constant.уатСпособПодключенияКСистемеOmnicomm</content>
+  <content>Constant.уатСпособРаботыСOmnicomm</content>
+</mdclass:FunctionalOption>

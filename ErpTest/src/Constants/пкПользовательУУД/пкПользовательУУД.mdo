@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876721f9-cb88-4f6c-b951-6f900fc7072d">
+  <producedTypes>
+    <managerType typeId="979a55aa-dd8a-4592-b6e5-be74c3fedbc3" valueTypeId="12ba45fa-0c8b-48e1-a05c-5deb3c4d9f05"/>
+    <valueManagerType typeId="dfff2e78-4740-4611-8f35-cfb73805d5ec" valueTypeId="7f187995-a207-4da3-829f-50fde3b9813c"/>
+  </producedTypes>
+  <name>пкПользовательУУД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь удаленного управления доставкой</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

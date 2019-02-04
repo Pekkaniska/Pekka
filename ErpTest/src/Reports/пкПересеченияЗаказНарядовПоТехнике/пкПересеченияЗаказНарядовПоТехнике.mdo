@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752a6652-c35a-41b7-9ba3-6fa10fec0f98">
+  <producedTypes>
+    <objectType typeId="b25e937d-f71b-44ac-b75c-92316d2ddd4c" valueTypeId="3b4c8864-8934-46d6-9e5b-f947ae5903c7"/>
+    <managerType typeId="3a5a54a5-22f1-49b7-9aab-60bc0ca020e5" valueTypeId="f588b423-f588-4776-87ee-025f97c516ac"/>
+  </producedTypes>
+  <name>пкПересеченияЗаказНарядовПоТехнике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересечения заказ-нарядов по технике</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкПересеченияЗаказНарядовПоТехнике.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="a836c2b7-efee-41db-9841-f4c4dc1272a5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

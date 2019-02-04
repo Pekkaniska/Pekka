@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27aff1e-2f87-423d-9192-2004e5e59b1d">
+  <producedTypes>
+    <objectType typeId="f8d5100a-40b1-40e6-b02a-465b598d43bd" valueTypeId="ca9716be-b168-46a4-b1a1-3b804a12cef6"/>
+    <managerType typeId="2c99f943-f359-45ff-b5b4-7a0b02a109d7" valueTypeId="ba7d693f-1f27-439f-9723-fac067ba5704"/>
+  </producedTypes>
+  <name>уатПанельНастроекИСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель настроек и справочников</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="32f25158-fbea-4d59-b542-4a945e21948f">
+    <name>ПанельСправочниковРаботаТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки и справочники</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3ebdc83-686d-45c0-88e2-268b85030ef4">
+    <name>ПанельЦСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр спутникового мониторинга</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9bf92bb3-8c23-44ef-aa99-bbdbf0d04f2f">
+    <name>РазделСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки и справочники</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e7bf03c6-18d0-4307-ab2b-638cc63039ef">
+    <name>РазделЦСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр спутникового мониторинга</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

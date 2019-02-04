@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8fb17ff-7b0f-4e3b-82e4-ce528309b8fa">
+  <name>ИспользованиеОбработкиЖурналДокументовНМАМеждународныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки журнал документов НМА (международный учет)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

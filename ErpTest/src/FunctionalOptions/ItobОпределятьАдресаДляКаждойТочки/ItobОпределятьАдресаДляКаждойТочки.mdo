@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe36702-c341-4b85-a332-acb90376961c">
+  <name>ItobОпределятьАдресаДляКаждойТочки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определять адреса для каждой точки</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ItobОпределятьАдресаДляКаждойТочки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ItobДанныеТерминаловДополнения.Attribute.НаселенныйПункт</content>
+  <content>InformationRegister.ItobДанныеТерминаловДополнения.Attribute.Расстояние</content>
+  <content>InformationRegister.ItobДанныеТерминаловДополнения.Attribute.Вектор</content>
+  <content>InformationRegister.ItobДанныеТерминаловДополнения.Attribute.ПриближениеУдаление</content>
+</mdclass:FunctionalOption>

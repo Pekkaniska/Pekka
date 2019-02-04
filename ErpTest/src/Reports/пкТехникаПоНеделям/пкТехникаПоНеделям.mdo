@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b274ce91-6091-445b-997b-ad3c04da6673">
+  <producedTypes>
+    <objectType typeId="fc452ec1-b082-4623-8b33-dabbead427bc" valueTypeId="c294998e-64b1-4db0-a193-209b7f5e1d21"/>
+    <managerType typeId="08f7a9c9-78e9-42ba-b098-8ea3f13b17db" valueTypeId="dfebe9fd-7c17-436c-b139-e8f509f66e91"/>
+  </producedTypes>
+  <name>пкТехникаПоНеделям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Техника по неделям</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкТехникаПоНеделям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f13f65b7-ddc2-4277-a257-a09c6f72bae3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

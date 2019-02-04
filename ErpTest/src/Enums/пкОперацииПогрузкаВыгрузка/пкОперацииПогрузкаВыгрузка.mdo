@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17536428-9077-4706-abfd-d5e8e2c5f615">
+  <producedTypes>
+    <refType typeId="509d5596-b0d5-454f-a43f-d24ca64a68c9" valueTypeId="b532d67c-a778-4117-bf19-b93c0ab20880"/>
+    <listType typeId="1eeabc8c-c9c6-4783-8c1c-fc22af3cc702" valueTypeId="01fd7006-a186-449c-9225-a33af5384322"/>
+    <managerType typeId="0b95a4b7-1284-46f6-b7bc-fd1d02638f7a" valueTypeId="d78b345b-70be-4fef-9f5b-ab79fc9f68d7"/>
+  </producedTypes>
+  <name>пкОперацииПогрузкаВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции погрузка/выгрузка при доставке</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8573e003-c342-4d8a-8708-0766166758a5">
+    <name>Погрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="363e3e8e-66dc-4569-bd4f-7ecb630bd19d">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

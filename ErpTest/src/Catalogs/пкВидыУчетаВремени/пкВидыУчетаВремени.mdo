@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="514f6c4f-3611-459f-b0b5-ed83a19dfe22">
+  <producedTypes>
+    <objectType typeId="773b4235-0c49-435e-8faf-b23c317245ca" valueTypeId="80e1e733-1ffa-47e2-88c6-df7fb49e4dd1"/>
+    <refType typeId="fec49a31-d10e-48af-b757-6b165e1e0eb5" valueTypeId="5afee855-7b56-47c7-b025-c5aa18f8054c"/>
+    <selectionType typeId="898ccbc2-2d4a-48aa-99c2-9f5617ec484a" valueTypeId="f45b095a-df96-4692-8fe1-193d3e3271b5"/>
+    <listType typeId="2de42ad4-0054-4b5a-8e25-087dbf398f31" valueTypeId="ae8cdce7-e241-4a90-8285-0638e2d028dd"/>
+    <managerType typeId="5de5fe75-d060-471b-8481-1ce8845c5004" valueTypeId="6f5123b6-0dc0-44a0-b6f0-8c922d6d3714"/>
+  </producedTypes>
+  <name>пкВидыУчетаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учета времени</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.пкВидыУчетаВремени.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.пкВидыУчетаВремени.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Буквенный код</value>
+    </synonym>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2625656d-79be-4285-9d43-cbfc68f4e922">
+      <name>Больничный</name>
+      <description>Больничный</description>
+      <code xsi:type="core:StringValue">
+        <value>Б</value>
+      </code>
+    </items>
+    <items id="b6293862-eb70-4cd1-878f-8ce7d4a37462">
+      <name>Дежурство</name>
+      <description>Дежурство</description>
+      <code xsi:type="core:StringValue">
+        <value>ДЖ</value>
+      </code>
+    </items>
+    <items id="3d2086d6-7e5d-4301-a7a1-8d0a895f5cec">
+      <name>ДопОтпуск</name>
+      <description>Доп отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>ДО</value>
+      </code>
+    </items>
+    <items id="f6a79359-2b83-4b82-b3be-bfac03e341dc">
+      <name>Командировка</name>
+      <description>Командировка</description>
+      <code xsi:type="core:StringValue">
+        <value>К</value>
+      </code>
+    </items>
+    <items id="1cf677fe-537e-4cb0-bc32-0f7a64ac3b16">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>ОТ</value>
+      </code>
+    </items>
+    <items id="c2a3bd23-6b8d-4076-a4a5-bb6f507c7091">
+      <name>Сверхурочный</name>
+      <description>Сверхурочный</description>
+      <code xsi:type="core:StringValue">
+        <value>СУ</value>
+      </code>
+    </items>
+    <items id="2710e092-90e0-463e-88c4-02177a197546">
+      <name>СокращённыйДень</name>
+      <description>Сокращённый день</description>
+      <code xsi:type="core:StringValue">
+        <value>С</value>
+      </code>
+    </items>
+    <items id="1462027c-fcf6-4eb3-a907-05bd40f7a17e">
+      <name>Явка</name>
+      <description>Явка</description>
+      <code xsi:type="core:StringValue">
+        <value>Я</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="a02a3113-83c0-42a8-a269-d0b545feb2a0">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf76e454-9bab-46a4-ad24-5c990f97570a">
+    <name>ПорядокВСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок в списке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46355067-d8e8-4e4c-a0ab-40b6b32bf7f8">
+  <name>пкПТОиЧТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПТО/ЧТО</value>
+  </synonym>
+  <comment>Для работы с обработкой Планы проведения ТО</comment>
+</mdclass:Role>

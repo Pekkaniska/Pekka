@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb0d09b8-538a-47c9-9d82-13a17afbbdf9">
+  <producedTypes>
+    <selectionType typeId="a76b73cc-2569-4c36-a49c-f53103ead0dd" valueTypeId="5aac53e7-1932-43df-9b34-c01850b94759"/>
+    <listType typeId="fe5a1526-62d6-446d-b527-348bdd0c3a94" valueTypeId="fdaee329-fae2-420c-85ce-ea66180e56c3"/>
+    <managerType typeId="8de4469e-18be-43c4-9fb2-55349bcd1ae9" valueTypeId="edc129a0-172f-4f28-8dac-49653a096500"/>
+    <recordSetType typeId="880f9db6-52dc-4e71-8d93-75e9ec5ead0d" valueTypeId="d25b0623-1031-4f25-a0c8-b0761098a978"/>
+    <recordKeyType typeId="b05db036-71bc-4e0b-8968-51d27a684d08" valueTypeId="c1573f18-fe35-4117-ae66-2a0ca597dcc7"/>
+    <recordType typeId="1840651e-574f-4ac2-8952-df91068aca47" valueTypeId="487aedf9-b547-4229-9aeb-0ddfefe491be"/>
+    <recordManagerType typeId="8d188e9e-3956-4d8a-87af-037e03425f59" valueTypeId="8c0342be-c589-4b9a-88dc-6668e28ad600"/>
+  </producedTypes>
+  <name>пкПодписанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписанты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dbc2716b-b31e-42e0-bc1d-19c82f46d4da">
+    <name>Подписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d4d072d2-4a12-441d-b7f9-59d8eee9e305">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e6e24cf-f2cb-4f57-b215-9ed36089b222">
+  <name>пкРазделЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел логистика</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

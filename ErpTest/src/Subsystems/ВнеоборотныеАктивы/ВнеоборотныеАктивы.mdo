@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40368e3c-f4aa-4c32-a951-07bc09193192">
+  <name>ВнеоборотныеАктивы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внеоборотные активы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Основные средства и нематериальные активы</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделВнеоборотныеАктивы</picture>
+  </picture>
+  <content>CommonPicture.РазделВнеоборотныеАктивы</content>
+  <content>Constant.ИспользоватьВнеоборотныеАктивы2_2</content>
+  <content>Constant.ИспользоватьВнеоборотныеАктивы2_4</content>
+  <content>Constant.ДатаНачалаУчетаВнеоборотныхАктивов2_4</content>
+  <content>FunctionalOption.ИспользоватьВнеоборотныеАктивы2_2</content>
+  <content>FunctionalOption.ИспользоватьВнеоборотныеАктивы2_4</content>
+  <content>CommonCommand.ПанельОтчетовВнеоборотныеАктивы</content>
+  <content>DataProcessor.ПанельСправочниковВнеоборотныеАктивы</content>
+  <content>FunctionalOption.ИспользоватьОбъектыСтроительства</content>
+  <content>Constant.ИспользоватьОбъектыСтроительства</content>
+  <content>Document.ВводОстатковВнеоборотныхАктивов2_4</content>
+  <content>Catalog.ГруппыФинансовогоУчетаВнеоборотныхАктивов</content>
+  <content>Constant.ОтображатьВнеоборотныеАктивы2_2</content>
+  <content>FunctionalOption.ОтображатьВнеоборотныеАктивы2_2</content>
+  <content>CommonModule.ВнеоборотныеАктивы</content>
+  <content>CommonModule.ВнеоборотныеАктивыВызовСервера</content>
+  <content>CommonModule.ВнеоборотныеАктивыКлиент</content>
+  <content>CommonModule.ВнеоборотныеАктивыСлужебный</content>
+  <content>CommonPicture.АмортизацияМожетБытьНекорректной</content>
+  <content>CommonPicture.АмортизацияНеРассчитана</content>
+  <content>CommonPicture.АмортизацияРассчитана</content>
+  <content>CommonPicture.АмортизацияРасчетНеТребуется</content>
+  <content>CommonPicture.АмортизацияСОшибкой</content>
+  <content>CommonModule.ВнеоборотныеАктивыКлиентСервер</content>
+  <content>CommonModule.УчетОСВызовСервера</content>
+  <content>CommonModule.УчетНМА</content>
+  <content>Enum.ХозяйственныеОперации</content>
+  <content>CommonCommand.ФункциональнаяМодельВнеоборотныеАктивы</content>
+  <content>DataProcessor.ПомощникПереходаНаУчетВнеоборотныхАктивовВерсии24</content>
+  <content>Role.ИспользованиеОбработкиПомощникПереходаНаУчетВнеоборотныхАктивовВерсии24</content>
+  <content>Report.СверкаРасчетаАмортизации</content>
+  <content>CommonCommand.ДополнительныеОбработкиВнеоборотныеАктивы</content>
+  <content>CommonCommand.ДополнительныеОтчетыВнеоборотныеАктивы</content>
+  <content>FunctionalOption.ИспользоватьВнеоборотныеАктивыРегл</content>
+  <content>CommonModule.ВнеоборотныеАктивыЛокализация</content>
+  <content>CommonModule.ВнеоборотныеАктивыЛокализацияКлиентСервер</content>
+  <subsystems>ОсновныеСредства</subsystems>
+  <subsystems>НематериальныеАктивы</subsystems>
+  <subsystems>Лизинг</subsystems>
+</mdclass:Subsystem>

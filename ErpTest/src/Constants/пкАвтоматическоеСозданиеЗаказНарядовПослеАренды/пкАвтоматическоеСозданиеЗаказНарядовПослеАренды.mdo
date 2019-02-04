@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f107e97-2a79-4c97-b23c-039f737cf635">
+  <producedTypes>
+    <managerType typeId="30e881ca-a72d-4891-854e-7e76d4be0a45" valueTypeId="273614e4-5c3c-4fe8-aa0e-dd083f529e93"/>
+    <valueManagerType typeId="d8b64abf-5613-4d35-9ddc-0151ace8fb8b" valueTypeId="ef70c375-7187-4cfa-8df5-c738e682f696"/>
+  </producedTypes>
+  <name>пкАвтоматическоеСозданиеЗаказНарядовПослеАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическое создание заказ-нарядов после аренды</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

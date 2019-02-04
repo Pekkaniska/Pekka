@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d96ae1b-bf57-484e-a966-b21872b9235f">
+  <producedTypes>
+    <refType typeId="dcfdfc67-8a19-435f-958f-04b0585d7a19" valueTypeId="4dc50f26-39ff-4d9f-9255-13ae464874c3"/>
+    <listType typeId="9755ebdd-1f39-4420-9e95-91d0a48c088a" valueTypeId="1f72f846-6473-41d9-874a-ae0321c5703d"/>
+    <managerType typeId="b563c99e-d2b3-4b6b-afff-42e935d46635" valueTypeId="6f0dd993-e833-4036-b66c-8793a944224e"/>
+  </producedTypes>
+  <name>пкСтатусСостоянияПульта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк статус состояния пульта</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9881545e-d66d-4378-bb33-4c79829844c1">
+    <name>НаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6c24e6cf-667d-43e5-839b-a85801ec1133">
+    <name>ВАренде</name>
+    <synonym>
+      <key>ru</key>
+      <value>В аренде</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7b714ecd-4dcf-485d-9015-73a7b7e4978e">
+    <name>НеСуществует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не существует</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

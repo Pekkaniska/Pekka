@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4865c93f-100c-4ef3-8be9-5d83fdfc35ac">
+  <producedTypes>
+    <objectType typeId="b0bcfdcd-b3a6-4a01-9aeb-5aa64632310a" valueTypeId="d5ca4d36-e677-4e7c-962e-01fda7717f74"/>
+    <managerType typeId="12e96ebb-ffa5-4595-b6bf-ac9c1942a441" valueTypeId="1576db90-57cf-44a0-9071-b801957e8514"/>
+  </producedTypes>
+  <name>пкВаловаяПрибыльПредприятияEUR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валовая прибыль предприятия (EUR)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкВаловаяПрибыльПредприятияEUR.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c0c11ffa-9ce0-4c06-b4de-a20b64298c65">
+    <name>ФормаНастроекДляСправочникаНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек для справочника номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7cffec94-c525-4512-a1a2-a54c28063f9a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

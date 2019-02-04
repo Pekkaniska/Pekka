@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b99c1c3b-ada5-4ea0-83f2-adbc48d66a1b">
+  <producedTypes>
+    <objectType typeId="b03b53a4-2998-4372-9168-63a9b4444893" valueTypeId="d917613d-62b1-4a91-bc1c-2c065dc96342"/>
+    <managerType typeId="bcd4e6b7-7813-4c02-a64f-801a9d77bd79" valueTypeId="cce16921-c0ac-4e05-a4ec-9bfa340a1f67"/>
+  </producedTypes>
+  <name>уатЗагрузкаДанныхDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных Dynafleet</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.уатЗагрузкаДанныхDynafleet.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Загрузка данных из системы GPS Dynafleet</value>
+  </explanation>
+  <forms uuid="6f4e9f81-3509-436e-b0d9-a79e25a7a47d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

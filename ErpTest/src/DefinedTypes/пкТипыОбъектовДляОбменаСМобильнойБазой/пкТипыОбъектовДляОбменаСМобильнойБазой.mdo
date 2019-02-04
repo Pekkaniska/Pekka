@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4c0ef81-9cc6-4b90-9701-da863cdadc15">
+  <producedTypes>
+    <containerType typeId="50e181a4-ac99-4861-8cbb-3332edc292ec" valueTypeId="ddceac3c-e96e-4264-9617-ec2c5dc54203"/>
+  </producedTypes>
+  <name>пкТипыОбъектовДляОбменаСМобильнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов для обмена с мобильной базой</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogObject.ФизическиеЛица</types>
+  </type>
+</mdclass:DefinedType>

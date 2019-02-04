@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60ea1af1-e764-410d-9619-8f6ef7ca74b8">
+  <name>пкОчисткаОчередиСообщенийДокументооборота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка очереди сообщений документооборота</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкРегламентныеЗаданияСервер.пкОчисткаОчередиСообщенийДокументооборота</methodName>
+  <description></description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

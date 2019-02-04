@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a65677a-7835-4502-80ae-6911141a897d">
+  <name>уатСправочникАЗС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник АЗС (уат)</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>5</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

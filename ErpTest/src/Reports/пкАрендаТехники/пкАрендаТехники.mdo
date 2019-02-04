@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2a1e038-7b21-4659-8567-35010670a108">
+  <producedTypes>
+    <objectType typeId="e41e2b4b-bcfd-4185-b24d-26596818b8d7" valueTypeId="082f663f-93c9-42a3-ad54-49f898fb5cf2"/>
+    <managerType typeId="15d53977-7ace-4120-8a6e-478672ca34ce" valueTypeId="048f67e6-f30b-4793-b8f0-d205e4254230"/>
+  </producedTypes>
+  <name>пкАрендаТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкАрендаТехники.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0fa95ef5-4373-40ee-9519-7613a6c15fd8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

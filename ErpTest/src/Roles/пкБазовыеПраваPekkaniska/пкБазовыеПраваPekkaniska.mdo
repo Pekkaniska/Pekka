@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1052917c-326e-43b1-a23b-0f36386a76f0">
+  <name>пкБазовыеПраваPekkaniska</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права (Pekkaniska)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

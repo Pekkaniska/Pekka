@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67fd5387-4ffd-44d5-b7df-df9aa914ed86">
+  <name>пкДобавлениеИзменениеАктТехническогоОбслуживания1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление/изменение записей регистра &quot;Акт технического обслуживания&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

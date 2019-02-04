@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0592bf42-1b7b-4bea-8bdb-d63a6f373319">
+  <producedTypes>
+    <managerType typeId="086da668-e20e-4f5d-ae81-3c588c9901b4" valueTypeId="52d98ff3-2400-45c4-9e93-8b57bdebabd7"/>
+    <valueManagerType typeId="fc53f9a6-fcd1-43ca-bca5-53ee1c72e8fe" valueTypeId="63881352-b80e-4598-beed-3b399233c942"/>
+  </producedTypes>
+  <name>ItobПараметрыРепликации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры репликации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96442bc0-b892-42af-b9bd-1c3758d62898">
+  <producedTypes>
+    <managerType typeId="e980e462-3373-450a-bd9a-3e88fee5a8a9" valueTypeId="095851e6-fa22-450f-a771-3fb10cad0968"/>
+    <valueManagerType typeId="1c7f417d-9480-4f9d-9129-7883a4ad02fa" valueTypeId="bbf0d764-f8e2-429e-9afb-2556227b717b"/>
+  </producedTypes>
+  <name>уатПараметрыРеглЗаданияЗагрузкаДанныхPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры регламентного задания загрузка данных PositionReport</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

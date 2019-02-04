@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2b257f9-c7f9-4ff8-b8eb-121cba1805bc">
+  <name>пкУдалениеЛишнихЗаданийПоЗаявкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление лишних заданий по заявкам</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкРегламентныеЗаданияСервер.пкУдалениеЛишнихЗаданийПоЗаявкам</methodName>
+  <description></description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

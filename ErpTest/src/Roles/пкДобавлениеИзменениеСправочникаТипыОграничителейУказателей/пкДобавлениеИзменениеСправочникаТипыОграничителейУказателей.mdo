@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b7be91-357f-4e2e-a45e-5bb52294031b">
+  <name>пкДобавлениеИзменениеСправочникаТипыОграничителейУказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк добавление изменение справочника типы ограничителей указателей</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

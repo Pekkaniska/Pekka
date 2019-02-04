@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e97120a-52dc-4fdd-8671-ad9e8784a8fe">
+  <producedTypes>
+    <objectType typeId="03061849-00e9-4377-acd0-e7cce5740dc3" valueTypeId="c38824bf-0e67-44f4-97d6-d5d9bf2d0bc2"/>
+    <managerType typeId="0f7614cc-1b09-4413-9c1f-7a5cbfad0b3e" valueTypeId="692ba4b2-1951-4950-8da6-bc1a9f5e4045"/>
+  </producedTypes>
+  <name>уатЗагрузкаДанныхАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных Автотрекер</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.уатЗагрузкаДанныхАвтотрекер.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Загрузка данных из системы GPS Автотрекер</value>
+  </explanation>
+  <attributes uuid="dd0ebfb1-809b-4da6-b1ad-3fa1bcd10459">
+    <name>ДатаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата С</value>
+    </synonym>
+    <comment>Дата начала периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="88f5b49d-2e3f-4401-88ff-81474f27f98d">
+    <name>ДатаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <comment>Дата окончания периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="ca8cd500-cff5-4a46-bb2b-6c574f05979f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

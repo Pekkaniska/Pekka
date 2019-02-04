@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb85446b-fad6-4fa3-a6f2-d9519fc0d874">
+  <producedTypes>
+    <managerType typeId="eab87698-7500-45fc-aacd-da20bc7a49fc" valueTypeId="159c4495-944e-4a46-8533-783d62a57a75"/>
+    <valueManagerType typeId="cad1b26f-961e-4c14-988d-be4e84d382af" valueTypeId="4c5668f6-2e78-47f5-b392-18f23fa98ae8"/>
+  </producedTypes>
+  <name>ИспользоватьВнеоборотныеАктивыРегл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внеоборотные активы регл</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

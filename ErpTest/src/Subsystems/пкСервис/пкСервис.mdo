@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bd51896-0ac6-409d-a6f2-df0698117b4f">
+  <name>пкСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.пкРазделСервис</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Document.пкЗаданиеНаРемонт</content>
+  <content>Document.пкЗаказНаряд</content>
+  <content>Document.пкЗаявкаНаРемонтУДилера</content>
+  <content>DataProcessor.пкУправлениеРемонтами</content>
+  <content>Catalog.пкПультыДляПодъемников</content>
+  <content>InformationRegister.пкМестонахожденияПультовДляПодъемников</content>
+  <content>Catalog.пкТипыПультов</content>
+  <content>Document.пкОперацииСПультами</content>
+  <content>Enum.пкВидыОперацийСПультами</content>
+  <content>Enum.пкСтатусСостоянияПульта</content>
+  <content>Report.пкМестонахожденияПультов</content>
+  <content>InformationRegister.пкАктТехническогоОбслуживания</content>
+  <content>InformationRegister.пкПроведениеРемонтов</content>
+  <content>Constant.пкРемонтАрендованногоОборудования</content>
+  <content>Constant.пкРаботаПТО</content>
+  <content>Constant.пкРаботаЧТО</content>
+  <content>DataProcessor.пкПланыПроведенияТО</content>
+  <content>Report.пкОплатаЗаявокНаРасходованиеДенежныхСредств</content>
+  <content>Report.пкЗаказНаряды</content>
+  <content>Report.пкСтатусыЗаказНарядов</content>
+  <content>DataProcessor.пкПодборТехники</content>
+  <content>Report.пкЗаданияНаРемонт</content>
+  <content>DataProcessor.пкАРМСклад</content>
+  <content>DataProcessor.пкПланДоставки</content>
+  <content>CommonCommand.пкГрупповоеСозданиеСчетаПоЗаказНарядам</content>
+  <content>Report.пкОткрытыеЗаказНарядыПоТехнике</content>
+  <content>Report.пкПересеченияЗаказНарядовПоТехнике</content>
+  <content>DataProcessor.пкПечатьСтикеровТехники</content>
+  <content>Report.пкТехникаНаБазе</content>
+  <content>Report.пкТехникаПоНеделям</content>
+  <content>InformationRegister.пкДополнительнаяИнформацияТехника</content>
+  <content>Report.пкДопИнформацияПоТехнике</content>
+  <content>Role.пкЧтениеДляУправленияРемонтами</content>
+  <content>Role.пкЧтениеДопИнформацииПоТехнике</content>
+  <content>Role.пкЧтениеИзменениеДопИнформацииПоТехнике</content>
+  <content>Report.пкВыполненыРаботыТабель</content>
+  <content>DataProcessor.пкЗаполнениеДанныхТабеля</content>
+  <content>InformationRegister.пкНастройкиПечатиЛогистики</content>
+</mdclass:Subsystem>

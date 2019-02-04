@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e734c34e-5104-418b-aa95-f5da16735f87">
+  <producedTypes>
+    <managerType typeId="43189ab7-881b-4c37-ae2e-083c44f5a2e9" valueTypeId="cf8f5282-b689-4eec-a013-b4da0d66e637"/>
+    <valueManagerType typeId="341b1ec7-f56b-475d-a9a5-809c7b000c79" valueTypeId="cd4e315c-d898-4c80-a1c2-96bde132656d"/>
+  </producedTypes>
+  <name>уатИспользуемаяСистемаGPS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемая система GPS</value>
+  </synonym>
+  <comment>Используемая система GPS (уат)</comment>
+  <type>
+    <types>EnumRef.уатСистемаGPS</types>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Используемая система GPS</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Используемая система GPS</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Используемая система GPS</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

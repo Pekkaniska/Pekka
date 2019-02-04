@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55c9f1e5-535b-4036-9471-565c3d160b04">
+  <producedTypes>
+    <objectType typeId="a5f6f00e-ace2-41dc-a463-8b1ec75423e3" valueTypeId="ee7920cf-dff8-4019-924f-4b1cc23a04cf"/>
+    <managerType typeId="141f94cb-dd25-481b-909f-ffb053fe2b1e" valueTypeId="23271f34-6e38-4a32-99dd-64d7e70e0e94"/>
+  </producedTypes>
+  <name>пкСозданиеПроверкиИсков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссоздание проверки исков (пк)</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкСозданиеПроверкиИсков.Form.Форма</defaultForm>
+  <attributes uuid="35d4f93e-3add-46e0-bbec-ce33a6519759">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.РолиИсполнителей</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, которому поручено выполнять задание</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d72767d0-85db-48b2-90b7-3994e60f34d0">
+    <name>СрокИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Плановый срок выполнения задания</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="119123d9-0ba7-4906-afce-12198bdb0ece">
+    <name>Проверяющий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяющий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.РолиИсполнителей</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, выполняющий проверку задания</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6da2b739-60a2-403c-8f18-fe3f7a6e7205">
+    <name>СрокПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок проверки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Плановый срок проверки задания</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="285444d2-4f32-4959-ab1c-a5993f57905e">
+    <producedTypes>
+      <objectType typeId="37048838-6c5a-4492-a1da-068d2296d8e8" valueTypeId="96ee39a6-a7e1-4a12-9690-5d66902386e0"/>
+      <rowType typeId="44af9605-70b5-4d81-b452-87de58a3d283" valueTypeId="4f074708-55b8-4ba1-a470-52f1b36b6687"/>
+    </producedTypes>
+    <name>ДанныеОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обработки</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dbac7daf-b4a9-44de-b9a7-0f402f2a2ee4">
+      <name>Иск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Иск</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.пкСудебныйИск</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b79d8584-f6b4-41e9-9c05-5611989e15d3">
+      <name>БП_Согласования</name>
+      <synonym>
+        <key>ru</key>
+        <value>БП согласования</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>BusinessProcessRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="93d81953-2535-4835-8a21-17368c0d9584">
+      <name>ЗадачаПоПроверке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача по проверке</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>TaskRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f18fd4ff-d7c4-420b-8560-32a09ca756e2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

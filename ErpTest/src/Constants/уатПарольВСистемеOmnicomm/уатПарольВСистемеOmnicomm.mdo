@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ead4b91d-3bfa-4ff0-85a1-cd679315c5dc">
+  <producedTypes>
+    <managerType typeId="99d714ed-c595-48b6-b0ab-1590a2c35ba0" valueTypeId="c0437ca0-3dbd-44a2-89f3-aa499be9fcb2"/>
+    <valueManagerType typeId="a65172dc-f7d3-4349-82e1-b4883a1b22dc" valueTypeId="dbb7e9ae-fe20-4eff-9614-74fcc502c0f0"/>
+  </producedTypes>
+  <name>уатПарольВСистемеOmnicomm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль БД в системе omnicomm</value>
+  </synonym>
+  <comment>Пароль базы данных в системе omnicomm (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Пароль БД в системе omnicomm </value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Пароль базы данных в системе omnicomm</value>
+  </explanation>
+  <passwordMode>true</passwordMode>
+  <toolTip>
+    <key>ru</key>
+    <value>Пароль БД в системе omnicomm</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b7c52ed-40a2-4b82-a050-d655f331121d">
+  <name>пкИзменениеЗаявокНаРасходованиеДСКОплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение заявок на расходование ДС в статусе &quot;К оплате&quot;</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

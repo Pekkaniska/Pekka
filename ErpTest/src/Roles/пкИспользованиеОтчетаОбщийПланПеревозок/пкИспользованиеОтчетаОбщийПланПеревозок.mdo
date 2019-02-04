@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7379816a-d6bc-428b-a193-1805a6ac5a14">
+  <name>пкИспользованиеОтчетаОбщийПланПеревозок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета Общий план перевозок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

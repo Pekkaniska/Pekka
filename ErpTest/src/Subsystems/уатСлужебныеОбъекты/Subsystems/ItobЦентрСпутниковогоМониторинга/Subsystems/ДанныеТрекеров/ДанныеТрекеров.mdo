@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b9fe6b-6a19-4c6d-ae8a-10a4696dfb7f">
+  <name>ДанныеТрекеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные трекеров</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ItobСообщенияТерминала</content>
+  <content>InformationRegister.ItobАктуальностьДанныхТерминалов</content>
+  <content>InformationRegister.ItobДанныеДатчиков</content>
+  <content>InformationRegister.ItobДанныеТерминалов</content>
+  <content>InformationRegister.ItobКрайниеДанныеТерминалов</content>
+  <content>XDTOPackage.ItobGPSДанныеОбъектов</content>
+  <content>ae729431-6ce2-4947-a6e7-93146c429982</content>
+  <content>Constant.ItobДопустимыйРадиусСтоянки</content>
+  <content>ExternalDataSource.ItobДанныеСервераСбораДанных.Table.ItobДанныеТерминаловIMCS</content>
+  <content>DataProcessor.ItobОчисткаДанныхТерминалов</content>
+  <content>91a7f5fb-154b-4abf-9684-23622bdd4e2b</content>
+  <content>InformationRegister.ItobНастройкиОтображенияОбъектов</content>
+  <content>InformationRegister.ItobПараметрыОбработкиДанныхТрекеров</content>
+  <content>Catalog.ItobПрофилиЗаписиДанныхДатчиков</content>
+  <content>Constant.ItobДанныеТерминаловИсточникIMCS</content>
+  <content>Constant.ItobМинимальнаяСкоростьДвижения</content>
+  <content>Constant.ItobМинимальноеВремяСтоянки</content>
+  <content>Constant.ItobСтрокаСоединенияБазаIMCS</content>
+  <content>CommonForm.ItobПараметрыСоединенияIMCS</content>
+  <content>Enum.ItobТипыСУБД</content>
+  <content>Report.ItobДвиженияИСтоянки</content>
+  <content>Report.ItobМестоположениеОбъектов</content>
+  <content>Report.ItobОтчетПоАналоговымДатчикам</content>
+  <content>Report.ItobОтчетПоДискретнымДатчикам</content>
+  <content>Report.ItobОтчетПоИмпульснымДатчикам</content>
+  <content>Report.ItobОтчетПоПростоямПриЗаведенномДвигателе</content>
+  <content>InformationRegister.ItobПоправочныеКоэффициентыПробега</content>
+  <content>eb56d16e-1495-47b1-9799-67fdd503f5fe</content>
+  <content>Catalog.ItobСтатусыОбъектов</content>
+  <content>InformationRegister.ItobДанныеТерминаловДополнения</content>
+  <content>Constant.ItobОпределятьАдресаДляКаждойТочки</content>
+  <content>FunctionalOption.ItobОпределятьАдресаДляКаждойТочки</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

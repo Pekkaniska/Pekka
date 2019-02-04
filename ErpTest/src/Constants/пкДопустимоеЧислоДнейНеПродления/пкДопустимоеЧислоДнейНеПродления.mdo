@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4466cb5e-5e34-4a2c-844f-aeb381bbe1f7">
+  <producedTypes>
+    <managerType typeId="2d1837cb-5dc1-4ba5-8c88-955d2ed621d1" valueTypeId="197ec545-8d19-45e5-bf32-719f18339a5a"/>
+    <valueManagerType typeId="8225e6d4-7ac1-4870-9878-3ffaa1989a17" valueTypeId="ff738548-a14c-45f0-b9f4-caaa9ae1389d"/>
+  </producedTypes>
+  <name>пкДопустимоеЧислоДнейНеПродления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимое число дней непродления</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

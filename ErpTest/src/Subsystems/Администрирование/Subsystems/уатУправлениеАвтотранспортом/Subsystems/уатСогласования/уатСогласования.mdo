@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84f3bde7-08ac-4875-ab40-b83ca0a84f35">
+  <name>уатСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласования</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>BusinessProcess.уатСогласование</content>
+  <content>Enum.уатВажность</content>
+  <content>Enum.уатВариантыСогласования</content>
+  <content>Enum.уатРезультатыСогласования</content>
+  <content>Catalog.уатГруппыПользователейДляСогласования</content>
+  <content>Catalog.уатШаблоныСогласования</content>
+  <content>CommonPicture.уатЗадачаЗамечание</content>
+  <content>CommonPicture.уатЗадачаОК</content>
+  <content>CommonPicture.уатЗадачаПовторить</content>
+  <content>CommandGroup.уатСогласования</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

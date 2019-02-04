@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e893870-5b46-400d-9ec6-33b40df84021">
+  <producedTypes>
+    <managerType typeId="ea0571e1-b41f-4f47-982e-7ea3e9c80b35" valueTypeId="ac9a8c13-5038-44ea-991f-52a833a764b1"/>
+    <valueManagerType typeId="e8bc0259-8678-4a52-97c5-f14822e6627d" valueTypeId="022ee26e-9b8c-42ac-855f-8639330d8cd8"/>
+  </producedTypes>
+  <name>уатИспользоватьСогласованиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать согласование документов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Использовать бизнес-процесс &quot;Согласование&quot; для документов УАТ</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

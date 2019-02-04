@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e952756-26f5-40a5-b818-87a389efa9cc">
+  <name>пкИспользованиеОбработкиПечатьСтикеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки Печать стикеров</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abc3a0f6-b86f-44d9-809b-1ec984781bd5">
+  <producedTypes>
+    <managerType typeId="9ba8e5af-0029-4bd3-8716-db3e346b4b9a" valueTypeId="ff699607-37b2-4be5-9508-45337b4dc462"/>
+    <valueManagerType typeId="551e0831-2d36-43db-a339-f201203e76ec" valueTypeId="bd8469a9-8659-473e-b36c-82134f77ba8b"/>
+  </producedTypes>
+  <name>УдалитьУатПериодичностьХраненияДанныхПоGPS</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Периодичность хранения данных по GPS</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Периодичность хранения данных систем GPS мониторинга в регистре сведений &quot;Местоположение ТС по GPS&quot;, минут</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:StringValue">
+    <value>15</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

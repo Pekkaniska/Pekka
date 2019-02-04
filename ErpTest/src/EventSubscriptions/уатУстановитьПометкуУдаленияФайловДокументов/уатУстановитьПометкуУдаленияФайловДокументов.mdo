@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5beab631-6827-4efa-bdf2-ce2873dedd92">
+  <name>уатУстановитьПометкуУдаленияФайловДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления файлов документов</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <source>
+    <types>DocumentObject.уатБилетныйЛист</types>
+    <types>DocumentObject.уатОтчетПоставщикаПЦ</types>
+    <types>DocumentObject.уатМаршрутныйЛист</types>
+    <types>DocumentObject.уатВводОстатковГСМ</types>
+    <types>DocumentObject.уатДТП</types>
+    <types>DocumentObject.уатИзменениеСчетчиковТС</types>
+    <types>DocumentObject.уатВводВЭксплуатациюТСиОборудования</types>
+    <types>DocumentObject.уатЗаказГрузоотправителя</types>
+    <types>DocumentObject.уатВводНачальныхПоказаний</types>
+    <types>DocumentObject.уатПосадочнаяВедомость</types>
+    <types>DocumentObject.уатВыбытиеТСиОборудования</types>
+    <types>DocumentObject.уатИнвентаризацияГСМвТС</types>
+    <types>DocumentObject.уатЗаправкаГСМ</types>
+    <types>DocumentObject.уатОперацииСТехническимиЖидкостями</types>
+    <types>DocumentObject.уатПланированиеРаботыТС</types>
+    <types>DocumentObject.уатСливГСМ</types>
+    <types>DocumentObject.уатВыручкаВодителей</types>
+    <types>DocumentObject.уатДиспозицияТС</types>
+    <types>DocumentObject.уатТТД</types>
+    <types>DocumentObject.уатУстановкаПрейскурантовТС</types>
+    <types>DocumentObject.уатПеремещениеТСиОборудования</types>
+    <types>DocumentObject.уатОтклонениеГруза</types>
+    <types>DocumentObject.уатПутевойЛист</types>
+    <types>DocumentObject.уатПоступлениеБилетов</types>
+    <types>DocumentObject.уатРазнарядка</types>
+    <types>DocumentObject.уатУстановкаТарифовЗП</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатУстановитьПометкуУдаленияФайловДокументовПередЗаписью</handler>
+</mdclass:EventSubscription>

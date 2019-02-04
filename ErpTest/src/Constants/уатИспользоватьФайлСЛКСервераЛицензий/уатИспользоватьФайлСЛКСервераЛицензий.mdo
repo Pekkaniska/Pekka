@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e680cbd1-b6b0-4f52-8ea2-27771c8ef42e">
+  <producedTypes>
+    <managerType typeId="b4f4edca-f15f-4418-af79-9afd20c3a962" valueTypeId="2a28bb9d-e9e6-4c7e-9d0d-86a52e478f39"/>
+    <valueManagerType typeId="01d145f2-87e0-4ac8-9716-e65c84312630" valueTypeId="0aaaccc0-fa76-486f-8d1c-eaab8278c744"/>
+  </producedTypes>
+  <name>уатИспользоватьФайлСЛКСервераЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать файл данных с сервера лицензий</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

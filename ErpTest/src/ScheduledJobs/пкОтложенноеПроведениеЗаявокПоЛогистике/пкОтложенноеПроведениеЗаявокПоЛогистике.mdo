@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d2dcdc8-2ab4-4de8-a92d-851ec56a2d66">
+  <name>пкОтложенноеПроведениеЗаявокПоЛогистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное проведение Заявок по логистике</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкРегламентныеЗаданияСервер.пкОтложенноеПроведениеЗаявокПоЛогистике</methodName>
+  <description></description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

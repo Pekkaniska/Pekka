@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db6bf94-15ed-4bdf-93b6-3e85a9ae7ff2">
+  <producedTypes>
+    <objectType typeId="95633893-4d10-469a-8234-80cce80374e4" valueTypeId="931cf4c4-ebd2-4275-9027-4e52a76a9a75"/>
+    <managerType typeId="ef89631b-3f38-4c1c-8d0c-38bf7578dfc8" valueTypeId="d0dde585-fa13-4a7d-8de6-77fb4c573a28"/>
+  </producedTypes>
+  <name>уатЖурналПутЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал путевых листов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.уатЖурналПутЛистов.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ce62c8dc-2b24-424b-8623-8836975f64c1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="08082020-a8fa-47eb-bff6-c915261ac8da">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6576bdb5-6d9b-4683-ae74-d41bf4c5cd9a">
+    <name>ИсточникНастроекОтбораКомпоновщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник настроек отбора компоновщика</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

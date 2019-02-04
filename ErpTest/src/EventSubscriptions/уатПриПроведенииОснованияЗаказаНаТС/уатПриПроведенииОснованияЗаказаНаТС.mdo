@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6d2dfc4-6bab-4963-b793-8efca62c4c5b">
+  <name>уатПриПроведенииОснованияЗаказаНаТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>При проведении основания заказа на ТС</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <source>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатПриПроведенииОснованияЗаказаНаТСОбработкаПроведения</handler>
+</mdclass:EventSubscription>

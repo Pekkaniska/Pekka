@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2011de56-351b-4f73-bfef-188dc40f2198">
+  <producedTypes>
+    <managerType typeId="5fa9e240-971b-40c1-a52b-aa10703776fc" valueTypeId="fa9faa69-7129-4779-9b39-6c05d29d7984"/>
+  </producedTypes>
+  <name>Dynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dynafleet</value>
+  </synonym>
+  <comment>Веб-сервис Dynafleet</comment>
+  <locationURL>http://api-preprod.dynafleetonline.com/wsdl</locationURL>
+</mdclass:WSReference>

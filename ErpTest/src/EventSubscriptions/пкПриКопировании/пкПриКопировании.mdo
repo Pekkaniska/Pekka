@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd07980-508c-4027-be5e-8342ad3c0c55">
+  <name>пкПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>При копировании</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкПриКопировании</handler>
+</mdclass:EventSubscription>

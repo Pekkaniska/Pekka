@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f80abd88-a3af-4a07-91d9-cb82e84aa740">
+  <name>уатИспользоватьDynafleet</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Dynafleet</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <location>Constant.уатИспользоватьDynafleet</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.уатДанныеПоТСDynafleet</content>
+  <content>DataProcessor.уатЗагрузкаДанныхDynafleet</content>
+</mdclass:FunctionalOption>

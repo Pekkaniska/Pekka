@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abbbfef7-67df-45d4-8628-62c799831ba1">
+  <name>пкПроверкаЗаполненияЗаявкиНаРасходованиеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пк проверка заполнения заявки на расходование денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкПроверкаЗаполненияЗаявкиНаРасходованиеДенежныхСредствОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

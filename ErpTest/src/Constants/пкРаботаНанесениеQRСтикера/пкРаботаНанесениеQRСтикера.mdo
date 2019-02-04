@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63165392-ffe9-4d0c-b404-0eba8b551af9">
+  <producedTypes>
+    <managerType typeId="1a3529ee-9853-41c0-bd8d-63652f4bc513" valueTypeId="5692d025-90fc-4cde-9bdc-aa6ba71b6e1b"/>
+    <valueManagerType typeId="aa1a1589-6c12-4cf6-ad43-1b87a15d7b49" valueTypeId="7a59dc53-56e8-48a5-9bfb-e5c8cd0db793"/>
+  </producedTypes>
+  <name>пкРаботаНанесениеQRСтикера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа нанесение QR стикера</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

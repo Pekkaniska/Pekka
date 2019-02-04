@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="565a00bd-d60b-45d1-9d66-3b809f439817">
+  <name>пкКонтрольДанныхПереданныхИзДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль данных переданных из ДО</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкПодпискиНаСобытия.пкКонтрольДанныхПереданныхИзДО</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

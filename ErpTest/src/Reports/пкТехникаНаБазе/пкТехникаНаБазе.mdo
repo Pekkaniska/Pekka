@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36249400-236e-4c44-8569-320bbfea9ff6">
+  <producedTypes>
+    <objectType typeId="18bab9f5-0a42-4f62-aa1b-99602942b6eb" valueTypeId="2655c405-44ff-4f0b-b142-3814a091d6d6"/>
+    <managerType typeId="2b1a2976-13d6-4622-98fb-7f48d0a03cce" valueTypeId="8c92ad2c-0ea0-465d-b800-b7e400cfdeab"/>
+  </producedTypes>
+  <name>пкТехникаНаБазе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Техника на базе</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкТехникаНаБазе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="cdca6786-1441-45e1-8b7c-f1bc1e86a6f0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

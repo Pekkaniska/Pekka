@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecf9155d-34ce-4152-bc8d-4d2398309976">
+  <producedTypes>
+    <managerType typeId="f05f256b-d150-4266-9155-06b5ecb5f619" valueTypeId="4549e690-cf3f-4093-9de0-bf2f20cfb07f"/>
+    <valueManagerType typeId="8a571494-ad3c-4709-b5cf-08c3a7721f65" valueTypeId="a8a6fcda-48b0-4fca-8ae0-9c7f432018c8"/>
+  </producedTypes>
+  <name>уатЛогинВСистемеPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин в системе Position Report</value>
+  </synonym>
+  <comment>Логин в системе Position Report (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Логин в системе Position Report</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Логин в системе Position Report</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Логин в системе Position Report</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe9e9d13-d065-4b0d-b6de-821404c54779">
+  <producedTypes>
+    <refType typeId="bfb774a2-bbd2-40e8-a7c9-8bc39d1fb496" valueTypeId="d94976ac-21b3-454b-bf84-6389d51ce123"/>
+    <listType typeId="1d04f046-b33f-4e20-8307-f17aff6e07d4" valueTypeId="4dc75cf4-4cd6-4407-a448-f4e267a77f4c"/>
+    <managerType typeId="041016ca-3f09-4405-a9ff-c2b39827a91f" valueTypeId="4fa2ab33-0589-4e41-9aae-2c6795e13065"/>
+  </producedTypes>
+  <name>уатРежимыРасчетаВыработкиПЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы расчета выработки ПЛ</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="05a9b059-75f7-4020-a904-00c0ec93da60">
+    <name>ПоЗаданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заданию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a61840ca-2295-4c02-a36e-1206f667bfca">
+    <name>ПоТТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ТТД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e28bcb90-0896-4013-9c74-fdbf15989544">
+    <name>Ручной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3aed73b3-6d99-4abe-9193-a46b93386ef2">
+    <name>НеРассчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не рассчитывать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

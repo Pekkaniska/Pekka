@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="761344d9-cebd-40d2-b61a-48a975cb0543">
+  <producedTypes>
+    <objectType typeId="0344690f-92e8-4652-91d1-8f730663693a" valueTypeId="0414d2a6-801f-46ba-81b8-853f831f85c0"/>
+    <managerType typeId="4911945f-1561-46e6-a1f1-693413388155" valueTypeId="53f9a01d-4efe-4d24-80be-fce84dae8d54"/>
+  </producedTypes>
+  <name>пкУправлениеЛогистикой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление логистикой</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкУправлениеЛогистикой.Form.Форма</defaultForm>
+  <attributes uuid="00fb589b-ad60-4b7f-bebd-c3ac217c9a70">
+    <name>ДатаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата доставки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8701007-0b2b-4bb7-bf19-efdb93a18842">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c681bcd5-a33e-4ea9-9e9e-dc4b6d9a2232">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1b3a00a2-615b-49ee-8193-b785c44c9ace">
+    <name>ПланПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>План перевозки</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

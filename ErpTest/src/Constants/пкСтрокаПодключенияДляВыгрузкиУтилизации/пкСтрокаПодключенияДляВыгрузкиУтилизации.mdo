@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95daf5ea-0a41-4b41-aad7-d67bbb891ded">
+  <producedTypes>
+    <managerType typeId="1b0a32db-87f4-4888-abed-53f3af43b075" valueTypeId="b612baa5-093a-436c-a534-2de8076aa200"/>
+    <valueManagerType typeId="029e6080-1050-4d6a-b9d8-9b5fead21e4e" valueTypeId="15e78b19-9263-4553-9e75-dcb59e27061f"/>
+  </producedTypes>
+  <name>пкСтрокаПодключенияДляВыгрузкиУтилизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка подключения для выгрузки утилизации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="982dfe77-57d5-4b9e-9f2b-2eeb2faea8f2">
+  <producedTypes>
+    <refType typeId="245485fe-2b45-4458-adf7-f41ae7b3c6f1" valueTypeId="c6e06931-5445-41bf-bf47-139434701671"/>
+    <listType typeId="b1f7af14-465c-43dd-b593-a3110ffdb317" valueTypeId="a8b4e867-7315-4702-80c5-a6afda9ddf93"/>
+    <managerType typeId="8885cee1-bdc5-47be-9e24-11c264a759e4" valueTypeId="f5bb6e31-4fe3-4ecb-9625-7b171209ff63"/>
+  </producedTypes>
+  <name>пкТипыРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ремонтов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca8ae4e2-21da-4536-afd9-0193c6381cf5">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b31d0da3-e151-47db-98e8-a2e5dbc623f0">
+    <name>Осмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3c49fdd9-ad97-477c-afda-91876da65a0b">
+    <name>Долгосрочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгосрочный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="446a3437-f983-41c0-ba1a-55d24393c0b9">
+    <name>ТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТО</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8a66f636-e687-420f-9431-b08881d9295f">
+    <name>ПТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПТО</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="be14f041-eea1-4ee7-95cb-221d56bc641c">
+    <name>ЧТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЧТО</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

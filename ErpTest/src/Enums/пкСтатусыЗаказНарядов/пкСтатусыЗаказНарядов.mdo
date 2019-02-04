@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30a98833-b806-4551-ae5d-2d41a6fc67ea">
+  <producedTypes>
+    <refType typeId="6dbbbeff-f63a-4355-a9c6-8223f7b83919" valueTypeId="003b5aae-f3d7-4c7d-9318-5c12cd89f27f"/>
+    <listType typeId="061a24a8-05e2-4d80-bf4d-9cf5f4d4ce41" valueTypeId="095309c3-4f6d-400b-904d-6ca5594534f3"/>
+    <managerType typeId="595529ae-30ee-4865-a495-b88754f5971e" valueTypeId="64fd631a-b7f6-4467-b95a-984f675d83c1"/>
+  </producedTypes>
+  <name>пкСтатусыЗаказНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказ-нарядов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba995888-6119-44dd-94a5-3ba4a4391964">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f3cd990a-9ec6-4057-a3cd-395c8dadf2f7">
+    <name>Открыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9c7fce77-c509-45b7-a02b-beb9aaeb8c68">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d246b56a-cec3-430f-a235-737ceb23f1d8">
+    <name>Отложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6d07058b-bc43-4afe-baaf-361a94a54ee1">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="366a1e1e-f6e7-42ee-891f-a06e68b91af8">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

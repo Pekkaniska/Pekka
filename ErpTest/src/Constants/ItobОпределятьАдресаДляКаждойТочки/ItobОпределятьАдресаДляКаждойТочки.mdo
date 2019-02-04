@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0e2adf7-f1d1-473b-ae73-cdf0f206fc07">
+  <producedTypes>
+    <managerType typeId="f694b009-bbe3-467b-b6a5-e1fb90c5c2a1" valueTypeId="82f51bdf-f75e-49f4-8590-55c2015ca588"/>
+    <valueManagerType typeId="ef8816b8-9e36-4800-a9a5-b666fa833b8d" valueTypeId="876304d6-b4e0-4d64-9f07-bad985aee903"/>
+  </producedTypes>
+  <name>ItobОпределятьАдресаДляКаждойТочки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определять адреса для каждой точки</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

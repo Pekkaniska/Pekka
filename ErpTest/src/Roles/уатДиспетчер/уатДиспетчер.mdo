@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf4d87c-4d41-45cf-828c-28dbf956b054">
+  <name>уатДиспетчер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер</value>
+  </synonym>
+  <comment>Диспетчер управления автотранспортом</comment>
+</mdclass:Role>

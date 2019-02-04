@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6a76e47-8d5a-47f9-8f05-4147d3d77d99">
+  <producedTypes>
+    <managerType typeId="d2372b8b-80dd-47a0-8e42-d8503f00e52d" valueTypeId="581305ad-fa0a-4e73-9af8-506369ed6423"/>
+    <valueManagerType typeId="12e43129-1c6a-48c3-b7dd-8413bb82a531" valueTypeId="27894815-337e-4970-aa7f-ed95c3f09928"/>
+  </producedTypes>
+  <name>пкОсновнойПрайсЛистКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной прайс-лист компании</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.пкПрайсЛисты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

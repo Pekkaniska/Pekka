@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15c17ef5-1e59-4cdb-879f-b11442e30b70">
+  <name>пкИспользованиеРеестраТорговыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рарус использование реестра торговых документов</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2c1b8ed-8577-4983-a4a3-6c84e820b244">
+  <name>уатБилетыИВыручка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Билеты и выручка</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Билеты и выручка</value>
+  </explanation>
+  <content>AccumulationRegister.уатБилетыНаСкладах</content>
+  <content>AccumulationRegister.уатВыручка</content>
+  <content>Document.уатБилетныйЛист</content>
+  <content>Document.уатВыручкаВодителей</content>
+  <content>Document.уатПосадочнаяВедомость</content>
+  <content>Document.уатПоступлениеБилетов</content>
+  <parentSubsystem>Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

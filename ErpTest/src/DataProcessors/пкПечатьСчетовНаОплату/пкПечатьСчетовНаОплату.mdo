@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a68324b-0d81-41b0-869a-38d2d117bd0c">
+  <producedTypes>
+    <objectType typeId="029c2197-7f8d-4a4a-b21a-33a7125d45a4" valueTypeId="d13eb262-d808-43ec-b0fe-2ab10dc63e7a"/>
+    <managerType typeId="00b38406-63bc-45dc-b5bb-73c70867ef79" valueTypeId="7d18e200-91b9-458c-a000-9e0a685c2e84"/>
+  </producedTypes>
+  <name>пкПечатьСчетовНаОплату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать счетов на оплату</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c4d2a01f-9dfb-4171-8ae8-7e4ab5db7461">
+    <name>СчетНаОплатуАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату аренды</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a63d85b5-2073-4551-a501-8c72aa8164b9">
+    <name>СчетНаОплатуАрендыСПечатьюМосква</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату аренды (с печатью Москва)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="b5bfb4c9-68b9-4eb8-979a-2b32774713ad">
+    <name>СчетНаОплатуАрендыСПодписью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату аренды (с подписью)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d2a6f57e-9d6b-4a40-949f-bfebab54e7a5">
+    <name>СчетНаОплатуПекканиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату пекканиска</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

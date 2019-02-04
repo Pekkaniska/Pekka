@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8304e8ec-68d1-40d0-8f55-dd5906938a84">
+  <producedTypes>
+    <managerType typeId="34ae1a57-833c-43b6-ba69-35a13488df67" valueTypeId="f10756ba-481e-42ab-9431-f8d4d10853b3"/>
+    <valueManagerType typeId="5533c227-671f-4413-bc28-982bd4a1c7f5" valueTypeId="f0fcb420-404a-498e-9b35-67d92e6b2a43"/>
+  </producedTypes>
+  <name>пкАдресРабочегоСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес рабочего сервиса</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

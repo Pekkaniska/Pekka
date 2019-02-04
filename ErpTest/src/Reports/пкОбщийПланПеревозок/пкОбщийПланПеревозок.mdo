@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dafbcff-54e6-4925-9900-75daf3d3890f">
+  <producedTypes>
+    <objectType typeId="d3f06ddf-0e47-444d-b0da-9474c707d42e" valueTypeId="93f11385-5a3a-4fdf-8ab8-651e5273bb91"/>
+    <managerType typeId="4dc096cd-329a-45d3-b12b-baff0f963b8c" valueTypeId="5524bf06-6f58-4f86-8978-665de0bd9a33"/>
+  </producedTypes>
+  <name>пкОбщийПланПеревозок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий план перевозок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкОбщийПланПеревозок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="60f3eace-046d-4f81-b171-6ef664ed72b2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfe142f-3fcc-466d-81aa-8961e2c53380">
+  <producedTypes>
+    <objectType typeId="59f3f8df-5361-4c27-9813-f45237d6de6d" valueTypeId="4ce27337-015c-4823-8d46-3b7343e18973"/>
+    <managerType typeId="c6e1af0e-de8f-4f10-bcb6-69b2f1a118b2" valueTypeId="c97c5b86-e159-440c-90d4-85e6759c6762"/>
+  </producedTypes>
+  <name>пкУправлениеПродажами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление продажами</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.пкУправлениеПродажами.Form.УправлениеПродажами</defaultForm>
+  <attributes uuid="c9ce3d41-6e37-41f4-ac2e-27d973df3f41">
+    <name>РежимОтображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отображения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f0bb427e-ca21-4a2a-9554-73513d74dab1">
+    <name>УправлениеПродажами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление продажами</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ec6bf4a-6f9b-4761-aa2f-0e8eff5e8141">
+    <name>ИзменениеДатыДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение даты доставки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5076dacb-04e1-4652-88e1-cb50659303a4">
+    <name>ИзменениеДатыДоставкиПоСписку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение даты доставки по списку</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

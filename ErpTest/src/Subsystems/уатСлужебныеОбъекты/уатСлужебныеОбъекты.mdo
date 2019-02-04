@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4293f2af-2bed-4697-bd5d-2e01bfcf79dd">
+  <name>уатСлужебныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные объекты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Report.ItobДвиженияИСтоянки</content>
+  <content>Report.ItobМестоположениеОбъектов</content>
+  <content>Report.ItobОтчетПоАналоговымДатчикам</content>
+  <content>Report.ItobОтчетПоДискретнымДатчикам</content>
+  <content>Report.ItobОтчетПоИмпульснымДатчикам</content>
+  <content>Report.ItobОтчетПоПростоямПриЗаведенномДвигателе</content>
+  <content>Report.ItobСообщенияТерминала</content>
+  <content>Report.уатОтчетПоДвижениямДокумента</content>
+  <content>DataProcessor.ОбновлениеВерсииИБ</content>
+  <content>CommonModule.уатПользователи</content>
+  <content>CommonPicture.уатСортировкаНеУстановлена</content>
+  <content>CommonPicture.уатСортировкаУстановлена</content>
+  <content>CommonPicture.уатВыбывшиеТС</content>
+  <content>Constant.уатИспользоватьТерминалПриемаВыдачиПутевыхЛистов</content>
+  <content>FunctionalOption.уатИспользоватьТерминалПриемаВыдачиПутевыхЛистов</content>
+  <content>CommonPicture.уатРасчетВремениРасстояния</content>
+  <content>InformationRegister.уатПланированиеРемонтныхРабот</content>
+  <content>Constant.уатДатаАктуальностиПланаРемонтныхРабот</content>
+  <content>ScheduledJob.уатОбновлениеПланаРемонтныхРабот</content>
+  <content>CommonPicture.уатСтатусТСЗанято</content>
+  <content>CommonTemplate.уатЧасовыеПоясаСКАУТ</content>
+  <content>CommonForm.уатВыборЧасовогоПоясаСКАУТ</content>
+  <content>Document.УдалитьУатВводНачальныхДанныхПоАгрегатам</content>
+  <content>Document.УдалитьУатОперацииСАгрегатами</content>
+  <content>InformationRegister.УдалитьУатСостояниеАгрегатовТС</content>
+  <content>EventSubscription.уатОбновлениеУстановкиАгрегатаПриЗаписиУзлаОбъектаЭксплуатации</content>
+  <content>Enum.УдалитьУатТипыПунктовНазначения</content>
+  <content>CommonModule.уатЗапретРедактированияРеквизитовОбъектов</content>
+  <subsystems>ItobЦентрСпутниковогоМониторинга</subsystems>
+</mdclass:Subsystem>

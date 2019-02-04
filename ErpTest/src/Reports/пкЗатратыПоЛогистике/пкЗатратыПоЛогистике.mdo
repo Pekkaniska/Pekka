@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94c285fe-947d-4560-8139-28237ca2878d">
+  <producedTypes>
+    <objectType typeId="69b008df-ed82-4f80-9603-4b14fa5d615e" valueTypeId="6ad38bae-e5b0-4f7a-9370-83a966ff2a24"/>
+    <managerType typeId="2fa9d340-d2e7-4253-b112-6597c0f0b10b" valueTypeId="5a59946f-f02e-4cd3-bb3f-9c1a34cd84fa"/>
+  </producedTypes>
+  <name>пкЗатратыПоЛогистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты по логистике</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкЗатратыПоЛогистике.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="c0f62b82-ca2f-4a9f-8304-cf7c7b6a68de">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

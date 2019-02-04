@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0250d15-9181-411c-9758-815d39b26911">
+  <name>пкДобавлениеИзменениеДанныхПоПультам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение данных по пультам</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

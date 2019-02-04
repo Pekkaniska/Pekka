@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1433116a-ec9d-4895-8ee8-a2647c2bc6e6">
+  <name>уатТиповыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типовые документы (уат)</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

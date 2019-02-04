@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b45972cb-1803-45d7-a7e5-2460f5378f36">
+  <producedTypes>
+    <managerType typeId="5ee9cfb8-9127-4791-a51a-16823711bada" valueTypeId="b24cc9d8-6736-4e22-8656-ce417cb9f881"/>
+    <valueManagerType typeId="a6935864-592c-439c-99c4-a607f078abfd" valueTypeId="6a521838-a927-4267-80bb-8f9cf153ab66"/>
+  </producedTypes>
+  <name>уатИспользоватьPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Position Report</value>
+  </synonym>
+  <comment>Использовать систему GPS Position Report</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать систему GPS Position Report</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

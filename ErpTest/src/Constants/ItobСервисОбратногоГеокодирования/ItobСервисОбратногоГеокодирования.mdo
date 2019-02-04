@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64afe174-afe7-4ef1-acf3-c5a9bb1bb6af">
+  <producedTypes>
+    <managerType typeId="01cbfdfe-2963-4f62-8fff-b4d808b8a535" valueTypeId="95a5923b-04b8-4f33-8136-b448d3225d4d"/>
+    <valueManagerType typeId="0f9a1a9f-f031-4717-af60-52206830ff20" valueTypeId="f687a49a-4658-418f-9b64-a7e1cf05a8fd"/>
+  </producedTypes>
+  <name>ItobСервисОбратногоГеокодирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис обратного геокодирования</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ItobСервисыГеокодирования</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

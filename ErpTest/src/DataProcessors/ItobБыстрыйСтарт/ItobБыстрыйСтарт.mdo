@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e5e5d8-1c78-4021-8670-7bd0b96ef2b2">
+  <producedTypes>
+    <objectType typeId="73a988f2-c8d3-4ff6-a7ae-24a156da1874" valueTypeId="c031b906-b4ec-46f4-92d0-4d524f64edea"/>
+    <managerType typeId="f59dfca6-29d2-4c61-969e-0e5de6b92c9a" valueTypeId="cb647e6d-4963-4128-80a0-81e63cb62843"/>
+  </producedTypes>
+  <name>ItobБыстрыйСтарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрый старт Центра Спутникового Мониторинга</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ItobБыстрыйСтарт.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2c41b51e-f745-46c3-b45d-9f4693ae178d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="aea07420-cf29-4023-b299-1db8661453e1">
+    <name>БыстрыйСтарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый старт</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <commands uuid="864201c7-28e1-4778-988d-ecaf5fd03033">
+    <name>ОткрытьБыстрыйСтарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый старт</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

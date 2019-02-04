@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9146f449-e0b4-4b86-a807-7ac713918e6e">
+  <producedTypes>
+    <objectType typeId="8bb322d3-5be5-42cd-b11e-6753e14df190" valueTypeId="cc092455-fc92-4fbd-b62a-83c4f8d073df"/>
+    <managerType typeId="2047d993-26ac-4155-9717-b2b22f0ca315" valueTypeId="c69c67ae-0766-4148-a94b-0943c7d929ed"/>
+  </producedTypes>
+  <name>пкОплатаЗаявокНаРасходованиеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата заявок на расходование денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкОплатаЗаявокНаРасходованиеДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="ead3bd27-46bd-4b79-94f6-9fc842a88c33">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

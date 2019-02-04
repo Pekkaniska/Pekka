@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd699058-cd85-4d96-b381-92c59e581861">
+  <producedTypes>
+    <listType typeId="9e638688-4736-461c-95a6-4c5c8013f892" valueTypeId="b4920e9a-32f0-4a2f-868f-910423a0ecf2"/>
+    <managerType typeId="cfe0d14d-70e0-4bba-9093-61e1ed0e6229" valueTypeId="30553d15-f879-466c-85a4-ca7cfda9e81a"/>
+  </producedTypes>
+  <name>пкСвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ДоговорыКонтрагентов.Attribute.пкОсновнойДоговорСПоставщиком</content>
+  <content>Document.ВнутреннееПотреблениеТоваров.Attribute.ЗаказНаВнутреннееПотребление</content>
+  <content>Document.ВнутреннееПотреблениеТоваров.Attribute.пкЗаявкаНаРемонт</content>
+  <content>Document.ВнутреннееПотреблениеТоваров.Attribute.пкЗаправочнаяВедомость</content>
+  <content>Document.ВнутреннееПотреблениеТоваров.Attribute.пкПоступлениеТоваровУслуг</content>
+  <content>Document.ЗаказКлиента.Attribute.ДокументОснование</content>
+  <content>Document.ЗаказКлиента.Attribute.Договор</content>
+  <content>Document.ЗаказКлиента.Attribute.пкЗаказНаряд</content>
+  <content>Document.ЗаказКлиента.TabularSection.Товары.Attribute.пкЗаявкаНаАрендуТехники</content>
+  <content>Document.ЗаказКлиента.TabularSection.Товары.Attribute.пкЗаказНаряд</content>
+  <content>Document.ЗаказНаВнутреннееПотребление.Attribute.ДокументОснование</content>
+  <content>Document.ЗаказНаВнутреннееПотребление.Attribute.пкДоговор</content>
+  <content>Document.ЗаказНаРемонт.Attribute.пкЗаказНаряд</content>
+  <content>Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.пкДокументОснование</content>
+  <content>Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.Заказ</content>
+  <content>Document.ОперацияБух.Attribute.ТиповаяОперация</content>
+  <content>Document.ОтборРазмещениеТоваров.Attribute.пкЗаказНаряд</content>
+  <content>Document.ОтборРазмещениеТоваров.Attribute.пкДокументОснование</content>
+  <content>Document.ПриобретениеТоваровУслуг.Attribute.Договор</content>
+  <content>Document.ПриобретениеТоваровУслуг.Attribute.пкДокументОснование</content>
+  <content>Document.ПриобретениеУслугПрочихАктивов.Attribute.Договор</content>
+  <content>Document.ПрочееОприходованиеТоваров.Attribute.пкДокументОснование</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.ЗаказКлиента</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.Договор</content>
+  <content>Document.СчетНаОплатуКлиенту.Attribute.ДокументОснование</content>
+  <content>Document.СчетНаОплатуКлиенту.Attribute.Договор</content>
+  <content>Document.пкАктПриемкиВозврата.Attribute.Договор</content>
+  <content>Document.пкАктПриемкиВозврата.TabularSection.ЗаданияНаПеревозку.Attribute.ЗаявкаНаАрендуТехники</content>
+  <content>Document.пкДоставка.TabularSection.ЗаданияНаПеревозку.Attribute.ЗаданиеНаПеревозку</content>
+  <content>Document.пкЗаданиеНаПеревозку.Attribute.ЗаявкаНаАрендуТехники</content>
+  <content>Document.пкЗаданиеНаПеревозку.Attribute.ЗаданиеНаПеревозку</content>
+  <content>Document.пкЗаказНаряд.Attribute.Доставка</content>
+  <content>Document.пкЗаказНаряд.TabularSection.Работы.Attribute.ЗаданиеНаРемонт</content>
+  <content>Document.пкЗаказНаряд.TabularSection.ПлановыеРаботы.Attribute.ЗаданиеНаРемонт</content>
+  <content>Document.пкЗаявкаНаАрендуТехники.Attribute.ДокументОснование</content>
+  <content>Document.пкЗаявкаНаАрендуТехники.Attribute.Договор</content>
+  <content>Document.пкЗаявкаНаРемонтЗапчасти.Attribute.Договор</content>
+  <content>Document.пкКоммерческоеПредложениеНаАрендуТехники.Attribute.ДокументОснование</content>
+  <content>Document.пкНачисленияПоВекселям.TabularSection.Начисления.Attribute.Договор</content>
+  <content>Document.пкОперацииСПультами.Attribute.ДокументОснование</content>
+  <content>Document.пкПостановкаСнятиеНаУчетВРостехнадзоре.Attribute.ДокументОснование</content>
+  <content>Document.пкПретензия.Attribute.Договор</content>
+  <content>Document.пкПретензия.TabularSection.Расшифровка.Attribute.Счет</content>
+  <content>Document.пкСудебныйИск.Attribute.Договор</content>
+  <content>Document.пкСудебныйИск.Attribute.ДокументОснование</content>
+  <content>Document.уатЗаправкаГСМ.Attribute.ДокументОснование</content>
+  <content>Document.уатПутевойЛист.Attribute.пкДоставка</content>
+</mdclass:FilterCriterion>

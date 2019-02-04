@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5514402-c28a-4e42-bd20-2037e20e265f">
+  <name>уатИспользоватьУпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уат использовать упаковки номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьУпаковкиНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.уатЗаказГрузоотправителя.TabularSection.Товары.Attribute.ЕдиницаИзмерения</content>
+  <content>Document.уатИнвентаризацияГСМвТС.TabularSection.ГСМвТС.Attribute.ЕдиницаИзмерения</content>
+  <content>Document.уатМаршрутныйЛист.TabularSection.Заказы.Attribute.ЕдиницаИзмерения</content>
+  <content>Document.уатМаршрутныйЛист.TabularSection.Заказы.Attribute.ЕдиницаИзмеренияПоЗаказу</content>
+  <content>Document.уатОперацииСТехническимиЖидкостями.TabularSection.ТехническиеЖидкости.Attribute.ЕдиницаИзмерения</content>
+  <content>Document.уатТТД.TabularSection.Выработка.Attribute.ЕдиницаИзмерения</content>
+</mdclass:FunctionalOption>

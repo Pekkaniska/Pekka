@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a96e51e0-6583-46b5-998c-f05baa7122aa">
+  <producedTypes>
+    <objectType typeId="ef1941c2-ca68-42c2-860b-3fbf9322e994" valueTypeId="00201bd9-2c92-40a1-ba4d-2829f908d2f8"/>
+    <managerType typeId="1c9e09d2-52ef-4c99-9243-80b16fd7da44" valueTypeId="76529b7a-2181-467e-beeb-d98216572ccd"/>
+  </producedTypes>
+  <name>пкСводныйОтчетПоИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет по Инвентаризации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкСводныйОтчетПоИнвентаризации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="72718041-1453-46d5-8f16-7bcc1d6774f7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

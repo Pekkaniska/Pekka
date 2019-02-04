@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c53056-e503-41d5-aa94-219e0b03d946">
+  <name>пкПроверкаСогласованностиДоговораВЗаявкахДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка согласованности договора в заявках ДС</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.пкПодпискиНаСобытия.пкПроверкаСогласованностиДоговораВЗаявкахДСПередЗаписью</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="319acff3-95cc-4548-b943-a7463826cea0">
+  <producedTypes>
+    <refType typeId="4043c9fd-9834-40e1-8c58-3defc6bfad44" valueTypeId="ca86b983-8df1-4cb0-9bc9-698954b9feb6"/>
+    <listType typeId="656609bf-29c3-4a2e-be86-b847cf7e032e" valueTypeId="b736af54-6312-41a8-9461-c3352e24924e"/>
+    <managerType typeId="46273c03-dba3-4f69-8272-c560b144666d" valueTypeId="1b0381a4-212d-4a62-a269-5a93b0055994"/>
+  </producedTypes>
+  <name>ItobСервисыГеокодирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы геокодирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b9238de-536b-4b7b-9846-ecacbdc3aa18">
+    <name>NominatimMapquest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Nominatim Mapquest</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f76eea35-022a-44ec-b7b3-7f0197b01eec">
+    <name>NominatimOSM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Nominatim OSM</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="09de03c7-02c0-438a-af7f-f5742a2d84aa">
+    <name>Локальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

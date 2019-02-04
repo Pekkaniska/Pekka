@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcf97115-4402-4827-bef5-d17fb6b4abfa">
+  <producedTypes>
+    <managerType typeId="8619743a-505b-4d74-bfc9-0d099bf1a770" valueTypeId="5511c16a-58b4-4ba9-98b6-80a760de2c93"/>
+    <valueManagerType typeId="4bc2d234-f57c-4a3c-8458-379fbc310ddf" valueTypeId="4853fa31-9328-47ed-a9fd-6ef5bb1678b6"/>
+  </producedTypes>
+  <name>пкДатаЗапускаСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата запуска системы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

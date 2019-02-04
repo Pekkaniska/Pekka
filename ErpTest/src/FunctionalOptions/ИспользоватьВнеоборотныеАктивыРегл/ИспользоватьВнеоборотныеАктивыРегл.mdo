@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fd52b8f-98f4-46e6-9dc0-a449f8daebca">
+  <name>ИспользоватьВнеоборотныеАктивыРегл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внеоборотные активы (регл. учет)</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьВнеоборотныеАктивыРегл</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ИнвентаризацияНМА</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ДокументНаОсновании</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ДокументОснование</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПервоначальнаяСтоимостьБУ</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПервоначальнаяСтоимостьВР</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПервоначальнаяСтоимостьНУ</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПервоначальнаяСтоимостьПР</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ОтражатьВРеглУчете</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПорядокУчетаБУ</content>
+  <content>Document.ПринятиеКУчетуНМА2_4.Attribute.ПорядокУчетаНУ</content>
+  <content>Document.СписаниеНМА2_4.Attribute.ДокументНаОсновании</content>
+  <content>Document.СписаниеНМА2_4.Attribute.ДокументОснование</content>
+  <content>Document.ПеремещениеНМА2_4.Attribute.ДокументНаОсновании</content>
+  <content>Document.ПеремещениеНМА2_4.Attribute.ДокументОснование</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae6d899e-33d7-404c-9f4c-f09c9f4e39bb">
+  <name>уатДорЗнак_Предупреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дорожный знак &quot;Предупреждение&quot; (уат)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

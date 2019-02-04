@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d160835-8dad-489f-a306-2a6f317bd4ff">
+  <producedTypes>
+    <objectType typeId="3431d7c5-f53c-4798-8721-091b7d03b826" valueTypeId="f4b7586a-7bf2-4487-aeeb-e1fdd0b17898"/>
+    <managerType typeId="c2c8bea8-3696-46ce-b7f0-2a0226730d30" valueTypeId="12171ba3-960f-4b58-89f2-c7902aafc847"/>
+  </producedTypes>
+  <name>пкОтклонениеЦенВКоммерческихПредложениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение цен в коммерческих предложениях</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.пкОтклонениеЦенВКоммерческихПредложениях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="be7775b6-d9b5-4b56-b340-4122b5a8f5a7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

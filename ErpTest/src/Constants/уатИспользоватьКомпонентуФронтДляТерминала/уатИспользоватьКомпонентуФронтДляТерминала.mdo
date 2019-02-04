@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b2776e5-312d-405c-a1ef-2a79ffc2a3e7">
+  <producedTypes>
+    <managerType typeId="ac99a745-04a7-4001-915f-280273867f3c" valueTypeId="a6675276-dbfc-40e2-9148-11d208cefeb6"/>
+    <valueManagerType typeId="c08a0b81-9cf0-460c-86a0-ceac6bbf5ecd" valueTypeId="2ba89db5-e26e-4b1f-8ca8-cbd4f6ab52b3"/>
+  </producedTypes>
+  <name>уатИспользоватьКомпонентуФронтДляТерминала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать компоненту для работы с терминалом в режиме &quot;Фронт&quot;</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать компоненту для работы с терминалом в полноэкранном режиме.</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

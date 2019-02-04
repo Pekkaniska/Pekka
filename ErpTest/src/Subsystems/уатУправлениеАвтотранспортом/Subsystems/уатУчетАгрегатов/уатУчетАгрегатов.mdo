@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4bb6de0-4a44-4fdc-9174-4c1497eed802">
+  <name>уатУчетАгрегатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет агрегатов</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Учет агрегатов</value>
+  </explanation>
+  <content>CommonForm.уатНастройкаФормированияНаименованияАгрегатов</content>
+  <content>CommonForm.уатФормаПодбораАгрегатов</content>
+  <content>Constant.уатНастройкаФормированияНаименованийАгрегатов</content>
+  <content>InformationRegister.уатУстановленныеАгрегаты</content>
+  <parentSubsystem>Subsystem.уатУправлениеАвтотранспортом</parentSubsystem>
+</mdclass:Subsystem>

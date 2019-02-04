@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a1fb17f-e134-4c87-8401-0923f1fb7ad9">
+  <name>уатИспользоватьАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автотрекер</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <location>Constant.уатИспользоватьАвтотрекер</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.уатЗагрузкаДанныхАвтотрекер</content>
+  <content>Report.уатДанныеПоТСАвтотрекер</content>
+</mdclass:FunctionalOption>

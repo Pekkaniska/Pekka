@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17ffaa30-160f-45aa-a737-f86f675bd910">
+  <name>уатПередЗаписьюРегистраНакопленияДатаЗапретаРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью регистра накопления дата запрета редактирования</value>
+  </synonym>
+  <comment>Перед записью регистра накопления дата запрета редактирования</comment>
+  <source>
+    <types>AccumulationRegisterRecordSet.уатВыработкаПоСтоимости</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоОтчетамПоставщиковПЦ</types>
+    <types>AccumulationRegisterRecordSet.уатВыработкаСотрудников</types>
+    <types>AccumulationRegisterRecordSet.уатПланРаботыТС</types>
+    <types>AccumulationRegisterRecordSet.уатПростои</types>
+    <types>AccumulationRegisterRecordSet.уатЗатратыТС</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоМаршрутномуЛисту</types>
+    <types>AccumulationRegisterRecordSet.уатИзносПробегШин</types>
+    <types>AccumulationRegisterRecordSet.уатЗаказыГрузоотправителей</types>
+    <types>AccumulationRegisterRecordSet.уатВыработкаТС</types>
+    <types>AccumulationRegisterRecordSet.уатРасходГСМнаТС</types>
+    <types>AccumulationRegisterRecordSet.уатОборотыПоЗаправкамГСМ</types>
+    <types>AccumulationRegisterRecordSet.уатОстаткиГСМнаТС</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.уатОбработчикиПодписокНаСобытия.уатПередЗаписьюРегистраНакопленийПроверкаДоступностиПериода</handler>
+</mdclass:EventSubscription>

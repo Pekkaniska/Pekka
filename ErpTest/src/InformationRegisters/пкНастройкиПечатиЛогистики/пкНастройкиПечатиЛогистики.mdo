@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df95a2f3-fd00-42d0-bf53-08d09f07fece">
+  <producedTypes>
+    <selectionType typeId="c45a9b6a-343a-4db7-bb5e-90525591423d" valueTypeId="5f4627a8-b3b5-4212-b10c-b3e3a06959f8"/>
+    <listType typeId="d8d2741f-77aa-459c-9fe1-b6460039424a" valueTypeId="17f67532-e2c2-45f4-87f9-64794650ce57"/>
+    <managerType typeId="a89b9965-5cbd-419f-bee9-57ef84c78e4b" valueTypeId="6ef04e7f-b46c-4f6b-ae7f-d83c33171662"/>
+    <recordSetType typeId="64629bf9-c23d-4680-b370-808b1b2d28be" valueTypeId="acb7f47c-1566-424a-94fe-d493b7a74247"/>
+    <recordKeyType typeId="db2c44f0-eea1-496a-a07c-f529ec6e5cfe" valueTypeId="1162cc17-faab-449c-989e-ba9dd7ee0076"/>
+    <recordType typeId="4a0032ab-6f1b-461c-9453-0757bac7c720" valueTypeId="e77b1787-6657-453e-97c3-7ff8b46b432c"/>
+    <recordManagerType typeId="6de1346f-15e1-4ebf-b656-ca3069ef96d7" valueTypeId="6e22de5d-e896-4ed5-9416-2070830482b5"/>
+  </producedTypes>
+  <name>пкНастройкиПечатиЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки печати логистики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b171c68c-3177-4ae6-80cb-a92ea832fdce">
+    <name>ТекстСопроводительныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сопроводительные документы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e7e7733f-7a6b-4143-b724-60e29bded56b">
+    <name>ПечатьАвтораДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать автора документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="99a000f0-928c-41af-9873-98c80711684a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

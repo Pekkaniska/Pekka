@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17314abd-d37d-484f-af9b-d16290631042">
+  <producedTypes>
+    <objectType typeId="6a66d522-e0aa-4f41-804d-ce46a93aab7a" valueTypeId="f40946fb-a356-4e7a-9b45-0887f3bbc44a"/>
+    <managerType typeId="4bfe2fc2-1199-4e21-803e-7b2a2261a2db" valueTypeId="7b1c1bc6-0b02-48fd-a293-447d4f3db49d"/>
+  </producedTypes>
+  <name>уатФормированиеТиповыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование типовых документов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.уатФормированиеТиповыхДокументов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e77fe804-f18a-42ad-8717-eb7f3f4f415d">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a787df0e-89e4-408a-89b7-9d61c5da731d">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22c5ca52-9202-411e-9eb0-70df1f756cc6">
+    <name>ДеревоНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево настроек</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дерево настроек.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e7de3d1e-5017-4ae7-990d-d1e65488a9c7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="52659984-de70-4bed-8984-bb161bfe6350">
+    <name>ФормированиеТиповыхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование типовых документов</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

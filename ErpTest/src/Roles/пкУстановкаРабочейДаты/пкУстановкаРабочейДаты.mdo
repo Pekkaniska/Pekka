@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e9e4d10-5ba9-47c9-968c-4de97f438567">
+  <name>пкУстановкаРабочейДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка рабочей даты</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425f99ed-4a56-4a5b-a350-31da256b11c3">
+  <name>уатСтаршийМеханик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Старший механик</value>
+  </synonym>
+  <comment>Старший механик управления автотранспортом</comment>
+</mdclass:Role>

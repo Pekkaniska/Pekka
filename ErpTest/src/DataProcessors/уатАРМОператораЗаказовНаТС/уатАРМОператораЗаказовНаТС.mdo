@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="287e502c-6b08-42cf-92b4-668c07b6ea98">
+  <producedTypes>
+    <objectType typeId="d0175652-9f7c-4384-9570-d45f2d60e19e" valueTypeId="8055b5e5-c5fe-4981-8d92-601194eca871"/>
+    <managerType typeId="ef646853-83d1-44dd-9477-2de9fda8e80f" valueTypeId="4f83b394-19af-4dcd-a3c1-dccf6397c131"/>
+  </producedTypes>
+  <name>уатАРМОператораЗаказовНаТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ оператора заказов на ТС</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.уатАРМОператораЗаказовНаТС.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9ae9a771-bd0c-4a2b-9b02-0eb9b042a72f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

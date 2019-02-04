@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72d50b6d-ba20-4978-8d03-6972a0c49c2a">
+  <name>пкИзменениеРегистраПробегТСпоТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение регистра Пробег ТС по ТО</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c1f8c6-3ebd-4294-b861-104b4c5164da">
+  <producedTypes>
+    <selectionType typeId="dc0ff263-831f-4f96-9e9e-a0fed2f64e83" valueTypeId="3e7ff672-22b9-44a4-abf6-7f036366c32a"/>
+    <listType typeId="e66b05c6-8661-426f-92d2-2f49bc6b8bdf" valueTypeId="fcb34246-4ea1-4b3c-b5a9-7c3213070003"/>
+    <managerType typeId="8545f840-aa29-4205-8498-021ab0ae00d0" valueTypeId="4bed2b11-de72-4d63-be7e-7ce1c0053e8a"/>
+    <recordSetType typeId="b297dfb4-f2b5-4521-8b65-dd60dc40dd5e" valueTypeId="2e4796cd-b9da-4855-ad22-96afd0033347"/>
+    <recordKeyType typeId="89ee4825-f830-49d1-a143-c8a78af29ec1" valueTypeId="36ebdadb-72a0-4146-9c0c-187dd576a7f4"/>
+    <recordType typeId="89b5db93-97ef-4d38-a46e-3719951ff5d0" valueTypeId="b0b2a833-0ace-4f65-9305-226c9d7ca701"/>
+    <recordManagerType typeId="4f050e72-8149-4943-b2d6-18d359b1d468" valueTypeId="e2e65054-4de9-429b-8e2b-ee63247892ce"/>
+  </producedTypes>
+  <name>пкСтатусыРемонтаТехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ремонта техники</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b7c3ef9c-1acd-4524-9be2-691b5b451676">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пкСтатусыРемонтаТехники</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ecabda5b-2efb-402b-ad41-a1d70dbacc66">
+    <name>ПланируемаяДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая дата завершения</value>
+    </synonym>
+    <comment>Планируемая дата перехода в следующий статус (планируемая дата доставки, планируемая дата окончания ремонта)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8325db7b-3b11-4db8-bb6f-5f4a01e73b76">
+    <name>Техника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

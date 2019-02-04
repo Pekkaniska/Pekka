@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cae3c928-03de-44f6-a54f-d04d4165325a">
+  <name>уатИспользоватьPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Position report</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <location>Constant.уатИспользоватьPositionReport</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.уатЗагрузкаДанныхPositionReport</content>
+</mdclass:FunctionalOption>

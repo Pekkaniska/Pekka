@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416b267c-58a1-4a76-b0d2-ac79ec4ad4a5">
+  <name>ItobПолныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полные права (itob)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

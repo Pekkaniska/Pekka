@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f87d2e-eb43-447e-a095-5872ec6b10f9">
+  <name>пкЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.пкРазделЛогистика</picture>
+  </picture>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>Document.пкЗаданиеНаПеревозку</content>
+  <content>Document.пкДоставка</content>
+  <content>DataProcessor.пкУправлениеЛогистикой</content>
+  <content>Document.уатПутевойЛист</content>
+  <content>InformationRegister.пкФормированиеДоставки</content>
+  <content>Enum.пкОперацииПогрузкаВыгрузка</content>
+  <content>Role.пкИспользованиеОтчетаЗатратыПоЛогистике</content>
+  <content>Role.пкИспользованиеОтчетаОбщийПланПеревозок</content>
+  <content>Report.пкЗатратыПоЛогистике</content>
+  <content>Report.пкОбщийПланПеревозок</content>
+  <content>Enum.пкДоходРасход</content>
+  <content>Enum.пкСпособыПеревозки</content>
+  <content>Catalog.пкСтатьиДоходовРасходовЛогистика</content>
+  <content>Role.пкДобавлениеИзменениеСтатейДоходовРасходовПоЛогистике</content>
+  <content>Document.пкОтражениеРасходовПоЛогистике</content>
+  <content>AccumulationRegister.пкРасходыПоЛогистике</content>
+  <content>Role.пкИзменениеРегистраРасходыПоЛогистике</content>
+  <content>Role.пкДобавлениеИзменениеДокументаОтражениеРасходовПоЛогистике</content>
+  <content>Role.пкЧтениеДокументаОтражениеРасходовПоЛогистике</content>
+  <content>Document.пкАктПриемкиВозврата</content>
+  <content>Role.пкЧтениеДокументаАктПриемкиВозврата</content>
+  <content>Enum.пкПриемкаВозврат</content>
+  <content>DataProcessor.пкПечатьЛогистика</content>
+  <content>CommonPicture.пкДоставкаТехники</content>
+  <content>Role.пкРазделЛогистика</content>
+  <content>Report.пкОплатаЗаявокНаРасходованиеДенежныхСредств</content>
+  <content>InformationRegister.пкОтветственныеЛицаПутевыхЛистовПодразделений</content>
+  <content>Document.пкЗаправочнаяВедомость</content>
+  <content>Enum.пкВидыВедомостейПоГСМ</content>
+  <content>DataProcessor.пкПланДоставки</content>
+  <content>DataProcessor.пкИзменениеНормРасходаГСМ</content>
+  <content>DataProcessor.пкПечатьСтикеровТехники</content>
+  <content>Report.пкТехникаНаБазе</content>
+  <content>Report.пкТехникаПоНеделям</content>
+  <content>Report.пкОтчетПоЗаправочнымВедомостям</content>
+  <content>Report.пкРасходыПоМашинам</content>
+</mdclass:Subsystem>

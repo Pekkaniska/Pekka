@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaa539ac-c7cc-48c6-9fb4-dcb7fc0c5b65">
+  <producedTypes>
+    <selectionType typeId="4743ad17-5084-4eea-96a0-a29cc43d683e" valueTypeId="95ba4e74-b08b-4602-ac9a-271758b0c5c9"/>
+    <listType typeId="89f4421e-9b26-4139-b960-05b0427d1be0" valueTypeId="7e90c2eb-5456-4a13-9715-0540835e9d46"/>
+    <managerType typeId="fbf789f4-3b55-411a-b736-e17be5be98f6" valueTypeId="30aeddbd-ffa1-407d-b3f9-5ad9eecabaee"/>
+    <recordSetType typeId="df62a81f-c84c-4535-a6cf-d2f9f6c792ad" valueTypeId="cc376737-68dc-4625-9952-76281be3f7e6"/>
+    <recordKeyType typeId="1d57bcb3-0c64-475b-8ad0-63cf4fe848aa" valueTypeId="81fefc0a-6b6c-47c7-9122-b30e401a46e8"/>
+    <recordType typeId="9787ab61-dc09-4d87-b4a7-421c8aed8cbc" valueTypeId="344dc1b8-b4f2-4930-aab5-7adc892308ee"/>
+    <recordManagerType typeId="217a7e20-5477-463e-9947-d660fda3e860" valueTypeId="cbe0f77a-e9d3-4a45-8864-48bb2ebb84f4"/>
+  </producedTypes>
+  <name>уатУстановленныеАгрегаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные агрегаты</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.уатУстановленныеАгрегаты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.уатУстановленныеАгрегаты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c1c45dc4-70f8-410e-8adf-7a3c9e383fbe">
+    <name>СостояниеАгрегата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние агрегата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.уатСостоянияАгрегатов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e59a24c-7eed-410d-b461-75d415f1e9d5">
+    <name>МестоУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место установки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатМестаУстановкиШин</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Место установки шины</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d53c5197-1732-465d-9d02-174e05025ed1">
+    <name>УзелОбъектаЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел объекта эксплуатации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УзлыОбъектовЭксплуатации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="98197a81-ca93-4a5a-add8-b0c8e2477e6b">
+    <name>ТипАгрегата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип агрегата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатТипыАгрегатов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e3834bb3-7977-443f-9c89-fee6a63c960c">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c06c3063-9e18-4552-91e3-c93c70501e89">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c95c0d35-0ae0-4ef1-b4ba-7993f2542b0f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

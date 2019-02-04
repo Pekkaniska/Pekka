@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75ef1390-f041-4687-a3fc-4368aefdbebe">
+  <producedTypes>
+    <managerType typeId="0144a2c5-d2b8-401b-b20a-9121b6a36e27" valueTypeId="8e7135ac-9de2-4b69-98e7-a43477dbe541"/>
+    <valueManagerType typeId="408b06c7-3dfa-4e64-b127-933dc95ff354" valueTypeId="fbfad9c8-4f6a-4c62-b103-154da3de31df"/>
+  </producedTypes>
+  <name>пкНедоступенДоступенОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недоступен обмен с МП</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

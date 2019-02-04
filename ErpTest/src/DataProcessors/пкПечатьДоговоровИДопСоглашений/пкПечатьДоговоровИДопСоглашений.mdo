@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fbbe237-dd4a-4fb8-8190-7139a575f087">
+  <producedTypes>
+    <objectType typeId="2c8a2c3e-fe95-49c3-a3f4-dee4dcba5c5f" valueTypeId="5543a63f-0d52-4c60-8138-904633355c58"/>
+    <managerType typeId="0b54e5be-1fc7-498c-acb6-28739ffd6f8a" valueTypeId="8f89f077-24ca-4a46-86f9-1a9d9ca2db92"/>
+  </producedTypes>
+  <name>пкПечатьДоговоровИДопСоглашений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать договоров и доп. соглашений</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="e3881ffe-c957-4a91-8889-a11501b38889">
+    <name>ДоговорАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a3a757dd-3ceb-49fd-99a5-a350c58304d2">
+    <name>ДоговорАрендыМелкийШрифт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды (мелкий шрифт)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a6d80849-94d7-40c1-be45-b91e86e4344c">
+    <name>ДоговорАрендыДвуязычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды (двуязычный)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a0f4966a-ebf1-4ea9-95d0-a2b42c0fea14">
+    <name>ДоговорАрендыПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды (по факту)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d58fefc2-facb-4fbe-9c27-5f77ab412f51">
+    <name>ДоговорАрендыПоФактуМелкийШрифт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор аренды (по факту мелкий шрифт)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="8fad5323-4985-49aa-9ab6-36fe6a43eb61">
+    <name>ДоговорПоручительстваФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор поручительства (физ. лицо)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="de2364b6-0058-4851-944b-fb05a43f93a9">
+    <name>ДоговорПоручительстваЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор поручительства (юр. лицо)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="45d2a34b-469e-4666-8e38-7b216fa07b42">
+    <name>ДоговорКуплиПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли-продажи</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="55a69db3-574f-4f18-89f7-4fd751ed21c0">
+    <name>ДоговорКуплиПродажиПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли-продажи (приложения)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="41d15bbf-2464-46ed-ae4a-201399f7aa8d">
+    <name>ДоговорКуплиПродажиТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли-продажи товара</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6f616440-afd9-465e-9ff7-2539ef8c5b29">
+    <name>ДоговорКуплиПродажиТовараПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли-продажи товара (приложения)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d5711e83-7b26-4c36-bbef-1895a6a38709">
+    <name>АвтокранАренда2013</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автокран Аренда (2013)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="54cd91a9-8e3f-4ba7-8a47-789b72532fc1">
+    <name>ДоговорТранспортногоОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор транспортного обслуживания</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a6ad4917-27ae-49b7-8f8d-82882cc9993e">
+    <name>ДополнительноеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="35b16f60-0198-4f8a-877c-06221d914f78">
+    <name>ДополнительноеСоглашениеФНП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение ФНП</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c36655aa-196a-41da-8106-5d0acc6de158">
+    <name>ДополнительноеСоглашениеФНПКраткое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение ФНП (краткое)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="65d27894-d8a3-46e1-841b-7e88f717274b">
+    <name>ДополнительноеСоглашениеФНПТранспортировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение ФНП (транспортировка)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="fe31fd0d-699e-41ce-b31e-4a7cc01b0d0c">
+    <name>ДС1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДС 1</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="1777d32a-1d0d-445b-84e2-8a1cda165955">
+    <name>ДС2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДС 2</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d91f54c8-328b-4aad-af38-d3897fda3478">
+    <name>ДополнительноеСоглашениеКраткое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение (краткое)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f0f1e4de-5ed0-48ef-bea2-127a0376b849">
+    <name>ДополнительноеСоглашениеМосква</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение (Москва)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="ce30b1ba-6565-4d03-915b-8dad400d6b4c">
+    <name>ДоговорКуплиПродажиМосква</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли продажи (Москва)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="84a25061-420b-42c1-9e51-9978c64fe027">
+    <name>ДоговорКуплиПродажиМоскваПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли продажи Москва приложения</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a99aed12-e338-4c83-998c-28b9b8b5f0d5">
+    <name>ДопСоглашениеДальниеОбъектыВыездСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. соглашение дальние объекты (выезд специалиста)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a6bb8f55-748b-4228-a618-298921c6ddc6">
+    <name>ДопСоглашениеНаКонкрентныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. соглашение на конкрентный объект</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="b2b9d32f-def0-4843-a47c-91904d8385bb">
+    <name>ДоговорСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор сервиса</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="7da764e3-b58c-49a1-a4b1-f1f8ac00f99c">
+    <name>ДопСоглашениеНаУвеличениеТарифов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп соглашение на увеличение тарифов</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="21d60fa7-e8a1-4d8b-b486-941b0dd14e72">
+    <name>УведомлениеОбУвеличенииТарифовНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об увеличении тарифов на ремонт</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c34f69f0-f719-4407-a9a6-aee1b5071f96">
+    <name>ОбщееУведомлениеОбУвеличенииТарифовНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее уведомление об увеличении тарифов на ремонт</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

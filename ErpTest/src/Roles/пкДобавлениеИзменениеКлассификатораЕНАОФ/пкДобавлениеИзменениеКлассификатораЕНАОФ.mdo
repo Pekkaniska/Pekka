@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="544dbf47-cf8d-4a42-bb9c-ccf5c0a026a8">
+  <name>пкДобавлениеИзменениеКлассификатораЕНАОФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение классификатора ЕНАОФ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

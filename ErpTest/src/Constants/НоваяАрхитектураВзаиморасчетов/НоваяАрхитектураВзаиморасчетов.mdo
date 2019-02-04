@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61d5a328-c956-4523-9c4c-6bee1edeeae8">
+  <producedTypes>
+    <managerType typeId="9f283824-4c51-49b1-aa17-c09ae5ac8bf5" valueTypeId="43b6cc70-6cf1-46b5-9f74-72f698cc9119"/>
+    <valueManagerType typeId="43021e8a-3c6d-41fa-943b-9230e5852d1d" valueTypeId="fe04038c-41b5-4217-ab04-354b93ce8545"/>
+  </producedTypes>
+  <name>НоваяАрхитектураВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новая архитектура взаиморасчетов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

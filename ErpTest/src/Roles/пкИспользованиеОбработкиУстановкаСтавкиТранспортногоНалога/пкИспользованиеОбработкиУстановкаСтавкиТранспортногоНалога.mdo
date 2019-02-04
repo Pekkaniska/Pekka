@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="685ae5f1-890a-4816-acc6-6eb477e97c4c">
+  <name>пкИспользованиеОбработкиУстановкаСтавкиТранспортногоНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки установка ставки транспортного налога</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

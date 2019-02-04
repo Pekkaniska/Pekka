@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="947e5674-8e17-4ab8-bed7-679a1416d359">
+  <name>уатМеханик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Механик</value>
+  </synonym>
+  <comment>Механик управления автотранспортом</comment>
+</mdclass:Role>

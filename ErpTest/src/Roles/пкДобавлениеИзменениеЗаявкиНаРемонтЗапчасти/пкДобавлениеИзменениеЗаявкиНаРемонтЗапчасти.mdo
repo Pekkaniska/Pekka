@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52ef0ce5-0379-475e-817d-6ee075afaf37">
+  <name>пкДобавлениеИзменениеЗаявкиНаРемонтЗапчасти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение заявки на ремонт запчасти</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

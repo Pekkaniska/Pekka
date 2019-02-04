@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d1c35db-fcce-411f-8901-ee1aa6d4397a">
+  <producedTypes>
+    <managerType typeId="1ba8245e-eb45-410a-92dc-e4adc8811aa4" valueTypeId="00d474c2-e230-43a9-953a-6ad3f97e084f"/>
+    <valueManagerType typeId="5d22385b-1927-4834-8c22-2f607d32e45c" valueTypeId="02e7d0fd-3013-405d-a436-d9e9e5d9ef0c"/>
+  </producedTypes>
+  <name>НомерЗаданияКРасчетуГрафикаПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер задания к расчету графика производства</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d493a7-ceb4-4a65-a451-fad6e739a6c1">
+  <producedTypes>
+    <managerType typeId="76f4c912-43c0-4121-a181-835d4533dbfa" valueTypeId="869af234-d839-4d59-bf46-7fff03ab3706"/>
+    <valueManagerType typeId="19a6169f-9a45-429d-97bc-163172959faf" valueTypeId="77751106-95d8-48b1-bbb6-41c0d4fa6087"/>
+  </producedTypes>
+  <name>пкСтрокаПубликацииМП_ДляУдаленногоУправленияДоставкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка публикации мобильного приложения для удаленного управления доставкой</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

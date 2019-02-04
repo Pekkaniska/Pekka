@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16f2c19f-79a9-412b-89fc-540d03a3d9fc">
+  <name>пкИзмененныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измененные объекты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.СМ_ОбъектыСтроительства</content>
+  <content>Document.уатПутевойЛист</content>
+  <content>Document.уатПеремещениеТСиОборудования</content>
+  <content>Catalog.уатМоделиТС</content>
+  <content>Document.ВнутреннееПотреблениеТоваров</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.уатВводВЭксплуатациюТСиОборудования</content>
+  <content>Document.уатЗаправкаГСМ</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ЗаказНаПеремещение</content>
+  <content>Document.ЗаказНаВнутреннееПотребление</content>
+  <content>Enum.СтатусыЗаказовПоставщикам</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Enum.ВидыОперацийВзаимозачетаЗадолженности</content>
+  <content>ChartOfAccounts.Хозрасчетный</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</content>
+  <content>CommonModule.УчетДоходовРасходов</content>
+  <content>Document.ЗаявкаНаРасходованиеДенежныхСредств</content>
+  <content>CommonModule.ВариантыОтчетовУТПереопределяемый</content>
+  <content>CommonModule.ШтрихкодированиеНоменклатурыСервер</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>Document.уатОтчетПоставщикаПЦ</content>
+  <content>Document.ВзаимозачетЗадолженности</content>
+  <content>Document.СписаниеЗадолженности</content>
+  <content>Report.СостояниеРасчетовСПоставщиками</content>
+  <content>Catalog.Организации</content>
+  <content>CommonModule.ПрефиксацияОбъектовКлиентСервер</content>
+  <content>CommonModule.ПрефиксацияОбъектовКлиентСерверПереопределяемый</content>
+  <content>Document.АвансовыйОтчет</content>
+  <content>Document.ПоступлениеБезналичныхДенежныхСредств</content>
+  <content>Document.ПоступлениеПредметовЛизинга</content>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c9cab59-1728-48ef-a407-e870844e41b9">
+  <producedTypes>
+    <objectType typeId="51d3fa5e-9e1c-4240-bdb7-5a381bda210c" valueTypeId="0346b733-77d6-4642-b262-486bd4406f41"/>
+    <managerType typeId="4c2b944a-b7a2-4207-9879-f3f9155c00f0" valueTypeId="ef2bf5f5-85a7-42c8-bf5d-ddeca1eb35f4"/>
+  </producedTypes>
+  <name>пкТаблицаСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица счетов (пк)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкТаблицаСчетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="e26eed2f-9c93-43f1-ad3c-0e33c0653528">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="74fc69ee-957d-4f9b-88a0-d1defb458ae5">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

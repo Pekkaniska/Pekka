@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04282d55-2143-4bd8-b8f3-b9fe8da28b4b">
+  <producedTypes>
+    <managerType typeId="30ca8b2c-3a86-459a-a042-1303e5929cb0" valueTypeId="9da181a2-5299-427e-ac3f-f99b96ef4b48"/>
+    <valueManagerType typeId="0238c90f-bfdb-404e-9e3b-73ffadc8883b" valueTypeId="473e830f-ea3a-44f5-930d-dc905030cdbe"/>
+  </producedTypes>
+  <name>уатИспользоватьШтрихкодированиеПутевыхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать штрихкодирование путевых листов</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

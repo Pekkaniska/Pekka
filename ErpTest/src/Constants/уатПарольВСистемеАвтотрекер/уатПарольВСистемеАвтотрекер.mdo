@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8d5369-8497-4c41-9bce-435644e83106">
+  <producedTypes>
+    <managerType typeId="d0ccd0d4-c06c-4667-9aec-5fbcf5462104" valueTypeId="e9802894-2cf6-415b-ad64-b971c319fed4"/>
+    <valueManagerType typeId="9b2496f9-1cf0-4553-b06a-bccf2394bfaa" valueTypeId="0df6f402-624b-4325-bf8e-556dbac05382"/>
+  </producedTypes>
+  <name>уатПарольВСистемеАвтотрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль в системе Автотрекер</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Пароль в системе Автотрекер </value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Пароль в системе Автотрекер</value>
+  </explanation>
+  <passwordMode>true</passwordMode>
+  <toolTip>
+    <key>ru</key>
+    <value>Пароль в системе Автотрекер</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be379122-c067-4378-bbd5-2f1c1590711e">
+  <producedTypes>
+    <managerType typeId="cdfdf1a0-8453-4afa-9531-2a5ff88c51d2" valueTypeId="e714da6d-f228-4423-ab41-463bfeb2a050"/>
+    <valueManagerType typeId="ea0a8d5a-2810-495e-9588-75b6bebc825e" valueTypeId="c959d955-055d-4323-ad8c-f8d6da9bb7ab"/>
+  </producedTypes>
+  <name>КаталогВыгрузкиПодтверждающихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог выгрузки подтверждающих документов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d0746f2-8189-4409-b065-2ecfbd69a6f4">
+  <name>пкОповещениеОтветственнымПоТС_О_ТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение ответственным по ТС о необходимости пройти ТО</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пкРегламентныеЗаданияСервер.пкОповещениеОтветственнымПоТС_О_ТО</methodName>
+  <description></description>
+  <key></key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

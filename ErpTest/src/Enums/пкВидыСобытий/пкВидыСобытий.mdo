@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17e01963-07ac-4895-9b1e-b4985863b807">
+  <producedTypes>
+    <refType typeId="9d126ac4-4478-4949-9d30-856bac154f13" valueTypeId="6d8e32d1-1ff3-48e3-bb66-0c99805bea29"/>
+    <listType typeId="23fa58fe-c055-4c98-8d5e-06143ce15c2d" valueTypeId="52b1e679-bdfb-4160-b2b3-6a30c743022f"/>
+    <managerType typeId="cddb4182-b36b-4fe8-9d0a-afffd5a2a3c0" valueTypeId="64577e1e-a8de-40ef-993e-69956515cce9"/>
+  </producedTypes>
+  <name>пкВидыСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59f28bd9-6ea7-4974-9fc9-87f736a337e5">
+    <name>Встреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встреча</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="57b22a2b-5f15-4a9a-b6ac-fbc8402b6ffc">
+    <name>ТелефонныйЗвонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефонный звонок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9764873c-1c7d-4fa6-84a9-c8221654e5a6">
+    <name>ЭлектронноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронное письмо</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b823f0e7-a05f-4298-952d-fc6dfcb28b50">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

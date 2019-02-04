@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e50ace4-061d-47c1-8634-ddf4767cdb64">
+  <name>Репликация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Репликация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ItobПараметрыРепликации</content>
+  <content>Constant.ItobПараметрыРепликацииРезервныйСервер</content>
+  <content>Constant.ItobПарольРепликации</content>
+  <content>Constant.ItobЛогинРепликации</content>
+  <content>ScheduledJob.ItobРепликация</content>
+  <content>CommonModule.ItobReplicationProcs</content>
+  <content>CommonPicture.ItobРепликация</content>
+  <content>CommonForm.ItobНастройкиРепликацииСервер</content>
+  <content>XDTOPackage.ItobДанныеСтатистики</content>
+  <content>WebService.ItobСтатистика</content>
+  <content>InformationRegister.ItobСтатистикаРепликации</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

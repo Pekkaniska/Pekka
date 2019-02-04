@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c082adac-52dd-4623-9b51-e122ddd4c2ac">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ItobДатчики</content>
+  <content>Catalog.ItobКалибровочныеГрафики</content>
+  <content>Catalog.ItobМоделиТерминалов</content>
+  <content>Catalog.ItobНазначенияДатчиков</content>
+  <content>Catalog.ItobТерминалы</content>
+  <content>InformationRegister.ItobПривязкиТерминалов</content>
+  <content>InformationRegister.ItobСвойстваТранспортныхСредств</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

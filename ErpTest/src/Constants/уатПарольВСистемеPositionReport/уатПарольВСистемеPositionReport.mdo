@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="842b549d-85ef-481d-960c-4dc652d67bca">
+  <producedTypes>
+    <managerType typeId="1815974f-5ef1-40d0-b98e-4dfeec8d933d" valueTypeId="860e518b-79bf-4ec8-83a3-2253aef34549"/>
+    <valueManagerType typeId="a3497ab5-fdeb-4209-860e-686d5f4e4135" valueTypeId="e98f5a95-7453-49ea-9a38-f32b63e9156e"/>
+  </producedTypes>
+  <name>уатПарольВСистемеPositionReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль в системе Position Report</value>
+  </synonym>
+  <comment>Пароль в системе Position Report (уат)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Пароль в системе Position Report </value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Пароль в системе Position Report</value>
+  </explanation>
+  <passwordMode>true</passwordMode>
+  <toolTip>
+    <key>ru</key>
+    <value>Пароль в системе Position Report</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

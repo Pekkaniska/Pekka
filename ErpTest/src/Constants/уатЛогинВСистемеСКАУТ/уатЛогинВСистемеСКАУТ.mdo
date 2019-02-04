@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0bda314-8832-4ae5-8071-ea8591aee335">
+  <producedTypes>
+    <managerType typeId="0f1ac140-798c-4334-80f7-6a29127e690d" valueTypeId="a93c4bfd-3b3f-4b78-9728-007d97f1d09b"/>
+    <valueManagerType typeId="d396fb26-22ab-498a-aa92-dd0bc80fbb53" valueTypeId="a70e7cab-57ab-453d-877c-78134172e6da"/>
+  </producedTypes>
+  <name>уатЛогинВСистемеСКАУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин в системе СКАУТ</value>
+  </synonym>
+  <comment>Логин пользователя в системе СКАУТ</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Логин пользователя в системе GPS СКАУТ</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Логин пользователя в системе GPS СКАУТ</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Логин пользователя в системе GPS СКАУТ</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

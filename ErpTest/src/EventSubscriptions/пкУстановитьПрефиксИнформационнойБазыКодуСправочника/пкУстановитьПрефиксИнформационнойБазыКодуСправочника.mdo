@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0d0e8d3-c63f-4fc5-bb56-463281173123">
+  <name>пкУстановитьПрефиксИнформационнойБазыКодуСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы коду справочника</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.пкПричиныПростоевЗаказНарядов</types>
+    <types>CatalogObject.пкДополнительныеСоглашенияКДоговорам</types>
+    <types>CatalogObject.пкСпособыПогрузкиРазгрузкиТехники</types>
+    <types>CatalogObject.пкИсточникиПитанияТехники</types>
+    <types>CatalogObject.пкМобильныеУстройства</types>
+    <types>CatalogObject.пкТипыОграничителейУказателей</types>
+    <types>CatalogObject.пкТипыТехники</types>
+    <types>CatalogObject.пкКатегорииТехники</types>
+    <types>CatalogObject.пкСтруктураДанных</types>
+  </source>
+  <event>OnSetNewCode</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

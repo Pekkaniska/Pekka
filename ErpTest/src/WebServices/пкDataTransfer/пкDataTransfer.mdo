@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d08867f-717d-43e1-b076-8070acb3e6a5">
+  <name>пкDataTransfer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Data transfer</value>
+  </synonym>
+  <comment></comment>
+  <namespace>pekkaniska</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>DataTransfer.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="f0c325ef-6cf9-4a13-a14f-dc7bf984d9df">
+    <name>Registration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Registration</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Registration</procedureName>
+    <parameters uuid="1a17fa3f-37dc-40c0-bdde-6e028456e16b">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="1cc9528e-3719-461c-872f-0f1816887de4">
+    <name>Sync</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sync</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Sync</procedureName>
+    <parameters uuid="0a8e1124-3065-4fd8-8804-2b24ef64f0c2">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e57daf69-bf52-4feb-963f-20aca4c43d06">
+    <name>GetFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get file</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetFile</procedureName>
+    <parameters uuid="afce2bf6-e191-4ce2-84f1-f5fd9020e659">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="7dcae9bd-b94a-442a-aae3-5f348d774d2e">
+    <name>GetActualVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get actual version</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetActualVersion</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="32326283-426a-4b41-9416-04c6def2c62b">
+    <name>GetUpdate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get update</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetUpdate</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3838de4e-ab50-46a2-b19a-328ae01cfe18">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4edc1656-8c41-46d0-b677-ca56fd13e4bc">
+    <name>GetData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetData</procedureName>
+    <parameters uuid="c7f2185a-1ec9-4da9-80d3-c9105130f5cb">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="9fcf89c0-110e-4d2b-9569-f9d1b49a0c9b">
+    <name>GetPrintFormsList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get print forms list</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetPrintFormsList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d9535a13-a1ab-43e1-b340-672dc2a22f53">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="b1f9f5da-f2c6-41a6-b053-cca519483d9d">
+    <name>GetPrintForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get print form</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetPrintForm</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="07e760f5-67fe-44ce-95d6-672870f3072a">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="1dd49942-2f75-4f87-a49f-57f741695170">
+    <name>SetState</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set state</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetState</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="5228375f-f94c-402e-9fa9-e2486aa408e4">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="53c81215-ba16-40d8-8ca2-bb4efda6d0f0">
+    <name>SetTechnics</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set technics</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetTechnics</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="4534fe0f-f47c-4f82-915d-e015ee80bb54">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c51b96ea-b4cf-4161-893b-35bed4ca9bf6">
+    <name>AddContactData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add contact data</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>AddContactData</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="872dfefe-4b49-4593-9fe9-cd94bc9ce4cf">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="45dc43d1-79d6-4e1c-a6dd-7f1adfeded4e">
+    <name>GetPriceList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get price list</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetPriceList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="46d41625-3ad9-4b78-ab2c-15b46c2e0b46">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="def8a8d8-0e7c-432b-88ef-802bd729588c">
+    <name>PrintPriceList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Print price list</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PrintPriceList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a61817a1-957c-4d0f-928f-693d031d20b8">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="09552a8b-cebd-4856-b8fa-75a690034aa8">
+    <name>AddPartners</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add partners</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>AddPartners</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7361cea4-fa4e-4ab3-86ab-29d665269c61">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="10cfb236-0551-4521-8240-8b1f566c81cb">
+    <name>SetDeliveryDates</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set delivery dates</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetDeliveryDates</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="befaefb1-86ff-4c45-acc5-be283fa635e2">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4872c94a-57c6-4774-9864-bd60dea80d80">
+    <name>CreateDeliveryOrders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create delivery orders</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateDeliveryOrders</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="068a9ffd-227d-4c92-8905-d031fb008a1d">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="577a4294-8d84-4fdb-89fb-1ffabb16bc3b">
+    <name>SetTechnicsState</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set technics state</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>SetTechnicsState</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="bc0cc685-4b7d-47dc-86d1-20917b17286a">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e71a4a99-c79d-4d6b-83eb-f091bfec58a6">
+    <name>UpdateLoadOperations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update load operations</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateLoadOperations</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="f3c0fcf0-1212-4971-bed1-871bec782ef8">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a0bf09e4-c2d1-4d14-add9-101b98048866">
+    <name>PrintBillsList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Print bills list</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PrintBillsList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="886b6118-f64b-489d-b9ae-3b9ba200896f">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="798528a2-e329-4fdc-bf4e-284b45497cb7">
+    <name>UpdateExpenceRequest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update expence request</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateExpenceRequest</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="53ebb781-00dd-4c5a-9c78-c40616b175f3">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3676868b-1022-4eed-9a90-37cbcec59b8c">
+    <name>CancelDelivery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cancel delivery</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CancelDelivery</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="bedfb5c8-ece0-4971-9b69-2c6cac5b709b">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4022a26d-7a1a-49d8-a957-8b01bdd41c63">
+    <name>UpdatePassword</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update password</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdatePassword</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d1639b07-e34f-438b-8765-dae2b9f5d95c">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment></comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

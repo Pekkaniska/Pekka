@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3807dc99-03d2-4914-995f-ea94c43943c4">
+  <producedTypes>
+    <refType typeId="a8822134-2ecb-478f-aff7-d952697bebda" valueTypeId="60b552b5-e0b8-4b80-ba14-d55040a96f0c"/>
+    <listType typeId="b36d5a29-26b0-4957-aa01-038d0051e8e9" valueTypeId="be2e0f4d-5eea-4142-a1b8-221323e3187d"/>
+    <managerType typeId="7c4ec5e2-9c7a-4a93-a131-4871b9b87a3a" valueTypeId="d57ed427-07c2-4713-90ff-400d6986f5d0"/>
+  </producedTypes>
+  <name>уатВидыДвиженияГСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движения ГСМ</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b184383-96c2-4903-9df2-ce51527121ee">
+    <name>ВводОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод начальных остатков</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e7123f74-4c95-478b-9d83-05544b28b017">
+    <name>ЗаправкаНаличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка за наличные</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85c7d590-61df-44d2-ab6e-68f2a379c528">
+    <name>ЗаправкаПластиковаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка по топливной карте</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4bc890ba-165b-4f41-bfb7-c0e7aeb3aa15">
+    <name>ЗаправкаПластиковаяКартаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка по топливной карте со склада</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1dfbd3c7-afa8-47f7-8d16-78634b4e3596">
+    <name>ЗаправкаПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка от поставщика</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dff98896-10ce-4969-9d62-ab24fb172524">
+    <name>ЗаправкаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка со склада</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0ae1346a-bd27-48c7-9e39-8a098534956b">
+    <name>ЗаправкаТалоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправка по талонам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="84193cac-6930-4a25-8fd1-99df1fb2375c">
+    <name>Слив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слив с ТС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9dd81668-26cc-4719-a817-aa373053b56a">
+    <name>СписаниеПЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по п/л</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

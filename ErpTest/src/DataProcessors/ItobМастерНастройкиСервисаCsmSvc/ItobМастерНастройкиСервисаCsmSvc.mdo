@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb89bb23-cc94-42b9-b124-ebab6cd57954">
+  <producedTypes>
+    <objectType typeId="5ecde493-0e8b-4896-8c4d-8b28d8a30146" valueTypeId="4446fe84-4fac-4db0-8028-274973011f48"/>
+    <managerType typeId="a44f912f-61f3-4367-905b-59d97a976edf" valueTypeId="63c5931b-f87a-47d7-b8ff-95a97c39df3a"/>
+  </producedTypes>
+  <name>ItobМастерНастройкиСервисаCsmSvc</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер настройки сервиса CsmSvc</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ItobМастерНастройкиСервисаCsmSvc.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Мастер настройки сервиса CsmSvc</value>
+  </explanation>
+  <forms uuid="71545547-9f4d-44ef-a201-75fd62b9cfa5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

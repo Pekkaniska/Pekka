@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94ef0258-d08e-49ee-983d-4146987aaa9d">
+  <producedTypes>
+    <containerType typeId="e2b76886-2c84-4996-affe-ad0eb4ec9bb8" valueTypeId="8ded8946-d3f7-4ab0-a181-e2fd5a65837b"/>
+  </producedTypes>
+  <name>пкВерсионируемыеДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные объект</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogObject.СМ_ОбъектыСтроительства</types>
+  </type>
+</mdclass:DefinedType>

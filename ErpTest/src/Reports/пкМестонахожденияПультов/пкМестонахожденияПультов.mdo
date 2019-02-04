@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36a29ee4-fbec-4f33-bbe7-1de198b9e02d">
+  <producedTypes>
+    <objectType typeId="4219b68e-a4fc-45e1-bf3a-c359b72a2235" valueTypeId="0fe4ad21-446b-4749-9f4c-389406cae06f"/>
+    <managerType typeId="83debfe9-5300-4f32-b825-7f66546533d8" valueTypeId="48a1f8f3-d6fe-45b6-8d55-33d3ef4c3726"/>
+  </producedTypes>
+  <name>пкМестонахожденияПультов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождения пультов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкМестонахожденияПультов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="63c250fe-ffb1-4ead-ac5c-a69c624e18b2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

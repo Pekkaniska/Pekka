@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59259802-d08e-40e8-bc17-6fa35aa90b97">
+  <producedTypes>
+    <objectType typeId="edfee80e-5d2b-4456-b243-f25c35f7cf8d" valueTypeId="04fc3cf7-5b8b-4cb1-8556-43d5d3846f65"/>
+    <managerType typeId="a0de8d09-901b-4eee-85a8-44a6bcd1d951" valueTypeId="87fda335-0a8b-44da-ae95-190733de126f"/>
+  </producedTypes>
+  <name>уатРасписаниеМаршрутов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание маршрутов</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <defaultForm>DataProcessor.уатРасписаниеМаршрутов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="acaeb802-863c-4e38-bd2b-43f297da378b">
+    <name>Выход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатВыходыМаршрутов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выход.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a1e5198-287d-4add-a615-c5b898c56c30">
+    <name>Маршрут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатМаршруты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Маршрут.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="58f09d23-dc99-4c12-9300-dedc696d6bd4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70ab223c-6848-4402-8e87-ba24c149ad27">
+    <name>ФормаПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма пункта</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ec16ade-964b-4037-86b7-e2d9affa2840">
+    <name>ФормаРейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма рейса</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32b2d36a-a259-4023-8fb7-8e3dc7050159">
+    <name>ФормаВводаВремениПриКопировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода времени при копировании</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e619ac1b-904a-4fa1-90ad-928cfe13d547">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

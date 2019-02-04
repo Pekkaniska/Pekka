@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f3c393-6de8-4eff-a0e5-9c4bd7ae2847">
+  <name>пкЧтениеПретензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение претензий</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce7691b0-340b-4d8d-a8e4-d8dd71f8724b">
+  <name>пкИзменениеАналогиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения в РС Аналоги номенклатуры -  (пк)</value>
+  </synonym>
+  <comment>Дополнительная роль для работы с РС</comment>
+</mdclass:Role>

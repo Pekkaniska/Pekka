@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f56eaf17-ea9e-48f1-aee7-3b78d3dd73aa">
+  <name>пкДоступВыдачаВозвратМатериаловЗаказНаряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ выдача возврат материалов заказ-наряда</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

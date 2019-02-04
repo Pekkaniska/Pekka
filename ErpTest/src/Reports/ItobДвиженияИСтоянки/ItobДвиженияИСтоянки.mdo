@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a83b646d-b912-4a80-9d35-9a920a8e750d">
+  <producedTypes>
+    <objectType typeId="e95d00e3-4877-4be4-845f-2126565c6f86" valueTypeId="078aa477-4866-40f2-a5db-cc8a893a8a85"/>
+    <managerType typeId="2b25bbe7-0081-4ffa-b4a7-5fe75fe15c07" valueTypeId="8fedc818-4ef8-4a0e-b617-95f57b92256b"/>
+  </producedTypes>
+  <name>ItobДвиженияИСтоянки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения и стоянки</value>
+  </synonym>
+  <comment>Отчет по движению и стоянкам</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ItobДвиженияИСтоянки.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ItobДвиженияИСтоянки.Template.СКД</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="57ee7680-1640-4416-8634-81f38a5db842">
+    <name>НачПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач периода</value>
+    </synonym>
+    <comment>Начало периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e5d3cb3f-f4eb-4183-9cf6-23d39ed8b6fa">
+    <name>КонПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон периода</value>
+    </synonym>
+    <comment>Конец периода</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата конца периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ac49cc3f-b7f1-473e-9348-15a9bd79b4ad">
+    <name>ТабДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица данных по объекту</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be1e8c60-cd24-4974-8abf-c83e08602f3e">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект для формирования отчета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8d48e95c-b6c0-4fe6-ae58-47eb10853772">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="54f5074e-3f48-4a09-8de1-8cfa01e1d020">
+    <name>СКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,3963 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанныхКомпоновки</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>ПакетЗапросов</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидБилета</dataPath>
+			<field>ВидБилета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид билета</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДетализацияПланирования</dataPath>
+			<field>ДетализацияПланирования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументПланирования</dataPath>
+			<field>ДокументПланирования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ планирования</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество (в единицах хранения)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоБазовыхЕдиниц</dataPath>
+			<field>КоличествоБазовыхЕдиниц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество (в базовых единицах)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоБазовыхЕдиницОтклонение</dataPath>
+			<field>КоличествоБазовыхЕдиницОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение (в базовых единицах)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЕдиницОтчетов</dataPath>
+			<field>КоличествоЕдиницОтчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество (в единицах отчетов)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЕдиницОтчетовОтклонение</dataPath>
+			<field>КоличествоЕдиницОтчетовОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение (в единицах отчетов)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОтклонение</dataPath>
+			<field>КоличествоОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение (в единицах хранения)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=3</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОтклонениеПроцент</dataPath>
+			<field>КоличествоОтклонениеПроцент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение количества (%)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут</dataPath>
+			<field>Маршрут</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МодельТС</dataPath>
+			<field>МодельТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НДС</dataPath>
+			<field>НДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НДСОтклонение</dataPath>
+			<field>НДСОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НДСОтклонениеПроцент</dataPath>
+			<field>НДСОтклонениеПроцент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение НДС (%)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПараметрВыработки</dataPath>
+			<field>ПараметрВыработки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметр выработки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодГод</dataPath>
+			<field>ПериодГод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период год</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>8</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДекада</dataPath>
+			<field>ПериодДекада</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период декада</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>4</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДень</dataPath>
+			<field>ПериодДень</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период день</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодКвартал</dataPath>
+			<field>ПериодКвартал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период квартал</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>6</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодМесяц</dataPath>
+			<field>ПериодМесяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период месяц</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>5</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодНеделя</dataPath>
+			<field>ПериодНеделя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период неделя</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодПолугодие</dataPath>
+			<field>ПериодПолугодие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период полугодие</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>7</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьБезНДС</dataPath>
+			<field>СтоимостьБезНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость без НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьБезНДСОтклонение</dataPath>
+			<field>СтоимостьБезНДСОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение стоимости без НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьБезНДСОтклонениеПроцент</dataPath>
+			<field>СтоимостьБезНДСОтклонениеПроцент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение стоимости без НДС (%)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьСНДС</dataPath>
+			<field>СтоимостьСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость с НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьСНДСОтклонение</dataPath>
+			<field>СтоимостьСНДСОтклонение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение стоимости с НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьСНДСОтклонениеПроцент</dataPath>
+			<field>СтоимостьСНДСОтклонениеПроцент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отклонение стоимости с НДС (%)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">13</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сценарий</dataPath>
+			<field>Сценарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДанных</dataPath>
+			<field>ТипДанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник данных</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипТС</dataPath>
+			<field>ТипТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип ТС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТС</dataPath>
+			<field>ТС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Транспортное средство</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТСВыбыло</dataPath>
+			<field>ТСВыбыло</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТС выбыло</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автостанция</dataPath>
+			<field>Автостанция</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Билет</dataPath>
+			<field>Билет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Колонна</dataPath>
+			<field>Колонна</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектСтроительства</dataPath>
+			<field>ОбъектСтроительства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПутевойЛист</dataPath>
+			<field>ПутевойЛист</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПеревозки</dataPath>
+			<field>ВидПеревозки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СценарийПланирования</dataPath>
+			<field>СценарийПланирования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтроительнаяРабота</dataPath>
+			<field>СтроительнаяРабота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьБезНДСЭталонные</dataPath>
+			<field>ПланСтоимостьБезНДСЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость без НДСЭталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоБазовыхЕдиницЭталонные</dataPath>
+			<field>ПланКоличествоБазовыхЕдиницЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество базовых единиц эталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоБазовыхЕдиницТекущие</dataPath>
+			<field>ПланКоличествоБазовыхЕдиницТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество базовых единиц текущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьСНДСЭталонные</dataPath>
+			<field>ПланСтоимостьСНДСЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость СНДСЭталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоЭталонные</dataPath>
+			<field>ПланКоличествоЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество эталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьСНДСТекущие</dataPath>
+			<field>ПланСтоимостьСНДСТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость СНДСТекущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоТекущие</dataPath>
+			<field>ПланКоличествоТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество текущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоЕдиницОтчетовЭталонные</dataPath>
+			<field>ПланКоличествоЕдиницОтчетовЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество единиц отчетов эталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланНДСТекущие</dataPath>
+			<field>ПланНДСТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План НДСТекущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьБезНДСТекущие</dataPath>
+			<field>ПланСтоимостьБезНДСТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость без НДСТекущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланНДСЭталонные</dataPath>
+			<field>ПланНДСЭталонные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План НДСЭталонные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоЕдиницОтчетовТекущие</dataPath>
+			<field>ПланКоличествоЕдиницОтчетовТекущие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество единиц отчетов текущие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактКоличествоБазовыхЕдиниц</dataPath>
+			<field>ФактКоличествоБазовыхЕдиниц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт количество базовых единиц</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактСтоимостьСНДС</dataPath>
+			<field>ФактСтоимостьСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт стоимость СНДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличество</dataPath>
+			<field>ПланКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактКоличествоЕдиницОтчетов</dataPath>
+			<field>ФактКоличествоЕдиницОтчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт количество единиц отчетов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьСНДС</dataPath>
+			<field>ПланСтоимостьСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость СНДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоБазовыхЕдиниц</dataPath>
+			<field>ПланКоличествоБазовыхЕдиниц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество базовых единиц</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланКоличествоЕдиницОтчетов</dataPath>
+			<field>ПланКоличествоЕдиницОтчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План количество единиц отчетов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланСтоимостьБезНДС</dataPath>
+			<field>ПланСтоимостьБезНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План стоимость без НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланНДС</dataPath>
+			<field>ПланНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактСтоимостьБезНДС</dataPath>
+			<field>ФактСтоимостьБезНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт стоимость без НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактКоличество</dataPath>
+			<field>ФактКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактНДС</dataPath>
+			<field>ФактНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидБилета</dataPath>
+				<field>ВидБилета</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДетализацияПланирования</dataPath>
+				<field>ДетализацияПланирования</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Договор</dataPath>
+				<field>Договор</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументПланирования</dataPath>
+				<field>ДокументПланирования</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Заказ</dataPath>
+				<field>Заказ</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоБазовыхЕдиниц</dataPath>
+				<field>КоличествоБазовыхЕдиниц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество базовых единиц</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоБазовыхЕдиницОтклонение</dataPath>
+				<field>КоличествоБазовыхЕдиницОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество базовых единиц отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоЕдиницОтчетов</dataPath>
+				<field>КоличествоЕдиницОтчетов</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество единиц отчетов</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоЕдиницОтчетовОтклонение</dataPath>
+				<field>КоличествоЕдиницОтчетовОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество единиц отчетов отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоОтклонение</dataPath>
+				<field>КоличествоОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоОтклонениеПроцент</dataPath>
+				<field>КоличествоОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество отклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут</dataPath>
+				<field>Маршрут</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МодельТС</dataPath>
+				<field>МодельТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Модель ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДС</dataPath>
+				<field>НДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДСОтклонение</dataPath>
+				<field>НДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДСОтклонениеПроцент</dataPath>
+				<field>НДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Организация</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПараметрВыработки</dataPath>
+				<field>ПараметрВыработки</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+				<role>
+					<dcscom:periodNumber>2</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодГод</dataPath>
+				<field>ПериодГод</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период год</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>9</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДекада</dataPath>
+				<field>ПериодДекада</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период декада</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>5</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДень</dataPath>
+				<field>ПериодДень</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период день</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>3</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодКвартал</dataPath>
+				<field>ПериодКвартал</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период квартал</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>7</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМесяц</dataPath>
+				<field>ПериодМесяц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период месяц</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>6</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодНеделя</dataPath>
+				<field>ПериодНеделя</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период неделя</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>4</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодПолугодие</dataPath>
+				<field>ПериодПолугодие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период полугодие</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>8</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<role>
+					<dcscom:periodNumber>1</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДС</dataPath>
+				<field>СтоимостьБезНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДСОтклонение</dataPath>
+				<field>СтоимостьБезНДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДСОтклонениеПроцент</dataPath>
+				<field>СтоимостьБезНДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДС</dataPath>
+				<field>СтоимостьСНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДСОтклонение</dataPath>
+				<field>СтоимостьСНДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДСОтклонениеПроцент</dataPath>
+				<field>СтоимостьСНДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сценарий</dataPath>
+				<field>Сценарий</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДанных</dataPath>
+				<field>ТипДанных</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип данных</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипТС</dataPath>
+				<field>ТипТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТСВыбыло</dataPath>
+				<field>ТСВыбыло</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТСВыбыло</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьБезНДСЭталонные</dataPath>
+				<field>ПланСтоимостьБезНДСЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость без НДСЭталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоБазовыхЕдиницЭталонные</dataPath>
+				<field>ПланКоличествоБазовыхЕдиницЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество базовых единиц эталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоБазовыхЕдиницТекущие</dataPath>
+				<field>ПланКоличествоБазовыхЕдиницТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество базовых единиц текущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьСНДСЭталонные</dataPath>
+				<field>ПланСтоимостьСНДСЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость СНДСЭталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоЭталонные</dataPath>
+				<field>ПланКоличествоЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество эталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьСНДСТекущие</dataPath>
+				<field>ПланСтоимостьСНДСТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость СНДСТекущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоТекущие</dataPath>
+				<field>ПланКоличествоТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество текущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоЕдиницОтчетовЭталонные</dataPath>
+				<field>ПланКоличествоЕдиницОтчетовЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество единиц отчетов эталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланНДСТекущие</dataPath>
+				<field>ПланНДСТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План НДСТекущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьБезНДСТекущие</dataPath>
+				<field>ПланСтоимостьБезНДСТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость без НДСТекущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланНДСЭталонные</dataPath>
+				<field>ПланНДСЭталонные</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План НДСЭталонные</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоЕдиницОтчетовТекущие</dataPath>
+				<field>ПланКоличествоЕдиницОтчетовТекущие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество единиц отчетов текущие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанныхКомпоновки</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	&amp;ТипДанных1 КАК ТипДанных,
+	РезультатАнализа.Организация КАК Организация,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Организация) КАК ОрганизацияПредставление,
+	РезультатАнализа.Сценарий КАК Сценарий,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Сценарий) КАК СценарийПредставление,
+	РезультатАнализа.Подразделение КАК Подразделение,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Подразделение) КАК ПодразделениеПредставление,
+	РезультатАнализа.ТС КАК ТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ТС) КАК ТСПредставление,
+	РезультатАнализа.МодельТС КАК МодельТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.МодельТС) КАК МодельТСПредставление,
+	РезультатАнализа.ТипТС КАК ТипТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ТипТС) КАК ТипТСПредставление,
+	РезультатАнализа.ДокументПланирования КАК ДокументПланирования,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ДокументПланирования) КАК ДокументПланированияПредставление,
+	РезультатАнализа.Номенклатура КАК Номенклатура,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Номенклатура) КАК НоменклатураПредставление,
+	РезультатАнализа.ПараметрВыработки КАК ПараметрВыработки,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ПараметрВыработки) КАК ПараметрВыработкиПредставление,
+	РезультатАнализа.Заказ КАК Заказ,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Заказ) КАК ЗаказПредставление,
+	РезультатАнализа.Контрагент КАК Контрагент,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Контрагент) КАК КонтрагентПредставление,
+	РезультатАнализа.Договор КАК Договор,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Договор) КАК ДоговорПредставление,
+	РезультатАнализа.Маршрут КАК Маршрут,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Маршрут) КАК МаршрутПредставление,
+	РезультатАнализа.ВидБилета КАК ВидБилета,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ВидБилета) КАК ВидБилетаПредставление,
+	РезультатАнализа.Регистратор КАК Регистратор,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Регистратор) КАК РегистраторПредставление,
+	РезультатАнализа.Период КАК Период,
+	РезультатАнализа.ПериодДень КАК ПериодДень,
+	РезультатАнализа.ПериодНеделя КАК ПериодНеделя,
+	РезультатАнализа.ПериодДекада КАК ПериодДекада,
+	РезультатАнализа.ПериодМесяц КАК ПериодМесяц,
+	РезультатАнализа.ПериодКвартал КАК ПериодКвартал,
+	РезультатАнализа.ПериодПолугодие КАК ПериодПолугодие,
+	РезультатАнализа.ПериодГод КАК ПериодГод,
+	ВЫБОР
+		КОГДА РезультатАнализа.Количество ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.Количество &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.Количество / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.Количество / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.Количество
+	КОНЕЦ КАК Количество,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоБазовыхЕдиниц
+	КОНЕЦ КАК КоличествоБазовыхЕдиниц,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоЕдиницОтчетов ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоЕдиницОтчетов &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоЕдиницОтчетов
+	КОНЕЦ КАК КоличествоЕдиницОтчетов,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоОтклонение
+	КОНЕЦ КАК КоличествоОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоБазовыхЕдиницОтклонение
+	КОНЕЦ КАК КоличествоБазовыхЕдиницОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоЕдиницОтчетовОтклонение
+	КОНЕЦ КАК КоличествоЕдиницОтчетовОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.Количество = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.Количество = РезультатАнализа.КоличествоОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.КоличествоОтклонение * 100 / РезультатАнализа.Количество
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК КоличествоОтклонениеПроцент,
+	РезультатАнализа.СтоимостьБезНДС КАК СтоимостьБезНДС,
+	РезультатАнализа.НДС КАК НДС,
+	РезультатАнализа.СтоимостьСНДС КАК СтоимостьСНДС,
+	РезультатАнализа.СтоимостьБезНДСОтклонение КАК СтоимостьБезНДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.СтоимостьБезНДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.СтоимостьБезНДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.СтоимостьБезНДС = РезультатАнализа.СтоимостьБезНДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.СтоимостьБезНДСОтклонение * 100 / РезультатАнализа.СтоимостьБезНДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК СтоимостьБезНДСОтклонениеПроцент,
+	РезультатАнализа.НДСОтклонение КАК НДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.НДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.НДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.НДС = РезультатАнализа.НДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.НДСОтклонение * 100 / РезультатАнализа.НДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК НДСОтклонениеПроцент,
+	РезультатАнализа.СтоимостьСНДСОтклонение КАК СтоимостьСНДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.СтоимостьСНДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.СтоимостьСНДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.СтоимостьСНДС = РезультатАнализа.СтоимостьСНДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.СтоимостьСНДСОтклонение * 100 / РезультатАнализа.СтоимостьСНДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК СтоимостьСНДСОтклонениеПроцент
+{ВЫБРАТЬ
+	Организация.*,
+	Сценарий.*,
+	Подразделение.*,
+	ТС.*,
+	МодельТС.*,
+	ТипТС.*,
+	ДокументПланирования.*,
+	Номенклатура.*,
+	ПараметрВыработки.*,
+	Заказ.*,
+	Контрагент.*,
+	Договор.*,
+	Маршрут.*,
+	ВидБилета.*,
+	Регистратор.*,
+	Период,
+	ПериодДень,
+	ПериодНеделя,
+	ПериодДекада,
+	ПериодМесяц,
+	ПериодКвартал,
+	ПериодПолугодие,
+	ПериодГод,
+	Количество,
+	КоличествоБазовыхЕдиниц,
+	КоличествоЕдиницОтчетов,
+	КоличествоОтклонение,
+	КоличествоБазовыхЕдиницОтклонение,
+	КоличествоЕдиницОтчетовОтклонение,
+	КоличествоОтклонениеПроцент,
+	СтоимостьБезНДС,
+	НДС,
+	СтоимостьСНДС,
+	СтоимостьБезНДСОтклонение,
+	СтоимостьБезНДСОтклонениеПроцент,
+	НДСОтклонение,
+	НДСОтклонениеПроцент,
+	СтоимостьСНДСОтклонение,
+	СтоимостьСНДСОтклонениеПроцент}
+ИЗ
+	(ВЫБРАТЬ
+		АнализируемыеДанные.Период КАК Период,
+		АнализируемыеДанные.ПериодДень КАК ПериодДень,
+		АнализируемыеДанные.ПериодНеделя КАК ПериодНеделя,
+		АнализируемыеДанные.ПериодДекада КАК ПериодДекада,
+		АнализируемыеДанные.ПериодМесяц КАК ПериодМесяц,
+		АнализируемыеДанные.ПериодКвартал КАК ПериодКвартал,
+		АнализируемыеДанные.ПериодПолугодие КАК ПериодПолугодие,
+		АнализируемыеДанные.ПериодГод КАК ПериодГод,
+		АнализируемыеДанные.Регистратор КАК Регистратор,
+		АнализируемыеДанные.Организация КАК Организация,
+		АнализируемыеДанные.Сценарий КАК Сценарий,
+		АнализируемыеДанные.Подразделение КАК Подразделение,
+		АнализируемыеДанные.ТС КАК ТС,
+		АнализируемыеДанные.МодельТС КАК МодельТС,
+		АнализируемыеДанные.ТипТС КАК ТипТС,
+		АнализируемыеДанные.ДокументПланирования КАК ДокументПланирования,
+		АнализируемыеДанные.Номенклатура КАК Номенклатура,
+		АнализируемыеДанные.ПараметрВыработки КАК ПараметрВыработки,
+		АнализируемыеДанные.Заказ КАК Заказ,
+		АнализируемыеДанные.Контрагент КАК Контрагент,
+		АнализируемыеДанные.Договор КАК Договор,
+		АнализируемыеДанные.Маршрут КАК Маршрут,
+		АнализируемыеДанные.ВидБилета КАК ВидБилета,
+		СУММА(АнализируемыеДанные.ПланКоличествоТекущие) КАК Количество,
+		СУММА(АнализируемыеДанные.ПланКоличествоБазовыхЕдиницТекущие) КАК КоличествоБазовыхЕдиниц,
+		СУММА(АнализируемыеДанные.ПланКоличествоЕдиницОтчетовТекущие) КАК КоличествоЕдиницОтчетов,
+		СУММА(АнализируемыеДанные.ПланКоличествоТекущие) - СУММА(АнализируемыеДанные.ПланКоличествоЭталонные) КАК КоличествоОтклонение,
+		СУММА(АнализируемыеДанные.ПланКоличествоБазовыхЕдиницТекущие) - СУММА(АнализируемыеДанные.ПланКоличествоБазовыхЕдиницЭталонные) КАК КоличествоБазовыхЕдиницОтклонение,
+		СУММА(АнализируемыеДанные.ПланКоличествоЕдиницОтчетовТекущие) - СУММА(АнализируемыеДанные.ПланКоличествоЕдиницОтчетовЭталонные) КАК КоличествоЕдиницОтчетовОтклонение,
+		СУММА(АнализируемыеДанные.ПланСтоимостьБезНДСТекущие) КАК СтоимостьБезНДС,
+		СУММА(АнализируемыеДанные.ПланНДСТекущие) КАК НДС,
+		СУММА(АнализируемыеДанные.ПланСтоимостьСНДСТекущие) КАК СтоимостьСНДС,
+		СУММА(АнализируемыеДанные.ПланСтоимостьБезНДСТекущие) - СУММА(АнализируемыеДанные.ПланСтоимостьБезНДСЭталонные) КАК СтоимостьБезНДСОтклонение,
+		СУММА(АнализируемыеДанные.ПланНДСТекущие) - СУММА(АнализируемыеДанные.ПланНДСЭталонные) КАК НДСОтклонение,
+		СУММА(АнализируемыеДанные.ПланСтоимостьСНДСТекущие) - СУММА(АнализируемыеДанные.ПланСтоимостьСНДСЭталонные) КАК СтоимостьСНДСОтклонение
+	ИЗ
+		(ВЫБРАТЬ
+			ПланРаботыТСОборотыТекущие.Период КАК Период,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, ДЕНЬ) КАК ПериодДень,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, НЕДЕЛЯ) КАК ПериодНеделя,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, ДЕКАДА) КАК ПериодДекада,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, МЕСЯЦ) КАК ПериодМесяц,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, КВАРТАЛ) КАК ПериодКвартал,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, ПОЛУГОДИЕ) КАК ПериодПолугодие,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыТекущие.Период, ГОД) КАК ПериодГод,
+			ПланРаботыТСОборотыТекущие.Регистратор КАК Регистратор,
+			ПланРаботыТСОборотыТекущие.ДокументПланирования.Организация КАК Организация,
+			ПланРаботыТСОборотыТекущие.Сценарий КАК Сценарий,
+			ПланРаботыТСОборотыТекущие.Подразделение КАК Подразделение,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.ТранспортныеСредства.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.ТранспортныеСредства) КАК ТС,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования.уатМодель
+					КОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.уатМоделиТС.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.уатМоделиТС) КАК МодельТС,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования.ТипТС
+					КОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОборотыТекущие.ДетализацияПланирования.ТипТС
+					ИНАЧЕ ПланРаботыТСОборотыТекущие.ДетализацияПланирования
+				КОНЕЦ КАК Справочник.ТипыТранспортныхСредств) КАК ТипТС,
+			ПланРаботыТСОборотыТекущие.ДокументПланирования КАК ДокументПланирования,
+			ПланРаботыТСОборотыТекущие.Номенклатура КАК Номенклатура,
+			ПланРаботыТСОборотыТекущие.ПараметрВыработки КАК ПараметрВыработки,
+			ПланРаботыТСОборотыТекущие.Заказ КАК Заказ,
+			ПланРаботыТСОборотыТекущие.Контрагент КАК Контрагент,
+			ПланРаботыТСОборотыТекущие.Договор КАК Договор,
+			ПланРаботыТСОборотыТекущие.Маршрут КАК Маршрут,
+			ПланРаботыТСОборотыТекущие.ВидБилета КАК ВидБилета,
+			ПланРаботыТСОборотыТекущие.КоличествоОборот КАК ПланКоличествоТекущие,
+			ПланРаботыТСОборотыТекущие.КоличествоОборот КАК ПланКоличествоБазовыхЕдиницТекущие,
+			ПланРаботыТСОборотыТекущие.КоличествоОборот КАК ПланКоличествоЕдиницОтчетовТекущие,
+			0 КАК ПланКоличествоЭталонные,
+			0 КАК ПланКоличествоБазовыхЕдиницЭталонные,
+			0 КАК ПланКоличествоЕдиницОтчетовЭталонные,
+			ПланРаботыТСОборотыТекущие.СтоимостьОборот КАК ПланСтоимостьБезНДСТекущие,
+			ПланРаботыТСОборотыТекущие.НДСОборот КАК ПланНДСТекущие,
+			ПланРаботыТСОборотыТекущие.СтоимостьОборот + ПланРаботыТСОборотыТекущие.НДСОборот КАК ПланСтоимостьСНДСТекущие,
+			0 КАК ПланСтоимостьБезНДСЭталонные,
+			0 КАК ПланНДСЭталонные,
+			0 КАК ПланСтоимостьСНДСЭталонные
+		ИЗ
+			РегистрНакопления.уатПланРаботыТС.Обороты(
+					&amp;ДатаНач1,
+					&amp;ДатаКон1,
+					Регистратор,
+					ВЫБОР
+						КОГДА &amp;Сценарий1 = НЕОПРЕДЕЛЕНО
+							ТОГДА ИСТИНА
+						ИНАЧЕ Сценарий = &amp;Сценарий1
+					КОНЕЦ) КАК ПланРаботыТСОборотыТекущие
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			ПланРаботыТСОборотыЭталонные.Период,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, ДЕНЬ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, НЕДЕЛЯ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, ДЕКАДА),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, МЕСЯЦ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, КВАРТАЛ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, ПОЛУГОДИЕ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОборотыЭталонные.Период, ГОД),
+			ПланРаботыТСОборотыЭталонные.Регистратор,
+			ПланРаботыТСОборотыЭталонные.ДокументПланирования.Организация,
+			ПланРаботыТСОборотыЭталонные.Сценарий,
+			ПланРаботыТСОборотыЭталонные.Подразделение,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.ТранспортныеСредства.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.ТранспортныеСредства),
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования.уатМодель
+					КОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.уатМоделиТС.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.уатМоделиТС),
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования.ТипТС
+					КОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОборотыЭталонные.ДетализацияПланирования.ТипТС
+					ИНАЧЕ ПланРаботыТСОборотыЭталонные.ДетализацияПланирования
+				КОНЕЦ КАК Справочник.ТипыТранспортныхСредств),
+			ПланРаботыТСОборотыЭталонные.ДокументПланирования,
+			ПланРаботыТСОборотыЭталонные.Номенклатура,
+			ПланРаботыТСОборотыЭталонные.ПараметрВыработки,
+			ПланРаботыТСОборотыЭталонные.Заказ,
+			ПланРаботыТСОборотыЭталонные.Контрагент,
+			ПланРаботыТСОборотыЭталонные.Договор,
+			ПланРаботыТСОборотыЭталонные.Маршрут,
+			ПланРаботыТСОборотыЭталонные.ВидБилета,
+			0,
+			0,
+			0,
+			ПланРаботыТСОборотыЭталонные.КоличествоОборот,
+			ПланРаботыТСОборотыЭталонные.КоличествоОборот,
+			ПланРаботыТСОборотыЭталонные.КоличествоОборот,
+			0,
+			0,
+			0,
+			ПланРаботыТСОборотыЭталонные.СтоимостьОборот,
+			ПланРаботыТСОборотыЭталонные.НДСОборот,
+			ПланРаботыТСОборотыЭталонные.СтоимостьОборот + ПланРаботыТСОборотыЭталонные.НДСОборот
+		ИЗ
+			РегистрНакопления.уатПланРаботыТС.Обороты(
+					&amp;ДатаНач1,
+					&amp;ДатаКон1,
+					Регистратор,
+					ВЫБОР
+						КОГДА &amp;Сценарий1 = НЕОПРЕДЕЛЕНО
+							ТОГДА ИСТИНА
+						ИНАЧЕ Сценарий = &amp;Сценарий1
+					КОНЕЦ) КАК ПланРаботыТСОборотыЭталонные) КАК АнализируемыеДанные
+	
+	СГРУППИРОВАТЬ ПО
+		АнализируемыеДанные.Организация,
+		АнализируемыеДанные.Сценарий,
+		АнализируемыеДанные.Подразделение,
+		АнализируемыеДанные.ТС,
+		АнализируемыеДанные.МодельТС,
+		АнализируемыеДанные.ТипТС,
+		АнализируемыеДанные.ДокументПланирования,
+		АнализируемыеДанные.Номенклатура,
+		АнализируемыеДанные.ПараметрВыработки,
+		АнализируемыеДанные.Заказ,
+		АнализируемыеДанные.Контрагент,
+		АнализируемыеДанные.Договор,
+		АнализируемыеДанные.Маршрут,
+		АнализируемыеДанные.ВидБилета,
+		АнализируемыеДанные.Регистратор,
+		АнализируемыеДанные.Период,
+		АнализируемыеДанные.ПериодДень,
+		АнализируемыеДанные.ПериодНеделя,
+		АнализируемыеДанные.ПериодДекада,
+		АнализируемыеДанные.ПериодМесяц,
+		АнализируемыеДанные.ПериодКвартал,
+		АнализируемыеДанные.ПериодПолугодие,
+		АнализируемыеДанные.ПериодГод) КАК РезультатАнализа
+{ГДЕ
+	РезультатАнализа.Организация.*,
+	РезультатАнализа.Сценарий.*,
+	РезультатАнализа.Подразделение.*,
+	РезультатАнализа.ТС.*,
+	РезультатАнализа.МодельТС.*,
+	РезультатАнализа.ТипТС.*,
+	РезультатАнализа.ДокументПланирования.*,
+	РезультатАнализа.Номенклатура.*,
+	РезультатАнализа.ПараметрВыработки.*,
+	РезультатАнализа.Заказ.*,
+	РезультатАнализа.Контрагент.*,
+	РезультатАнализа.Договор.*,
+	РезультатАнализа.Маршрут.*,
+	РезультатАнализа.ВидБилета.*,
+	РезультатАнализа.Регистратор.*,
+	РезультатАнализа.Период,
+	РезультатАнализа.ПериодДень,
+	РезультатАнализа.ПериодНеделя,
+	РезультатАнализа.ПериодДекада,
+	РезультатАнализа.ПериодМесяц,
+	РезультатАнализа.ПериодКвартал,
+	РезультатАнализа.ПериодПолугодие,
+	РезультатАнализа.ПериодГод,
+	РезультатАнализа.Количество,
+	РезультатАнализа.КоличествоБазовыхЕдиниц,
+	РезультатАнализа.КоличествоЕдиницОтчетов,
+	РезультатАнализа.КоличествоОтклонение,
+	РезультатАнализа.КоличествоБазовыхЕдиницОтклонение,
+	РезультатАнализа.КоличествоЕдиницОтчетовОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.КоличествоОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.Количество = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.Количество = РезультатАнализа.КоличествоОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.КоличествоОтклонение * 100 / РезультатАнализа.Количество
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК КоличествоОтклонениеПроцент,
+	РезультатАнализа.СтоимостьБезНДС,
+	РезультатАнализа.НДС,
+	РезультатАнализа.СтоимостьСНДС,
+	РезультатАнализа.СтоимостьБезНДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.СтоимостьБезНДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.СтоимостьБезНДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.СтоимостьБезНДС = РезультатАнализа.СтоимостьБезНДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.СтоимостьБезНДСОтклонение * 100 / РезультатАнализа.СтоимостьБезНДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК СтоимостьБезНДСОтклонениеПроцент,
+	РезультатАнализа.НДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.НДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.НДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.НДС = РезультатАнализа.НДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.НДСОтклонение * 100 / РезультатАнализа.НДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК НДСОтклонениеПроцент,
+	РезультатАнализа.СтоимостьСНДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.СтоимостьСНДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.СтоимостьСНДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.СтоимостьСНДС = РезультатАнализа.СтоимостьСНДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.СтоимостьСНДСОтклонение * 100 / РезультатАнализа.СтоимостьСНДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК СтоимостьСНДСОтклонениеПроцент,
+	(ВЫБОР
+			КОГДА РезультатАнализа.ТС.уатДатаВыбытия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ИСТИНА
+			КОГДА РезультатАнализа.ТС.уатДатаВыбытия = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ЛОЖЬ
+		КОНЕЦ) КАК ТСВыбыло}</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных2</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автостанция</dataPath>
+				<field>Автостанция</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Билет</dataPath>
+				<field>Билет</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидБилета</dataPath>
+				<field>ВидБилета</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДетализацияПланирования</dataPath>
+				<field>ДетализацияПланирования</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Договор</dataPath>
+				<field>Договор</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументПланирования</dataPath>
+				<field>ДокументПланирования</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Заказ</dataPath>
+				<field>Заказ</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоБазовыхЕдиниц</dataPath>
+				<field>КоличествоБазовыхЕдиниц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество базовых единиц</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоБазовыхЕдиницОтклонение</dataPath>
+				<field>КоличествоБазовыхЕдиницОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество базовых единиц отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоЕдиницОтчетов</dataPath>
+				<field>КоличествоЕдиницОтчетов</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество единиц отчетов</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоЕдиницОтчетовОтклонение</dataPath>
+				<field>КоличествоЕдиницОтчетовОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество единиц отчетов отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоОтклонение</dataPath>
+				<field>КоличествоОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество отклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоОтклонениеПроцент</dataPath>
+				<field>КоличествоОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Количество отклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Колонна</dataPath>
+				<field>Колонна</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Маршрут</dataPath>
+				<field>Маршрут</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МодельТС</dataPath>
+				<field>МодельТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Модель ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДС</dataPath>
+				<field>НДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДСОтклонение</dataPath>
+				<field>НДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НДСОтклонениеПроцент</dataPath>
+				<field>НДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>НДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбъектСтроительства</dataPath>
+				<field>ОбъектСтроительства</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПараметрВыработки</dataPath>
+				<field>ПараметрВыработки</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+				<role>
+					<dcscom:periodNumber>2</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодГод</dataPath>
+				<field>ПериодГод</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период год</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>9</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДекада</dataPath>
+				<field>ПериодДекада</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период декада</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>5</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДень</dataPath>
+				<field>ПериодДень</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период день</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>3</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодКвартал</dataPath>
+				<field>ПериодКвартал</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период квартал</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>7</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМесяц</dataPath>
+				<field>ПериодМесяц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период месяц</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>6</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодНеделя</dataPath>
+				<field>ПериодНеделя</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период неделя</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>4</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодПолугодие</dataPath>
+				<field>ПериодПолугодие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период полугодие</v8:content>
+					</v8:item>
+				</title>
+				<role>
+					<dcscom:periodNumber>8</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПутевойЛист</dataPath>
+				<field>ПутевойЛист</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<role>
+					<dcscom:periodNumber>1</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДС</dataPath>
+				<field>СтоимостьБезНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДСОтклонение</dataPath>
+				<field>СтоимостьБезНДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьБезНДСОтклонениеПроцент</dataPath>
+				<field>СтоимостьБезНДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость без НДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДС</dataPath>
+				<field>СтоимостьСНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДСОтклонение</dataPath>
+				<field>СтоимостьСНДСОтклонение</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДСОтклонение</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьСНДСОтклонениеПроцент</dataPath>
+				<field>СтоимостьСНДСОтклонениеПроцент</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Стоимость СНДСОтклонение процент</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сценарий</dataPath>
+				<field>Сценарий</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипДанных</dataPath>
+				<field>ТипДанных</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип данных</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипТС</dataPath>
+				<field>ТипТС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип ТС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТС</dataPath>
+				<field>ТС</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТСВыбыло</dataPath>
+				<field>ТСВыбыло</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТСВыбыло</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидПеревозки</dataPath>
+				<field>ВидПеревозки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СценарийПланирования</dataPath>
+				<field>СценарийПланирования</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтроительнаяРабота</dataPath>
+				<field>СтроительнаяРабота</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактКоличествоБазовыхЕдиниц</dataPath>
+				<field>ФактКоличествоБазовыхЕдиниц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт количество базовых единиц</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактСтоимостьСНДС</dataPath>
+				<field>ФактСтоимостьСНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт стоимость СНДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличество</dataPath>
+				<field>ПланКоличество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактКоличествоЕдиницОтчетов</dataPath>
+				<field>ФактКоличествоЕдиницОтчетов</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт количество единиц отчетов</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьСНДС</dataPath>
+				<field>ПланСтоимостьСНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость СНДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоБазовыхЕдиниц</dataPath>
+				<field>ПланКоличествоБазовыхЕдиниц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество базовых единиц</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланКоличествоЕдиницОтчетов</dataPath>
+				<field>ПланКоличествоЕдиницОтчетов</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План количество единиц отчетов</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланСтоимостьБезНДС</dataPath>
+				<field>ПланСтоимостьБезНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План стоимость без НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПланНДС</dataPath>
+				<field>ПланНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактСтоимостьБезНДС</dataPath>
+				<field>ФактСтоимостьБезНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт стоимость без НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактКоличество</dataPath>
+				<field>ФактКоличество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт количество</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФактНДС</dataPath>
+				<field>ФактНДС</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт НДС</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанныхКомпоновки</dataSource>
+			<query>ВЫБРАТЬ
+	&amp;ТипДанных2 КАК ТипДанных,
+	РезультатАнализа.Организация КАК Организация,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Организация) КАК ОрганизацияПредставление,
+	РезультатАнализа.Сценарий КАК Сценарий,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Сценарий) КАК СценарийПредставление,
+	РезультатАнализа.Подразделение КАК Подразделение,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Подразделение) КАК ПодразделениеПредставление,
+	РезультатАнализа.ТС КАК ТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ТС) КАК ТСПредставление,
+	РезультатАнализа.МодельТС КАК МодельТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.МодельТС) КАК МодельТСПредставление,
+	РезультатАнализа.ТипТС КАК ТипТС,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ТипТС) КАК ТипТСПредставление,
+	РезультатАнализа.ДокументПланирования КАК ДокументПланирования,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ДокументПланирования) КАК ДокументПланированияПредставление,
+	РезультатАнализа.Номенклатура КАК Номенклатура,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Номенклатура) КАК НоменклатураПредставление,
+	РезультатАнализа.ПараметрВыработки КАК ПараметрВыработки,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ПараметрВыработки) КАК ПараметрВыработкиПредставление,
+	РезультатАнализа.Заказ КАК Заказ,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Заказ) КАК ЗаказПредставление,
+	РезультатАнализа.Контрагент КАК Контрагент,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Контрагент) КАК КонтрагентПредставление,
+	РезультатАнализа.Договор КАК Договор,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Договор) КАК ДоговорПредставление,
+	РезультатАнализа.Маршрут КАК Маршрут,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Маршрут) КАК МаршрутПредставление,
+	РезультатАнализа.ВидБилета КАК ВидБилета,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.ВидБилета) КАК ВидБилетаПредставление,
+	РезультатАнализа.Регистратор КАК Регистратор,
+	ПРЕДСТАВЛЕНИЕ(РезультатАнализа.Регистратор) КАК РегистраторПредставление,
+	РезультатАнализа.Период КАК Период,
+	РезультатАнализа.ПериодДень КАК ПериодДень,
+	РезультатАнализа.ПериодНеделя КАК ПериодНеделя,
+	РезультатАнализа.ПериодДекада КАК ПериодДекада,
+	РезультатАнализа.ПериодМесяц КАК ПериодМесяц,
+	РезультатАнализа.ПериодКвартал КАК ПериодКвартал,
+	РезультатАнализа.ПериодПолугодие КАК ПериодПолугодие,
+	РезультатАнализа.ПериодГод КАК ПериодГод,
+	ВЫБОР
+		КОГДА РезультатАнализа.Количество ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.Количество &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.Количество / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.Количество / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.Количество / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.Количество / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.Количество
+	КОНЕЦ КАК Количество,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиниц / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоБазовыхЕдиниц
+	КОНЕЦ КАК КоличествоБазовыхЕдиниц,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоЕдиницОтчетов ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоЕдиницОтчетов &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетов / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетов / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоЕдиницОтчетов
+	КОНЕЦ КАК КоличествоЕдиницОтчетов,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоОтклонение
+	КОНЕЦ КАК КоличествоОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоБазовыхЕдиницОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоБазовыхЕдиницОтклонение
+	КОНЕЦ КАК КоличествоБазовыхЕдиницОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение ЕСТЬ NULL 
+			ТОГДА 0
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫБОР
+					КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение &lt; 0
+						ТОГДА ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - ВЫБОР
+								КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &gt; 0
+									ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+								ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+							КОНЕЦ) * 0.6
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ + (РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - ВЫБОР
+							КОГДА РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 - (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) &lt; 0
+								ТОГДА (ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))) - 1
+							ИНАЧЕ ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 0))
+						КОНЕЦ) * 0.6
+				КОНЕЦ
+		КОГДА РезультатАнализа.ПараметрВыработки.Временный
+				И НЕ &amp;ВыводитьВремяВФорматеЧЧММ
+			ТОГДА ВЫРАЗИТЬ(РезультатАнализа.КоличествоЕдиницОтчетовОтклонение / 3600 КАК ЧИСЛО(15, 2))
+		ИНАЧЕ РезультатАнализа.КоличествоЕдиницОтчетовОтклонение
+	КОНЕЦ КАК КоличествоЕдиницОтчетовОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.КоличествоОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.Количество = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.Количество = РезультатАнализа.КоличествоОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.КоличествоОтклонение * 100 / РезультатАнализа.Количество
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК КоличествоОтклонениеПроцент,
+	РезультатАнализа.СтоимостьБезНДС КАК СтоимостьБезНДС,
+	РезультатАнализа.НДС КАК НДС,
+	РезультатАнализа.СтоимостьСНДС КАК СтоимостьСНДС,
+	РезультатАнализа.СтоимостьБезНДСОтклонение КАК СтоимостьБезНДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.СтоимостьБезНДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.СтоимостьБезНДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.СтоимостьБезНДС = РезультатАнализа.СтоимостьБезНДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.СтоимостьБезНДСОтклонение * 100 / РезультатАнализа.СтоимостьБезНДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК СтоимостьБезНДСОтклонениеПроцент,
+	РезультатАнализа.НДСОтклонение КАК НДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.НДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.НДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.НДС = РезультатАнализа.НДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.НДСОтклонение * 100 / РезультатАнализа.НДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК НДСОтклонениеПроцент,
+	РезультатАнализа.СтоимостьСНДСОтклонение КАК СтоимостьСНДСОтклонение,
+	ВЫБОР
+		КОГДА РезультатАнализа.СтоимостьСНДСОтклонение = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА РезультатАнализа.СтоимостьСНДС = 0
+					ТОГДА -100
+				ИНАЧЕ ВЫБОР
+						КОГДА РезультатАнализа.СтоимостьСНДС = РезультатАнализа.СтоимостьСНДСОтклонение
+							ТОГДА "-"
+						ИНАЧЕ РезультатАнализа.СтоимостьСНДСОтклонение * 100 / РезультатАнализа.СтоимостьСНДС
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК СтоимостьСНДСОтклонениеПроцент
+{ВЫБРАТЬ
+	Организация.*,
+	Сценарий.*,
+	Подразделение.*,
+	ТС.*,
+	МодельТС.*,
+	ТипТС.*,
+	ДокументПланирования.*,
+	Номенклатура.*,
+	ПараметрВыработки.*,
+	Заказ.*,
+	Контрагент.*,
+	Договор.*,
+	Маршрут.*,
+	ВидБилета.*,
+	Регистратор.*,
+	Период,
+	ПериодДень,
+	ПериодНеделя,
+	ПериодДекада,
+	ПериодМесяц,
+	ПериодКвартал,
+	ПериодПолугодие,
+	ПериодГод,
+	Количество,
+	КоличествоБазовыхЕдиниц,
+	КоличествоЕдиницОтчетов,
+	КоличествоОтклонение,
+	КоличествоБазовыхЕдиницОтклонение,
+	КоличествоЕдиницОтчетовОтклонение,
+	КоличествоОтклонениеПроцент,
+	СтоимостьБезНДС,
+	НДС,
+	СтоимостьСНДС,
+	СтоимостьБезНДСОтклонение,
+	СтоимостьБезНДСОтклонениеПроцент,
+	НДСОтклонение,
+	НДСОтклонениеПроцент,
+	СтоимостьСНДСОтклонение,
+	СтоимостьСНДСОтклонениеПроцент}
+ИЗ
+	(ВЫБРАТЬ
+		АнализируемыеДанные.Период КАК Период,
+		АнализируемыеДанные.ПериодДень КАК ПериодДень,
+		АнализируемыеДанные.ПериодНеделя КАК ПериодНеделя,
+		АнализируемыеДанные.ПериодДекада КАК ПериодДекада,
+		АнализируемыеДанные.ПериодМесяц КАК ПериодМесяц,
+		АнализируемыеДанные.ПериодКвартал КАК ПериодКвартал,
+		АнализируемыеДанные.ПериодПолугодие КАК ПериодПолугодие,
+		АнализируемыеДанные.ПериодГод КАК ПериодГод,
+		АнализируемыеДанные.Регистратор КАК Регистратор,
+		АнализируемыеДанные.Организация КАК Организация,
+		АнализируемыеДанные.Сценарий КАК Сценарий,
+		АнализируемыеДанные.Подразделение КАК Подразделение,
+		АнализируемыеДанные.ТС КАК ТС,
+		АнализируемыеДанные.МодельТС КАК МодельТС,
+		АнализируемыеДанные.ТипТС КАК ТипТС,
+		АнализируемыеДанные.ДокументПланирования КАК ДокументПланирования,
+		АнализируемыеДанные.Номенклатура КАК Номенклатура,
+		АнализируемыеДанные.ПараметрВыработки КАК ПараметрВыработки,
+		АнализируемыеДанные.Заказ КАК Заказ,
+		АнализируемыеДанные.Контрагент КАК Контрагент,
+		АнализируемыеДанные.Договор КАК Договор,
+		АнализируемыеДанные.Маршрут КАК Маршрут,
+		АнализируемыеДанные.ВидБилета КАК ВидБилета,
+		СУММА(АнализируемыеДанные.ФактКоличество) КАК Количество,
+		СУММА(АнализируемыеДанные.ФактКоличествоБазовыхЕдиниц) КАК КоличествоБазовыхЕдиниц,
+		СУММА(АнализируемыеДанные.ФактКоличествоЕдиницОтчетов) КАК КоличествоЕдиницОтчетов,
+		СУММА(АнализируемыеДанные.ФактКоличество) - СУММА(АнализируемыеДанные.ПланКоличество) КАК КоличествоОтклонение,
+		СУММА(АнализируемыеДанные.ФактКоличествоБазовыхЕдиниц) - СУММА(АнализируемыеДанные.ПланКоличествоБазовыхЕдиниц) КАК КоличествоБазовыхЕдиницОтклонение,
+		СУММА(АнализируемыеДанные.ФактКоличествоЕдиницОтчетов) - СУММА(АнализируемыеДанные.ПланКоличествоЕдиницОтчетов) КАК КоличествоЕдиницОтчетовОтклонение,
+		СУММА(АнализируемыеДанные.ФактСтоимостьБезНДС) КАК СтоимостьБезНДС,
+		СУММА(АнализируемыеДанные.ФактНДС) КАК НДС,
+		СУММА(АнализируемыеДанные.ФактСтоимостьСНДС) КАК СтоимостьСНДС,
+		СУММА(АнализируемыеДанные.ФактСтоимостьБезНДС) - СУММА(АнализируемыеДанные.ПланСтоимостьБезНДС) КАК СтоимостьБезНДСОтклонение,
+		СУММА(АнализируемыеДанные.ФактНДС) - СУММА(АнализируемыеДанные.ПланНДС) КАК НДСОтклонение,
+		СУММА(АнализируемыеДанные.ФактСтоимостьСНДС) - СУММА(АнализируемыеДанные.ПланСтоимостьСНДС) КАК СтоимостьСНДСОтклонение
+	ИЗ
+		(ВЫБРАТЬ
+			ВыработкаОбороты.Период КАК Период,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, ДЕНЬ) КАК ПериодДень,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, НЕДЕЛЯ) КАК ПериодНеделя,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, ДЕКАДА) КАК ПериодДекада,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, МЕСЯЦ) КАК ПериодМесяц,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, КВАРТАЛ) КАК ПериодКвартал,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, ПОЛУГОДИЕ) КАК ПериодПолугодие,
+			НАЧАЛОПЕРИОДА(ВыработкаОбороты.Период, ГОД) КАК ПериодГод,
+			ВыработкаОбороты.Регистратор КАК Регистратор,
+			ВыработкаОбороты.Организация КАК Организация,
+			NULL КАК Сценарий,
+			ВыработкаОбороты.Подразделение КАК Подразделение,
+			ВыработкаОбороты.ТС КАК ТС,
+			ВыработкаОбороты.ТС.уатМодель КАК МодельТС,
+			ВыработкаОбороты.ТС.Тип КАК ТипТС,
+			NULL КАК ДокументПланирования,
+			NULL КАК Номенклатура,
+			ВыработкаОбороты.ПараметрВыработки КАК ПараметрВыработки,
+			NULL КАК Заказ,
+			ВыработкаОбороты.Контрагент КАК Контрагент,
+			NULL КАК Договор,
+			ВыработкаОбороты.Маршрут КАК Маршрут,
+			NULL КАК ВидБилета,
+			ВЫБОР
+				КОГДА ВыработкаОбороты.ПараметрВыработки.Временный
+					ТОГДА -РАЗНОСТЬДАТ(ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0), ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0), СЕКУНДА, ВыработкаОбороты.КоличествоОборот), ЧАС) * 3600 / 6000 + ВыработкаОбороты.КоличествоОборот / 6000 + РАЗНОСТЬДАТ(ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0), ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0), СЕКУНДА, ВыработкаОбороты.КоличествоОборот), ЧАС)
+				ИНАЧЕ ВыработкаОбороты.КоличествоОборот
+			КОНЕЦ КАК ФактКоличество,
+			NULL КАК ФактКоличествоБазовыхЕдиниц,
+			NULL КАК ФактКоличествоЕдиницОтчетов,
+			0 КАК ПланКоличество,
+			0 КАК ПланКоличествоБазовыхЕдиниц,
+			0 КАК ПланКоличествоЕдиницОтчетов,
+			NULL КАК ФактСтоимостьБезНДС,
+			NULL КАК ФактНДС,
+			NULL КАК ФактСтоимостьСНДС,
+			0 КАК ПланСтоимостьБезНДС,
+			0 КАК ПланНДС,
+			0 КАК ПланСтоимостьСНДС
+		ИЗ
+			РегистрНакопления.уатВыработкаТС.Обороты(&amp;ДатаНач2, &amp;ДатаКон2, Регистратор, ) КАК ВыработкаОбороты
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			ВыручкаОбороты.Период,
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, ДЕНЬ),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, НЕДЕЛЯ),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, ДЕКАДА),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, МЕСЯЦ),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, КВАРТАЛ),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, ПОЛУГОДИЕ),
+			НАЧАЛОПЕРИОДА(ВыручкаОбороты.Период, ГОД),
+			ВыручкаОбороты.Регистратор,
+			ВыручкаОбороты.Организация,
+			NULL,
+			NULL,
+			ВыручкаОбороты.ТС,
+			ВыручкаОбороты.ТС.уатМодель,
+			ВыручкаОбороты.ТС.Тип,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
+			ВыручкаОбороты.Маршрут,
+			ВыручкаОбороты.Билет.ВидБилета,
+			ВыручкаОбороты.КоличествоОборот,
+			NULL,
+			NULL,
+			0,
+			0,
+			0,
+			ВыручкаОбороты.СуммаОборот,
+			NULL,
+			NULL,
+			0,
+			0,
+			0
+		ИЗ
+			РегистрНакопления.уатВыручка.Обороты(&amp;ДатаНач2, &amp;ДатаКон2, Регистратор, ) КАК ВыручкаОбороты
+		
+		ОБЪЕДИНИТЬ ВСЕ
+		
+		ВЫБРАТЬ
+			ПланРаботыТСОбороты.Период,
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, ДЕНЬ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, НЕДЕЛЯ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, ДЕКАДА),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, МЕСЯЦ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, КВАРТАЛ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, ПОЛУГОДИЕ),
+			НАЧАЛОПЕРИОДА(ПланРаботыТСОбороты.Период, ГОД),
+			ПланРаботыТСОбороты.Регистратор,
+			ПланРаботыТСОбороты.ДокументПланирования.Организация,
+			ПланРаботыТСОбороты.Сценарий,
+			ПланРаботыТСОбороты.Подразделение,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОбороты.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОбороты.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.ТранспортныеСредства.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.ТранспортныеСредства),
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОбороты.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОбороты.ДетализацияПланирования.уатМодель
+					КОГДА ПланРаботыТСОбороты.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОбороты.ДетализацияПланирования
+					ИНАЧЕ ЗНАЧЕНИЕ(Справочник.уатМоделиТС.ПустаяСсылка)
+				КОНЕЦ КАК Справочник.уатМоделиТС),
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА ПланРаботыТСОбороты.ДетализацияПланирования ССЫЛКА Справочник.ТранспортныеСредства
+						ТОГДА ПланРаботыТСОбороты.ДетализацияПланирования.ТипТС
+					КОГДА ПланРаботыТСОбороты.ДетализацияПланирования ССЫЛКА Справочник.уатМоделиТС
+						ТОГДА ПланРаботыТСОбороты.ДетализацияПланирования.ТипТС
+					ИНАЧЕ ПланРаботыТСОбороты.ДетализацияПланирования
+				КОНЕЦ КАК Справочник.ТипыТранспортныхСредств),
+			ПланРаботыТСОбороты.ДокументПланирования,
+			ПланРаботыТСОбороты.Номенклатура,
+			ПланРаботыТСОбороты.ПараметрВыработки,
+			ПланРаботыТСОбороты.Заказ,
+			ПланРаботыТСОбороты.Контрагент,
+			ПланРаботыТСОбороты.Договор,
+			ПланРаботыТСОбороты.Маршрут,
+			ПланРаботыТСОбороты.ВидБилета,
+			0,
+			0,
+			0,
+			ПланРаботыТСОбороты.КоличествоОборот,
+			ПланРаботыТСОбороты.КоличествоОборот,
+			ПланРаботыТСОбороты.КоличествоОборот,
+			0,
+			0,
+			0,
+			ПланРаботыТСОбороты.СтоимостьОборот,
+			ПланРаботыТСОбороты.НДСОборот,
+			ПланРаботыТСОбороты.СтоимостьОборот + ПланРаботыТСОбороты.НДСОборот
+		ИЗ
+			РегистрНакопления.уатПланРаботыТС.Обороты(
+					&amp;ДатаНач1,
+					&amp;ДатаКон1,
+					Регистратор,
+					ВЫБОР
+						КОГДА &amp;Сценарий1 = НЕОПРЕДЕЛЕНО
+							ТОГДА ИСТИНА
+						ИНАЧЕ Сценарий = &amp;Сценарий1
+					КОНЕЦ) КАК ПланРаботыТСОбороты) КАК АнализируемыеДанные
+	
+	СГРУППИРОВАТЬ ПО
+		АнализируемыеДанные.Организация,
+		АнализируемыеДанные.Сценарий,
+		АнализируемыеДанные.Подразделение,
+		АнализируемыеДанные.ТС,
+		АнализируемыеДанные.МодельТС,
+		АнализируемыеДанные.ТипТС,
+		АнализируемыеДанные.ДокументПланирования,
+		АнализируемыеДанные.Номенклатура,
+		АнализируемыеДанные.ПараметрВыработки,
+		АнализируемыеДанные.Заказ,
+		АнализируемыеДанные.Контрагент,
+		АнализируемыеДанные.Договор,
+		АнализируемыеДанные.Маршрут,
+		АнализируемыеДанные.ВидБилета,
+		АнализируемыеДанные.Регистратор,
+		АнализируемыеДанные.Период,
+		АнализируемыеДанные.ПериодДень,
+		АнализируемыеДанные.ПериодНеделя,
+		АнализируемыеДанные.ПериодДекада,
+		АнализируемыеДанные.ПериодМесяц,
+		АнализируемыеДанные.ПериодКвартал,
+		АнализируемыеДанные.ПериодПолугодие,
+		АнализируемыеДанные.ПериодГод) КАК РезультатАнализа
+{ГДЕ
+	РезультатАнализа.Организация.*,
+	РезультатАнализа.Сценарий.*,
+	РезультатАнализа.Подразделение.*,
+	РезультатАнализа.ТС.*,
+	РезультатАнализа.МодельТС.*,
+	РезультатАнализа.ТипТС.*,
+	РезультатАнализа.ДокументПланирования.*,
+	РезультатАнализа.Номенклатура.*,
+	РезультатАнализа.ПараметрВыработки.*,
+	РезультатАнализа.Заказ.*,
+	РезультатАнализа.Контрагент.*,
+	РезультатАнализа.Договор.*,
+	РезультатАнализа.Маршрут.*,
+	РезультатАнализа.ВидБилета.*,
+	РезультатАнализа.Регистратор.*,
+	РезультатАнализа.Период,
+	РезультатАнализа.ПериодДень,
+	РезультатАнализа.ПериодНеделя,
+	РезультатАнализа.ПериодДекада,
+	РезультатАнализа.ПериодМесяц,
+	РезультатАнализа.ПериодКвартал,
+	РезультатАнализа.ПериодПолугодие,
+	РезультатАнализа.ПериодГод,
+	РезультатАнализа.Количество,
+	РезультатАнализа.КоличествоБазовыхЕдиниц,
+	РезультатАнализа.КоличествоЕдиницОтчетов,
+	РезультатАнализа.КоличествоОтклонение,
+	РезультатАнализа.КоличествоБазовыхЕдиницОтклонение,
+	РезультатАнализа.КоличествоЕдиницОтчетовОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.КоличествоОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.Количество = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.Количество = РезультатАнализа.КоличествоОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.КоличествоОтклонение * 100 / РезультатАнализа.Количество
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК КоличествоОтклонениеПроцент,
+	РезультатАнализа.СтоимостьБезНДС,
+	РезультатАнализа.НДС,
+	РезультатАнализа.СтоимостьСНДС,
+	РезультатАнализа.СтоимостьБезНДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.СтоимостьБезНДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.СтоимостьБезНДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.СтоимостьБезНДС = РезультатАнализа.СтоимостьБезНДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.СтоимостьБезНДСОтклонение * 100 / РезультатАнализа.СтоимостьБезНДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК СтоимостьБезНДСОтклонениеПроцент,
+	РезультатАнализа.НДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.НДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.НДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.НДС = РезультатАнализа.НДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.НДСОтклонение * 100 / РезультатАнализа.НДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК НДСОтклонениеПроцент,
+	РезультатАнализа.СтоимостьСНДСОтклонение,
+	(ВЫБОР
+			КОГДА РезультатАнализа.СтоимостьСНДСОтклонение = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА РезультатАнализа.СтоимостьСНДС = 0
+						ТОГДА -100
+					ИНАЧЕ ВЫБОР
+							КОГДА РезультатАнализа.СтоимостьСНДС = РезультатАнализа.СтоимостьСНДСОтклонение
+								ТОГДА "-"
+							ИНАЧЕ РезультатАнализа.СтоимостьСНДСОтклонение * 100 / РезультатАнализа.СтоимостьСНДС
+						КОНЕЦ
+				КОНЕЦ
+		КОНЕЦ) КАК СтоимостьСНДСОтклонениеПроцент,
+	(ВЫБОР
+			КОГДА РезультатАнализа.ТС.уатДатаВыбытия &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ИСТИНА
+			КОГДА РезультатАнализа.ТС.уатДатаВыбытия = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ЛОЖЬ
+		КОНЕЦ) КАК ТСВыбыло}</query>
+		</item>
+	</dataSet>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоБазовыхЕдиниц</dataPath>
+		<expression>Сумма(КоличествоБазовыхЕдиниц)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоБазовыхЕдиницОтклонение</dataPath>
+		<expression>Сумма(КоличествоБазовыхЕдиницОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЕдиницОтчетов</dataPath>
+		<expression>Сумма(КоличествоЕдиницОтчетов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЕдиницОтчетовОтклонение</dataPath>
+		<expression>Сумма(КоличествоЕдиницОтчетовОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОтклонение</dataPath>
+		<expression>Сумма(КоличествоОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоОтклонениеПроцент</dataPath>
+		<expression>Сумма(КоличествоОтклонениеПроцент)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НДС</dataPath>
+		<expression>Сумма(НДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НДСОтклонение</dataPath>
+		<expression>Сумма(НДСОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НДСОтклонениеПроцент</dataPath>
+		<expression>Сумма(НДСОтклонениеПроцент)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьБезНДС</dataPath>
+		<expression>Сумма(СтоимостьБезНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьБезНДСОтклонение</dataPath>
+		<expression>Сумма(СтоимостьБезНДСОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьБезНДСОтклонениеПроцент</dataPath>
+		<expression>Сумма(СтоимостьБезНДСОтклонениеПроцент)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьСНДС</dataPath>
+		<expression>Сумма(СтоимостьСНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьСНДСОтклонение</dataPath>
+		<expression>Сумма(СтоимостьСНДСОтклонение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьСНДСОтклонениеПроцент</dataPath>
+		<expression>Сумма(СтоимостьСНДСОтклонениеПроцент)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаКон1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаНач1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Сценарий1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сценарий1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.уатСценарииПланирования</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ТипДанных1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тип данных1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаКон2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаНач2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ТипДанных2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тип данных2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ВыводитьВремяВФорматеЧЧММ</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выводить время в формате ЧЧММ</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">КоличествоОтклонениеПроцент</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>КоличествоОтклонениеПроцент</dcsat:name>
+			<dcsat:expression>ВЫБОР
+				КОГДА ЕСТЬNULL(СУММА(КоличествоОтклонение), 0) = 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА ЕСТЬNULL(СУММА(Количество), 0) = 0
+							ТОГДА -100
+						ИНАЧЕ ВЫБОР
+								КОГДА СУММА(Количество) = СУММА(КоличествоОтклонение)
+									ТОГДА "-"
+								ИНАЧЕ СУММА(КоличествоОтклонение) * 100 / СУММА(Количество)
+							КОНЕЦ
+					КОНЕЦ
+			КОНЕЦ</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет2</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">СтоимостьБезНДСОтклонениеПроцент</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>СтоимостьБезНДСОтклонениеПроцент</dcsat:name>
+			<dcsat:expression>ВЫБОР
+				КОГДА ЕСТЬNULL(СУММА(СтоимостьБезНДСОтклонение), 0) = 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА ЕСТЬNULL(СУММА(СтоимостьБезНДС), 0) = 0
+							ТОГДА -100
+						ИНАЧЕ ВЫБОР
+								КОГДА СУММА(СтоимостьБезНДС) = СУММА(СтоимостьБезНДСОтклонение)
+									ТОГДА "-"
+								ИНАЧЕ СУММА(СтоимостьБезНДСОтклонение) * 100 / СУММА(СтоимостьБезНДС)
+							КОНЕЦ
+					КОНЕЦ
+КОНЕЦ</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет3</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">НДСОтклонениеПроцент</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>НДСОтклонениеПроцент</dcsat:name>
+			<dcsat:expression>ВЫБОР
+				КОГДА ЕСТЬNULL(СУММА(НДСОтклонение), 0) = 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА ЕСТЬNULL(СУММА(НДС), 0) = 0
+							ТОГДА -100
+						ИНАЧЕ ВЫБОР
+								КОГДА СУММА(НДС) = СУММА(НДСОтклонение)
+									ТОГДА "-"
+								ИНАЧЕ СУММА(НДСОтклонение) * 100 / СУММА(НДС)
+							КОНЕЦ
+					КОНЕЦ
+			КОНЕЦ</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет4</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">СтоимостьСНДСОтклонениеПроцент</dcsat:value>
+						<dcsat:appearance>
+							<dcscor:item>
+								<dcscor:parameter>Формат</dcscor:parameter>
+								<dcscor:value xsi:type="xs:string">ЧЦ=15; ЧДЦ=2</dcscor:value>
+							</dcscor:item>
+						</dcsat:appearance>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>СтоимостьСНДСОтклонениеПроцент</dcsat:name>
+			<dcsat:expression>ВЫБОР
+				КОГДА ЕСТЬNULL(СУММА(СтоимостьСНДСОтклонение), 0) = 0
+					ТОГДА 0
+				ИНАЧЕ ВЫБОР
+						КОГДА ЕСТЬNULL(СУММА(СтоимостьСНДС), 0) = 0
+							ТОГДА -100
+						ИНАЧЕ ВЫБОР
+								КОГДА СУММА(СтоимостьСНДС) = СУММА(СтоимостьСНДСОтклонение)
+									ТОГДА "-"
+								ИНАЧЕ СУММА(СтоимостьСНДСОтклонение) * 100 / СУММА(СтоимостьСНДС)
+							КОНЕЦ
+					КОНЕЦ
+			КОНЕЦ</dcsat:expression>
+		</parameter>
+	</template>
+	<fieldTemplate>
+		<field>КоличествоОтклонениеПроцент</field>
+		<template>Макет1</template>
+	</fieldTemplate>
+	<fieldTemplate>
+		<field>СтоимостьБезНДСОтклонениеПроцент</field>
+		<template>Макет2</template>
+	</fieldTemplate>
+	<fieldTemplate>
+		<field>НДСОтклонениеПроцент</field>
+		<template>Макет3</template>
+	</fieldTemplate>
+	<fieldTemplate>
+		<field>СтоимостьСНДСОтклонениеПроцент</field>
+		<template>Макет4</template>
+	</fieldTemplate>
+	<settingsVariant>
+		<dcsset:name>План - фактный анализ работы ТС</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>План - фактный анализ работы ТС</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Количество</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ед. хранения</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отклонение количества</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоОтклонение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ед. хранения</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоОтклонениеПроцент</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>%</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стоимость</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>СтоимостьБезНДС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Без НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>НДС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьСНДС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>С НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отклонение стоимости</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>СтоимостьБезНДСОтклонение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Без НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>НДСОтклонение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьСНДСОтклонение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>С НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>СтоимостьБезНДСОтклонениеПроцент</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Без НДС, %</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:use>false</dcsset:use>
+						<dcsset:field>НДСОтклонениеПроцент</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>НДС, %</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьСНДСОтклонениеПроцент</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>С НДС, %</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>a48924fd-279c-4c6d-bfa1-6bfb78f46566</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сценарий</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТС</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТСВыбыло</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>24966655-52f5-4db0-b5e1-0e68c6bb0604</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Организация</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ТС</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Количество</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоОтклонение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПараметрыДанных.ВыводитьВремяВФорматеЧЧММ</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПараметрВыработки.Временный</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2; ЧРД=:</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>d38f9f79-5ab3-4566-8aa5-6554ab893316</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План - фактный анализ работы ТС</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ТипДанных</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Сценарий</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ТС</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

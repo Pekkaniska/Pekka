@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76fb519f-86dc-4ebf-8c69-12b1de80f1ea">
+  <producedTypes>
+    <objectType typeId="8bd6ac39-8c12-422d-9518-8f60b8c9b11d" valueTypeId="0b586d5a-0434-488c-a164-5ed2d1fa0d02"/>
+    <managerType typeId="e43173d6-82e4-4e50-81c6-3da04b7f039b" valueTypeId="67057cb4-7c6e-4446-9216-66488940d562"/>
+  </producedTypes>
+  <name>пкУправлениеСчетамиИРеализациямиУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление счетами и реализациями услуг</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <defaultForm>DataProcessor.пкУправлениеСчетамиИРеализациямиУслуг.Form.Форма</defaultForm>
+  <attributes uuid="f856eb2a-6d17-43d9-b7a2-ebb934e5d632">
+    <name>РазворачиватьФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разворачивать формирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1d36d69c-c251-46cd-bf22-7eacabe7fce7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7f8a246-366c-4c7f-8a8f-1f35fa2d19de">
+    <name>ФормаКомментироватьСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментировать счет</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6170530d-b3e6-4c04-9c99-9614c4fdb290">
+    <name>УправлениеСчетамиИРеализациямиУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление счетами и реализациями услуг</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

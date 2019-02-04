@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde0f4d8-43b7-4553-9b42-ce93881ec240">
+  <producedTypes>
+    <refType typeId="076b94ed-6fd7-43c8-a523-eec69294f3c8" valueTypeId="ba9f6c24-f798-44ce-93a1-bab133b2ab90"/>
+    <listType typeId="1e8d9a53-af7d-43e8-b38c-2b27b4a292d9" valueTypeId="68fc83e6-9614-470a-8f52-80fe68bbf097"/>
+    <managerType typeId="579dccb3-98bc-4376-b8cf-bb40949f2d81" valueTypeId="a2d68cc2-72e9-4b54-8e97-619001e4c2a6"/>
+  </producedTypes>
+  <name>уатСпособРасчетаПараметровВыработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ расчета параметров выработки</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b277e3dd-66ba-4ea8-80e2-4f2c8e27defa">
+    <name>НеРассчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не рассчитывать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a19dec4a-0037-47ac-aeba-4ef5c4e82220">
+    <name>ПоШапке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По шапке путевого листа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1b637db6-48a6-43c6-9fba-d1317996beec">
+    <name>ПоЗаданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заданию путевого листа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63a27897-ed6c-45dd-a9e2-e6f4f4da8367">
+    <name>ПоТТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ТТД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

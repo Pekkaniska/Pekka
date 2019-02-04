@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca25c75b-c8fc-4b00-9af4-4e94565b4d1f">
+  <producedTypes>
+    <refType typeId="062e240e-dcf7-4037-8fea-469cc3d3be59" valueTypeId="408d3d92-ecb8-4dba-9d30-694ed450c8f6"/>
+    <listType typeId="05fc4687-f07f-4dae-9971-d30acc5b39e7" valueTypeId="bb982830-a4f3-4961-a7f0-62866295ece9"/>
+    <managerType typeId="58ac4e27-419e-4a83-93b4-0d1c43db3b76" valueTypeId="4a9572df-3cf1-4eb6-a0bc-f1bf174a5932"/>
+  </producedTypes>
+  <name>пкТипыДокументовДляСроковАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов для сроков аренды</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ff85e4a-a651-4d37-a833-aa3904cd4e3d">
+    <name>ЗаявкаНаАрендуТехники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на аренду техники</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="05df6966-29b9-4afa-b29f-ef7d659c7ca0">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="44988c92-dcd3-42e8-b983-0142686df906">
+    <name>РеализацияТоваровУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация товаров и услуг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8c818a60-0485-42be-8375-3f4756f0f635">
+    <name>ПогрузкаВыгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузка / выгрузка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d343f1a9-bf39-401c-a8e1-b2fd0c4eabfe">
+    <name>ЗаданиеНаПеревозку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на перевозку</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

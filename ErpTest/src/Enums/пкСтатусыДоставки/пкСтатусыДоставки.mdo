@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36481487-f8ee-40e1-a91b-49c57dd75e40">
+  <producedTypes>
+    <refType typeId="b8c3a1a0-f3d2-4d9b-9880-89e6643355dd" valueTypeId="f2d85e0c-1adb-4504-b66d-aa329081c3df"/>
+    <listType typeId="dd6f899d-4876-498c-b8a4-b9c26c2bbfa1" valueTypeId="9b218177-f291-4162-b244-5570298e7951"/>
+    <managerType typeId="62380d3c-b07c-4a39-bc2f-3e2eacad5ebe" valueTypeId="163fd589-977c-4b13-a397-8b67a94fded0"/>
+  </producedTypes>
+  <name>пкСтатусыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы доставки</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2cc45587-8c31-4817-89c5-22a574e427d7">
+    <name>Открыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыто</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e9b2c4bf-2624-4b9f-a8d5-f8415708e1cf">
+    <name>Закрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыто</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

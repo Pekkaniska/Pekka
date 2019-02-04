@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d18a7cb-3c7d-484f-afe3-08de93433e52">
+  <producedTypes>
+    <objectType typeId="0387829f-54da-4766-8189-f8da002b639f" valueTypeId="e3f1ebb9-6a79-4ee2-ac90-eb924a7adf04"/>
+    <refType typeId="b804b10f-fedf-452c-a024-bafb0f5cf4ac" valueTypeId="b15d98d9-b094-48bf-b75b-a40073312c5d"/>
+    <selectionType typeId="26e2874f-6e21-444a-93e5-5181c7995a6f" valueTypeId="236144b3-544d-4fe2-86c1-3ab6c0bae8fd"/>
+    <listType typeId="1fd4f8f7-3d35-4e3e-939c-57af10f17419" valueTypeId="33ace515-ceea-4f4d-a3e0-53bd702cc9e7"/>
+    <managerType typeId="1ddcaa15-53b0-44ce-b28b-d267e2efd956" valueTypeId="948488ed-d00e-438c-b29f-864742331e9e"/>
+  </producedTypes>
+  <name>уатТарифыЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы зарплаты сотрудников</value>
+  </synonym>
+  <comment>Тарифы зарплаты сотрудников (уат)</comment>
+  <inputByString>Catalog.уатТарифыЗП.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в группу</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.уатТарифыЗП.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_уатТарифыЗП</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <subordinationUse>ToFoldersAndItems</subordinationUse>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.уатТарифыЗП.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.уатТарифыЗП.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.уатТарифыЗП.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="aa58aa80-4bc9-490a-8ab3-aca1260ea46f">
+    <name>СпособРасчетаОплатыТруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета оплаты труда</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.уатСпособыРасчетаОплатыТруда</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите способ расчета оплаты труда</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.уатСпособыРасчетаОплатыТруда.EnumValue.СдельныйЗаработок</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3475f237-62e2-450e-be1a-5ce8c4663b9b">
+    <name>ГруппировкаТарифа1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка тарифа 1</value>
+    </synonym>
+    <comment>Группировка тарифа 1</comment>
+    <type>
+      <types>EnumRef.уатГруппировкиТарифов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите группировку тарифа 1</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cd0e5d7-9e86-49b4-98d0-2799c186d85f">
+    <name>ГруппировкаТарифа2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка тарифа 2</value>
+    </synonym>
+    <comment>Группировка тарифа 2</comment>
+    <type>
+      <types>EnumRef.уатГруппировкиТарифов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите группировку тарифа 2</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a78d2ff4-816b-4950-a303-af2e907e0793">
+    <name>ГруппировкаТарифа3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка тарифа 3</value>
+    </synonym>
+    <comment>Группировка тарифа 3</comment>
+    <type>
+      <types>EnumRef.уатГруппировкиТарифов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите группировку тарифа 3</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca01f3ed-0930-46cf-a475-7544dc57576d">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <comment>Вид начисления</comment>
+    <type>
+      <types>ChartOfCalculationTypesRef.Начисления</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите вид основных начислений</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c54b57c-a88e-4ccc-a0d9-57367773e427">
+    <name>ПараметрВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр выработки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.уатПараметрыВыработки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Укажите параметр выработки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37d7bfd6-891c-48ea-a2b9-c1f33078c5f8">
+    <name>СложныйТариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложный тариф</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флаг сложного тарифа. Расчет будет вестись согласно таблице расчета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2929ea48-b183-4f50-837f-937e2382b04f">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер тарифа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c51ee4fe-603c-4a76-9605-92ae4392365f">
+    <name>РасчетПоСтрокам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по строкам</value>
+    </synonym>
+    <comment>Расчет начислений отдельно по строкам Задания путевого листа, либо по итогам </comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расчет начислений отдельно по строкам Задания путевого листа, либо по итогам </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b516b8a2-2e99-41e6-94ba-7f42e29c48a9">
+    <producedTypes>
+      <objectType typeId="c152f8f1-e3df-4900-ae3a-cfa2a847203d" valueTypeId="b1bc705b-865d-4dc0-a756-4c45f0f2a847"/>
+      <rowType typeId="9247fef0-70c6-455f-9d6a-f5c73918aceb" valueTypeId="0a63f409-8e85-409d-a55d-e794f0936bff"/>
+    </producedTypes>
+    <name>ТаблицаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица расчета</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица расчета (для сложных тарифов)</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a26470f6-1d1d-40d0-8e04-fb76ea427bbe">
+      <name>ЗнакГруппировки1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Знак группировки 1</value>
+      </synonym>
+      <comment>Знак группировки 1</comment>
+      <type>
+        <types>EnumRef.уатЗнакиСравнения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Первый знак группировки </value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17a0ac38-4325-4947-b085-2555020ef1f8">
+      <name>ЗнакГруппировки2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Знак группировки 2</value>
+      </synonym>
+      <comment>Знак группировки 2</comment>
+      <type>
+        <types>EnumRef.уатЗнакиСравнения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Второй знак группировки </value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1da3d9b5-0d82-4f04-9c7e-10e43ce2bfff">
+      <name>ЗнакГруппировки3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Знак группировки 3</value>
+      </synonym>
+      <comment>Знак группировки 3</comment>
+      <type>
+        <types>EnumRef.уатЗнакиСравнения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Третий знак группировки </value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="15585a6d-32c0-4583-adfc-03f53b4f120c">
+      <name>ЗначениеГруппировки1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение группировки 1</value>
+      </synonym>
+      <comment>Значение группировки 1</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Первое значение группировки</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81220ace-cc36-4eac-a703-c2c178deb2ff">
+      <name>ЗначениеГруппировки2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение группировки 2</value>
+      </synonym>
+      <comment>Значение группировки 2</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Второе значение группировки</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47406b39-b84a-4696-940c-d339bba31d06">
+      <name>ЗначениеГруппировки3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение группировки 3</value>
+      </synonym>
+      <comment>Значение группировки 3</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Третье значение группировки</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d322666e-b467-43aa-8300-52e136caa03a">
+      <name>Тариф</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тариф</value>
+      </synonym>
+      <comment>Тариф</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тариф заработной платы</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5b715f61-35bd-4a6c-9039-2559ce3f6930">
+    <producedTypes>
+      <objectType typeId="89b146ba-6cfe-4403-a0d2-b08e652108a5" valueTypeId="6db73e95-8234-40b0-9e11-d5ab23218939"/>
+      <rowType typeId="1016e784-0066-437f-bedf-4ff27d1a3ce0" valueTypeId="1c6663c4-3f7c-415f-b00d-71fc007aaafd"/>
+    </producedTypes>
+    <name>ОбластиДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Области действия</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Области действия (фильтр)</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5e67ab46-07bd-4c8d-8499-46e6ded884f7">
+      <name>ВидОбластиДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид области действия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.уатВидыОбластейДействияТарифовТС</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид области действия.</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c57104e5-05ce-41fe-b66a-962921951f13">
+      <name>ЗначениеОбластиДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение области действия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DefinedType.уатВидыОбластейДействияТарифа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение области действия.</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f39c40f3-5c73-42a8-8dd3-a21e5af27640">
+      <name>УдалитьОбластьДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>(не используется) Область действия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.уатМаршруты</types>
+        <types>CatalogRef.уатВидыОбслуживанияТС</types>
+        <types>CatalogRef.ТранспортныеСредства</types>
+        <types>CatalogRef.СтруктураПредприятия</types>
+        <types>CatalogRef.уатМоделиТС</types>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.ПодразделенияОрганизаций</types>
+        <types>CatalogRef.СМ_ОбъектыСтроительства</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Область действия тарифа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="25240c44-f778-449c-9b75-85bba4269531">
+    <producedTypes>
+      <objectType typeId="56f0e281-dc62-4704-b29a-dea074ba1244" valueTypeId="96d37da7-8105-4ed3-82a1-043fa9b99568"/>
+      <rowType typeId="0777e7f8-74f3-45d8-b208-5e6a9ec76add" valueTypeId="64aedd2e-edc8-4ada-bcc5-084efa070c26"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Список организаций (фильтр)</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4b61179d-c487-43dd-ae24-59dc5d6e66b7">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <comment>Организация</comment>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация.</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9e6e183b-f38f-4284-82df-2cc9587f1489">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f14b0989-602b-430f-ae82-f53d6c26ab59">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be627014-4c4c-4de9-a766-be2aa7b37630">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

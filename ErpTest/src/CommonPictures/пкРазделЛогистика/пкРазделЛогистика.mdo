@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="feda0898-695f-4633-9f47-6d23b60d1805">
+  <name>пкРазделЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел логистика</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

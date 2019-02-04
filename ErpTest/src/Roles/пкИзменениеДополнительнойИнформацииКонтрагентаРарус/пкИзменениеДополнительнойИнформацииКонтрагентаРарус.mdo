@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daf80472-587a-4392-9de3-f2c29706199e">
+  <name>пкИзменениеДополнительнойИнформацииКонтрагентаРарус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение дополнительной информации Контрагента (Рарус)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

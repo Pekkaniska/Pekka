@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="671a0cb6-63cb-4cdf-9bd7-3b6d4475fef2">
+  <producedTypes>
+    <objectType typeId="3c00b1fa-15cc-4c58-88e5-593a97fb4078" valueTypeId="1cb14b09-d16e-4d1f-abd7-04639f682823"/>
+    <managerType typeId="6dd2139a-b2db-4317-bf7f-2a95b97d060e" valueTypeId="add8a15b-7f49-431c-a8f2-138742ce7d3a"/>
+  </producedTypes>
+  <name>пкSalesmanReport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Salesman report</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.пкSalesmanReport.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.пкSalesmanReport.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="4c775e8c-b682-4aeb-85db-171109417ad3">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cfda619a-2b5f-468e-9609-6c11a325ead1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6697f537-9539-47fa-8006-2f2e68eae042">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

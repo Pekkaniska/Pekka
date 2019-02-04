@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cafea12b-5b1e-49b4-93b4-a21b17fe8f1e">
+  <name>уатСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласования</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

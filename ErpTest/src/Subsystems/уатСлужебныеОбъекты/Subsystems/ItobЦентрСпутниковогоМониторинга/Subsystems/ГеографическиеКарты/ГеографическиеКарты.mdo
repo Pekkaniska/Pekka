@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad6bdbde-88c0-4aef-b513-e32de3fab611">
+  <name>ГеографическиеКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Географические карты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ItobКэшГеокодера</content>
+  <content>InformationRegister.ItobГеографическийКлассификатор</content>
+  <content>Catalog.ItobМестоположенияПоУмолчанию</content>
+  <content>Catalog.ItobГеографическиеКарты</content>
+  <content>DataProcessor.ItobРаботаССервисомNominatim</content>
+  <content>DataProcessor.ItobОчисткаКешаГеокодера</content>
+  <content>DataProcessor.ItobИмпортНаселенныхПунктов</content>
+  <content>Catalog.ItobКлассификаторНаселенныхПунктов</content>
+  <content>Constant.ItobАдресIHTS</content>
+  <content>Constant.ItobАдресСервисаCsmSvc</content>
+  <content>Constant.ItobИспользоватьДляВсехIHTS</content>
+  <content>Constant.ItobСервисОбратногоГеокодирования</content>
+  <content>d710047f-d7b1-43f5-a9ed-c43e4e358849</content>
+  <content>SessionParameter.ItobАдресCsmSvc</content>
+  <content>CommonTemplate.ItobCsmSvcSetup</content>
+  <content>CommonModule.ItobРаботаСКартой</content>
+  <content>CommonModule.ItobРаботаСРендеромCSM</content>
+  <content>CommonTemplate.ItobКарта</content>
+  <content>Enum.ItobСервисыГеокодирования</content>
+  <content>Enum.ItobВидыОбращенияCsmSvc</content>
+  <content>CommonPicture.ItobКартография</content>
+  <content>CommonPicture.ItobЛинейка</content>
+  <content>CommonPicture.ItobПолигон</content>
+  <content>CommonPicture.ItobПолноэкранныйРежим</content>
+  <content>InformationRegister.ItobСервисыCsmSvc</content>
+  <content>DataProcessor.ItobМастерНастройкиСервисаCsmSvc</content>
+  <content>daa96204-bf5f-404b-9713-5d8414ef1d32</content>
+  <content>c5e2dffb-1eac-4d9c-8964-6ece99c31688</content>
+  <content>fae09103-1900-4c9a-b928-b5514330deef</content>
+  <content>8bc0e78f-8b22-4dc4-b015-1b0da797a909</content>
+  <content>Constant.ItobКлючMapquest</content>
+  <content>496ca2b6-f1d3-4e77-a197-39d485a22b1f</content>
+  <parentSubsystem>Subsystem.уатСлужебныеОбъекты.Subsystem.ItobЦентрСпутниковогоМониторинга</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d870d7c6-a952-429f-9e5e-bdb37105c850">
+  <producedTypes>
+    <objectType typeId="fd029a9f-7f4f-4ae3-8090-c9d185a4c104" valueTypeId="d0f2edeb-6e53-4a86-a867-a0e402561f3f"/>
+    <managerType typeId="107f7880-3f76-44ca-afb0-1d8c69f107d7" valueTypeId="b7b6e3a6-4d0a-4ede-b567-75e285550db8"/>
+  </producedTypes>
+  <name>пкПечатьАктовОказанияУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать актов оказания услуг</value>
+  </synonym>
+  <comment>Рарус</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="5a08ffb0-3721-4752-9c96-0643868294f6">
+    <name>АктОказанияУслугАренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказания услуг (аренда)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="f905ce14-4a17-4178-aafb-6f7ae493978b">
+    <name>АктОказанияУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказания услуг</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="cbe65c99-db23-4962-9c84-1c9178234db8">
+    <name>АктОказанияУслугАрендаСПодписями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказания услуг (аренда с подписями)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

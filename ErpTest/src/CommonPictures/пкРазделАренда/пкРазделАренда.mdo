@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8865f3b-a58e-40cd-b033-5424af265431">
+  <name>пкРазделАренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел аренда</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8850ed28-9ad6-4fe7-8704-2cd868d82d4d">
+  <producedTypes>
+    <selectionType typeId="2c4edabe-6533-46fa-9da2-6cf1fbef15d2" valueTypeId="fc9f9d61-935b-48c5-927f-96856fa75173"/>
+    <listType typeId="d0b18dc0-e4d7-4f25-9bdf-8b93d5ddb281" valueTypeId="dda3505e-0b65-4fc5-8e6f-aedc584051aa"/>
+    <managerType typeId="39ffd6af-f4ee-4935-9d71-a420e4f14e44" valueTypeId="aeff5f37-7cc8-4ff0-a0cb-90580ad110f8"/>
+    <recordSetType typeId="c56b6ff0-0a7c-4344-9c84-249bc53cfbaa" valueTypeId="48a398dc-6e60-4f98-9a1b-fdb3eb1b16a6"/>
+    <recordKeyType typeId="ed4ca5fa-b4aa-4c9b-9a7b-599a6869c053" valueTypeId="0bc32f7c-6c71-4c7e-b583-05800b4c35b3"/>
+    <recordType typeId="127f405d-5f98-410d-b434-5fa7e3d4d265" valueTypeId="6bc8809a-7aad-4f62-ad5e-45c62c891f37"/>
+    <recordManagerType typeId="544cb963-81dd-4b9a-bfb2-42d93297fdd7" valueTypeId="e4a6c19b-f89e-4951-a1e8-a725c035e2f0"/>
+  </producedTypes>
+  <name>пкСтатусыЗаказНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказ-нарядов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4955292b-93ac-4b12-8af5-4807fde4a6e8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пкСтатусыЗаказНарядов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a15e12ef-d657-49fa-a919-4ab6fe2ddf5d">
+    <name>ЗаказНаряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ-наряд</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.пкЗаказНаряд</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

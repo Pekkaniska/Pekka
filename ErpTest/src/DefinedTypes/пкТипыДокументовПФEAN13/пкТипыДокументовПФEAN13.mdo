@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22665af5-ef19-49db-bc99-49464625dd04">
+  <producedTypes>
+    <containerType typeId="fb672134-56ed-4d89-84ce-103e5d2db87e" valueTypeId="4a6862ce-c029-49fb-b048-04d59b8ca787"/>
+  </producedTypes>
+  <name>пкТипыДокументовПФEAN13</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов ПФ EAN13</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>DocumentRef.пкАктПриемкиВозврата</types>
+    <types>DocumentRef.пкЗаявкаНаАрендуТехники</types>
+  </type>
+</mdclass:DefinedType>
