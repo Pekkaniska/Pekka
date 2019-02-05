@@ -11680,6 +11680,7 @@
   <enums>Enum.уатВидыПриводаТС</enums>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <enums>Enum.пкВидыДопСоглашений</enums>
   <reports>Report.ABCXYZАнализНоменклатуры</reports>
   <reports>Report.ABCXYZРаспределениеКлиентов</reports>
   <reports>Report.АнализВерсийОбъектов</reports>

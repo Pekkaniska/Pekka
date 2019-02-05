@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5df58426-6b43-4117-803b-c729133e17c4">
+  <producedTypes>
+    <refType typeId="17c93507-b2c4-426a-87ac-15c31bd481bc" valueTypeId="f76528be-6375-4490-985a-e73d250794e5"/>
+    <listType typeId="9088afb2-4b11-4f9e-994f-59d375b8451c" valueTypeId="4bf4bc66-1793-480c-ba77-49e39300228d"/>
+    <managerType typeId="457ecb1f-53f3-4b8c-97c0-c994bec26371" valueTypeId="b5034a9c-e678-4b70-8f6d-c6358f61eae6"/>
+  </producedTypes>
+  <name>пкВидыДопСоглашений</name>
+  <synonym>
+    <key>en</key>
+    <value>Виды доп соглашений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da6368d5-8e81-4edf-92c9-76c579a9476d">
+    <name>Аренда</name>
+    <synonym>
+      <key>en</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4673a5a-0a41-4e79-bd4e-cd91493eb31d">
+    <name>Сервис</name>
+    <synonym>
+      <key>en</key>
+      <value>Сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d36cff6b-6256-45b5-be98-748864061b93">
+    <name>ДальниеОбъекты</name>
+    <synonym>
+      <key>en</key>
+      <value>Дальние объекты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -332,6 +332,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e3449a8c-f5b6-4aa0-a4a3-136810d316f9">
+    <name>ВидДопСоглашения</name>
+    <synonym>
+      <key>en</key>
+      <value>Вид доп соглашения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.пкВидыДопСоглашений</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="bc2ea9b5-9a74-426e-9a05-d5f284eb2a8a">
     <name>ФормаЭлемента</name>
     <synonym>

@@ -443,10 +443,6 @@
                   <segments>Объект.Date</segments>
                 </paths>
               </dataPath>
-              <handlers>
-                <event>OnChange</event>
-                <name>ДатаПриИзменении</name>
-              </handlers>
               <extendedTooltip>
                 <name>ДатаExtendedTooltip</name>
                 <id>17</id>
@@ -9326,10 +9322,6 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <handlers>
-        <event>OnCurrentPageChange</event>
-        <name>ГруппаСтраницыПриСменеСтраницы</name>
-      </handlers>
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
       <currentRowUse>DontUse</currentRowUse>
     </extInfo>

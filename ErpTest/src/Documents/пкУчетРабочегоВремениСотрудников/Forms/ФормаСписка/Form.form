@@ -457,10 +457,6 @@
       <event>Selection</event>
       <name>СписокВыбор</name>
     </handlers>
-    <handlers>
-      <event>BeforeAddRow</event>
-      <name>СписокПередНачаломДобавления</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
